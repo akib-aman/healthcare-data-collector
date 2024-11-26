@@ -4,38 +4,45 @@ import json
 
 file_path = "./training-datasets/age-training.json"
 
-# Load the JSON data
+# Load and validate JSON data
 with open(file_path, "r") as file:
     train_data_ages = json.load(file)
 
-# Convert to Hugging Face Dataset format
+# Convert to Dataset with clear delimiters
 dataset = Dataset.from_list([
-    {"text": f"<|startoftext|>{ex['input']}<|endoftext|>{ex['output']}<|endoftext|>"}
+    {"text": f"<|startoftext|>Input: {ex['input']}\nOutput: {ex['output']}<|endoftext|>"}
     for ex in train_data_ages
 ])
 
 # Load and configure the tokenizer
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+special_tokens = {"additional_special_tokens": ["<|startoftext|>", "<|endoftext|>"]}
+tokenizer.add_special_tokens(special_tokens)
 tokenizer.pad_token = tokenizer.eos_token
-# tokenizer.add_special_tokens({'pad_token': '[PAD]'})  # Add the pad token
 
-# Tokenize the dataset with potentially better padding strategy
+# Tokenize the dataset
 def tokenize_function(examples):
-    return tokenizer(examples["text"], truncation=True, padding="longest", max_length=128)
+    return tokenizer(
+        examples["text"],
+        truncation=True,
+        padding="max_length",
+        max_length=128
+    )
 
 tokenized_dataset = dataset.map(tokenize_function, batched=True)
 
-# Load the model
+# Load the model and resize token embeddings
 model = GPT2LMHeadModel.from_pretrained("gpt2")
+model.resize_token_embeddings(len(tokenizer))
 
 # Set up training arguments
 training_args = TrainingArguments(
-    num_train_epochs=5,  # Increase epochs
-    per_device_train_batch_size=4,  # Use smaller batches if memory-constrained
-    learning_rate=5e-5,  # Lower learning rate for stability
+    num_train_epochs=10,  # Start with fewer epochs
+    per_device_train_batch_size=8,
+    learning_rate=2e-5,
     evaluation_strategy="no",
     eval_steps=100,
-    save_steps=200,  # Save checkpoints more frequently
+    save_steps=200,
     logging_steps=50,
     output_dir="./results",
     overwrite_output_dir=True
