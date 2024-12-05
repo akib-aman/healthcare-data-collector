@@ -1,17 +1,49 @@
 from transformers import T5Tokenizer, T5ForConditionalGeneration, Trainer, TrainingArguments, DataCollatorForSeq2Seq
-from datasets import Dataset
+from datasets import Dataset, concatenate_datasets
 import json
 
 # Load your dataset
-file_path = "./training-datasets/age-training.json"
-with open(file_path, "r") as file:
-    train_data_ages = json.load(file)
+dataset_paths = {
+    "age_training": {
+        "file_path": "./training-datasets/age-training.json",
+        "conversion_logic": lambda ex: {
+            "input": f"Extract the age from this text: {ex['input']}",
+            "output": ex["output"]
+        }
+    },
+    "name_training": {
+        "file_path": "./training-datasets/names-and-age-training.json",
+        "conversion_logic": lambda ex: {
+            "input": f"Extract the name from this text: {ex['input']}",
+            "output": ex["output"]
+        }
+    },
+    # Add more datasets here
+}
 
-# Convert to Hugging Face Dataset
-dataset = Dataset.from_list([
-    {"input": f"Extract the age from this text: {ex['input']}", "output": ex["output"]}
-    for ex in train_data_ages
-])
+# Function to process and convert datasets to Hugging Face Dataset format
+def load_and_convert_datasets(dataset_paths):
+    processed_datasets = {}
+    
+    for dataset_name, config in dataset_paths.items():
+        file_path = config["file_path"]
+        conversion_logic = config["conversion_logic"]
+
+        # Load the dataset
+        with open(file_path, "r") as file:
+            data = json.load(file)
+
+        # Convert to Hugging Face Dataset format
+        processed_datasets[dataset_name] = Dataset.from_list([
+            conversion_logic(ex) for ex in data
+        ])
+    
+    return processed_datasets
+
+processed_datasets = load_and_convert_datasets(dataset_paths)
+
+# Load and process datasets
+combined_dataset = concatenate_datasets(list(processed_datasets.values()))
 
 
 # Load the tokenizer
@@ -34,9 +66,7 @@ def preprocess_function(examples):
     
     return model_inputs
 
-
-
-tokenized_dataset = dataset.map(preprocess_function, batched=True)
+tokenized_dataset = combined_dataset.map(preprocess_function, batched=True)
 tokenized_dataset = tokenized_dataset.remove_columns(["input", "output"])
 
 # Load the model
