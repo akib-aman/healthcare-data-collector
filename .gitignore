@@ -3,3 +3,4 @@ main/
 trained_model/
 results/
 .git/
+t5-trained-model/
