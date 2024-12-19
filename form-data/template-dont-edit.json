@@ -9,7 +9,7 @@
         {
             "Name": "Sex",
             "Code": "3",
-            "Description": "Sex (M/F) is asked for, gender not usually collected.",
+            "Description": "Sex (Male/Female) is asked for, gender not usually collected.",
             "Value": ""
         },
         {
