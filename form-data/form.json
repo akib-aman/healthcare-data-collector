@@ -4,13 +4,13 @@
             "Name": "Age",
             "Code": "2",
             "Description": "Usually recorded as date of birth",
-            "Value": 38
+            "Value": 18
         },
         {
             "Name": "Sex",
             "Code": "3",
-            "Description": "Sex (M/F) is asked for, gender not usually collected.",
-            "Value": ""
+            "Description": "Sex (Male/Female) is asked for, gender not usually collected.",
+            "Value": "Man"
         },
         {
             "Name": "Gender reassignment",
