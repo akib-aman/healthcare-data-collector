@@ -1,0 +1,155 @@
+[
+    {
+        "input": "Why do you need my age?",
+        "output": "We need your age to provide age-specific medical care and advice. This helps ensure you receive treatments or recommendations that are most appropriate for your age group. Your data is kept secure and confidential."
+    },
+    {
+        "input": "Why do you need to know my ethnicity?",
+        "output": "We ask for your ethnicity because certain medical conditions or risks can be more common in specific ethnic groups. This information helps us provide you with better, more personalized care. Your data is always kept secure and never shared with third parties."
+    },
+    {
+        "input": "Do I have to answer questions about my sexual orientation?",
+        "output": "No, answering questions about your sexual orientation is completely optional. We ask this information to ensure that we provide you with inclusive and equitable healthcare. Your response, if provided, will remain private and confidential."
+    },
+    {
+        "input": "What will you do with my gender information?",
+        "output": "Your gender information helps us understand your health needs and provide you with better care. For example, certain conditions or treatments may vary by gender. This data is handled sensitively and securely, and only authorized personnel can access it."
+    },
+    {
+        "input": "Will my data be shared with anyone else?",
+        "output": "Your data will never be shared with third parties without your explicit consent. It is used solely for your medical care and to improve healthcare services. We follow strict confidentiality and data protection laws to ensure your information is safe."
+    },
+    {
+        "input": "Why do you need to know if I am pregnant or breastfeeding?",
+        "output": "We ask about pregnancy or breastfeeding because it can affect the type of care or treatment you receive. This ensures that we provide safe and appropriate medical advice tailored to your current needs. Your information is kept secure and private."
+    },
+    {
+        "input": "Do I have to disclose my religion or belief?",
+        "output": "Sharing your religion or belief is optional, but it can help us accommodate your spiritual or cultural needs during your care. For example, it allows us to respect dietary restrictions or preferences during your treatment. Your privacy is always protected."
+    },
+    {
+        "input": "Why do you need to know if I have a disability?",
+        "output": "We ask about disabilities to ensure that our services are accessible and tailored to your needs. This helps us provide you with the best possible care and support. Your data will remain confidential and secure."
+    },
+    {
+        "input": "What if I prefer not to answer certain questions?",
+        "output": "You have the right to skip any question you’re not comfortable answering. While the information helps us improve your care, we respect your privacy and choice. Your comfort and trust are our top priorities."
+    },
+    {
+        "input": "How do you keep my data safe?",
+        "output": "We follow strict data protection laws and security protocols to safeguard your information. Only authorized healthcare professionals involved in your care can access your data, which is encrypted and stored securely."
+    },
+    {
+        "input": "y u need my age?",
+        "output": "We ask for your age to give you medical advice or treatments suited to your age group. This helps us take better care of you. Your data is safe and private."
+    },
+    {
+        "input": "why u ask how old i am?",
+        "output": "Knowing your age helps us provide the right medical care for your stage of life. Don’t worry, your information stays secure and confidential."
+    },
+    {
+        "input": "what u need my ethnicity 4?",
+        "output": "We ask about ethnicity to understand your specific health risks and needs. Certain conditions can affect different ethnic groups differently. Your data is private and won’t be shared."
+    },
+    {
+        "input": "do i really need 2 tell my ethnicity?",
+        "output": "You don’t have to share your ethnicity if you don’t want to, but it helps us give you better care. Your information stays private and secure."
+    },
+    {
+        "input": "why gender matter?",
+        "output": "Your gender helps us understand your health needs and provide the right care. For example, some medical conditions or treatments differ by gender. Your info stays secure."
+    },
+    {
+        "input": "what u do with my gender info?",
+        "output": "We use your gender information to make sure your medical care is appropriate for you. This data is kept private and only used to help with your care."
+    },
+    {
+        "input": "who gets to see my data?",
+        "output": "Only authorized healthcare staff involved in your care can see your data. We follow strict privacy rules to keep your information safe."
+    },
+    {
+        "input": "is my info private?",
+        "output": "Yes, your information is private and protected. We follow strict laws to make sure your data stays safe and confidential."
+    },
+    {
+        "input": "what u mean by secure data?",
+        "output": "Secure data means we use special technology and rules to protect your information from being accessed by anyone who shouldn't see it."
+    },
+    {
+        "input": "do i gotta answer bout sexuality?",
+        "output": "You don’t have to answer any questions you’re not comfortable with. Sharing your sexual orientation helps us make sure our care is inclusive, but it’s your choice."
+    },
+    {
+        "input": "what if i dont wanna answer?",
+        "output": "It’s completely fine not to answer. You have the right to skip any question you’re uncomfortable with. We respect your privacy and choice."
+    },
+    {
+        "input": "why u ask bout pregnancy?",
+        "output": "We ask about pregnancy to provide safe and appropriate care. For example, some medications or treatments might not be suitable if you’re pregnant. Your data stays private."
+    },
+    {
+        "input": "what if i dont wanna say im pregnant?",
+        "output": "You don’t have to share if you don’t want to, but it helps us provide the best care for you. Your information will be kept private and secure."
+    },
+    {
+        "input": "why u need to know if im disabled?",
+        "output": "We ask about disabilities to make sure our services meet your needs and are accessible. Your data stays secure and helps us provide the best care for you."
+    },
+    {
+        "input": "can u tell ppl im disabled?",
+        "output": "No, your disability information is private and only used by healthcare staff involved in your care. We never share it without your permission."
+    },
+    {
+        "input": "is it ok to skip questions?",
+        "output": "Yes, you can skip any question you don’t want to answer. We’re here to make you comfortable, and your choice is respected."
+    },
+    {
+        "input": "why religion matter?",
+        "output": "Knowing your religion helps us respect your cultural or spiritual needs during your care. For example, it can guide dietary restrictions or preferences. Your info stays private."
+    },
+    {
+        "input": "u gonna sell my info?",
+        "output": "No, we will never sell your information. It’s only used for your care and kept secure following strict privacy laws."
+    },
+    {
+        "input": "what u gonna do with my data?",
+        "output": "Your data is used to provide you with the best care and improve healthcare services. It’s protected and only accessed by authorized healthcare staff."
+    },
+    {
+        "input": "why do u wanna know if im married?",
+        "output": "We ask about marriage or civil partnership to understand your support system or if it’s relevant to your care. This info stays private and confidential."
+    },
+    {
+        "input": "do i have to tell u my religion?",
+        "output": "You don’t have to share your religion if you don’t want to. It’s optional, but it can help us accommodate your spiritual or cultural needs."
+    },
+    {
+        "input": "y u wanna know my race?",
+        "output": "We don’t ask about race directly, but we may ask about ethnicity to understand your health risks and needs. Your info is private and secure."
+    },
+    {
+        "input": "can i just say idk?",
+        "output": "Yes, it’s fine to say ‘I don’t know’ or skip a question. We’re here to help and respect your choices."
+    },
+    {
+        "input": "what if i dont trust this system?",
+        "output": "We understand your concerns. Your data is protected with strict privacy rules, and only authorized healthcare staff can access it. Your trust is important to us."
+    },
+    {
+        "input": "do u track me?",
+        "output": "No, we don’t track you. Your information is only collected to help with your healthcare and kept secure."
+    },
+    {
+        "input": "how long u keep my data?",
+        "output": "We only keep your data as long as necessary for your care or as required by law. It’s securely deleted after that."
+    },
+    {
+        "input": "can i delete my info?",
+        "output": "You can request for your data to be removed, and we’ll process it according to the laws and policies. Your privacy is important to us."
+    },
+    {
+        "input": "why so many personal questions?",
+        "output": "We ask personal questions to give you the best care possible. The information helps us tailor treatments and recommendations for you. Your data stays private."
+    }
+
+]
