@@ -2,8 +2,8 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import json
 
 # Load the trained model and tokenizer
-tokenizer = GPT2Tokenizer.from_pretrained("./trained_model")
-model = GPT2LMHeadModel.from_pretrained("./trained_model")
+tokenizer = GPT2Tokenizer.from_pretrained("./gpt-trained-model")
+model = GPT2LMHeadModel.from_pretrained("./gpt-trained-model")
 
 # Load the JSON form template
 json_path = "form-data/form.json"

@@ -1,6 +1,6 @@
 # Ignore virtual environment folders
 main/
-trained_model/
+gpt-trained-model/
 results/
 .git/
 t5-trained-model/

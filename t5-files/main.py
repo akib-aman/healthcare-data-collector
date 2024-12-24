@@ -4,22 +4,22 @@ import json
 
 # Load your dataset
 dataset_paths = {
-    # "age_training": {
-    #     "file_path": "./training-datasets/age-training.json",
-    #     "conversion_logic": lambda ex: {
-    #         "input": f"Extract the age from this text: {ex['input']}",
-    #         "output": ex["output"]
-    #     }
-    # },
-    # "name_training": {
-    #     "file_path": "./training-datasets/names-and-age-training.json",
-    #     "conversion_logic": lambda ex: {
-    #         "input": f"Extract the name from this text: {ex['input']}",
-    #         "output": ex["output"]
-    #     }
-    # },
+    "age_training": {
+        "file_path": "./t5-training-datasets/age-training.json",
+        "conversion_logic": lambda ex: {
+            "input": f"Extract the age from this text: {ex['input']}",
+            "output": ex["output"]
+        }
+    },
+    "name_training": {
+        "file_path": "./t5-training-datasets/names-and-age-training.json",
+        "conversion_logic": lambda ex: {
+            "input": f"Extract the name from this text: {ex['input']}",
+            "output": ex["output"]
+        }
+    },
     "sex_training": {
-        "file_path": "./training-datasets/sex-training.json",
+        "file_path": "./t5-training-datasets/sex-training.json",
         "conversion_logic": lambda ex: {
             "input": f"Extract the sex from this text: {ex['input']}",
             "output": ex["output"]
