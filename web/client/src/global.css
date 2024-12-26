@@ -1,0 +1,97 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body-wide settings */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* A light gray background for the overall page */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+header {
+  background-color: #8FE7FF; /* Light blue header color (adjust as needed) */
+  color: #333;               /* Text color in header */
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Example brand/logo area */
+header img {
+  height: 40px; /* Adjust if you have a real logo */
+  margin-right: 1rem;
+}
+
+header .brand-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* MAIN CONTENT LAYOUT */
+.main-content {
+  flex: 1;
+  display: flex;
+  /* This pushes content to fill the page below the header */
+}
+
+/* LEFT CHAT SECTION */
+.chat-section {
+  flex: 0 0 60%; /* Take ~60% of the width (adjust as needed) */
+  background-color: #ffffff; /* White background for chat */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-right: 1px solid #ddd; /* Subtle border between chat and right panel */
+}
+
+/* Example styling for chat messages, etc. (optional placeholders) */
+.chat-bubble {
+  background-color: #e7f7ff;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  max-width: 80%;
+}
+
+/* RIGHT SECTION (empty space for future functionality) */
+.right-section {
+  flex: 1; /* Fill the rest of the space */
+  background-color: #f5f5f5; /* Light gray or any color you prefer */
+  padding: 1rem;
+}
+
+/* Example input at bottom of chat (if you decide to place it in chat-section) */
+.chat-input-container {
+  margin-top: auto; /* Sticks to bottom of chat section */
+  display: flex;
+  gap: 0.5rem;
+}
+
+.chat-input-container input[type="text"] {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling (optional) */
+button {
+  padding: 0.5rem 1rem;
+  background-color: #4aa8d8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2c9fcc;
+}
