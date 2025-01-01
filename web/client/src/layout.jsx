@@ -1,12 +1,48 @@
 // src/Layout.js
 import React from "react";
-import "./global.css"; // your shared styles
 
 function Layout({ children }) {
   return (
     <div>
-      <header className="header">
-        <h1>Public Health Scotland</h1>
+      <header>
+
+        <div className="bg-[#5545a8] px-8 pb-6 pt-8">
+          <h1 className="font-inter text-3xl font-bold text-white">
+            Public Health Scotland
+          </h1>
+        </div>
+
+        <div className="w-full h-12 bg-[#3f3685] flex justify-between">
+
+          <div className="bg-red-400 h-full flex-1 flex items-center justify-center  bg-[#3f3685] hover:bg-[#483d97]">
+              {/* Insert a button here */}
+
+            <span className="font-inter text-white font-semibold text-[1rem]"> 
+              Home 
+            </span>
+              
+          </div> 
+
+          <div className="bg-red-400 h-full flex-1 flex items-center justify-center  bg-[#3f3685] hover:bg-[#483d97]">
+              {/* Insert a button here */}
+
+            <span className="font-inter text-white font-semibold text-[1rem]"> 
+              Help 
+            </span>
+              
+          </div> 
+
+          <div className="bg-red-400 h-full flex-1 flex items-center justify-center  bg-[#3f3685] hover:bg-[#483d97]">
+              {/* Insert a button here */}
+
+            <span className="font-inter text-white font-semibold text-[1rem]"> 
+              About 
+            </span>
+              
+          </div> 
+
+        </div>
+
       </header>
 
       {/* main content area */}
@@ -15,7 +51,7 @@ function Layout({ children }) {
       </div>
 
       <footer className="footer">
-        <p>© 2024 Healthcare App</p>
+        <p className="w-full big-gray-200 text-center py-4">© 2024 Healthcare App</p>
       </footer>
     </div>
   );
