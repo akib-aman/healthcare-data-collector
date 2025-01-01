@@ -15,7 +15,7 @@ with open(json_path, "r") as file:
 
 def is_question(prompt: str) -> bool:
     """
-    Naive classifier: checks if user input is likely a question.
+    Checks if user input is likely a question.
     """
     prompt_lower = prompt.strip().lower()
     if prompt_lower.endswith('?'):
@@ -50,7 +50,13 @@ def generate_with_t5(prompt: str) -> str:
         no_repeat_ngram_size=2,
         early_stopping=True
     )
-    return t5_tokenizer.decode(outputs[0], skip_special_tokens=True)
+    t5_output = t5_tokenizer.decode(outputs[0], skip_special_tokens=True)
+    print("OUTPUT:" + t5_output)
+    # Ensure the output is valid JSON
+    if ":" in t5_output and not t5_output.startswith("{"):
+        t5_output = "{" + t5_output.strip() + "}"
+    
+    return t5_output
 
 def handle_prompt(prompt: str) -> str:
     """
@@ -63,14 +69,21 @@ def handle_prompt(prompt: str) -> str:
         try:
             extracted_fields = json.loads(t5_output)
             update_form(form_data, extracted_fields)
+            
+            # Save the updated form
+            with open(json_path, "w") as file:
+                json.dump(form_data, file, indent=4)
+
             return json.dumps(extracted_fields, indent=4)
-        except json.JSONDecodeError:
-            return "Error: T5 output could not be parsed into valid JSON."
+        except json.JSONDecodeError as e:
+            print("JSON Decode Error:", e)
+            return f"Error: T5 output could not be parsed into valid JSON. Output was: {t5_output}"
 
 def update_form(form_data, extracted_fields):
     """
     Update form_data with the fields extracted by T5.
     """
+    print("FIELDS:" + str(extracted_fields))
     for key, value in extracted_fields.items():
         for characteristic in form_data["Characteristics"]:
             if characteristic["Name"].lower() == key.lower():

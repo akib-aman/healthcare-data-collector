@@ -14,7 +14,7 @@ function Layout({ children }) {
 
         <div className="w-full h-12 bg-[#3f3685] flex justify-between">
 
-          <div className="bg-red-400 h-full flex-1 flex items-center justify-center  bg-[#3f3685] hover:bg-[#483d97]">
+          <div className="bg-violet-[#3f3685] h-full flex-1 flex items-center justify-center  bg-[#3f3685] hover:bg-[#483d97]">
               {/* Insert a button here */}
 
             <span className="font-inter text-white font-semibold text-[1rem]"> 
@@ -23,7 +23,7 @@ function Layout({ children }) {
               
           </div> 
 
-          <div className="bg-red-400 h-full flex-1 flex items-center justify-center  bg-[#3f3685] hover:bg-[#483d97]">
+          <div className="bg-violet-[#3f3685] h-full flex-1 flex items-center justify-center  bg-[#3f3685] hover:bg-[#483d97]">
               {/* Insert a button here */}
 
             <span className="font-inter text-white font-semibold text-[1rem]"> 
@@ -32,7 +32,7 @@ function Layout({ children }) {
               
           </div> 
 
-          <div className="bg-red-400 h-full flex-1 flex items-center justify-center  bg-[#3f3685] hover:bg-[#483d97]">
+          <div className="bg-violet-[#3f3685] h-full flex-1 flex items-center justify-center  bg-[#3f3685] hover:bg-[#483d97]">
               {/* Insert a button here */}
 
             <span className="font-inter text-white font-semibold text-[1rem]"> 

@@ -4,22 +4,48 @@ import axios from "axios";
 
 function Home() {
   const [prompt, setPrompt] = useState("");
-  const [response, setResponse] = useState("");
+  const [messages, setMessages] = useState([
+    {
+      type: "bot",
+      text: "Hello! I'm DoctorBot. I'm here to help you fill out a medical form for Public Health Scotland. Let's begin! What is your age?",
+    },
+  ]);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+
+    // Add the user's message to the chat history
+    setMessages((prevMessages) => [
+      ...prevMessages,
+      { type: "user", text: prompt },
+    ]);
+
     try {
       // Send the prompt to the Flask server
       const res = await axios.post("http://localhost:5000/api/prompt", {
         prompt: prompt,
       });
 
-      // Set the response from the server
-      setResponse(res.data.response);
+      // Add the bot's response to the chat history
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { type: "bot", text: res.data.response },
+      ]);
     } catch (error) {
       console.error("Error sending prompt:", error);
-      setResponse("Error: Unable to fetch response from the server.");
+
+      // Add an error message to the chat history
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        {
+          type: "bot",
+          text: "Error: Unable to fetch response from the server.",
+        },
+      ]);
     }
+
+    // Clear the input box
+    setPrompt("");
   };
 
   return (
@@ -27,33 +53,38 @@ function Home() {
       {/* Left Content (Chat Container) */}
       <div className="w-3/5 p-4 bg-white border border-gray-300 rounded-lg shadow-md flex flex-col">
         {/* Chat Content */}
-        <div className="flex flex-col overflow-y-auto">
-          {/* Chat messages or any other content */}
-          <div className="bg-gray-100 p-4 mb-4 w-[80%] max-w-none rounded text-base self-end font-inter">
-            Hello why am i here? 
-          </div>
-          {/* response && here */}
-          {(
-            <div className="flex items-start gap-4 p-4 w-[80%]">
-            {/* Bot Image  */}
-            <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center">
-              {/* Replace with your bot image */}
-              <img
-                src={Gangastondog}
-                alt="Bot Icon"
-                className="w-12 h-12 rounded-full"
-              />
+        <div className="flex flex-col overflow-y-auto flex-1">
+          {messages.map((message, index) => (
+            <div
+              key={index}
+              className={`flex items-start gap-4 p-4 w-[80%] ${
+                message.type === "user" ? "self-end" : ""
+              }`}
+            >
+              {/* User Message */}
+              {message.type === "user" ? (
+                <div className="bg-gray-100 p-4 mb-4 w-full max-w-none rounded text-base font-inter">
+                  {message.text}
+                </div>
+              ) : (
+                // Bot Message
+                <>
+                  <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center">
+                    <img
+                      src={Gangastondog}
+                      alt="Bot Icon"
+                      className="w-12 h-12 rounded-full"
+                    />
+                  </div>
+                  <div className="bg-blue-500 p-4 rounded-lg border border-cyan-400 max-w-lg">
+                    <p className="text-white text-base font-inter">
+                      {message.text}
+                    </p>
+                  </div>
+                </>
+              )}
             </div>
-
-            {/* Bot Response Text */}
-            <div className="bg-blue-500 p-4 rounded-lg border border-cyan-400 max-w-lg">
-              <p className="text-white text-base font-inter">
-                Hey there, I'm DoctorBot! Public Health Scotland have asked me to help fill out a medical form with you, would you like to begin?
-              </p>
-            </div>
-          </div>
-
-          )}
+          ))}
         </div>
 
         {/* Form */}
