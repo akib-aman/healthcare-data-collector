@@ -128,6 +128,9 @@ def train_t5():
     # Save T5 model & tokenizer
     model.save_pretrained("./t5-trained-model")
     tokenizer.save_pretrained("./t5-trained-model")
+
+    model.save_pretrained("./web/server/t5-trained-model")
+    tokenizer.save_pretrained("./web/server/t5-trained-model")
     print("T5 model saved to ./t5-trained-model")
 
 
@@ -218,6 +221,9 @@ def train_gpt():
     # Save GPT model & tokenizer
     model.save_pretrained("./gpt-trained-model")
     tokenizer.save_pretrained("./gpt-trained-model")
+
+    model.save_pretrained("./web/server/gpt-trained-model")
+    tokenizer.save_pretrained("./web/server/gpt-trained-model")
     print("GPT model saved to ./gpt-trained-model")
 
 

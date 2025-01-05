@@ -84,7 +84,7 @@ def generate_with_t5(prompt: str) -> str:
     # if your fine-tuning approach used a prefix. Adjust if needed.
     # If not, you can pass prompt directly.
     input_text = f"extract: {prompt}"
-    inputs = t5_tokenizer.encode(input_text, return_tensors="pt")
+    inputs = t5_tokenizer.encode(prompt, return_tensors="pt")
     outputs = t5_model.generate(
         inputs,
         max_length=50,
@@ -120,6 +120,10 @@ while True:
 
         # 4b. Try to parse T5 output as JSON and update the form if valid
         try:
+            # Ensure valid JSON format by wrapping in curly braces if needed
+            if ":" in generated_text and not generated_text.startswith("{"):
+                generated_text = "{" + generated_text.strip() + "}"
+
             extracted_fields = json.loads(generated_text)
             print("\nExtracted Fields:")
             print(json.dumps(extracted_fields, indent=4))
