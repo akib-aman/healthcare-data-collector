@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Gangastondog from "../assets/images/gangastondog.jpg";
 import axios from "axios";
 
@@ -7,9 +7,18 @@ function Home() {
   const [messages, setMessages] = useState([
     {
       type: "bot",
-      text: "Hello! I'm DoctorBot. I'm here to help you fill out a medical form for Public Health Scotland. Let's begin! What is your age?",
+      text: "Hello! I'm DoctorBot. I'm here to help you fill out a medical form for Public Health Scotland. Let's begin!",
     },
   ]);
+
+  const chatContainerRef = useRef(null);
+
+  useEffect(() => {
+    // Automatically scroll to the bottom of the chat container
+    if (chatContainerRef.current) {
+      chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+    }
+  }, [messages]);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -49,11 +58,14 @@ function Home() {
   };
 
   return (
-    <div className="flex min-h-[90vh]">
+    <div className="flex min-h-[70vh]">
       {/* Left Content (Chat Container) */}
       <div className="w-3/5 p-4 bg-white border border-gray-300 rounded-lg shadow-md flex flex-col">
         {/* Chat Content */}
-        <div className="flex flex-col overflow-y-auto flex-1">
+        <div
+          ref={chatContainerRef}
+          className="flex flex-col overflow-y-auto h-[80vh] p-2" // Fixed height and scrollable
+        >
           {messages.map((message, index) => (
             <div
               key={index}
