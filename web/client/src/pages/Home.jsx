@@ -57,7 +57,7 @@ function Home() {
           {messages.map((message, index) => (
             <div
               key={index}
-              className={`flex items-start gap-4 p-4 w-[80%] ${
+              className={`flex items-start gap-3 p-2 w-[80%] ${
                 message.type === "user" ? "self-end" : ""
               }`}
             >
