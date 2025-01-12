@@ -150,6 +150,14 @@
     {
         "input": "why so many personal questions?",
         "output": "We ask personal questions to give you the best care possible. The information helps us tailor treatments and recommendations for you. Your data stays private."
+    },
+    {
+        "input": "Can you explain the GP registration process?",
+        "output": "GP registration involves filling out a form with your details, including name, age, and address. You also need to provide proof of ID and address."
+    },
+    {
+        "input": "What documents are needed for GP registration?",
+        "output": "You need proof of ID (e.g., passport or driving license) and proof of address (e.g., utility bill or rental agreement)."
     }
 
 ]

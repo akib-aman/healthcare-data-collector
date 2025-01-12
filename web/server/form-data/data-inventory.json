@@ -1,0 +1,256 @@
+{
+  "Characteristics": [
+    {
+      "Name": "Title",
+      "Code": "1",
+      "Description": "Salutation used to address the patient",
+      "Value": ""
+    },
+    {
+      "Name": "FirstName",
+      "Code": "6",
+      "Description": "Legal or preferred first name",
+      "Value": ""
+    },
+    {
+      "Name": "LastName",
+      "Code": "7",
+      "Description": "Legal or preferred last name",
+      "Value": ""
+    },
+    {
+      "Name": "Age",
+      "Code": "2",
+      "Description": "Age stored as an integer; possibly derived from date of birth.",
+      "Value": ""
+    },
+    {
+      "Name": "Sex",
+      "Code": "3",
+      "Description": "Usually male or female; different from gender identity",
+      "Value": ""
+    },
+    {
+      "Name": "Gender reassignment",
+      "Code": "4",
+      "Description": "Strict rules apply; must be stored confidentially",
+      "Value": ""
+    },
+    {
+      "Name": "Marriage/Civil partnership",
+      "Code": "5",
+      "Description": "May be asked if relevant to care",
+      "Value": ""
+    },
+    {
+      "Name": "Sexual orientation",
+      "Code": "8",
+      "Description": "Patient’s sexual orientation, if relevant",
+      "Value": ""
+    },
+    {
+      "Name": "Disability",
+      "Code": "18",
+      "Description": "Self-identified; usage differs across contexts",
+      "Value": ""
+    },
+    {
+      "Name": "Religion/Belief",
+      "Code": "21",
+      "Description": "Only asked in certain contexts",
+      "Value": ""
+    },
+    {
+      "Name": "Race",
+      "Code": "23",
+      "Description": "NHS typically collects 'Ethnicity' instead",
+      "Value": ""
+    },
+    {
+      "Name": "Pregnancy/Maternity",
+      "Description": "Asked as 'Are you currently pregnant or breastfeeding?'",
+      "Value": ""
+    }
+  ],
+  "Form": {
+    "Fields": [
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "select",
+        "placeholder": "Select your title",
+        "description": "Salutation used to address you",
+        "options": [
+          "Mr",
+          "Mrs",
+          "Miss",
+          "Ms",
+          "Dr",
+          "Prof",
+          "Other"
+        ],
+        "required": false
+      },
+      {
+        "id": "firstName",
+        "label": "First Name",
+        "type": "text",
+        "placeholder": "Enter your first name",
+        "description": "Legal or preferred first name",
+        "required": true
+      },
+      {
+        "id": "lastName",
+        "label": "Last Name",
+        "type": "text",
+        "placeholder": "Enter your last name",
+        "description": "Legal or preferred last name",
+        "required": true
+      },
+      {
+        "id": "age",
+        "label": "Age",
+        "type": "number",
+        "placeholder": "Enter your age",
+        "description": "Age stored as integer (e.g., 30)",
+        "required": true,
+        "ranges": [
+          "16-24",
+          "25-29",
+          "30-34",
+          "35-39",
+          "40-44",
+          "45-49",
+          "50-54",
+          "55-59",
+          "60-64",
+          "65+"
+        ]
+      },
+      {
+        "id": "sex",
+        "label": "Sex (biological)",
+        "type": "select",
+        "description": "Usually male or female",
+        "options": [
+          "Male",
+          "Female",
+          "Prefer not to say"
+        ],
+        "required": true
+      },
+      {
+        "id": "ethnicity",
+        "label": "Ethnicity",
+        "type": "select",
+        "description": "Broad ethnicity categories",
+        "options": [
+          "Asian/Asian British - Indian",
+          "Asian/Asian British - Pakistani",
+          "Asian/Asian British - Chinese",
+          "Asian/Asian British - Bangladeshi",
+          "Asian/Asian British - Any other Asian background",
+          "Black/African/Caribbean/Black British - African",
+          "Black/African/Caribbean/Black British - Caribbean",
+          "Black/African/Caribbean/Black British - Any other",
+          "Mixed/Multiple ethnic groups - White and Black Caribbean",
+          "Mixed/Multiple ethnic groups - White and Black African",
+          "Mixed/Multiple ethnic groups - White and Asian",
+          "Mixed/Multiple ethnic groups - Any other mixed background",
+          "White - English",
+          "White - Welsh",
+          "White - Scottish",
+          "White - Northern Irish",
+          "White - Irish",
+          "White - Gypsy or Irish Traveller",
+          "White - Other",
+          "Other ethnic group - Arab",
+          "Any other ethnic group",
+          "Prefer not to say"
+        ],
+        "required": false
+      },
+      {
+        "id": "genderReassignment",
+        "label": "Gender Reassignment",
+        "type": "select",
+        "options": [
+          "Yes",
+          "No",
+          "Prefer not to say"
+        ],
+        "description": "Confidential if 'Yes'",
+        "required": false
+      },
+      {
+        "id": "marriageCivilPartnership",
+        "label": "Marriage/Civil Partnership Status",
+        "type": "select",
+        "options": [
+          "Single",
+          "Married",
+          "Civil partnership",
+          "Separated",
+          "Divorced",
+          "Widowed",
+          "Prefer not to say"
+        ],
+        "required": false
+      },
+      {
+        "id": "sexualOrientation",
+        "label": "Sexual Orientation",
+        "type": "select",
+        "options": [
+          "Heterosexual or Straight",
+          "Gay or Lesbian",
+          "Bisexual",
+          "Other",
+          "Prefer not to say"
+        ],
+        "required": false
+      },
+      {
+        "id": "disability",
+        "label": "Disability",
+        "type": "select",
+        "options": [
+          "Yes",
+          "No",
+          "Prefer not to say"
+        ],
+        "description": "Do you consider yourself to have a disability?",
+        "required": false
+      },
+      {
+        "id": "religionBelief",
+        "label": "Religion/Belief",
+        "type": "select",
+        "options": [
+          "Christian",
+          "Hindu",
+          "Jewish",
+          "Muslim",
+          "Sikh",
+          "Buddhist",
+          "No religion",
+          "Other",
+          "Prefer not to say"
+        ],
+        "required": false
+      },
+      {
+        "id": "pregnancyMaternity",
+        "label": "Pregnant/Breastfeeding",
+        "type": "select",
+        "options": [
+          "Yes",
+          "No",
+          "Prefer not to say"
+        ],
+        "description": "Are you currently pregnant or breastfeeding?",
+        "required": false
+      }
+    ]
+  }
+}
