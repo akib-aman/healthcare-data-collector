@@ -1,0 +1,13 @@
+{
+    "forms": {
+      "gp-registration": {
+        "type": "CHARACTERISTICS_ONLY"
+      },
+      "household-registration": {
+        "type": "FULL_FORM"
+      },
+      "other-registration": {
+        "type": "SOME_OTHER_VARIANT"
+      }
+    }
+  }
