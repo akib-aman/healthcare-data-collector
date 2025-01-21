@@ -30,6 +30,7 @@ def handle_prompt_route():
     data = request.get_json()
     session_id = data.get("session_id")
     user_prompt = data.get("prompt", "")
+    active_field = data.get("field", "")
 
     if not session_id:
         return jsonify({"error": "Missing session_id."}), 400
@@ -41,7 +42,7 @@ def handle_prompt_route():
         return jsonify({"error": f"Session {session_id} not found."}), 404
 
     # 2. Handle the user prompt, passing the already-loaded form
-    response, updated_form = handle_prompt(user_prompt, session_form)
+    response, updated_form = handle_prompt(user_prompt, session_form, active_field)
 
     # 3. Save the updated session form
     save_session_form(session_id, updated_form)

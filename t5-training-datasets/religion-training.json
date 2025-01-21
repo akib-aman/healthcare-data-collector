@@ -1,0 +1,162 @@
+[
+    {
+        "input": "Extract the religion/belief from this text: I am a Christian.",
+        "output": "{\"Religion/Belief\": \"Christian\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: My faith is Islam.",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm Hindu by belief.",
+        "output": "{\"Religion/Belief\": \"Hindu\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Buddhism.",
+        "output": "{\"Religion/Belief\": \"Buddhism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm Jewish.",
+        "output": "{\"Religion/Belief\": \"Jewish\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I practice Sikhism.",
+        "output": "{\"Religion/Belief\": \"Sikhism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a follower of Jainism.",
+        "output": "{\"Religion/Belief\": \"Jainism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I identify as atheist.",
+        "output": "{\"Religion/Belief\": \"Atheist\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm agnostic.",
+        "output": "{\"Religion/Belief\": \"Agnostic\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I believe in Wicca.",
+        "output": "{\"Religion/Belief\": \"Wicca\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Taoist.",
+        "output": "{\"Religion/Belief\": \"Taoism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: My religion is Christianity.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow the teachings of Islam.",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I practice Hinduism.",
+        "output": "{\"Religion/Belief\": \"Hinduism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Buddhist.",
+        "output": "{\"Religion/Belief\": \"Buddhism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I come from a Jewish family.",
+        "output": "{\"Religion/Belief\": \"Jewish\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I identify with Sikhism.",
+        "output": "{\"Religion/Belief\": \"Sikhism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: Jainism is my belief.",
+        "output": "{\"Religion/Belief\": \"Jainism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I don't follow any religion; I'm atheist.",
+        "output": "{\"Religion/Belief\": \"Atheist\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I don’t believe in any particular god, I’m agnostic.",
+        "output": "{\"Religion/Belief\": \"Agnostic\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: My belief aligns with Wicca.",
+        "output": "{\"Religion/Belief\": \"Wicca\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I practice Taoism.",
+        "output": "{\"Religion/Belief\": \"Taoism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow the Baha'i faith.",
+        "output": "{\"Religion/Belief\": \"Baha'i\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Rastafarian.",
+        "output": "{\"Religion/Belief\": \"Rastafarian\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: My religion is Zoroastrianism.",
+        "output": "{\"Religion/Belief\": \"Zoroastrianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I practice Confucianism.",
+        "output": "{\"Religion/Belief\": \"Confucianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm part of the Shinto tradition.",
+        "output": "{\"Religion/Belief\": \"Shinto\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: My faith is rooted in Paganism.",
+        "output": "{\"Religion/Belief\": \"Paganism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow the Unitarian Universalist path.",
+        "output": "{\"Religion/Belief\": \"Unitarian Universalist\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm an adherent of Humanism.",
+        "output": "{\"Religion/Belief\": \"Humanism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I practice Native American spirituality.",
+        "output": "{\"Religion/Belief\": \"Native American spirituality\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I believe in Druidry.",
+        "output": "{\"Religion/Belief\": \"Druidry\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow the Church of Scientology.",
+        "output": "{\"Religion/Belief\": \"Scientology\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: My belief is in Secularism.",
+        "output": "{\"Religion/Belief\": \"Secularism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I identify with the spiritual practices of Animism.",
+        "output": "{\"Religion/Belief\": \"Animism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Deist.",
+        "output": "{\"Religion/Belief\": \"Deism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: My family practices Candomblé.",
+        "output": "{\"Religion/Belief\": \"Candomblé\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Santería.",
+        "output": "{\"Religion/Belief\": \"Santería\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Orthodox Church.",
+        "output": "{\"Religion/Belief\": \"Orthodox Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I practice Reform Judaism.",
+        "output": "{\"Religion/Belief\": \"Reform Judaism\"}"
+    }
+]
