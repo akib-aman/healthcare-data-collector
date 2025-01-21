@@ -1,0 +1,276 @@
+[
+    {
+        "input": "Extract the title from this text: Mr John Smith",
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mrs Jane Doe",
+        "output": "{\"Title\": \"Mrs\"}"
+    },
+    {
+        "input": "Extract the title from this text: Miss Anna Brown",
+        "output": "{\"Title\": \"Miss\"}"
+    },
+    {
+        "input": "Extract the title from this text: Dr Emily White",
+        "output": "{\"Title\": \"Dr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Prof Michael Green",
+        "output": "{\"Title\": \"Prof\"}"
+    },
+    {
+        "input": "Extract the title from this text: Sir William Black",
+        "output": "{\"Title\": \"Sir\"}"
+    },
+    {
+        "input": "Extract the title from this text: Lady Elizabeth Grey",
+        "output": "{\"Title\": \"Lady\"}"
+    },
+    {
+        "input": "Extract the title from this text: Dame Alice Walker",
+        "output": "{\"Title\": \"Dame\"}"
+    },
+    {
+        "input": "Extract the title from this text: Rev Paul Johnson",
+        "output": "{\"Title\": \"Rev\"}"
+    },
+    {
+        "input": "Extract the title from this text: Hon Sarah Carter",
+        "output": "{\"Title\": \"Hon\"}"
+    },
+    {
+        "input": "Extract the title from this text: Lord Charles Spencer",
+        "output": "{\"Title\": \"Lord\"}"
+    },
+    {
+        "input": "Extract the title from this text: Baroness Julia Knight",
+        "output": "{\"Title\": \"Baroness\"}"
+    },
+    {
+        "input": "Extract the title from this text: Major Tom Hanks",
+        "output": "{\"Title\": \"Major\"}"
+    },
+    {
+        "input": "Extract the title from this text: Capt Jack Sparrow",
+        "output": "{\"Title\": \"Capt\"}"
+    },
+    {
+        "input": "Extract the title from this text: Col Robert Parker",
+        "output": "{\"Title\": \"Col\"}"
+    },
+    {
+        "input": "Extract the title from this text: Lt Emily Clark",
+        "output": "{\"Title\": \"Lt\"}"
+    },
+    {
+        "input": "Extract the title from this text: Sgt David Brown",
+        "output": "{\"Title\": \"Sgt\"}"
+    },
+    {
+        "input": "Extract the title from this text: Cpl Sarah Turner",
+        "output": "{\"Title\": \"Cpl\"}"
+    },
+    {
+        "input": "Extract the title from this text: Brigadier General Adams",
+        "output": "{\"Title\": \"Brigadier\"}"
+    },
+    {
+        "input": "Extract the title from this text: Archbishop Henry Grey",
+        "output": "{\"Title\": \"Archbishop\"}"
+    },
+    {
+        "input": "Extract the title from this text: Canon John Williams",
+        "output": "{\"Title\": \"Canon\"}"
+    },
+    {
+        "input": "Extract the title from this text: Bishop Andrew Scott",
+        "output": "{\"Title\": \"Bishop\"}"
+    },
+    {
+        "input": "Extract the title from this text: Chief Inspector Mark Lee",
+        "output": "{\"Title\": \"Chief Inspector\"}"
+    },
+    {
+        "input": "Extract the title from this text: PC Lucy Davis",
+        "output": "{\"Title\": \"PC\"}"
+    },
+    {
+        "input": "Extract the title from this text: Magistrate James Fox",
+        "output": "{\"Title\": \"Magistrate\"}"
+    },
+    {
+        "input": "Extract the title from this text: Justice Mary Wilson",
+        "output": "{\"Title\": \"Justice\"}"
+    },
+    {
+        "input": "Extract the title from this text: Admiral Thomas Harris",
+        "output": "{\"Title\": \"Admiral\"}"
+    },
+    {
+        "input": "Extract the title from this text: Commander Alan White",
+        "output": "{\"Title\": \"Commander\"}"
+    },
+    {
+        "input": "Extract the title from this text: Flight Lieutenant Chris Taylor",
+        "output": "{\"Title\": \"Flight Lieutenant\"}"
+    },
+    {
+        "input": "Extract the title from this text: General George Carter",
+        "output": "{\"Title\": \"General\"}"
+    },
+    {
+        "input": "Extract the title from this text: His Grace the Duke of Kent",
+        "output": "{\"Title\": \"His Grace\"}"
+    },
+    {
+        "input": "Extract the title from this text: Her Majesty Queen Elizabeth",
+        "output": "{\"Title\": \"Her Majesty\"}"
+    },
+    {
+        "input": "Extract the title from this text: Master Harold Finch",
+        "output": "{\"Title\": \"Master\"}"
+    },
+    {
+        "input": "Extract the title from this text: The Honorable Judge Harry Kane",
+        "output": "{\"Title\": \"Honorable\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mr John Smith is a client.",
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mrs Jane Doe attended the meeting.", 
+        "output": "{\"Title\": \"Mrs\"}"},
+    {
+        "input": "Extract the title from this text: Dr. Emily Carter has an appointment.", 
+        "output": "{\"Title\": \"Dr\"}"},
+    {
+        "input": "Extract the title from this text: Miss Sarah Johnson visited the office.", 
+        "output": "{\"Title\": \"Miss\"}"},
+    {
+        "input": "Extract the title from this text: Sir Michael Long delivered the keynote speech.", 
+        "output": "{\"Title\": \"Sir\"}"},
+    {
+        "input": "Extract the title from this text: Prof. Andrew Taylor teaches at the university.", 
+        "output": "{\"Title\": \"Prof\"}"},
+    {
+        "input": "Extract the title from this text: Mr. James Brown submitted his application.", 
+        "output": "{\"Title\": \"Mr\"}"},
+    {
+        "input": "Extract the title from this text: Ms. Clara Bell is on the board.", 
+        "output": "{\"Title\": \"Ms\"}"},
+    {
+        "input": "Extract the title from this text: DR. Richard O'Connell is a physician.", 
+        "output": "{\"Title\": \"Dr\"}"},
+    {
+        "input": "Extract the title from this text: mrs. Linda Green registered yesterday.", 
+        "output": "{\"Title\": \"Mrs\"}"},
+    {
+        "input": "Extract the title from this text: MR Edward Scott is next in line.", 
+        "output": "{\"Title\": \"Mr\"}"},
+    {
+        "input": "Extract the title from this text: professor Helen Wright will join us soon.", 
+        "output": "{\"Title\": \"Prof\"}"},
+    {
+        "input": "Extract the title from this text: Ms Patricia Clarke was notified.", 
+        "output": "{\"Title\": \"Ms\"}"},
+    {
+        "input": "Extract the title from this text: Dr Martin Phillips is unavailable today.", 
+        "output": "{\"Title\": \"Dr\"}"},
+    {
+        "input": "Extract the title from this text: mr Thomas Walker has submitted the report.", 
+        "output": "{\"Title\": \"Mr\"}"},
+    {
+        "input": "Extract the title from this text: MISS Emma Lewis visited the exhibition.", 
+        "output": "{\"Title\": \"Miss\"}"},
+    {
+        "input": "Extract the title from this text: Mr. Alan King signed the document.", 
+        "output": "{\"Title\": \"Mr\"}"},
+    {
+        "input": "Extract the title from this text: ms. Dorothy Harris attended the seminar.", 
+        "output": "{\"Title\": \"Ms\"}"},
+    {
+        "input": "Extract the title from this text: Dr Elizabeth Adams received the award.", 
+        "output": "{\"Title\": \"Dr\"}"},
+    {
+        "input": "Extract the title from this text: prof. Jonathan Turner will present next.", 
+        "output": "{\"Title\": \"Prof\"}"
+    },
+    {
+        "input": "Extract the title from this text: MR. William Moore provided the details.", 
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Sir Charles Evans hosted the event.", 
+        "output": "{\"Title\": \"Sir\"}"
+    },
+    {
+        "input": "Extract the title from this text: Dr. Alice Parker completed the analysis.", 
+        "output": "{\"Title\": \"Dr\"}"
+    },
+    {
+        "input": "Extract the title from this text: mr. Kevin Murphy joined the team.", 
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the title from this text: MISS Olivia Watson is handling the case.", 
+        "output": "{\"Title\": \"Miss\"}"
+    },
+    {
+        "input": "Extract the title from this text: Professor Laura White led the discussion.", 
+        "output": "{\"Title\": \"Prof\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mr Patrick Harris called earlier.", 
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mrs. Sophia Hall will assist you.", 
+        "output": "{\"Title\": \"Mrs\"}"
+    },
+    {
+        "input": "Extract the title from this text: Ms Kelly Barnes asked for the report.", 
+        "output": "{\"Title\": \"Ms\"}"
+    },
+    {
+        "input": "Extract the title from this text: Dr. Nathaniel Cooper was interviewed.", 
+        "output": "{\"Title\": \"Dr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Sir George Knight arrived yesterday.", 
+        "output": "{\"Title\": \"Sir\"}"
+    },
+    {
+        "input": "Extract the title from this text: Prof. Margaret Hughes announced the results.", 
+        "output": "{\"Title\": \"Prof\"}"
+    },
+    {
+        "input": "Extract the title from this text: mrs. Rebecca Bell is at the reception.", 
+        "output": "{\"Title\": \"Mrs\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mr Jack Ryan is waiting in the lobby.", 
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Ms. Anna Wright is available now.", 
+        "output": "{\"Title\": \"Ms\"}"
+    },
+    {
+        "input": "Extract the title from this text: Dr. Robert Lee performed the surgery.", 
+        "output": "{\"Title\": \"Dr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Miss Jessica Ford is organizing the event.", 
+        "output": "{\"Title\": \"Miss\"}"
+    },
+    {
+        "input": "Extract the title from this text: mr. Steven Adams completed the registration.", 
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Prof Peter Bennett delivered the lecture.", 
+        "output": "{\"Title\": \"Prof\"}"
+    }
+]

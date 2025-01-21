@@ -119,8 +119,8 @@ function Home() {
     event.preventDefault();
   
     // Prepend the command for the active field
-    const fieldPrompt = activeField ? fieldCommands[activeField] || "" : "";
-    const fullPrompt = `${fieldPrompt}${prompt}`;
+    // const fieldPrompt = activeField ? fieldCommands[activeField] || "" : "";
+    // const fullPrompt = `${fieldPrompt}${prompt}`;
   
     // Add user message to chat
     setMessages((prev) => [...prev, { type: "user", text: prompt }]);
@@ -128,7 +128,8 @@ function Home() {
     try {
       // Send prompt & session ID to Flask
       const res = await axios.post("http://localhost:5000/api/prompt", {
-        prompt: fullPrompt,
+        prompt: prompt,
+        field: activeField,
         session_id: sessionId,
       });
   

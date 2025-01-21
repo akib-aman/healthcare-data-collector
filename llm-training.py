@@ -39,6 +39,31 @@ def train_t5():
                 "output": ex["output"]
             }
         },
+        "classification-training": {
+            "file_path": "./t5-training-datasets/classification-training.json",
+            "conversion_logic": lambda ex: {
+                "input": (
+                    "Does this input require data extraction or a detailed response?\n"
+                    f"Input: {ex['input']}\n"
+                    "Answer with either 'Data Extraction' or 'Detailed Response'."
+                ),
+                "output": ex["output"]
+            }
+        },
+        "religion_training": {
+            "file_path": "./t5-training-datasets/religion-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the religion/belief from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
+        "title_training": {
+            "file_path": "./t5-training-datasets/title-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the title from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
         # Add more T5 datasets here if needed
     }
 
@@ -139,40 +164,35 @@ def train_t5():
 #############################################
 def train_gpt():
     """
-    Train a GPT model for more 'wordy' Q&A style interactions.
-    Uses a new directory (gpt-training-datasets) for training data.
-    Saves the model & tokenizer to ./gpt-trained-model
+    Train a GPT model for Q&A style interactions, 
+    saving the model & tokenizer to ./gpt-trained-model
     """
-    
-    # Example: We'll assume there's a JSON file in gpt-training-datasets
-    # called question-answer-training.json or something similar.
-    # Adjust to your own file(s).
     file_path = "./gpt-training-datasets/question-answer-training.json"
 
-    # Load the JSON data
+    # 1. Load the JSON data (with 'question'/'answer' keys)
     with open(file_path, "r") as file:
         gpt_data = json.load(file)
 
-    # Convert to Dataset with GPT-friendly delimiters
+    # 2. Convert to Dataset with a "Question: ... Answer: ..." format
     dataset = Dataset.from_list([
         {
             "text": (
-                f"<|startoftext|>Input: {ex['input']}\n"
-                f"Output: {ex['output']}<|endoftext|>"
+                f"<|startoftext|>Question: {ex['question']}\n"
+                f"Answer: {ex['answer']}"
+                f"<|endoftext|>"
             )
         }
         for ex in gpt_data
     ])
 
-    # Load and configure the tokenizer
+    # 3. Load and configure tokenizer
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
     special_tokens = {
         "additional_special_tokens": ["<|startoftext|>", "<|endoftext|>"]
     }
     tokenizer.add_special_tokens(special_tokens)
-    tokenizer.pad_token = tokenizer.eos_token  # GPT2 does not have a pad token by default
+    tokenizer.pad_token = tokenizer.eos_token  # GPT-2 doesn't natively have a pad token
 
-    # Tokenize the dataset
     def tokenize_function(examples):
         return tokenizer(
             examples["text"],
@@ -183,11 +203,10 @@ def train_gpt():
 
     tokenized_dataset = dataset.map(tokenize_function, batched=True)
 
-    # Load the GPT2 model and resize token embeddings
+    # 4. Load GPT-2 model and resize token embeddings (because we added special tokens)
     model = GPT2LMHeadModel.from_pretrained("gpt2")
     model.resize_token_embeddings(len(tokenizer))
 
-    # Training arguments
     training_args = TrainingArguments(
         num_train_epochs=5,
         per_device_train_batch_size=4,
@@ -199,31 +218,29 @@ def train_gpt():
         overwrite_output_dir=True
     )
 
-    # Data collator (no masked language modeling for GPT2)
-    data_collator = DataCollatorForLanguageModeling(
-        tokenizer=tokenizer,
-        mlm=False
-    )
+    # 5. Data collator: no masked LM for GPT-2
+    data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
-    # Trainer for GPT
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=tokenized_dataset,
-        data_collator=data_collator,
+        data_collator=data_collator
     )
 
-    # Train GPT
+    # 6. Train
     print("Starting GPT training...")
     trainer.train()
     print("GPT training complete.")
 
-    # Save GPT model & tokenizer
+    # 7. Save the model & tokenizer
     model.save_pretrained("./gpt-trained-model")
     tokenizer.save_pretrained("./gpt-trained-model")
 
+    # Optionally save elsewhere too
     model.save_pretrained("./web/server/gpt-trained-model")
     tokenizer.save_pretrained("./web/server/gpt-trained-model")
+
     print("GPT model saved to ./gpt-trained-model")
 
 
