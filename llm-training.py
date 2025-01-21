@@ -1,5 +1,5 @@
 import json
-from datasets import Dataset, concatenate_datasets
+from datasets import Dataset, concatenate_datasets, load_dataset
 from transformers import (
     # T5 imports
     T5Tokenizer, T5ForConditionalGeneration, Trainer, TrainingArguments, DataCollatorForSeq2Seq,
@@ -137,32 +137,31 @@ def train_t5():
 #############################################
 # GPT TRAINING LOGIC
 #############################################
-def train_gpt():
-    """
-    Train a GPT model for more 'wordy' Q&A style interactions.
-    Uses a new directory (gpt-training-datasets) for training data.
-    Saves the model & tokenizer to ./gpt-trained-model
-    """
-    
-    # Example: We'll assume there's a JSON file in gpt-training-datasets
-    # called question-answer-training.json or something similar.
-    # Adjust to your own file(s).
-    file_path = "./gpt-training-datasets/question-answer-training.json"
 
-    # Load the JSON data
-    with open(file_path, "r") as file:
-        gpt_data = json.load(file)
+def train_gdpr_qa():
+    """
+    Train GPT model specifically on the GDPR_QA_instruct_dataset.
+    Returns a tokenized dataset formatted for GPT-2.
+    """
+    # Load GDPR dataset
+    dataset = load_dataset("sims2k/GDPR_QA_instruct_dataset")
 
-    # Convert to Dataset with GPT-friendly delimiters
-    dataset = Dataset.from_list([
-        {
+    # Format the dataset (combine instruction, input, and output)
+    def format_example(example):
+        instruction = example["instruction"]
+        input_text = example["input"]
+        output_text = example["output"]
+
+        # Create a formatted prompt for GPT-2
+        return {
             "text": (
-                f"<|startoftext|>Input: {ex['input']}\n"
-                f"Output: {ex['output']}<|endoftext|>"
+                f"<|startoftext|>Instruction: {instruction}\n"
+                f"Input: {input_text}\n"
+                f"Output: {output_text}<|endoftext|>"
             )
         }
-        for ex in gpt_data
-    ])
+
+    formatted_dataset = dataset["train"].map(format_example)
 
     # Load and configure the tokenizer
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
@@ -170,7 +169,7 @@ def train_gpt():
         "additional_special_tokens": ["<|startoftext|>", "<|endoftext|>"]
     }
     tokenizer.add_special_tokens(special_tokens)
-    tokenizer.pad_token = tokenizer.eos_token  # GPT2 does not have a pad token by default
+    tokenizer.pad_token = tokenizer.eos_token  # GPT-2 doesn't have a pad token by default
 
     # Tokenize the dataset
     def tokenize_function(examples):
@@ -181,9 +180,50 @@ def train_gpt():
             max_length=128
         )
 
-    tokenized_dataset = dataset.map(tokenize_function, batched=True)
+    tokenized_dataset = formatted_dataset.map(tokenize_function, batched=True)
+    return tokenized_dataset, tokenizer
 
-    # Load the GPT2 model and resize token embeddings
+def train_gpt():
+    """
+    Train GPT-2 model using both GDPR QA dataset and the older question-answer-training.json dataset.
+    Saves the model & tokenizer to ./gpt-trained-model.
+    """
+    # Prepare the GDPR QA dataset
+    tokenized_gdpr_dataset, tokenizer = train_gdpr_qa()
+
+    # Prepare the old question-answer dataset
+    file_path = "./gpt-training-datasets/question-answer-training.json"
+    with open(file_path, "r") as file:
+        old_data = json.load(file)
+
+    # Format the old dataset with GPT-friendly delimiters
+    old_dataset = Dataset.from_list([
+        {
+            "text": (
+                f"<|startoftext|>Question: {ex['question']}\n"
+                f"Answer: {ex['answer']}<|endoftext|>"
+            )
+        }
+        for ex in old_data
+    ])
+
+    # Tokenize the old dataset
+    def tokenize_function(examples):
+        return tokenizer(
+            examples["text"],
+            truncation=True,
+            padding="max_length",
+            max_length=128
+        )
+
+    tokenized_old_dataset = old_dataset.map(tokenize_function, batched=True)
+
+    # Combine both datasets
+    combined_tokenized_dataset = concatenate_datasets(
+        [tokenized_gdpr_dataset, tokenized_old_dataset]
+    )
+
+    # Load the GPT-2 model and resize token embeddings
     model = GPT2LMHeadModel.from_pretrained("gpt2")
     model.resize_token_embeddings(len(tokenizer))
 
@@ -195,17 +235,66 @@ def train_gpt():
         evaluation_strategy="no",
         save_steps=200,
         logging_steps=50,
-        output_dir="./gpt-trained-model",
+        output_dir="./gpt-combined-trained-model",
         overwrite_output_dir=True
     )
 
-    # Data collator (no masked language modeling for GPT2)
+    # Data collator (no masked LM for GPT-2)
     data_collator = DataCollatorForLanguageModeling(
         tokenizer=tokenizer,
         mlm=False
     )
 
-    # Trainer for GPT
+    # Trainer for GPT-2
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=combined_tokenized_dataset,
+        data_collator=data_collator,
+    )
+
+    # Train GPT-2
+    print("Starting GPT-2 training on combined datasets...")
+    trainer.train()
+    print("GPT-2 training complete.")
+
+    # Save GPT-2 model & tokenizer
+    model.save_pretrained("./gpt-combined-trained-model")
+    tokenizer.save_pretrained("./gpt-combined-trained-model")
+
+    model.save_pretrained("./web/server/gpt-combined-trained-model")
+    tokenizer.save_pretrained("./web/server/gpt-combined-trained-model")
+    print("GPT-2 model saved to ./gpt-combined-trained-model")
+    """
+    Train GPT-2 model specifically for GDPR QA dataset.
+    Saves the model & tokenizer to ./gpt-trained-model.
+    """
+    # Prepare the GDPR QA dataset
+    tokenized_dataset, tokenizer = train_gdpr_qa()
+
+    # Load the GPT-2 model and resize token embeddings
+    model = GPT2LMHeadModel.from_pretrained("gpt2")
+    model.resize_token_embeddings(len(tokenizer))
+
+    # Training arguments
+    training_args = TrainingArguments(
+        num_train_epochs=5,
+        per_device_train_batch_size=4,
+        learning_rate=2e-5,
+        evaluation_strategy="no",
+        save_steps=200,
+        logging_steps=50,
+        output_dir="./gpt-gdpr-trained-model",
+        overwrite_output_dir=True
+    )
+
+    # Data collator (no masked LM for GPT-2)
+    data_collator = DataCollatorForLanguageModeling(
+        tokenizer=tokenizer,
+        mlm=False
+    )
+
+    # Trainer for GPT-2
     trainer = Trainer(
         model=model,
         args=training_args,
@@ -213,18 +302,18 @@ def train_gpt():
         data_collator=data_collator,
     )
 
-    # Train GPT
-    print("Starting GPT training...")
+    # Train GPT-2
+    print("Starting GPT-2 training on GDPR QA dataset...")
     trainer.train()
-    print("GPT training complete.")
+    print("GPT-2 training complete.")
 
-    # Save GPT model & tokenizer
-    model.save_pretrained("./gpt-trained-model")
-    tokenizer.save_pretrained("./gpt-trained-model")
+    # Save GPT-2 model & tokenizer
+    model.save_pretrained("./gpt-gdpr-trained-model")
+    tokenizer.save_pretrained("./gpt-gdpr-trained-model")
 
-    model.save_pretrained("./web/server/gpt-trained-model")
-    tokenizer.save_pretrained("./web/server/gpt-trained-model")
-    print("GPT model saved to ./gpt-trained-model")
+    model.save_pretrained("./web/server/gpt-gdpr-trained-model")
+    tokenizer.save_pretrained("./web/server/gpt-gdpr-trained-model")
+    print("GPT-2 model saved to ./gpt-gdpr-trained-model")
 
 
 #############################################
