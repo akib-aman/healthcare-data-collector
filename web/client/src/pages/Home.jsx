@@ -10,23 +10,6 @@ function Home() {
   const [activeField, setActiveField] = useState(null); // Start with no active field
   const chatContainerRef = useRef(null);
 
-  // Field commands
-  const fieldCommands = {
-    title: "Extract the title from this text: ",
-    firstname: "Extract the firstname from this text: ",
-    lastname: "Extract the lastname from this text: ",
-    age: "Extract the age from this text: ",
-    sex: "Extract the sex from this text: ",
-    genderreassignment: "Extract the gender reassignment from this text: ",
-    marriagecivilpartnership: "Extract the marriage/civil partnership status from this text: ",
-    sexualorientation: "Extract the sexual orientation from this text: ",
-    disability: "Extract the disability from this text: ",
-    religionbelief: "Extract the religion/belief from this text: ",
-    ethnicity: "Extract the ethnicity from this text: ",
-    race: "Extract the race from this text: ",
-    pregnancymaternity: "Extract the pregnancy/maternity from this text: ",
-  };
-
   // 1. Create session & fetch initial form data on mount
   useEffect(() => {
     const createSessionAndFetchForm = async () => {

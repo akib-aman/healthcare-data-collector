@@ -1,0 +1,154 @@
+[
+    {
+        "input": "Extract the ethnicity from this text: I am White British.",
+        "output": "{\"Ethnicity\": \"White British\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: White Irish.",
+        "output": "{\"Ethnicity\": \"White Irish\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Mixed White and Black Caribbean.",
+        "output": "{\"Ethnicity\": \"Mixed White and Black Caribbean\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Mixed White and Black African.",
+        "output": "{\"Ethnicity\": \"Mixed White and Black African\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Mixed White and Asian.",
+        "output": "{\"Ethnicity\": \"Mixed White and Asian\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Indian.",
+        "output": "{\"Ethnicity\": \"Indian\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Pakistani.",
+        "output": "{\"Ethnicity\": \"Pakistani\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Bangladeshi.",
+        "output": "{\"Ethnicity\": \"Bangladeshi\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Other Asian background.",
+        "output": "{\"Ethnicity\": \"Other Asian\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Black Caribbean.",
+        "output": "{\"Ethnicity\": \"Black Caribbean\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Black African.",
+        "output": "{\"Ethnicity\": \"Black African\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Other Black background.",
+        "output": "{\"Ethnicity\": \"Other Black\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Arab.",
+        "output": "{\"Ethnicity\": \"Arab\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I am of Gypsy or Irish Traveller background.",
+        "output": "{\"Ethnicity\": \"Gypsy or Irish Traveller\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Other ethnic group.",
+        "output": "{\"Ethnicity\": \"Other\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: My background is Bangladeshi.",
+        "output": "{\"Ethnicity\": \"Bangladeshi\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Mixed White and Asian heritage.",
+        "output": "{\"Ethnicity\": \"Mixed White and Asian\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I am Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: African.",
+        "output": "{\"Ethnicity\": \"Black African\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: My ethnicity is Pakistani.",
+        "output": "{\"Ethnicity\": \"Pakistani\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm from an Indian background.",
+        "output": "{\"Ethnicity\": \"Indian\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Caribbean.",
+        "output": "{\"Ethnicity\": \"Black Caribbean\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm a White Irish citizen.",
+        "output": "{\"Ethnicity\": \"White Irish\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I am Arab.",
+        "output": "{\"Ethnicity\": \"Arab\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I belong to a Gypsy background.",
+        "output": "{\"Ethnicity\": \"Gypsy or Irish Traveller\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Other Asian.",
+        "output": "{\"Ethnicity\": \"Other Asian\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: My ethnicity is Black African.",
+        "output": "{\"Ethnicity\": \"Black African\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Mixed heritage, White and Black African.",
+        "output": "{\"Ethnicity\": \"Mixed White and Black African\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I am from a White British background.",
+        "output": "{\"Ethnicity\": \"White British\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Other Black background.",
+        "output": "{\"Ethnicity\": \"Other Black\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm mixed race, White and Black Caribbean.",
+        "output": "{\"Ethnicity\": \"Mixed White and Black Caribbean\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I am from an Arab ethnic group.",
+        "output": "{\"Ethnicity\": \"Arab\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: Other ethnic group.",
+        "output": "{\"Ethnicity\": \"Other\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: My ethnicity is Mixed White and Black Caribbean.",
+        "output": "{\"Ethnicity\": \"Mixed White and Black Caribbean\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: White.",
+        "output": "{\"Ethnicity\": \"White\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Pakistani.",
+        "output": "{\"Ethnicity\": \"Pakistani\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: White and Asian.",
+        "output": "{\"Ethnicity\": \"Mixed White and Asian\"}"
+    }
+]

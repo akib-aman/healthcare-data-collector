@@ -39,13 +39,13 @@ field_commands = {
     "age": "Extract the age from this text: ",
     "sex": "Extract the sex from this text: ",
     "genderreassignment": "Extract the gender reassignment from this text: ",
-    "marriagecivilpartnership": "Extract the marriage/civil partnership status from this text: ",
+    "marriage/civilpartnership": "Extract the marriage/civil partnership status from this text: ",
     "sexualorientation": "Extract the sexual orientation from this text: ",
     "disability": "Extract the disability from this text: ",
-    "religionbelief": "Extract the religion/belief from this text: ",
+    "religion/belief": "Extract the religion/belief from this text: ",
     "ethnicity": "Extract the ethnicity from this text: ",
     "race": "Extract the race from this text: ",
-    "pregnancymaternity": "Extract the pregnancy/maternity from this text: "
+    "pregnancy/maternity": "Extract the pregnancy/maternity from this text: "
 }
 
 # Ensure session-forms directory exists
@@ -199,6 +199,7 @@ def handle_prompt(prompt: str, session_form: dict, field: str):
     if "Data Extraction" in decision:
         # Look up the extraction command based on the field parameter
         # Fallback to a generic "extract:" if the field isn’t found
+        print("field: " + field)
         extraction_prefix = field_commands.get(field.lower(), "extract: ")
         
         # Combine prefix + user prompt

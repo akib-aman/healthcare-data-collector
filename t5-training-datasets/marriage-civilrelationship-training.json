@@ -1,0 +1,122 @@
+[
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am married",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am single",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I have a husband",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I live with my wife",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am not married",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: My civil partnership ended",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am engaged but not married yet",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am in a civil partnership",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am separated",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: Divorced",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: Yes, I am currently married",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: No, I am not married",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I live with my partner, but we are not married",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: Yes, I have a spouse",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am currently single",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am divorced",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I was married before, but now I am widowed",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: My partner and I recently entered a civil partnership",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I do not have a partner",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: Yes, my partner and I are married",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am not married or in a civil partnership",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: My wife and I are expecting a baby",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: My husband and I recently moved to a new city",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am breastfeeding, I have a toddler",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I am in a relationship but not married",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: My partner and I have been together for 5 years but are not married",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: Yes, I have been married for 10 years",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I have been married for 10 years",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: No, I am not in a civil partnership",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: My civil partnership ended last year",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    }
+]

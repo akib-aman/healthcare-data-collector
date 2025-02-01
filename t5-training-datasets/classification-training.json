@@ -136,10 +136,6 @@
       "output": "Detailed Response"
     },
     {
-      "input": "I moved here on January 1st, 2022",
-      "output": "Data Extraction"
-    },
-    {
       "input": "Can you tell me how to register a newborn with a GP?",
       "output": "Detailed Response"
     },
@@ -152,28 +148,1808 @@
       "output": "Detailed Response"
     },
     {
-      "input": "My occupation is teacher",
-      "output": "Data Extraction"
-    },
-    {
       "input": "Can I get a flu vaccine from my GP?",
       "output": "Detailed Response"
-    },
-    {
-      "input": "I am a vegetarian",
-      "output": "Data Extraction"
     },
     {
       "input": "Is there an emergency contact service for GPs after hours?",
       "output": "Detailed Response"
     },
     {
-      "input": "My favorite color is blue",
+      "input": "How do I get a prescription refill from my GP?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you need my ethnicity?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you ask about my gender reassignment?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why does my religion matter for healthcare?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you need my marital status?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "What happens if I don’t want to share my sexual orientation?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why is my age relevant to your questions?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Do I have to disclose if I have a disability?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you keep asking for my gender?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Do I need to let you know if I am pregnant?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "What do you use my data for?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Can I still get care if I don’t share my ethnicity?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "What does my religion have to do with my care?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you ask for sexual orientation?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Do I have to share if I’ve undergone gender reassignment?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you collect data on protected characteristics?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "How does Public Health Scotland use my data?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you ask if I’m breastfeeding?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "How is my religion relevant to healthcare?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you need to know my gender?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "What happens to my data once I give it to you?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you ask for information about pregnancy?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do I need to share my age for GP registration?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Can I skip sharing information about my disability?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you ask about gender reassignment during registration?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "How does sharing my marital status help with my care?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Can I refuse to share information about my religion?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why does being married or single matter for my healthcare?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "What is the purpose of asking about my sexual orientation?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why is data collection necessary in healthcare?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "How does knowing my religion help with treatment?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why does Public Health Scotland need my age and ethnicity?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why is it necessary to ask about disabilities?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why are gender and gender reassignment important for healthcare?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Do I need to share my gender to get proper care?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "What do you use my marital status information for?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why are protected characteristics collected in healthcare?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why does sexual orientation data matter for patients?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you need my religious background?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "What are the benefits of sharing my gender reassignment status?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Can I choose not to share my personal data with my GP?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why does healthcare focus on personal characteristics?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Can I still get care if I don’t share my religion?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "What is the reason for collecting data about pregnancy?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "How does my age affect the care I receive?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "What do you do with the data about my disability?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why do you need information on my marital status?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Why is sexual orientation data collected by GPs?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "How does my gender reassignment status help with care?",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Male",
       "output": "Data Extraction"
     },
     {
-      "input": "How do I get a prescription refill from my GP?",
+      "input": "Female",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Non-binary",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Transgender",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Genderfluid",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Prefer not to say",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "White British",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Black African",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Asian Indian",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Mixed ethnicity",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Hispanic",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Jewish",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Christian",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Muslim",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Mr.",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Mrs.",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Miss",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Mx.",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Dr.",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Professor",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Gay",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Lesbian",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Bisexual",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Heterosexual",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Asexual",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Trans man",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Trans woman",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Scotland",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Edinburgh",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Prefer not to disclose",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Disabled",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Hearing impaired",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Visually impaired",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Wheelchair user",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Deafblind",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Yes",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "No",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Pregnant",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Breastfeeding",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Single",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Married",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Civil partnership",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Separated",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Divorced",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Widowed",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "1980",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "01/01/1990",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Scottish",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Irish",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Asian Pakistani",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Gypsy/Traveller",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Caribbean",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Buddhist",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Hindu",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Sikh",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Humanist",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "No religion",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Cisgender",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Two-Spirit",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Agender",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Demiboy",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Demigirl",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Androgynous",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Bigender",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Intersex",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Pangender",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Third gender",
+      "output": "Data Extraction"
+    },
+
+    {
+      "input": "Currently transitioning",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Completed transition",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Not undergoing transition",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Considering transition",
+      "output": "Data Extraction"
+    },
+
+    {
+      "input": "im 23",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "im 45",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "im 18",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "im 65",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "41",
+      "output": "Data Extraction"
+    },
+
+    {
+      "input": "Chronic pain",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Dyslexic",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Autistic",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "ADHD",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Epilepsy",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Mental health condition",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Learning difficulty",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Long-term health condition",
+      "output": "Data Extraction"
+    },
+
+    {
+      "input": "White Irish",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Arab",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Black Caribbean",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Asian Bangladeshi",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Gypsy or Irish Traveller",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Chinese",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "African",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Other Mixed Background",
+      "output": "Data Extraction"
+    },
+
+    {
+      "input": "Atheist",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Agnostic",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Spiritual but not religious",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Taoist",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Zoroastrian",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Jain",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Shinto",
+      "output": "Data Extraction"
+    },
+
+    {
+      "input": "Queer",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Pansexual",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Omnisexual",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Polysexual",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Questioning",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Straight ally",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Skoliosexual",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "John",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Emily",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Michael",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Sarah",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "David",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Emma",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "James",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Olivia",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Robert",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Charlotte",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "William",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Amelia",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Thomas",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Ava",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Joseph",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Sophia",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Charles",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Mia",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Henry",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Isabella",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Matthew",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Liam",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Benjamin",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Sophia",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Lucas",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Harper",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Edward",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Eleanor",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Christopher",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Victoria",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Daniel",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Hannah",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Samuel",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Grace",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Andrew",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Zoey",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Ryan",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Abigail",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "George",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Elizabeth",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Jonathan",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Victoria",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Patrick",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Ella",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Jason",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Madison",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Timothy",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Scarlett",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Justin",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Penelope",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Ethan",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Nora",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Adam",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Hazel",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Isaac",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Aurora",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Jacob",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Ellie",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Mason",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Aria",
+      "output": "Data Extraction"
+    },
+
+    {
+      "input": "Smith",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Johnson",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Williams",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Brown",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Jones",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Garcia",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Martinez",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Davis",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Rodriguez",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Lopez",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Clark",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Harris",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Lindsay",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Moore",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Taylor",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Anderson",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Thomas",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Lee",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Walker",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "White",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Allen",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Scott",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Mitchell",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Adams",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Phillips",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Carter",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Miller",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Aman",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Akib",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My name is John",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm John",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "John",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My name is Emily",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Emily",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Emily",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My name is Michael",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Michael",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Michael",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My name is Sarah",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Sarah",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Sarah",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My name is David",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm David",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "David",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My name is Emma",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Emma",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Emma",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My name is James",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm James",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "James",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My surname is Smith",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Smith",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Smith",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My surname is Johnson",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Johnson",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Johnson",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My surname is Williams",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Williams",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Williams",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My surname is Brown",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Brown",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Brown",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My surname is Jones",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Jones",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Jones",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My surname is Garcia",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Garcia",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Garcia",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My surname is Martinez",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Martinez",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Martinez",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My surname is Davis",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Davis",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Davis",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My surname is Lopez",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Lopez",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Lopez",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My name is Akib",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Akib",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Akib",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "My name is Aman",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I'm Aman",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Aman",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I was assigned female at birth",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I have a disability",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My marital status is single",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My first name is John",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My address is 123 Elm Street",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I identify as non-binary",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am a UK citizen",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I identify as non-binary",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My title is Dr.",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I practice Buddhism",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am of African descent",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am not comfortable disclosing my marital status",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My address is 123 Elm Street",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My title is Dr.",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My title is Dr.",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am of African descent",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I have a disability",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My last name is Doe",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am Mr. Smith",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My ethnicity is Asian",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My marital status is single",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I was assigned female at birth",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My title is Dr.",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My first name is John",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am a UK citizen",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My last name is Doe",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My first name is John",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I identify as non-binary",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am Mr. Smith",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am a UK citizen",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My sexual orientation is bisexual",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I was assigned female at birth",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am of African descent",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am a male",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I practice Buddhism",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My marital status is single",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My first name is John",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My sexual orientation is bisexual",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am Mr. Smith",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My phone number is 555-123-4567",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I am not comfortable disclosing my marital status",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My address is 123 Elm Street",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My last name is Doe",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My ethnicity is Asian",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My marital status is single",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My first name is John",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My first name is John",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My title is Dr.",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "I have a disability",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "My phone number is 555-123-4567",
+      "output": "Data Extraction"
+  },
+  {
+      "input": "How does knowing my marital status improve my care?",
       "output": "Detailed Response"
-    }
+  },
+  {
+      "input": "Why do you need to know if I am pregnant or breastfeeding?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What do you use my age for in healthcare settings?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can you explain why my gender matters for healthcare?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why is my ethnicity relevant to healthcare policies?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for my ethnicity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What do you use information about my sexual orientation for?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for my ethnicity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do I have to share my religion or belief?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you collect information about gender identity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why is my sexual orientation relevant to my healthcare?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for my marital status?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do I have to share my religion or belief?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How does knowing my marital status improve my care?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do I have to tell you if I have a disability?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What is the purpose of collecting data on protected characteristics?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can you explain why you ask about my religion or belief?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you need information about my race?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can you explain why you ask about my religion or belief?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you collect information about gender identity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why is my sexual orientation relevant to my healthcare?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why is my ethnicity relevant to healthcare policies?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do I have to tell you if I have a disability?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for my ethnicity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you need information about my race?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for my ethnicity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you collect data on my biological sex?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why is my sexual orientation relevant to my healthcare?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What do you use my age for in healthcare settings?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you collect information about gender identity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What do you use my age for in healthcare settings?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How does knowing my marital status improve my care?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why is my ethnicity relevant to healthcare policies?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you collect data on my biological sex?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What is the purpose of collecting data on protected characteristics?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you need information about my race?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you need information about my race?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for my ethnicity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What do you use my age for in healthcare settings?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you need information about my race?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do healthcare providers ask about my ethnicity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you need to know my gender reassignment?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you collect information about gender identity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you collect information about gender identity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for my ethnicity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why is it important to know if I have a disability?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for my ethnicity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you collect information about gender identity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What is the purpose of collecting data on protected characteristics?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do healthcare providers ask about my ethnicity?",
+      "output": "Detailed Response"
+  },
+  {
+    "input": "What can you do?",
+    "output": "Detailed Response"
+  },
+  {
+      "input": "How can you help me?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What kind of assistance do you provide?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can you explain why this data is needed?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for personal information?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What do you do with my data?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can I refuse to provide this information?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Is my data safe?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How do you protect my personal details?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What happens if I don’t share my data?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do healthcare providers need my personal details?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How does my data help public health research?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can you help me fill out this form?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can you guide me through the data collection process?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you need to know my background?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What if I am not comfortable answering these questions?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How long do you store my information?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can I delete my information after submission?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can I update my personal details later?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Who has access to my data?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Do you share my data with third parties?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why does Public Health Scotland collect this information?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How will my answers be used?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask about ethnicity and gender?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What if I don’t want to disclose my religion?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can you clarify why sexual orientation is relevant?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Do I have to answer all the questions?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How do I know my data won’t be misused?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can I see what information you have on me?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why is it important to collect this information?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Does answering these questions affect my healthcare?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What should I do if I’m unsure how to answer?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can you explain what each question means?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What do I do if I made a mistake on my form?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How do I ensure my data is entered correctly?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you need to know about my marital status?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Can I opt out of certain questions?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How does this system improve data collection?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What makes this system better than traditional data collection methods?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How does this system help make healthcare more inclusive?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What do I do if I have additional concerns about data privacy?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Is there someone I can contact for more information?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How do I know my data is being used ethically?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for my nationality?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "How does this system support people with accessibility needs?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What if I don’t want to answer questions about my identity?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why do you ask for gender reassignment information?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "Why is data accuracy important in healthcare?",
+      "output": "Detailed Response"
+  },
+  {
+      "input": "What laws protect my data in Scotland?",
+      "output": "Detailed Response"
+  }
+
   ]
   

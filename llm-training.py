@@ -1,4 +1,6 @@
+import os
 import json
+import torch
 from datasets import Dataset, concatenate_datasets
 from transformers import (
     # T5 imports
@@ -6,6 +8,17 @@ from transformers import (
     # GPT imports
     GPT2Tokenizer, GPT2LMHeadModel, DataCollatorForLanguageModeling
 )
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+# Check GPU availability
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Using device: {device}")
+if torch.cuda.is_available():
+    print(f"GPU: {torch.cuda.get_device_name(0)}")
+else:
+    print(" NO GPU DETECTED! ")
+    exit()
 
 #############################################
 # T5 TRAINING LOGIC
@@ -39,7 +52,7 @@ def train_t5():
                 "output": ex["output"]
             }
         },
-        "classification-training": {
+        "classification_training": {
             "file_path": "./t5-training-datasets/classification-training.json",
             "conversion_logic": lambda ex: {
                 "input": (
@@ -64,7 +77,41 @@ def train_t5():
                 "output": ex["output"]
             }
         },
-        # Add more T5 datasets here if needed
+        "disability_training": {
+            "file_path": "./t5-training-datasets/disability-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the disability from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
+        "ethnicity_training": {
+            "file_path": "./t5-training-datasets/ethnicity-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the ethnicity from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
+        "gender_reassignment_training": {
+            "file_path": "./t5-training-datasets/gender-reassignment-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the gender reassignment from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
+        "marriage_civilrelationship_training": {
+            "file_path": "./t5-training-datasets/marriage-civilrelationship-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the marriage/civil partnership status from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
+        "sexual_orientation_training": {
+            "file_path": "./t5-training-datasets/sexual-orientation-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the sexual orientation from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        }
     }
 
     def load_and_convert_datasets(dataset_paths):
@@ -116,8 +163,8 @@ def train_t5():
     tokenized_dataset = combined_dataset.map(preprocess_function, batched=True)
     tokenized_dataset = tokenized_dataset.remove_columns(["input", "output"])
 
-    # Load the model
-    model = T5ForConditionalGeneration.from_pretrained("t5-small")
+    # Load the model and move it to the device (GPU/CPU)
+    model = T5ForConditionalGeneration.from_pretrained("t5-small").to(device)
 
     # Define training arguments
     training_args = TrainingArguments(
@@ -203,8 +250,8 @@ def train_gpt():
 
     tokenized_dataset = dataset.map(tokenize_function, batched=True)
 
-    # 4. Load GPT-2 model and resize token embeddings (because we added special tokens)
-    model = GPT2LMHeadModel.from_pretrained("gpt2")
+   # 4. Load GPT-2 model, move to device, and resize token embeddings
+    model = GPT2LMHeadModel.from_pretrained("gpt2").to(device)
     model.resize_token_embeddings(len(tokenizer))
 
     training_args = TrainingArguments(
