@@ -1,0 +1,166 @@
+[
+  {
+      "input": "Extract the gender reassignment from this text: I have undergone gender reassignment.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I have never had any gender reassignment treatment.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I'm not trans.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I have completed my gender reassignment surgery.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am currently undergoing hormone therapy as part of my transition.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: No, I have not had gender reassignment.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I transitioned to female three years ago.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I was assigned female at birth and have not transitioned.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am trans but have not started transitioning.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I had surgery as part of my transition.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I do not identify as transgender or have had reassignment surgery.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I started my gender reassignment journey last year.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: No, I have not undergone any procedures for gender reassignment.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am in the process of transitioning.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am not undergoing any gender reassignment treatments.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I transitioned from male to female a few years ago.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am happy with my gender assigned at birth.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I have completed my gender transition.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am not transgender and have not transitioned.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: Yes, I have transitioned to my preferred gender.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I have never undergone any reassignment treatments.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: My gender reassignment was completed two years ago.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I have no plans to transition.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am transgender but have not undergone any medical reassignment.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I had gender reassignment surgery last year.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am not trans or transitioning.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I completed my transition with surgery and hormones.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am in the early stages of my transition.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am not undergoing any gender reassignment process.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I identify as non-binary but have not undergone medical reassignment.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I transitioned to male after years of therapy and treatment.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I have not transitioned or had gender reassignment surgery.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: Yes, I had gender reassignment surgery.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: No, I have never undergone gender reassignment.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am happy with the gender I was assigned at birth.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: My transition is complete.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I have not started transitioning yet.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am undergoing hormone replacement therapy as part of my gender reassignment.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I am cisgender and have not transitioned.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I transitioned from female to male.",
+      "output": "{\"GenderReassignment\": \"Yes\"}"
+  },
+  {
+      "input": "Extract the gender reassignment from this text: I haven’t gone through any gender reassignment process.",
+      "output": "{\"GenderReassignment\": \"No\"}"
+  }
+]

@@ -52,6 +52,14 @@
         "output": "{\"Religion/Belief\": \"Islam\"}"
     },
     {
+        "input": "Extract the religion/belief from this text: Im muslim",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: muslim",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
         "input": "Extract the religion/belief from this text: I practice Hinduism.",
         "output": "{\"Religion/Belief\": \"Hinduism\"}"
     },

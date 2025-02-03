@@ -1,0 +1,166 @@
+[
+    {
+        "input": "Extract the disability from this text: I have a visual impairment.",
+        "output": "{\"Disability\": \"Visual Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have no disability",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: none",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: dont have one",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am blind.",
+        "output": "{\"Disability\": \"Blind\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a hearing impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am deaf.",
+        "output": "{\"Disability\": \"Deaf\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have dyslexia.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am on the autism spectrum.",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have ADHD.",
+        "output": "{\"Disability\": \"ADHD\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I suffer from epilepsy.",
+        "output": "{\"Disability\": \"Epilepsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have multiple sclerosis.",
+        "output": "{\"Disability\": \"Multiple Sclerosis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a mobility impairment.",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I use a wheelchair due to my physical disability.",
+        "output": "{\"Disability\": \"Physical Disability\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have cerebral palsy.",
+        "output": "{\"Disability\": \"Cerebral Palsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I suffer from fibromyalgia.",
+        "output": "{\"Disability\": \"Fibromyalgia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a learning disability.",
+        "output": "{\"Disability\": \"Learning Disability\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a speech impairment.",
+        "output": "{\"Disability\": \"Speech Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have chronic fatigue syndrome.",
+        "output": "{\"Disability\": \"Chronic Fatigue Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have PTSD.",
+        "output": "{\"Disability\": \"Post-Traumatic Stress Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have bipolar disorder.",
+        "output": "{\"Disability\": \"Bipolar Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I suffer from anxiety and depression.",
+        "output": "{\"Disability\": \"Anxiety and Depression\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have obsessive-compulsive disorder.",
+        "output": "{\"Disability\": \"Obsessive-Compulsive Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have schizophrenia.",
+        "output": "{\"Disability\": \"Schizophrenia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a developmental disorder.",
+        "output": "{\"Disability\": \"Developmental Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am diagnosed with Down syndrome.",
+        "output": "{\"Disability\": \"Down Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have spina bifida.",
+        "output": "{\"Disability\": \"Spina Bifida\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I suffer from arthritis.",
+        "output": "{\"Disability\": \"Arthritis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Crohn's disease.",
+        "output": "{\"Disability\": \"Crohn's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have ulcerative colitis.",
+        "output": "{\"Disability\": \"Ulcerative Colitis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am diagnosed with lupus.",
+        "output": "{\"Disability\": \"Lupus\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a sensory processing disorder.",
+        "output": "{\"Disability\": \"Sensory Processing Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have chronic pain.",
+        "output": "{\"Disability\": \"Chronic Pain\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Parkinson's disease.",
+        "output": "{\"Disability\": \"Parkinson's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am deafblind.",
+        "output": "{\"Disability\": \"Deafblind\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I suffer from Tourette syndrome.",
+        "output": "{\"Disability\": \"Tourette Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Alzheimer's disease.",
+        "output": "{\"Disability\": \"Alzheimer's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have chronic obstructive pulmonary disease.",
+        "output": "{\"Disability\": \"Chronic Obstructive Pulmonary Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a heart condition.",
+        "output": "{\"Disability\": \"Heart Condition\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a neurological disorder.",
+        "output": "{\"Disability\": \"Neurological Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am visually impaired and use assistive devices.",
+        "output": "{\"Disability\": \"Visual Impairment\"}"
+    }
+]

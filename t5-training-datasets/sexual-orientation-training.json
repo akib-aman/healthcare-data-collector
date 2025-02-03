@@ -1,0 +1,138 @@
+[
+    {
+        "input": "Extract the sexual orientation from this text: I am heterosexual.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: Im straight.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am gay.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am lesbian.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as bisexual.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: My sexual orientation is asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am pansexual.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am questioning my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am queer.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am demisexual.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am heterosexual and married.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I have no sexual attraction to others. I am asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I feel attraction to people regardless of their gender. I am pansexual.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am a gay man.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am a woman who loves women. I am lesbian.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am romantically and sexually attracted to men and women.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I don’t experience sexual attraction but feel romantic connections.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: My orientation is bisexual.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am queer, and my identity is fluid.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I feel attracted only after deep emotional bonds. I am demisexual.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as pansexual.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am a questioning individual exploring my preferences.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am straight and in a long-term relationship.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am an asexual person.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am a lesbian and proud of my identity.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am pansexual and open to love regardless of gender.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am gay and attracted to the same gender.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I experience deep emotional connections before attraction. I am demisexual.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I feel connected to people of all genders. I identify as queer.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I have romantic feelings but no sexual attraction. I am asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am exploring my sexual identity as I am questioning.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: My sexual orientation is straight.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I love and feel attracted to women and men. I am bisexual.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I am part of the LGBTQ+ community as a gay person.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    }
+]

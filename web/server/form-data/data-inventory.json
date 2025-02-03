@@ -31,19 +31,19 @@
       "Value": ""
     },
     {
-      "Name": "Gender reassignment",
+      "Name": "GenderReassignment",
       "Code": "4",
       "Description": "Strict rules apply; must be stored confidentially",
       "Value": ""
     },
     {
-      "Name": "Marriage/Civil partnership",
+      "Name": "Marriage/CivilPartnership",
       "Code": "5",
       "Description": "May be asked if relevant to care",
       "Value": ""
     },
     {
-      "Name": "Sexual orientation",
+      "Name": "SexualOrientation",
       "Code": "8",
       "Description": "Patient’s sexual orientation, if relevant",
       "Value": ""
@@ -61,7 +61,7 @@
       "Value": ""
     },
     {
-      "Name": "Race",
+      "Name": "Ethnicity",
       "Code": "23",
       "Description": "NHS typically collects 'Ethnicity' instead",
       "Value": ""
