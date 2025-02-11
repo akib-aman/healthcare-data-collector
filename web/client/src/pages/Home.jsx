@@ -8,6 +8,14 @@ function Home() {
   const [formData, setFormData] = useState(null);
   const [sessionId, setSessionId] = useState(null);
   const [activeField, setActiveField] = useState(null); // Start with no active field
+  
+  // NEW: Suggestions state – edit this array to add or remove suggestion bubbles
+  const [suggestions, setSuggestions] = useState([
+    "Who can see my personal information?",
+    "How does this data help improve healthcare services?",
+    "What can you do?"
+  ]);
+
   const chatContainerRef = useRef(null);
 
   // 1. Create session & fetch initial form data on mount
@@ -25,21 +33,12 @@ function Home() {
         const formRes = await axios.post("http://localhost:5000/api/setup", {
           formType: "gp-registration",
         });
-        // If /api/setup returns raw array for "CHARACTERISTICS_ONLY," 
-        // or an object for "FULL_FORM," handle accordingly:
-        // Let's assume "formRes.data" is an array or an object with "Characteristics".
-        // If you are returning { session_id, form }, then adjust accordingly.
         const setupData = formRes.data; 
 
-        // We'll handle the case if it's an array or an object:
-        // If "setupData" is an array of characteristics, 
-        // we can wrap it in an object for consistency:
         let finalFormData = {};
         if (Array.isArray(setupData)) {
-          // It's probably just an array of "Characteristics"
           finalFormData = { Characteristics: setupData };
         } else if (setupData?.Characteristics) {
-          // It's a "FULL_FORM" style object
           finalFormData = setupData;
         }
 
@@ -55,15 +54,17 @@ function Home() {
           setMessages([
             {
               type: "bot",
-              text: "Hello! I'm DoctorBot. I'm here to help you fill out a GP Registration form for Public Health Scotland. Let's begin firstly by giving us your " + firstField,
-            }
+              text:
+                "Hello! I'm DoctorBot. I'm here to help you fill out a GP Registration form for Public Health Scotland. Let's begin firstly by giving us your " +
+                firstField,
+            },
           ]);
         } else {
-          // If no fields, just keep the initial bot message
           setMessages([
             {
               type: "bot",
-              text: "Hello! I'm DoctorBot. I'm here to help you fill out a GP Registration form for Public Health Scotland. Let's begin!",
+              text:
+                "Hello! I'm DoctorBot. I'm here to help you fill out a GP Registration form for Public Health Scotland. Let's begin!",
             },
           ]);
         }
@@ -100,14 +101,10 @@ function Home() {
   // 4. Submit user prompt
   const handleSubmit = async (event) => {
     event.preventDefault();
-  
-    // Prepend the command for the active field
-    // const fieldPrompt = activeField ? fieldCommands[activeField] || "" : "";
-    // const fullPrompt = `${fieldPrompt}${prompt}`;
-  
+
     // Add user message to chat
     setMessages((prev) => [...prev, { type: "user", text: prompt }]);
-  
+
     try {
       // Send prompt & session ID to Flask
       const res = await axios.post("http://localhost:5000/api/prompt", {
@@ -115,27 +112,27 @@ function Home() {
         field: activeField,
         session_id: sessionId,
       });
-  
+
       const { response, updated_form } = res.data;
-  
+
       // Add bot response to chat
       setMessages((prev) => [...prev, { type: "bot", text: response }]);
-  
+
       // If there's an updated form, check for changes and move to the next field
       if (updated_form) {
         const previousForm = formData;
         const updatedCharacteristics = updated_form.Characteristics;
-  
+
         // Check if any field value was updated
         const fieldUpdated = updatedCharacteristics.some((item, index) => {
           const prevValue = previousForm.Characteristics[index]?.Value || "";
           const newValue = item.Value || "";
-          return prevValue !== newValue; // Return true if the value has changed
+          return prevValue !== newValue;
         });
-  
+
         if (fieldUpdated) {
           setFormData(updated_form);
-  
+
           // Automatically move to the next field
           const characteristics = updatedCharacteristics;
           const currentIndex = characteristics.findIndex(
@@ -144,7 +141,7 @@ function Home() {
           if (currentIndex !== -1 && currentIndex + 1 < characteristics.length) {
             const nextField = characteristics[currentIndex + 1].Name.toLowerCase();
             setActiveField(nextField);
-  
+
             // Notify the user about the next field
             setMessages((prev) => [
               ...prev,
@@ -158,18 +155,84 @@ function Home() {
       }
     } catch (error) {
       console.error("Error sending prompt:", error);
-  
+
       // Add error message to the chat
       setMessages((prev) => [
         ...prev,
         { type: "bot", text: "Error: Unable to fetch response from the server." },
       ]);
     }
-  
+
     // Clear input
     setPrompt("");
   };
-  
+
+  // NEW: Handle suggestion bubble click
+  const handleSuggestionClick = async (suggestion) => {
+    // Remove the clicked suggestion from the suggestions list
+    setSuggestions((prev) => prev.filter((s) => s !== suggestion));
+
+    // Simulate user sending the suggestion
+    setMessages((prev) => [...prev, { type: "user", text: suggestion }]);
+
+    try {
+      // Send the suggestion as prompt to the API
+      const res = await axios.post("http://localhost:5000/api/prompt", {
+        prompt: suggestion,
+        field: activeField,
+        session_id: sessionId,
+      });
+
+      const { response, updated_form } = res.data;
+
+      // Add bot response to chat
+      setMessages((prev) => [...prev, { type: "bot", text: response }]);
+
+      // If there's an updated form, check for changes and move to the next field
+      if (updated_form) {
+        const previousForm = formData;
+        const updatedCharacteristics = updated_form.Characteristics;
+
+        const fieldUpdated = updatedCharacteristics.some((item, index) => {
+          const prevValue = previousForm.Characteristics[index]?.Value || "";
+          const newValue = item.Value || "";
+          return prevValue !== newValue;
+        });
+
+        if (fieldUpdated) {
+          setFormData(updated_form);
+
+          // Automatically move to the next field
+          const characteristics = updatedCharacteristics;
+          const currentIndex = characteristics.findIndex(
+            (item) => item.Name.toLowerCase() === activeField
+          );
+          if (currentIndex !== -1 && currentIndex + 1 < characteristics.length) {
+            const nextField = characteristics[currentIndex + 1].Name.toLowerCase();
+            setActiveField(nextField);
+
+            // Notify the user about the next field
+            setMessages((prev) => [
+              ...prev,
+              {
+                type: "bot",
+                text: `Great! Now let's move on to the ${nextField} field.`,
+              },
+            ]);
+          }
+        }
+      }
+    } catch (error) {
+      console.error("Error sending suggestion prompt:", error);
+
+      // Add error message to the chat
+      setMessages((prev) => [
+        ...prev,
+        { type: "bot", text: "Error: Unable to fetch response from the server." },
+      ]);
+    }
+  };
+
   // Render the table with form fields
   const renderCharacteristicsTable = () => {
     if (!formData || !formData.Characteristics) {
@@ -240,6 +303,21 @@ function Home() {
             </div>
           ))}
         </div>
+
+        {/* NEW: Suggestion Bubbles (positioned above the text input) */}
+        {suggestions.length > 0 && (
+          <div className="flex flex-wrap gap-2 p-2">
+            {suggestions.map((suggestion, index) => (
+              <div
+                key={index}
+                onClick={() => handleSuggestionClick(suggestion)}
+                className="cursor-pointer bg-blue-500 hover:bg-blue-600 px-3 py-1 rounded"
+              >
+                <p className="text-sm text-white">{suggestion}</p>
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* Prompt Input Form */}
         <form onSubmit={handleSubmit} className="flex items-center gap-2 mt-auto">
