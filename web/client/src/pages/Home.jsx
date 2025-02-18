@@ -278,7 +278,7 @@ function Home() {
     <div className="flex min-h-[70vh]">
       {/* Left side (Chat Container) */}
       <div className="w-3/5 p-4 bg-white border border-gray-300 rounded-lg shadow-md flex flex-col">
-        <div ref={chatContainerRef} className="flex flex-col overflow-y-auto h-[80vh] p-2">
+        <div ref={chatContainerRef} className="flex flex-col overflow-y-auto h-[70vh] p-2">
           {messages.map((message, index) => (
             <div
               key={index}
