@@ -461,7 +461,7 @@
     },
     {
       "question": "What can you do?",
-      "answer": "Our system is designed to assist you with understanding why certain personal information is collected in healthcare settings, how it is used, and how it is securely stored. We can provide explanations on sensitive data categories such as ethnicity, sexual orientation, gender, and disability, ensuring full transparency in data collection."
+      "answer": "This system is designed to assist you with understanding why certain personal information is collected in healthcare settings, how it is used, and how it is securely stored. We can provide explanations on sensitive data categories such as ethnicity, sexual orientation, gender, and disability, ensuring full transparency in data collection!"
     },
     {
         "question": "Why do you collect information about my ethnicity?",
@@ -557,7 +557,7 @@
     },
     {
         "question": "How does this data help improve healthcare services?",
-        "answer": "By analyzing trends in health conditions across different demographics, we can make improvements in service delivery, allocate resources efficiently, and develop public health policies that benefit everyone."
+        "answer": "By analyzing trends in health conditions across different demographics, we can make improvements in service delivery (such as registration time), allocate resources efficiently, and develop public health policies that benefit everyone."
     },
     {
         "question": "Will I still receive care if I refuse to provide this information?",

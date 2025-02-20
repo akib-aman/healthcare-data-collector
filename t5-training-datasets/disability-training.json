@@ -162,5 +162,883 @@
     {
         "input": "Extract the disability from this text: I am visually impaired and use assistive devices.",
         "output": "{\"Disability\": \"Visual Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a visual impairment.",
+        "output": "{\"Disability\": \"Visual Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have no disability.",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: none",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: dont have one",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am blind.",
+        "output": "{\"Disability\": \"Blind\"}"
+    },
+    {
+        "input": "Extract the disability from this text: can't see properly",
+        "output": "{\"Disability\": \"Visual Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i cant hear well",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have ADHD.",
+        "output": "{\"Disability\": \"ADHD\"}"
+    },
+    {
+        "input": "Extract the disability from this text: got autism",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I'm on the spectrum.",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have dyspraxia.",
+        "output": "{\"Disability\": \"Dyspraxia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: My legs don't work well.",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I need a wheelchair.",
+        "output": "{\"Disability\": \"Physical Disability\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i cant use my hands properly",
+        "output": "{\"Disability\": \"Motor Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i have bad joints",
+        "output": "{\"Disability\": \"Arthritis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have fibromyalgia.",
+        "output": "{\"Disability\": \"Fibromyalgia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have MS.",
+        "output": "{\"Disability\": \"Multiple Sclerosis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Parkinson's.",
+        "output": "{\"Disability\": \"Parkinson's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I get seizures.",
+        "output": "{\"Disability\": \"Epilepsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Tourette's.",
+        "output": "{\"Disability\": \"Tourette Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have schizophrenia.",
+        "output": "{\"Disability\": \"Schizophrenia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have PTSD.",
+        "output": "{\"Disability\": \"Post-Traumatic Stress Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my mental health is bad",
+        "output": "{\"Disability\": \"Mental Health Condition\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I struggle with social situations.",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a learning disability.",
+        "output": "{\"Disability\": \"Learning Disability\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have dyslexia.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have trouble reading.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I get really anxious.",
+        "output": "{\"Disability\": \"Anxiety Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have OCD.",
+        "output": "{\"Disability\": \"Obsessive-Compulsive Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am deafblind.",
+        "output": "{\"Disability\": \"Deafblind\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Down syndrome.",
+        "output": "{\"Disability\": \"Down Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have a neurological condition.",
+        "output": "{\"Disability\": \"Neurological Condition\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I get very tired all the time.",
+        "output": "{\"Disability\": \"Chronic Fatigue Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have asthma and it's bad.",
+        "output": "{\"Disability\": \"Severe Asthma\"}"
+    },
+    {
+        "input": "Extract the disability from this text: My hearing is not good.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have trouble speaking.",
+        "output": "{\"Disability\": \"Speech Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have sickle cell disease.",
+        "output": "{\"Disability\": \"Sickle Cell Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Crohn's disease.",
+        "output": "{\"Disability\": \"Crohn's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have ulcerative colitis.",
+        "output": "{\"Disability\": \"Ulcerative Colitis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have lupus.",
+        "output": "{\"Disability\": \"Lupus\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have diabetes and it affects me.",
+        "output": "{\"Disability\": \"Diabetes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have spina bifida.",
+        "output": "{\"Disability\": \"Spina Bifida\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I am paralysed.",
+        "output": "{\"Disability\": \"Paralysis\"}"
+    },
+
+    {
+        "input": "Extract the disability from this text: I have kidney disease.",
+        "output": "{\"Disability\": \"Chronic Kidney Disease\"}"
+    },
+
+    {
+        "input": "Extract the disability from this text: I have a heart condition.",
+        "output": "{\"Disability\": \"Heart Condition\"}"
+    },
+    {
+        "input": "Extract the disability from this text: My memory is really bad.",
+        "output": "{\"Disability\": \"Memory Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i cant see properly",
+        "output": "{\"Disability\": \"Visual Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: blind",
+        "output": "{\"Disability\": \"Blind\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i need glasses but im not blind",
+        "output": "{\"Disability\": \"Visual Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i wear hearing aids",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: can't hear without my cochlear implant",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i have dyslexia n struggle to read",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: adhd",
+        "output": "{\"Disability\": \"ADHD\"}"
+    },
+    {
+        "input": "Extract the disability from this text: got autism",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i am autistic",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: bad anxiety",
+        "output": "{\"Disability\": \"Anxiety Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i have bad depression",
+        "output": "{\"Disability\": \"Depression\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i have ptsd from an accident",
+        "output": "{\"Disability\": \"Post-Traumatic Stress Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my hands don't work properly",
+        "output": "{\"Disability\": \"Motor Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: chronic pain every day",
+        "output": "{\"Disability\": \"Chronic Pain\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i use a wheelchair",
+        "output": "{\"Disability\": \"Physical Disability\"}"
+    },
+    {
+        "input": "Extract the disability from this text: no disability at all",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got arthritis in my hands",
+        "output": "{\"Disability\": \"Arthritis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: bad back pain always",
+        "output": "{\"Disability\": \"Chronic Pain\"}"
+    },
+    {
+        "input": "Extract the disability from this text: fibromyalgia makes it hard to work",
+        "output": "{\"Disability\": \"Fibromyalgia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i have tourettes",
+        "output": "{\"Disability\": \"Tourette Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: speech impairment",
+        "output": "{\"Disability\": \"Speech Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: can't talk properly",
+        "output": "{\"Disability\": \"Speech Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i had a stroke n now i cant move my arm",
+        "output": "{\"Disability\": \"Paralysis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: got cerebral palsy",
+        "output": "{\"Disability\": \"Cerebral Palsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have MS",
+        "output": "{\"Disability\": \"Multiple Sclerosis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: parkinsons",
+        "output": "{\"Disability\": \"Parkinson's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: seizures sometimes",
+        "output": "{\"Disability\": \"Epilepsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: ocd",
+        "output": "{\"Disability\": \"Obsessive-Compulsive Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: crohns",
+        "output": "{\"Disability\": \"Crohn's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: ulcerative colitis",
+        "output": "{\"Disability\": \"Ulcerative Colitis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i have lupus",
+        "output": "{\"Disability\": \"Lupus\"}"
+    },
+    {
+        "input": "Extract the disability from this text: weak memory forget things often",
+        "output": "{\"Disability\": \"Memory Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: alzheimers runs in my family, i got early signs",
+        "output": "{\"Disability\": \"Alzheimer's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got kidney disease",
+        "output": "{\"Disability\": \"Chronic Kidney Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: breathing problems all the time",
+        "output": "{\"Disability\": \"Chronic Respiratory Condition\"}"
+    },
+    {
+        "input": "Extract the disability from this text: bad asthma",
+        "output": "{\"Disability\": \"Severe Asthma\"}"
+    },
+    {
+        "input": "Extract the disability from this text: scoliosis in my back",
+        "output": "{\"Disability\": \"Scoliosis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i had spinal injury, can't walk properly",
+        "output": "{\"Disability\": \"Spinal Injury\"}"
+    },
+    {
+        "input": "Extract the disability from this text: migraines that never stop",
+        "output": "{\"Disability\": \"Chronic Migraines\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i have hearing loss",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: bad joints all over",
+        "output": "{\"Disability\": \"Arthritis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: chronic fatigue everyday",
+        "output": "{\"Disability\": \"Chronic Fatigue Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: bipolar disorder",
+        "output": "{\"Disability\": \"Bipolar Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my legs r weak all the time",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: not disabled",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: nope no disability",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got chronic back pain",
+        "output": "{\"Disability\": \"Chronic Pain\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my knees are bad i cant walk too far",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got nerve damage",
+        "output": "{\"Disability\": \"Neuropathy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i have bad balance due to my condition",
+        "output": "{\"Disability\": \"Balance Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I got long covid and I struggle to breathe",
+        "output": "{\"Disability\": \"Long COVID\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i cant move my left arm properly",
+        "output": "{\"Disability\": \"Paralysis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I had a stroke, my right side is weak",
+        "output": "{\"Disability\": \"Stroke-related Disability\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I got diabetes and it messes with my eyesight",
+        "output": "{\"Disability\": \"Diabetes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my joints are stiff all the time",
+        "output": "{\"Disability\": \"Arthritis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I get migraines a lot",
+        "output": "{\"Disability\": \"Chronic Migraines\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I cant concentrate well i have adhd",
+        "output": "{\"Disability\": \"ADHD\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my hands shake a lot its hard to hold things",
+        "output": "{\"Disability\": \"Essential Tremor\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my brain is slow from a brain injury",
+        "output": "{\"Disability\": \"Brain Injury\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got dyspraxia",
+        "output": "{\"Disability\": \"Dyspraxia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i need help remembering stuff",
+        "output": "{\"Disability\": \"Memory Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my muscles r weak",
+        "output": "{\"Disability\": \"Muscular Dystrophy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my bones break easily",
+        "output": "{\"Disability\": \"Osteogenesis Imperfecta\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got a spinal injury",
+        "output": "{\"Disability\": \"Spinal Cord Injury\"}"
+    },
+    {
+        "input": "Extract the disability from this text: im hard of hearing",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my lungs dont work well",
+        "output": "{\"Disability\": \"Chronic Respiratory Condition\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i get dizzy all the time",
+        "output": "{\"Disability\": \"Balance Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i cant sit for too long it hurts",
+        "output": "{\"Disability\": \"Chronic Pain\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got a deformed foot",
+        "output": "{\"Disability\": \"Congenital Limb Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my skin is sensitive to sunlight",
+        "output": "{\"Disability\": \"Lupus\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i get panic attacks often",
+        "output": "{\"Disability\": \"Anxiety Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I got sensory issues, loud noises hurt",
+        "output": "{\"Disability\": \"Sensory Processing Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my eyesight is bad even with glasses",
+        "output": "{\"Disability\": \"Visual Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got bad insomnia and it affects my health",
+        "output": "{\"Disability\": \"Sleep Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got a rare condition that affects my muscles",
+        "output": "{\"Disability\": \"Neuromuscular Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my spine is curved",
+        "output": "{\"Disability\": \"Scoliosis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i have a rare genetic disorder",
+        "output": "{\"Disability\": \"Genetic Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i was born with one arm",
+        "output": "{\"Disability\": \"Congenital Limb Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got asthma",
+        "output": "{\"Disability\": \"Asthma\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I cant use my legs",
+        "output": "{\"Disability\": \"Paralysis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my hands hurt all the time",
+        "output": "{\"Disability\": \"Arthritis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i get shaky a lot",
+        "output": "{\"Disability\": \"Essential Tremor\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have sickle cell anemia",
+        "output": "{\"Disability\": \"Sickle Cell Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my muscles lock up",
+        "output": "{\"Disability\": \"Spasticity Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I had a traumatic brain injury",
+        "output": "{\"Disability\": \"Brain Injury\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my stomach condition makes me sick all the time",
+        "output": "{\"Disability\": \"Gastrointestinal Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got extreme fatigue",
+        "output": "{\"Disability\": \"Chronic Fatigue Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i got severe migraines daily",
+        "output": "{\"Disability\": \"Chronic Migraines\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my legs are stiff i cant walk far",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: my spine hurts i need surgery",
+        "output": "{\"Disability\": \"Spinal Condition\"}"
+    },
+    {
+        "input": "Extract the disability from this text: posttraumaticstressdisorder",
+        "output": "{\"Disability\": \"Post-Traumatic Stress Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: post traumatic stress disorder",
+        "output": "{\"Disability\": \"Post-Traumatic Stress Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: epilepsy",
+        "output": "{\"Disability\": \"Epilepsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Epilepsy",
+        "output": "{\"Disability\": \"Epilepsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: cerebralpalsy",
+        "output": "{\"Disability\": \"Cerebral Palsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: cerebral palsy",
+        "output": "{\"Disability\": \"Cerebral Palsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: downsyndrome",
+        "output": "{\"Disability\": \"Down Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: down syndrome",
+        "output": "{\"Disability\": \"Down Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: autism",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: autism spectrum disorder",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: musculardystrophy",
+        "output": "{\"Disability\": \"Muscular Dystrophy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: muscular dystrophy",
+        "output": "{\"Disability\": \"Muscular Dystrophy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: parkinsons",
+        "output": "{\"Disability\": \"Parkinson's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: parkinson's disease",
+        "output": "{\"Disability\": \"Parkinson's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: fibromyalgia",
+        "output": "{\"Disability\": \"Fibromyalgia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Fibromyalgia",
+        "output": "{\"Disability\": \"Fibromyalgia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: adhd",
+        "output": "{\"Disability\": \"Attention Deficit Hyperactivity Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: attention deficit hyperactivity disorder",
+        "output": "{\"Disability\": \"Attention Deficit Hyperactivity Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: dyslexia",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Dyslexia",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: schizophrenia",
+        "output": "{\"Disability\": \"Schizophrenia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Schizophrenia",
+        "output": "{\"Disability\": \"Schizophrenia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: ocd",
+        "output": "{\"Disability\": \"Obsessive-Compulsive Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: obsessive compulsive disorder",
+        "output": "{\"Disability\": \"Obsessive-Compulsive Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: spinabifida",
+        "output": "{\"Disability\": \"Spina Bifida\"}"
+    },
+    {
+        "input": "Extract the disability from this text: spina bifida",
+        "output": "{\"Disability\": \"Spina Bifida\"}"
+    },
+    {
+        "input": "Extract the disability from this text: asthma",
+        "output": "{\"Disability\": \"Asthma\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Asthma",
+        "output": "{\"Disability\": \"Asthma\"}"
+    },
+    {
+        "input": "Extract the disability from this text: crohnsdisease",
+        "output": "{\"Disability\": \"Crohn's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: crohn's disease",
+        "output": "{\"Disability\": \"Crohn's Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: diabetes",
+        "output": "{\"Disability\": \"Diabetes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Diabetes",
+        "output": "{\"Disability\": \"Diabetes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: tourettes",
+        "output": "{\"Disability\": \"Tourette Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: tourette syndrome",
+        "output": "{\"Disability\": \"Tourette Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: lupus",
+        "output": "{\"Disability\": \"Lupus\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Lupus",
+        "output": "{\"Disability\": \"Lupus\"}"
+    },
+    {
+        "input": "Extract the disability from this text: sicklecelldisease",
+        "output": "{\"Disability\": \"Sickle Cell Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: sickle cell disease",
+        "output": "{\"Disability\": \"Sickle Cell Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: ulcerativecolitis",
+        "output": "{\"Disability\": \"Ulcerative Colitis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: ulcerative colitis",
+        "output": "{\"Disability\": \"Ulcerative Colitis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: motorneuronedisease",
+        "output": "{\"Disability\": \"Motor Neurone Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: motor neurone disease",
+        "output": "{\"Disability\": \"Motor Neurone Disease\"}"
+    },
+    {
+        "input": "Extract the disability from this text: chronicfatiguesyndrome",
+        "output": "{\"Disability\": \"Chronic Fatigue Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: chronic fatigue syndrome",
+        "output": "{\"Disability\": \"Chronic Fatigue Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I'd rather not say.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I prefer not to disclose that.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I don't feel comfortable sharing.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: That's personal information.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I’d rather keep that private.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Not something I want to talk about.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: That’s my business.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I'd like to keep that to myself.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I won’t be answering that.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I don’t wish to disclose that.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Not relevant.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: That’s private information.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I'd rather not answer.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: That's not something I share.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I keep that personal.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: That’s not for discussion.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I'd rather not disclose.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I choose not to answer.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: No comment.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I’ll pass on that question.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I’m keeping that private.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I don’t feel like answering.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: No thanks, I’ll keep that to myself.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Not something I disclose.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Not your concern.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: That’s for me to know.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I keep that to myself.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I choose not to share that information.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I don't discuss that.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have nothing to say about that.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Skipping this one.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Not answering.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I decline to answer.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I’d rather not get into that.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Not something I discuss.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: It’s not necessary to answer that.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: It’s complicated.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have my reasons for not saying.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the disability from this text: That’s between me and my doctor.",
+        "output": "{\"Disability\": \"Prefer Not to Say\"}"
     }
 ]
