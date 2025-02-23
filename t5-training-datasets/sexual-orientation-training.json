@@ -134,5 +134,1489 @@
     {
         "input": "Extract the sexual orientation from this text: I am part of the LGBTQ+ community as a gay person.",
         "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight as an arrow.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay as a rainbow.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, no doubt about it.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud of it.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and that’s just me.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I love all genders.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m still figuring it out, so I’m questioning.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and my identity is fluid.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I need that emotional connection.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, but I support everyone.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be me.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I love women.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m attracted to both men and women.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I don’t feel sexual attraction.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I don’t care about gender.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m still exploring.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud of who I am.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I need that deep bond first.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m in a happy relationship.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m living my best life.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud of my identity.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m open to love from anyone.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m happy with who I am.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m attracted to people, not genders.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m taking my time.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I need that emotional connection first.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud of who I am.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to love women.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to love both men and women.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to love people regardless of gender.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to explore my identity.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be me.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to need that emotional bond.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be who I am.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m queer, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m demi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m straight, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m gay, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Gay\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m a lesbian, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Lesbian\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m bi, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m ace, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m pan, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m questioning, and I’m proud to be part of the LGBTQ+ community.",
+        "output": "{\"SexualOrientation\": \"Questioning\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I prefer not to disclose.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather keep it private.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’m not comfortable sharing.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not answer that.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d prefer not to say.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not discuss it.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not share that.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not reveal that.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not go into it.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not specify.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not talk about it.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not disclose that.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not provide that info.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say anything.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not comment.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not go there.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not answer that question.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not share my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not reveal my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not disclose my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not talk about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not discuss my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say anything about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not provide details about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not share details about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not reveal details about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not disclose details about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not talk about details of my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not discuss details of my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say anything about details of my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not provide info about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not share info about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not reveal info about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not disclose info about my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not talk about info of my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not discuss info of my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say anything about info of my orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not provide details about my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not share details about my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not reveal details about my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not disclose details about my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not talk about details of my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not discuss details of my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say anything about details of my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not provide info about my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not share info about my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not reveal info about my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not disclose info about my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not talk about info of my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not discuss info of my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say anything about info of my sexual orientation.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not provide details about my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not share details about my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not reveal details about my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not disclose details about my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not talk about details of my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not discuss details of my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say anything about details of my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not provide info about my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not share info about my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not reveal info about my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not disclose info about my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not talk about info of my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not discuss info of my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I’d rather not say anything about info of my sexuality.",
+        "output": "{\"SexualOrientation\": \"Prefer Not to Say\"}"
     }
 ]

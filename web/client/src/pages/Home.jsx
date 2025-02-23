@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
-import Gangastondog from "../assets/images/gangastondog.jpg";
+import DoctorIcon from "../assets/images/doctoricon.png";
 
 function Home() {
   const [prompt, setPrompt] = useState("");
@@ -294,7 +294,7 @@ function Home() {
               ) : (
                 <>
                   <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center">
-                    <img src={Gangastondog} alt="Bot Icon" className="w-12 h-12 rounded-full" />
+                    <img src={DoctorIcon} alt="Bot Icon" className="w-12 h-12 rounded-full" />
                   </div>
                   <div className="bg-blue-500 p-4 rounded-lg border border-cyan-400 max-w-lg">
                     <p className="text-white text-base font-inter">{message.text}</p>

@@ -1,7 +1,7 @@
 [
     {
         "input": "Extract the religion/belief from this text: I am a Christian.",
-        "output": "{\"Religion/Belief\": \"Christian\"}"
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
     },
     {
         "input": "Extract the religion/belief from this text: My faith is Islam.",
@@ -166,5 +166,1102 @@
     {
         "input": "Extract the religion/belief from this text: I practice Reform Judaism.",
         "output": "{\"Religion/Belief\": \"Reform Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Catholic.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I go to a Methodist church.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm Church of England.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a practising Muslim.",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm Hindu, born and raised.",
+        "output": "{\"Religion/Belief\": \"Hinduism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I meditate as part of my Buddhist practice.",
+        "output": "{\"Religion/Belief\": \"Buddhism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Sikh, and I wear a turban.",
+        "output": "{\"Religion/Belief\": \"Sikhism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm Jewish, and I celebrate Hanukkah.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I don't believe in any god; I'm an atheist.",
+        "output": "{\"Religion/Belief\": \"Atheist\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm not sure if there's a god, so I'm agnostic.",
+        "output": "{\"Religion/Belief\": \"Agnostic\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Wicca and celebrate the solstices.",
+        "output": "{\"Religion/Belief\": \"Wicca\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Quaker and attend meetings.",
+        "output": "{\"Religion/Belief\": \"Quakerism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Jehovah's Witness.",
+        "output": "{\"Religion/Belief\": \"Jehovah's Witnesses\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Mormon.",
+        "output": "{\"Religion/Belief\": \"Latter-day Saints\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Seventh-day Adventist.",
+        "output": "{\"Religion/Belief\": \"Seventh-day Adventist\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Pagan and celebrate nature.",
+        "output": "{\"Religion/Belief\": \"Paganism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Druid and follow ancient Celtic traditions.",
+        "output": "{\"Religion/Belief\": \"Druidry\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Humanist and believe in human values.",
+        "output": "{\"Religion/Belief\": \"Humanism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Unitarian and believe in unity.",
+        "output": "{\"Religion/Belief\": \"Unitarianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Rastafarian and follow the teachings of Haile Selassie.",
+        "output": "{\"Religion/Belief\": \"Rastafarianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Scientologist.",
+        "output": "{\"Religion/Belief\": \"Scientology\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Bahá'í and believe in the unity of all religions.",
+        "output": "{\"Religion/Belief\": \"Bahá'í Faith\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Zoroastrian and follow the teachings of Zarathustra.",
+        "output": "{\"Religion/Belief\": \"Zoroastrianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Jain and practice non-violence.",
+        "output": "{\"Religion/Belief\": \"Jainism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Taoist and follow the Tao Te Ching.",
+        "output": "{\"Religion/Belief\": \"Taoism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Shinto practitioner and honour kami.",
+        "output": "{\"Religion/Belief\": \"Shinto\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Salvation Army.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Pentecostal Christian.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Baptist and believe in adult baptism.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Presbyterian.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Orthodox Church.",
+        "output": "{\"Religion/Belief\": \"Orthodox Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Reform Jew.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Conservative Jew.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm an Orthodox Jew.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Reconstructionist Jew.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Church of Scotland.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the United Reformed Church.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Free Church of Scotland.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Plymouth Brethren.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Exclusive Brethren.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Open Brethren.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Moravian Church.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Religious Society of Friends (Quakers).",
+        "output": "{\"Religion/Belief\": \"Quakerism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Unitarian and Free Christian Churches.",
+        "output": "{\"Religion/Belief\": \"Unitarianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the General Assembly of Unitarian and Free Christian Churches.",
+        "output": "{\"Religion/Belief\": \"Unitarianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Spiritualists' National Union.",
+        "output": "{\"Religion/Belief\": \"Spiritualism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Theosophical Society.",
+        "output": "{\"Religion/Belief\": \"Theosophy\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Anthroposophical Society.",
+        "output": "{\"Religion/Belief\": \"Anthroposophy\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Rosicrucian Order.",
+        "output": "{\"Religion/Belief\": \"Rosicrucianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Order of the Golden Dawn.",
+        "output": "{\"Religion/Belief\": \"Occultism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Church of Scientology.",
+        "output": "{\"Religion/Belief\": \"Scientology\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Church of Jesus Christ of Latter-day Saints.",
+        "output": "{\"Religion/Belief\": \"Latter-day Saints\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Seventh-day Adventist Church.",
+        "output": "{\"Religion/Belief\": \"Seventh-day Adventist\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Jehovah's Witnesses.",
+        "output": "{\"Religion/Belief\": \"Jehovah's Witnesses\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Plymouth Brethren Christian Church.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Exclusive Brethren Christian Church.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Open Brethren Christian Church.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not say.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: That's private.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I don't want to answer that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm not comfortable sharing that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd prefer to keep that to myself.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not disclose that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: That's not something I share.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I don't feel comfortable answering that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather skip that question.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I don't want to talk about that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not go into that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm not going to answer that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not discuss that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not provide that information.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not give that information.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not say anything about that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not comment on that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not respond to that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not touch on that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not address that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not get into that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not dive into that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my situation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my situation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my situation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my details.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my details.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my details.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my info.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my info.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my info.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my personal info.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my personal info.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my personal info.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my private info.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my private info.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my private info.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my personal life.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my personal life.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my personal life.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my private life.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my private life.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my private life.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my relationship status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my relationship status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my relationship status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my marital status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my marital status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my marital status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my civil partnership status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my civil partnership status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not tell you my civil partnership status.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a devout Catholic.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I attend a Baptist church every Sunday.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I was raised in the Church of England.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a practising Muslim and pray five times a day.",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm Hindu and celebrate Diwali every year.",
+        "output": "{\"Religion/Belief\": \"Hinduism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I meditate daily as part of my Buddhist practice.",
+        "output": "{\"Religion/Belief\": \"Buddhism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Sikh and wear a kara.",
+        "output": "{\"Religion/Belief\": \"Sikhism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm Jewish and observe Shabbat.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I don't believe in any religion; I'm an atheist.",
+        "output": "{\"Religion/Belief\": \"Atheist\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm not sure about the existence of God; I'm agnostic.",
+        "output": "{\"Religion/Belief\": \"Agnostic\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Wicca and celebrate the full moon.",
+        "output": "{\"Religion/Belief\": \"Wicca\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Quaker and believe in peace.",
+        "output": "{\"Religion/Belief\": \"Quakerism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Jehovah's Witness and go door-to-door.",
+        "output": "{\"Religion/Belief\": \"Jehovah's Witnesses\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Mormon and attend the temple regularly.",
+        "output": "{\"Religion/Belief\": \"Latter-day Saints\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Seventh-day Adventist and keep the Sabbath.",
+        "output": "{\"Religion/Belief\": \"Seventh-day Adventist\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Pagan and honour nature.",
+        "output": "{\"Religion/Belief\": \"Paganism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Druid and celebrate the solstices.",
+        "output": "{\"Religion/Belief\": \"Druidry\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Humanist and believe in ethical living.",
+        "output": "{\"Religion/Belief\": \"Humanism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Unitarian and believe in unity among all faiths.",
+        "output": "{\"Religion/Belief\": \"Unitarianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Rastafarian and follow the teachings of Haile Selassie.",
+        "output": "{\"Religion/Belief\": \"Rastafarianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Scientologist and believe in the teachings of L. Ron Hubbard.",
+        "output": "{\"Religion/Belief\": \"Scientology\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Bahá'í and believe in the unity of humanity.",
+        "output": "{\"Religion/Belief\": \"Bahá'í Faith\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Zoroastrian and follow the teachings of Zarathustra.",
+        "output": "{\"Religion/Belief\": \"Zoroastrianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Jain and practice ahimsa (non-violence).",
+        "output": "{\"Religion/Belief\": \"Jainism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Taoist and follow the Tao Te Ching.",
+        "output": "{\"Religion/Belief\": \"Taoism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Shinto practitioner and honour kami (spirits).",
+        "output": "{\"Religion/Belief\": \"Shinto\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Salvation Army and help the needy.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Pentecostal Christian and speak in tongues.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Baptist and believe in adult baptism.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Presbyterian and follow Calvinist teachings.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Orthodox Church and follow Eastern traditions.",
+        "output": "{\"Religion/Belief\": \"Orthodox Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Reform Jew and celebrate modern interpretations of Judaism.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Conservative Jew and follow traditional practices.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm an Orthodox Jew and strictly observe the Torah.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a Reconstructionist Jew and focus on evolving traditions.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Church of Scotland and follow Presbyterianism.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the United Reformed Church and believe in unity.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Free Church of Scotland and follow evangelical teachings.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Plymouth Brethren and follow strict biblical teachings.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Exclusive Brethren and avoid worldly influences.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Open Brethren and believe in open fellowship.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Moravian Church and follow Protestant traditions.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Religious Society of Friends (Quakers) and believe in inner light.",
+        "output": "{\"Religion/Belief\": \"Quakerism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Unitarian and Free Christian Churches and believe in free thought.",
+        "output": "{\"Religion/Belief\": \"Unitarianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the General Assembly of Unitarian and Free Christian Churches and believe in unity.",
+        "output": "{\"Religion/Belief\": \"Unitarianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Spiritualists' National Union and believe in communication with spirits.",
+        "output": "{\"Religion/Belief\": \"Spiritualism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Theosophical Society and believe in universal brotherhood.",
+        "output": "{\"Religion/Belief\": \"Theosophy\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Anthroposophical Society and believe in spiritual science.",
+        "output": "{\"Religion/Belief\": \"Anthroposophy\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Rosicrucian Order and follow esoteric teachings.",
+        "output": "{\"Religion/Belief\": \"Rosicrucianism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Order of the Golden Dawn and study occultism.",
+        "output": "{\"Religion/Belief\": \"Occultism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Church of Scientology and follow the teachings of L. Ron Hubbard.",
+        "output": "{\"Religion/Belief\": \"Scientology\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Church of Jesus Christ of Latter-day Saints and believe in modern revelation.",
+        "output": "{\"Religion/Belief\": \"Latter-day Saints\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Seventh-day Adventist Church and observe the Sabbath on Saturday.",
+        "output": "{\"Religion/Belief\": \"Seventh-day Adventist\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Jehovah's Witnesses and believe in the Kingdom of God.",
+        "output": "{\"Religion/Belief\": \"Jehovah's Witnesses\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Plymouth Brethren Christian Church and follow strict biblical teachings.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Exclusive Brethren Christian Church and avoid worldly influences.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm a member of the Open Brethren Christian Church and believe in open fellowship.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not say anything about my beliefs.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: That's not something I want to discuss.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm not comfortable sharing my religion.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd prefer to keep my beliefs private.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I don't feel like answering that.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not go into detail about my faith.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'm not going to share my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my spiritual beliefs.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not disclose my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my spiritual practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my faith.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religion.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not discuss my beliefs.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not reveal my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my spiritual life.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not discuss my faith.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my spiritual journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious journey.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious experiences.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious practices.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious identity.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious background.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not talk about my religious views.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I'd rather not share my religious affiliation.",
+        "output": "{\"Religion/Belief\": \"Prefer Not to Say\"}"
     }
+
 ]
