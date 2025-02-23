@@ -209,10 +209,19 @@ def handle_prompt(prompt: str, session_form: dict, field: str):
         t5_output = generate_with_t5(t5_input)
         try:
             extracted_fields = json.loads(t5_output)
+
+            # Validate that the extracted fields match the expected field keys
+            invalid_fields = [key for key in extracted_fields.keys() if key.lower() not in field_commands]
+
+            if invalid_fields:
+                return f"Sorry! I didn't quite catch your command, let's try again!\n\nUnexpected output: {t5_output}", session_form
+
+            # If everything is valid, update the form
             update_form(session_form, extracted_fields)
             return json.dumps(extracted_fields, indent=4), session_form
+
         except json.JSONDecodeError:
-            return f"Error: Invalid JSON output. T5 said: {t5_output}", session_form
+            return f"Error: Invalid JSON output. T5 said:\n{t5_output}", session_form
 
     elif "Detailed Response" in decision:
         # For a detailed response, use GPT

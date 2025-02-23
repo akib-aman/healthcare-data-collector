@@ -376,6 +376,14 @@
       "output": "Data Extraction"
     },
     {
+      "input": "I dont want to tell you",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Why do I need to tell you this",
+      "output": "Detailed Response"
+    },
+    {
       "input": "White British",
       "output": "Data Extraction"
     },

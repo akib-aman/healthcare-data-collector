@@ -56,7 +56,8 @@ function Home() {
               type: "bot",
               text:
                 "Hello! I'm DoctorBot. I'm here to help you fill out a GP Registration form for Public Health Scotland. Let's begin firstly by giving us your " +
-                firstField,
+                firstField +
+                "!",
             },
           ]);
         } else {
