@@ -91,11 +91,11 @@ function Home() {
   }, [messages]);
 
   // 3. Handle field click
-  const handleFieldClick = (field) => {
-    setActiveField(field);
+  const handleFieldClick = (item) => {
+    setActiveField(item.Name.toLowerCase());
     setMessages((prev) => [
       ...prev,
-      { type: "bot", text: `You are now editing the ${field} field.` },
+      { type: "bot", text: `You are now editing the ${item.Label} field.` },
     ]);
   };
 
@@ -141,6 +141,12 @@ function Home() {
           );
           if (currentIndex !== -1 && currentIndex + 1 < characteristics.length) {
             const nextField = characteristics[currentIndex + 1].Name.toLowerCase();
+            const nextFieldLabel = characteristics[currentIndex + 1].Label;
+            const potentialDescription = characteristics[currentIndex + 1].Description;
+            let chatString = `Thank you, we are now going to ask you about ${nextFieldLabel}.`;
+            if (potentialDescription){
+              chatString += '\nDefinition: ' + potentialDescription;
+            };
             setActiveField(nextField);
 
             // Notify the user about the next field
@@ -148,7 +154,7 @@ function Home() {
               ...prev,
               {
                 type: "bot",
-                text: `Great! Now let's move on to the ${nextField} field.`,
+                text: chatString,
               },
             ]);
           }
@@ -210,6 +216,7 @@ function Home() {
           );
           if (currentIndex !== -1 && currentIndex + 1 < characteristics.length) {
             const nextField = characteristics[currentIndex + 1].Name.toLowerCase();
+            const nextFieldLabel = characteristics[currentIndex + 1].Label;
             setActiveField(nextField);
 
             // Notify the user about the next field
@@ -217,7 +224,7 @@ function Home() {
               ...prev,
               {
                 type: "bot",
-                text: `Great! Now let's move on to the ${nextField} field.`,
+                text: `Great! Now let's move on to the ${nextFieldLabel} field.`,
               },
             ]);
           }
@@ -260,11 +267,11 @@ function Home() {
               <tr
                 key={index}
                 className={`cursor-pointer ${activeField === fieldName ? "bg-blue-100" : ""}`}
-                onClick={() => handleFieldClick(fieldName)}
+                onClick={() => handleFieldClick(item)}
               >
-                <td className="border px-3 py-2 font-semibold">{item.Name || "N/A"}</td>
+                <td className="border px-3 py-2 font-semibold">{item.Label || ""}</td>
                 <td className="border px-3 py-2">
-                  {item.Value && String(item.Value).trim() !== "" ? item.Value : "N/A"}
+                  {item.Value && String(item.Value).trim() !== "" ? item.Value : ""}
                 </td>
               </tr>
             );

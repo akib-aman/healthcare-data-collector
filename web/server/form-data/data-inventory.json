@@ -2,73 +2,77 @@
   "Characteristics": [
     {
       "Name": "Title",
+      "Label": "Title",
       "Code": "1",
-      "Description": "Salutation used to address the patient",
       "Value": ""
     },
     {
       "Name": "FirstName",
+      "Label": "First Name",
       "Code": "6",
-      "Description": "Legal or preferred first name",
       "Value": ""
     },
     {
       "Name": "LastName",
+      "Label": "Last Name",
       "Code": "7",
-      "Description": "Legal or preferred last name",
       "Value": ""
     },
     {
       "Name": "Age",
+      "Label": "Age",
       "Code": "2",
-      "Description": "Age stored as an integer; possibly derived from date of birth.",
       "Value": ""
     },
     {
       "Name": "Sex",
+      "Label": "Sex",
       "Code": "3",
-      "Description": "Usually male or female; different from gender identity",
       "Value": ""
     },
     {
       "Name": "GenderReassignment",
+      "Label": "Gender Reassignment",
       "Code": "4",
       "Description": "Anyone whose gender identity differs from the sex they were registered at birth. This includes but is not limited to, trans men/women, and non binary people.",
       "Value": ""
     },
     {
       "Name": "Marriage/CivilPartnership",
+      "Label": "Marriage/Civil Partnership",
       "Code": "5",
-      "Description": "May be asked if relevant to care",
       "Value": ""
     },
     {
       "Name": "SexualOrientation",
+      "Label": "Sexual Orientation",
       "Code": "8",
-      "Description": "Patient’s sexual orientation, if relevant",
       "Value": ""
     },
     {
       "Name": "Disability",
+      "Label": "Disability",
       "Code": "18",
       "Description": "Individuals with impairments or differences that society does not fully accommodate, facing daily barriers.",
       "Value": ""
     },
     {
       "Name": "Religion/Belief",
+      "Label": "Religion/Belief",
       "Code": "21",
       "Description": "The set of beliefs, practices, principles, values, and teachings that individuals hold based on their faith",
       "Value": ""
     },
     {
       "Name": "Ethnicity",
+      "Label": "Ethnicity",
       "Code": "23",
       "Description": "Long shared cultural experiences, religious practices, traditions, ancestry, language, dialect or national origins",
       "Value": ""
     },
     {
       "Name": "Pregnancy/Maternity",
-      "Description": "Asked as 'Are you currently pregnant or breastfeeding?'",
+      "Label": "Pregnancy/Maternity",
       "Value": ""
     }
   ],

@@ -1,0 +1,26 @@
+[
+    {
+        "input": "Extract the pregnancy/maternity from this text: yes",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I am",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I am not",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: no",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: dont want to say",
+        "output": "{\"Marriage/CivilPartnership\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: This is personal",
+        "output": "{\"Marriage/CivilPartnership\": \"Prefer Not to Say\"}"
+    }
+]
