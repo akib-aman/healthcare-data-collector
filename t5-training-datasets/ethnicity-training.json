@@ -29,7 +29,7 @@
     },
     {
         "input": "Extract the ethnicity from this text: Bangladeshi.",
-        "output": "{\"Ethnicity\": \"Bangladeshi\"}"
+        "output": "{\"Ethnicity\": \"Bengali\"}"
     },
     {
         "input": "Extract the ethnicity from this text: Chinese.",
