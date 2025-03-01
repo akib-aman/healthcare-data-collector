@@ -120,7 +120,7 @@ def train_t5():
             file_path = config["file_path"]
             conversion_logic = config["conversion_logic"]
             # Load the dataset from JSON
-            with open(file_path, "r") as file:
+            with open(file_path, "r", encoding="utf-8") as file:
                 data = json.load(file)
             # Convert to Hugging Face Dataset format
             processed_datasets[dataset_name] = Dataset.from_list([
