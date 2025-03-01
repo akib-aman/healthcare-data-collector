@@ -33,7 +33,7 @@
     {
       "Name": "GenderReassignment",
       "Code": "4",
-      "Description": "Strict rules apply; must be stored confidentially",
+      "Description": "Anyone whose gender identity differs from the sex they were registered at birth. This includes but is not limited to, trans men/women, and non binary people.",
       "Value": ""
     },
     {
@@ -51,19 +51,19 @@
     {
       "Name": "Disability",
       "Code": "18",
-      "Description": "Self-identified; usage differs across contexts",
+      "Description": "Individuals with impairments or differences that society does not fully accommodate, facing daily barriers.",
       "Value": ""
     },
     {
       "Name": "Religion/Belief",
       "Code": "21",
-      "Description": "Only asked in certain contexts",
+      "Description": "The set of beliefs, practices, principles, values, and teachings that individuals hold based on their faith",
       "Value": ""
     },
     {
       "Name": "Ethnicity",
       "Code": "23",
-      "Description": "NHS typically collects 'Ethnicity' instead",
+      "Description": "Long shared cultural experiences, religious practices, traditions, ancestry, language, dialect or national origins",
       "Value": ""
     },
     {

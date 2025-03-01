@@ -168,7 +168,7 @@ function Home() {
     setPrompt("");
   };
 
-  // NEW: Handle suggestion bubble click
+  // Handle suggestion bubble click
   const handleSuggestionClick = async (suggestion) => {
     // Remove the clicked suggestion from the suggestions list
     setSuggestions((prev) => prev.filter((s) => s !== suggestion));
