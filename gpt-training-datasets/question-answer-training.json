@@ -582,6 +582,110 @@
     {
         "question": "What steps do you take to ensure my data is protected?",
         "answer": "We follow strict data protection laws, use secure storage systems, and limit access to authorized personnel only. Your data is encrypted and protected against unauthorized access."
+    },
+    {
+      "question": "what is age?",
+      "answer": "Age means how old a person is. It can describe people like babies, children, young people, adults, and older people."
+    },
+    {
+        "question": "age means what?",
+        "answer": "Age refers to the number of years someone has lived, like adults over 18 or older people over 65."
+    },
+    {
+        "question": "age?",
+        "answer": "Age shows how many years someone has been alive."
+    },
+    {
+        "question": "what is disability?",
+        "answer": "Disability means having a physical or mental condition that makes everyday activities harder due to barriers in society."
+    },
+    {
+        "question": "disability?",
+        "answer": "Disability refers to when someone faces barriers in daily life because society is not fully inclusive of their condition."
+    },
+    {
+        "question": "no understand disability",
+        "answer": "Disability means having a long-term condition that can limit how someone does everyday things because of how society is organised."
+    },
+    {
+        "question": "what is gender reassignment?",
+        "answer": "Gender reassignment means when someone's gender identity is different from the one they were given at birth and they live according to their true gender."
+    },
+    {
+        "question": "gender reassignment means what?",
+        "answer": "Gender reassignment means a person has changed or is changing from the gender they were registered with at birth to another gender."
+    },
+    {
+        "question": "gender reassignment?",
+        "answer": "It is when someone lives as a different gender to the one given at birth."
+    },
+    {
+        "question": "what is marriage and civil partnership?",
+        "answer": "Marriage and civil partnership are legally recognised relationships between two people."
+    },
+    {
+        "question": "marriage civil partnership?",
+        "answer": "It means a formal, legal union between two adults recognised by law."
+    },
+    {
+        "question": "what is meant by pregnancy maternity?",
+        "answer": "Pregnancy and maternity mean being pregnant or having recently given birth, including people of all gender identities who experience this."
+    },
+    {
+        "question": "pregnancy maternity?",
+        "answer": "It means expecting a baby or recently giving birth."
+    },
+    {
+        "question": "what is race?",
+        "answer": "Race refers to groups of people based on physical traits, such as skin colour. It’s different from ethnicity, which is about cultural identity."
+    },
+    {
+        "question": "race means?",
+        "answer": "Race means categorising people based on physical features like skin colour or appearance."
+    },
+    {
+        "question": "no understand religion belief",
+        "answer": "Religion or belief means someone's faith or personal beliefs about the world, whether religious or non-religious."
+    },
+    {
+        "question": "what religion belief mean?",
+        "answer": "Religion or belief describes a person’s spiritual faith or their personal view about life."
+    },
+    {
+        "question": "sex or gender difference?",
+        "answer": "Sex is biological, about physical bodies, like being male or female. Gender is how someone identifies socially, like man, woman, or non-binary."
+    },
+    {
+        "question": "what means sex?",
+        "answer": "Sex refers to whether a person is male or female biologically, based on body characteristics at birth."
+    },
+    {
+        "question": "sexual orientation means what?",
+        "answer": "Sexual orientation is about who a person is romantically or sexually attracted to, like being gay, lesbian, bisexual, or straight."
+    },
+    {
+        "question": "sexual orientation meaning?",
+        "answer": "It describes the genders someone is attracted to romantically or sexually."
+    },
+    {
+        "question": "what religion belief mean?",
+        "answer": "Religion or belief refers to someone's spiritual faith or their own set of beliefs about the world and life."
+    },
+    {
+        "question": "religion belief means?",
+        "answer": "It means a person’s faith or personal beliefs about life, including both religious and non-religious views."
+    },
+    {
+        "question": "what gender reassignment is?",
+        "answer": "Gender reassignment is when someone changes their gender identity from the gender they were given at birth."
+    },
+    {
+        "question": "what is meant by sex?",
+        "answer": "Sex usually refers to being male or female biologically, based on physical body characteristics someone is born with."
+    },
+    {
+        "question": "what is meant by sexual orientation?",
+        "answer": "Sexual orientation means who you feel attracted to, for example men, women, or multiple genders."
     }
 ]
   

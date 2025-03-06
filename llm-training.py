@@ -111,6 +111,13 @@ def train_t5():
                 "input": f"Extract the sexual orientation from this text: {ex['input']}",
                 "output": ex["output"]
             }
+        },
+        "pregnancy_training": {
+            "file_path": "./t5-training-datasets/pregnancy-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the pregnancy/maternity from this text: {ex['input']}",
+                "output": ex["output"]
+            }
         }
     }
 
