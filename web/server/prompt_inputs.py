@@ -164,11 +164,18 @@ def generate_with_gpt(question: str) -> str:
         
         keywords = ["What happens if I ", "Learn more about", "However,", "For example,", "For more information,"]
 
-        # Create a pattern that matches any of these keywords and everything following them.
-        pattern = r'(?:' + '|'.join(re.escape(kw) for kw in keywords) + r').*$'
+        # Convert both text and keywords to lowercase for case-insensitive matching
+        lower_text = generated_text.lower()
 
-        # Remove the keyword and everything after it.
-        generated_text = re.sub(pattern, '', generated_text).strip()
+        # Create regex pattern to match each keyword (case-insensitive)
+        pattern = r'(?i)(' + '|'.join(re.escape(kw.lower()) for kw in keywords) + r').*'
+
+        # Find match position
+        match = re.search(pattern, lower_text)
+
+        if match:
+            # Remove everything from the keyword onwards
+            generated_text = generated_text[:match.start()].strip()
 
         return generated_text
     except Exception as e:

@@ -468,6 +468,10 @@
       "answer": "This system is designed to assist you with understanding why certain personal information is collected in healthcare settings, how it is used, and how it is securely stored. We can provide explanations on sensitive data categories such as ethnicity, sexual orientation, gender, and disability."
     },
     {
+      "question": "What else can you do?",
+      "answer": "This system is designed to assist you with understanding why certain personal information is collected in healthcare settings, how it is used, and how it is securely stored. We can provide explanations on sensitive data categories such as ethnicity, sexual orientation, gender, and disability."
+    },
+    {
       "question": "what does this bot do",
       "answer": "This system is designed to assist you with understanding why certain personal information is collected in healthcare settings, how it is used, and how it is securely stored. We can provide explanations on sensitive data categories such as ethnicity, sexual orientation, gender, and disability."
     },
@@ -1370,7 +1374,111 @@
 {
     "question": "Can I update my personal information if it changes?",
     "answer": "Yes, you have the right to update or correct your personal information at any time to ensure your records remain accurate."
+},
+{
+  "question": "what does age mean",
+  "answer": "Age shows how many years someone has been alive."
+},
+{
+  "question": "what does sex mean",
+  "answer": "Sex refers to whether a person is only male or female biologically, based on body characteristics at birth."
+},
+{
+  "question": "what does ethnicity mean",
+  "answer": "Ethnicity describes your shared culture, traditions, ancestry, language, religion, or national origins."
+},
+{
+  "question": "what does pregnancy mean",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant."
+},
+{
+  "question": "what does maternity mean",
+  "answer": "Maternity refers to the period after giving birth and relates to caring for a newborn."
+},
+{
+  "question": "what does marriage mean",
+  "answer": "Marriage is a legally recognised relationship between two people."
+},
+{
+  "question": "what does civil partnership mean",
+  "answer": "Civil partnership is a legally recognised union between two people, offering similar rights to marriage."
+},
+{
+  "question": "what does disability mean",
+  "answer": "Disability means having a physical or mental condition that affects daily activities and interactions."
+},
+{
+  "question": "what does religion mean",
+  "answer": "Religion is the set of spiritual beliefs, faiths, or practices someone follows."
+},
+{
+  "question": "what does belief mean",
+  "answer": "Belief refers to someone's personal values or principles, whether religious or non-religious."
+},
+{
+  "question": "what does sexual orientation mean",
+  "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
+},
+{
+  "question": "sexual orientation meaning",
+  "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
+},
+{
+  "question": "sexual orientation",
+  "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
+},
+{
+  "question": "what does gender reassignment mean",
+  "answer": "Gender reassignment means a person is transitioning or has transitioned from their assigned gender at birth to their true gender identity."
+},
+{
+  "question": "what do you mean by age",
+  "answer": "Age shows how many years someone has been alive."
+},
+{
+  "question": "what do you mean by sex",
+  "answer": "Sex refers to whether a person is only male or female biologically, based on body characteristics at birth."
+},
+{
+  "question": "can you explain ethnicity",
+  "answer": "Ethnicity describes your shared culture, traditions, ancestry, language, religion, or national origins."
+},
+{
+  "question": "what do you mean by pregnancy",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant."
+},
+{
+  "question": "what exactly is maternity",
+  "answer": "Maternity refers to the period after giving birth and relates to caring for a newborn."
+},
+{
+  "question": "can you explain marriage",
+  "answer": "Marriage is a legally recognised relationship between two people."
+},
+{
+  "question": "what exactly is a civil partnership",
+  "answer": "Civil partnership is a legally recognised union between two people, offering similar rights to marriage."
+},
+{
+  "question": "what counts as a disability",
+  "answer": "Disability means having a physical or mental condition that affects daily activities and interactions."
+},
+{
+  "question": "can you explain religion",
+  "answer": "Religion is the set of spiritual beliefs, faiths, or practices someone follows."
+},
+{
+  "question": "what exactly is belief",
+  "answer": "Belief refers to someone's personal values or principles, whether religious or non-religious."
+},
+{
+  "question": "what's sexual orientation",
+  "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
+},
+{
+  "question": "what's gender reassignment",
+  "answer": "Gender reassignment means a person is transitioning or has transitioned from their assigned gender at birth to their true gender identity."
 }
-    
+
 ]
   

@@ -318,7 +318,7 @@ def train_gpt():
 #############################################
 if __name__ == "__main__":
     # Option A: Just call both
-    train_t5()
+    # train_t5()
     train_gpt()
 
     # Option B (comment out the above two lines) and selectively call one:
