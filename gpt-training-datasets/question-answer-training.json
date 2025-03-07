@@ -686,6 +686,263 @@
     {
         "question": "what is meant by sexual orientation?",
         "answer": "Sexual orientation means who you feel attracted to, for example men, women, or multiple genders."
+    },
+    {
+      "question": "why ask my age",
+      "answer": "Age helps us provide age appropriate healthcare and preventive screening for every life stage."
+    },
+    {
+      "question": "why need disability info",
+      "answer": "Disability info ensures care is accessible and adapts to each persons unique needs."
+    },
+    {
+      "question": "why check gender reassignment",
+      "answer": "Understanding gender reassignment supports inclusive care for trans and non binary people while respecting privacy."
+    },
+    {
+      "question": "why ask marital status",
+      "answer": "Marital status helps us understand support networks and address social aspects of healthcare inclusively."
+    },
+    {
+      "question": "why ask sexual orientation",
+      "answer": "Sexual orientation details allow for respectful tailored care that acknowledges diverse identities."
+    },
+    {
+      "question": "why ask religion belief",
+      "answer": "Religion belief information guides culturally sensitive care and respects individual spiritual needs."
+    },
+    {
+      "question": "why ask ethnicity",
+      "answer": "Ethnicity data helps identify health trends and tailor care for diverse cultural backgrounds inclusively."
+    },
+    {
+      "question": "why ask biological sex",
+      "answer": "Biological sex information supports accurate medical treatment and screening while respecting individual identity."
+    },
+    {
+      "question": "why ask pregnancy maternity",
+      "answer": "Pregnancy maternity details ensure safe inclusive care that adapts to birthing and parenting needs."
+    },
+    {
+      "question": "why collect personal info",
+      "answer": "Collecting personal info enables effective respectful communication and individualized healthcare."
+    },
+    {
+      "question": "I dont really want to tell you my age",
+      "answer": "Knowing your age helps us give you healthcare that matches your needs at your stage of life."
+    },
+    {
+      "question": "kinda dont wanna say my age",
+      "answer": "We use your age only to make sure the care you get is appropriate for your age group."
+    },
+    {
+      "question": "not sure about saying disability",
+      "answer": "Sharing disability info helps us remove barriers so everyone gets equal and accessible care."
+    },
+    {
+      "question": "I maybe don't wanna give disability details",
+      "answer": "Knowing your disability allows us to support your specific health needs and include you fully in healthcare."
+    },
+    {
+      "question": "dont feel okay giving gender reassignment info",
+      "answer": "Sharing gender reassignment details helps us provide respectful, sensitive care tailored to your identity."
+    },
+    {
+      "question": "unsure about telling gender reassignment stuff",
+      "answer": "Understanding gender reassignment helps ensure healthcare is inclusive and meets your specific needs."
+    },
+    {
+      "question": "i kinda dont want to say marital status",
+      "answer": "Marital status helps us understand your support network and offer you better, more tailored care."
+    },
+    {
+      "question": "not sure bout marriage info",
+      "answer": "Your marital status helps us support your social and emotional needs during your care."
+    },
+    {
+      "question": "dont wanna tell you pregnancy maternity",
+      "answer": "Pregnancy and maternity information ensures we provide safe, supportive care tailored to you and your baby."
+    },
+    {
+      "question": "feeling unsure bout pregnancy info",
+      "answer": "Knowing pregnancy or maternity status helps us offer care that respects your unique health needs."
+    },
+    {
+      "question": "don't feel good about giving ethnicity",
+      "answer": "Ethnicity info helps us understand health patterns and offer care sensitive to your cultural background."
+    },
+    {
+      "question": "not sure wanna say my race",
+      "answer": "Knowing your ethnicity helps us deliver healthcare that respects and meets your cultural and individual needs."
+    },
+    {
+      "question": "I don't wanna say religion belief",
+      "answer": "Sharing religion or belief helps us respect your spiritual or cultural preferences during your care."
+    },
+    {
+      "question": "unsure bout giving my belief",
+      "answer": "Knowing your religion or belief helps us offer care that's respectful and mindful of your personal values."
+    },
+    {
+      "question": "dont really wanna say biological sex",
+      "answer": "Biological sex info ensures medical treatments and screenings are appropriate and accurate for your body."
+    },
+    {
+      "question": "not comfy giving biological sex",
+      "answer": "Knowing biological sex helps us deliver safe, effective healthcare while respecting your identity."
+    },
+    {
+      "question": "kinda don't wanna share sexual orientation",
+      "answer": "Sharing your sexual orientation helps us provide respectful and tailored healthcare that acknowledges your identity."
+    },
+    {
+      "question": "unsure about saying sexual orientation",
+      "answer": "Knowing sexual orientation ensures our care respects and supports your individual health needs and identity."
+    },
+    {
+      "question": "don't feel like sharing my age",
+      "answer": "Knowing your age helps us ensure you receive healthcare that's right for your stage of life."
+    },
+    {
+      "question": "why you need my age though?",
+      "answer": "Age information lets us offer healthcare and screenings best suited to your life stage."
+    },
+    {
+      "question": "rather not say disability stuff",
+      "answer": "Sharing disability details helps us make healthcare accessible and suited specifically to your needs."
+    },
+    {
+      "question": "why disability info needed?",
+      "answer": "We ask about disability to remove barriers and offer equal, supportive healthcare to everyone."
+    },
+    {
+      "question": "I don’t know about giving gender reassignment info",
+      "answer": "Understanding your gender identity helps us respect your needs and ensure inclusive care."
+    },
+    {
+      "question": "is gender reassignment info necessary?",
+      "answer": "Gender reassignment details allow us to provide respectful care tailored to your specific identity."
+    },
+    {
+      "question": "I’d prefer not saying marital status",
+      "answer": "Knowing your marital status helps us understand your support networks, improving your care experience."
+    },
+    {
+      "question": "why marital info matters?",
+      "answer": "Marital status helps us address the social aspects of your healthcare, providing comprehensive support."
+    },
+    {
+      "question": "not feeling good sharing pregnancy maternity",
+      "answer": "Information about pregnancy and maternity ensures care is safe, supportive, and adapted to your unique needs."
+    },
+    {
+      "question": "is pregnancy info really needed?",
+      "answer": "Knowing your pregnancy status helps us provide care that's tailored to protect you and your baby's health."
+    },
+    {
+      "question": "uncomfortable giving ethnicity details",
+      "answer": "Ethnicity helps us understand health differences and provide culturally sensitive care tailored to you."
+    },
+    {
+      "question": "do you really need my ethnicity?",
+      "answer": "Knowing your ethnicity allows us to offer healthcare that respects and meets your individual needs."
+    },
+    {
+      "question": "I don’t feel like giving religion",
+      "answer": "Sharing religion or belief helps ensure your healthcare is culturally sensitive and respectful of your values."
+    },
+    {
+      "question": "why ask about my religion?",
+      "answer": "Understanding your religion or belief lets us provide respectful care mindful of your spiritual needs."
+    },
+    {
+      "question": "unsure bout biological sex info",
+      "answer": "Knowing your biological sex ensures accurate, safe medical treatments and screenings tailored to you."
+    },
+    {
+      "question": "is biological sex really important?",
+      "answer": "Biological sex information helps healthcare providers offer appropriate medical care for your body."
+    },
+    {
+      "question": "don’t wanna say sexual orientation stuff",
+      "answer": "Sharing sexual orientation helps us respect your identity and provide tailored healthcare."
+    },
+    {
+      "question": "why you need sexual orientation details?",
+      "answer": "Sexual orientation information helps us offer respectful and inclusive care that meets your individual needs."
+    },
+    {
+      "question": "feeling unsure about saying age",
+      "answer": "Age details help us tailor your healthcare, ensuring it’s appropriate for your current life stage."
+    },
+    {
+      "question": "age seems personal, why ask?",
+      "answer": "Your age helps us provide preventive care and screenings appropriate to your specific needs."
+    },
+    {
+      "question": "unsure about telling disability",
+      "answer": "Sharing disability information helps us adapt care specifically to your unique needs and remove barriers."
+    },
+    {
+      "question": "why disability data important?",
+      "answer": "Disability data helps us provide healthcare that’s inclusive, accessible, and respectful of your individual needs."
+    },
+    {
+      "question": "don’t really wanna say my gender identity",
+      "answer": "Gender identity information helps us respect who you are and ensure healthcare meets your specific needs."
+    },
+    {
+      "question": "is gender identity necessary info?",
+      "answer": "Understanding your gender identity allows us to provide inclusive and sensitive healthcare."
+    },
+    {
+      "question": "not comfortable saying marital status",
+      "answer": "Marital status helps us offer you healthcare that acknowledges your personal support systems."
+    },
+    {
+      "question": "why is marital status relevant?",
+      "answer": "Knowing marital status helps us support you better by understanding your home and social circumstances."
+    },
+    {
+      "question": "don’t feel like telling pregnancy maternity",
+      "answer": "Pregnancy and maternity details are essential to safely and sensitively manage your healthcare and wellbeing."
+    },
+    {
+      "question": "do I have to say if pregnant?",
+      "answer": "Telling us about pregnancy helps ensure your care is adapted safely and inclusively for you and your baby."
+    },
+    {
+      "question": "unsure about ethnicity info",
+      "answer": "Ethnicity information ensures healthcare is sensitive to your cultural background and individual needs."
+    },
+    {
+      "question": "why ethnicity is needed?",
+      "answer": "Your ethnicity helps us identify health trends and ensure culturally respectful care tailored to you."
+    },
+    {
+      "question": "feeling hesitant bout religion info",
+      "answer": "Religion information helps us ensure your healthcare respects your beliefs and cultural needs."
+    },
+    {
+      "question": "why religion info matters?",
+      "answer": "Knowing your beliefs allows us to provide respectful healthcare sensitive to your spiritual and cultural needs."
+    },
+    {
+      "question": "unsure sharing biological sex info",
+      "answer": "Biological sex helps healthcare providers give accurate treatments and screenings suited to your needs."
+    },
+    {
+      "question": "why biological sex details important?",
+      "answer": "We need biological sex information to ensure medical care is correctly and safely provided for your body."
+    },
+    {
+      "question": "don’t really want to say sexual orientation",
+      "answer": "Sexual orientation info lets us provide respectful and personalised healthcare, sensitive to your identity."
+    },
+    {
+      "question": "sexual orientation info feels personal, needed?",
+      "answer": "Understanding sexual orientation helps us deliver healthcare that acknowledges and respects your identity."
     }
+    
 ]
   

@@ -31,6 +31,20 @@ def train_t5():
     
     # Configuration for T5 dataset paths
     dataset_paths = {
+        "firstname_training": {
+            "file_path": "./t5-training-datasets/firstname-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the firstname from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
+        "lastname_training": {
+            "file_path": "./t5-training-datasets/lastname-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the lastname from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
         "age_training": {
             "file_path": "./t5-training-datasets/age-training.json",
             "conversion_logic": lambda ex: {

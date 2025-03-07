@@ -157,7 +157,6 @@ def generate_with_gpt(question: str) -> str:
         # Decode the tokens
         generated_text = gpt_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-        # OPTIONAL: Post-process if you want to strip out the "Question: ...\nAnswer:" portion
         if "Answer:" in generated_text:
             # Keep only text after "Answer:"
             generated_text = generated_text.split("Answer:", 1)[-1].strip()

@@ -1,0 +1,91 @@
+[
+    {
+      "input": "Extract the firstname from this text: I'm Johnathan",
+      "output": "{\"FirstName\": \"Johnathan\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: My first name is Michael",
+      "output": "{\"FirstName\": \"Michael\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: Call me Sarah",
+      "output": "{\"FirstName\": \"Sarah\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: Hello, my name is Emily",
+      "output": "{\"FirstName\": \"Emily\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: They call me Robert",
+      "output": "{\"FirstName\": \"Robert\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I am William",
+      "output": "{\"FirstName\": \"William\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: My name is Oliver",
+      "output": "{\"FirstName\": \"Oliver\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: This is Benjamin speaking",
+      "output": "{\"FirstName\": \"Benjamin\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I go by Emma",
+      "output": "{\"FirstName\": \"Emma\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I am known as Sophia",
+      "output": "{\"FirstName\": \"Sophia\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I am named James",
+      "output": "{\"FirstName\": \"James\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I'm David",
+      "output": "{\"FirstName\": \"David\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I'm Richard",
+      "output": "{\"FirstName\": \"Richard\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: My first name is Elizabeth",
+      "output": "{\"FirstName\": \"Elizabeth\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: My name is Charlotte",
+      "output": "{\"FirstName\": \"Charlotte\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I'm Christopher",
+      "output": "{\"FirstName\": \"Christopher\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: My name is Alexander",
+      "output": "{\"FirstName\": \"Alexander\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I am Daniel",
+      "output": "{\"FirstName\": \"Daniel\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I'm Joseph",
+      "output": "{\"FirstName\": \"Joseph\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: I am Noah",
+      "output": "{\"FirstName\": \"Noah\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: My first name is Liam",
+      "output": "{\"FirstName\": \"Liam\"}"
+    },
+    {
+      "input": "Extract the firstname from this text: My name is Mason",
+      "output": "{\"FirstName\": \"Mason\"}"
+    }
+  ]
+  

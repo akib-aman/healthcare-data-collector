@@ -1957,6 +1957,354 @@
   {
       "input": "What laws protect my data in Scotland?",
       "output": "Detailed Response"
+  },
+  {
+    "input": "what is disability?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "disability?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "no understand disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is gender reassignment?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "gender reassignment means what?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "gender reassignment?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is marriage and civil partnership?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "marriage civil partnership?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is meant by pregnancy maternity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "pregnancy maternity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is race?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "race means?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "no understand religion belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what religion belief mean?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "sex or gender difference?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what means sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "sexual orientation means what?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "sexual orientation meaning?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what religion belief mean?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "religion belief means?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what gender reassignment is?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is meant by sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is meant by sexual orientation?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why ask my age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why need disability info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why check gender reassignment",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why ask marital status",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why ask sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why ask religion belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why ask ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why ask biological sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why ask pregnancy maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why collect personal info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I dont really want to tell you my age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "kinda dont wanna say my age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "not sure about saying disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I maybe don't wanna give disability details",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont feel okay giving gender reassignment info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "unsure about telling gender reassignment stuff",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i kinda dont want to say marital status",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "not sure bout marriage info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont wanna tell you pregnancy maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "feeling unsure bout pregnancy info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "don't feel good about giving ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "not sure wanna say my race",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I don't wanna say religion belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "unsure bout giving my belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont really wanna say biological sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "not comfy giving biological sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "kinda don't wanna share sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "unsure about saying sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "don't feel like sharing my age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why you need my age though?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "rather not say disability stuff",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why disability info needed?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I don’t know about giving gender reassignment info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "is gender reassignment info necessary?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I’d prefer not saying marital status",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why marital info matters?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "not feeling good sharing pregnancy maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "is pregnancy info really needed?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "unsure about ethnicity info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why ethnicity is needed?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "feeling hesitant bout religion info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why religion info matters?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "unsure sharing biological sex info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why biological sex details important?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "don’t really want to say sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "sexual orientation info feels personal, needed?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "feeling unsure about saying age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "age seems personal, why ask?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "unsure about telling disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why disability data important?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "don’t really wanna say my gender identity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "is gender identity necessary info?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "not comfortable saying marital status",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why is marital status relevant?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "don’t feel like telling pregnancy maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "do I have to say if pregnant?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "unsure about ethnicity info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why ethnicity is needed?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "feeling hesitant bout religion info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why religion info matters?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "unsure sharing biological sex info",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "why biological sex details important?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "don’t really want to say sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "sexual orientation info feels personal, needed?",
+    "output": "Detailed Response"
   }
 
   ]
