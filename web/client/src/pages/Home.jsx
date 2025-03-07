@@ -46,7 +46,7 @@ function Home() {
         // Step C: If there's at least one field, set it as the active field
         const characteristics = finalFormData.Characteristics || [];
         if (characteristics.length > 0) {
-          const firstField = characteristics[0].Name.toLowerCase();
+          const firstField = characteristics[0].Label;
           setActiveField(firstField);
 
           // Also add a message letting the user know
@@ -54,9 +54,9 @@ function Home() {
             {
               type: "bot",
               text:
-                "Hello! I'm here to help you fill out this equalities form. We ask you for these details in order to fully hlpe you Let's begin firstly by giving us your " +
+                "Hello! I'm here to help you fill out this equalities form. \n \n Your responses about characteristics help us understand your unique needs and offer you the best possible healthcare experience. All your information remains confidential, secure, and will be treated sensitively. You can skip any question you're not comfortable answering. \n \n  Let's begin firstly by giving us your " +
                 firstField +
-                "!",
+                ":",
             },
           ]);
         } else {
