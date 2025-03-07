@@ -45,7 +45,8 @@ field_commands = {
     "religion/belief": "Extract the religion/belief from this text: ",
     "ethnicity": "Extract the ethnicity from this text: ",
     "race": "Extract the race from this text: ",
-    "pregnancy/maternity": "Extract the pregnancy/maternity from this text: "
+    "pregnancy/maternity": "Extract the pregnancy/maternity from this text: ",
+    "specialrequirements": "Extract the special requirements from this text: ",
 }
 
 # Ensure session-forms directory exists

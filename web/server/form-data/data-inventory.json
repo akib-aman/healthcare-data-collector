@@ -31,22 +31,14 @@
       "Value": ""
     },
     {
-      "Name": "GenderReassignment",
-      "Label": "Gender Reassignment",
-      "Code": "4",
-      "Description": "Anyone whose gender identity differs from the sex they were registered at birth. This includes but is not limited to, trans men/women, and non binary people.",
+      "Name": "Pregnancy/Maternity",
+      "Label": "Pregnancy/Maternity",
       "Value": ""
     },
     {
       "Name": "Marriage/CivilPartnership",
       "Label": "Marriage/Civil Partnership",
       "Code": "5",
-      "Value": ""
-    },
-    {
-      "Name": "SexualOrientation",
-      "Label": "Sexual Orientation",
-      "Code": "8",
       "Value": ""
     },
     {
@@ -71,8 +63,16 @@
       "Value": ""
     },
     {
-      "Name": "Pregnancy/Maternity",
-      "Label": "Pregnancy/Maternity",
+      "Name": "SexualOrientation",
+      "Label": "Sexual Orientation",
+      "Code": "8",
+      "Value": ""
+    },
+    {
+      "Name": "GenderReassignment",
+      "Label": "Gender Reassignment",
+      "Code": "4",
+      "Description": "Anyone whose gender identity differs from the sex they were registered at birth. This includes but is not limited to, trans men/women, and non binary people.",
       "Value": ""
     }
   ],

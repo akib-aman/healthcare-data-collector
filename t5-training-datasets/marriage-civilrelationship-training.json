@@ -272,6 +272,22 @@
         "output": "{\"Marriage/CivilPartnership\": \"No\"}"
     },
     {
+        "input": "Extract the marriage/civil partnership status from this text: I aint in a relationship",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I aint married",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I ain't in a relationship",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I ain't married",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
         "input": "Extract the marriage/civil partnership status from this text: My husband and I just celebrated our anniversary",
         "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
     },

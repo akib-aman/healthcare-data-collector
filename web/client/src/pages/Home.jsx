@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import DoctorIcon from "../assets/images/doctoricon.png";
+import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 
 function Home() {
   const [prompt, setPrompt] = useState("");
@@ -8,16 +9,14 @@ function Home() {
   const [formData, setFormData] = useState(null);
   const [sessionId, setSessionId] = useState(null);
   const [activeField, setActiveField] = useState(null); // Start with no active field
-  
-  // NEW: Suggestions state – edit this array to add or remove suggestion bubbles
   const [suggestions, setSuggestions] = useState([
     "Who can see my personal information?",
     "How does this data help improve healthcare services?",
     "What can you do?"
   ]);
-
+  
   const chatContainerRef = useRef(null);
-
+  
   // 1. Create session & fetch initial form data on mount
   useEffect(() => {
     const createSessionAndFetchForm = async () => {
@@ -92,10 +91,15 @@ function Home() {
 
   // 3. Handle field click
   const handleFieldClick = (item) => {
+    const potentialDescription = item.Description;
+    let chatString = `We are now going to ask you about ${item.Label}. `;
+    if (potentialDescription){
+      chatString += '\n \n ' + item.Label + ' Definition: ' + potentialDescription;
+    };
     setActiveField(item.Name.toLowerCase());
     setMessages((prev) => [
       ...prev,
-      { type: "bot", text: `You are now editing the ${item.Label} field.` },
+      { type: "bot", text: chatString },
     ]);
   };
 
@@ -145,7 +149,7 @@ function Home() {
             const potentialDescription = characteristics[currentIndex + 1].Description;
             let chatString = `Thank you, we are now going to ask you about ${nextFieldLabel}.`;
             if (potentialDescription){
-              chatString += '\nDefinition: ' + potentialDescription;
+              chatString += '\n \n Definition: ' + potentialDescription;
             };
             setActiveField(nextField);
 
@@ -172,6 +176,33 @@ function Home() {
 
     // Clear input
     setPrompt("");
+  };
+
+  // 5. Mic Functionality
+  const {
+    transcript,
+    listening,
+    resetTranscript,
+    browserSupportsSpeechRecognition
+  } = useSpeechRecognition();
+
+  
+  useEffect(() => {
+    setPrompt(transcript);
+  }, [transcript]);
+
+  if (!browserSupportsSpeechRecognition) {
+    return <div>Your browser does not support speech recognition.</div>;
+  }
+  
+  // 3) Function to start/stop listening
+  const handleMicToggle = () => {
+    if (listening) {
+      SpeechRecognition.stopListening();
+    } else {
+      resetTranscript();
+      SpeechRecognition.startListening({ continuous: true });
+    }
   };
 
   // Handle suggestion bubble click
@@ -299,12 +330,13 @@ function Home() {
                   {message.text}
                 </div>
               ) : (
+                // else Message is bot
                 <>
                   <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center">
                     <img src={DoctorIcon} alt="Bot Icon" className="w-12 h-12 rounded-full" />
                   </div>
                   <div className="bg-blue-500 p-4 rounded-lg border border-cyan-400 max-w-lg">
-                    <p className="text-white text-base font-inter">{message.text}</p>
+                    <p style={{ whiteSpace: 'pre-line' }} className="text-white text-base font-inter">{message.text}</p>
                   </div>
                 </>
               )}
@@ -336,6 +368,16 @@ function Home() {
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
           ></textarea>
+
+          {/* Microphone Button */}
+          <button
+            type="button"
+            onClick={handleMicToggle}
+            className="bg-red-500 text-white px-4 py-2 rounded cursor-pointer text-sm hover:bg-red-700"
+          >
+            {listening ? "Stop" : "Mic"}
+          </button>
+          {/* Submit Button */}
           <button
             type="submit"
             className="bg-blue-500 text-white px-4 py-2 rounded cursor-pointer text-sm whitespace-nowrap hover:bg-blue-700"
