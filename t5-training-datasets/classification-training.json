@@ -1,9 +1,5 @@
 [
     {
-      "input": "My phone number is 9876543210",
-      "output": "Data Extraction"
-    },
-    {
       "input": "What documents are needed for a GP registration?",
       "output": "Detailed Response"
     },
@@ -2091,6 +2087,22 @@
     "output": "Detailed Response"
   },
   {
+    "input": "who can see my personal information",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "how will this data help",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know if i want to say",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what can you do",
+    "output": "Detailed Response"
+  },
+  {
     "input": "I dont really want to tell you my age",
     "output": "Detailed Response"
   },
@@ -2305,7 +2317,91 @@
   {
     "input": "sexual orientation info feels personal, needed?",
     "output": "Detailed Response"
-  }
+  },
+  {"input": "how does public health scotland keep my data safe?", "output": "Detailed Response"},
+    {"input": "who exactly sees my sensitive health information?", "output": "Detailed Response"},
+    {"input": "can my personal health data be accessed by anyone outside the nhs?", "output": "Detailed Response"},
+    {"input": "how does public health scotland use my personal data?", "output": "Detailed Response"},
+    {"input": "will public health scotland share my data with third parties?", "output": "Detailed Response"},
+    {"input": "how do i know my personal information is secure?", "output": "Detailed Response"},
+    {"input": "where is my personal health data stored?", "output": "Detailed Response"},
+    {"input": "how long does public health scotland keep my data?", "output": "Detailed Response"},
+    {"input": "can i request to delete my personal health data?", "output": "Detailed Response"},
+    {"input": "can i update or correct my personal data if it is wrong?", "output": "Detailed Response"},
+    {"input": "what happens if there is a data breach?", "output": "Detailed Response"},
+    {"input": "can i refuse to provide my personal health information?", "output": "Detailed Response"},
+    {"input": "how is my ethnicity information protected?", "output": "Detailed Response"},
+    {"input": "who decides how my personal data is used?", "output": "Detailed Response"},
+    {"input": "how does public health scotland use anonymized data?", "output": "Detailed Response"},
+    {"input": "is my data encrypted when stored?", "output": "Detailed Response"},
+    {"input": "how does public health scotland prevent misuse of my data?", "output": "Detailed Response"},
+    {"input": "can my employer see my personal health data?", "output": "Detailed Response"},
+    {"input": "will my data be used for research purposes?", "output": "Detailed Response"},
+    {"input": "how does my personal data improve healthcare?", "output": "Detailed Response"},
+    {"input": "who has access to my nhs records?", "output": "Detailed Response"},
+    {"input": "how can i check what data public health scotland holds about me?", "output": "Detailed Response"},
+    {"input": "will my data be used for anything other than my healthcare?", "output": "Detailed Response"},
+    {"input": "does public health scotland track my health over time?", "output": "Detailed Response"},
+    {"input": "why does public health scotland collect personal data?", "output": "Detailed Response"},
+    {"input": "can i opt out of data collection?", "output": "Detailed Response"},
+    {"input": "does public health scotland sell my data?", "output": "Detailed Response"},
+    {"input": "what protections are in place for sensitive health information?", "output": "Detailed Response"},
+    {"input": "is my sexual orientation data kept private?", "output": "Detailed Response"},
+    {"input": "how does public health scotland ensure my privacy?", "output": "Detailed Response"},
+    {"input": "who can edit my personal health records?", "output": "Detailed Response"},
+    {"input": "what happens if my data is inaccurate?", "output": "Detailed Response"},
+    {"input": "how does public health scotland prevent unauthorized access?", "output": "Detailed Response"},
+    {"input": "is my religion or belief information shared with anyone?", "output": "Detailed Response"},
+    {"input": "how does public health scotland protect patient rights?", "output": "Detailed Response"},
+    {"input": "can i ask for a copy of my health data?", "output": "Detailed Response"},
+    {"input": "will my data be used for policy-making?", "output": "Detailed Response"},
+    {"input": "how does my personal information help public health research?", "output": "Detailed Response"},
+    {"input": "can i request changes to how my data is used?", "output": "Detailed Response"},
+    {"input": "does public health scotland work with other organizations on data?", "output": "Detailed Response"},
+    {"input": "how is my data anonymized before being used for research?", "output": "Detailed Response"},
+    {"input": "who can request access to my personal health data?", "output": "Detailed Response"},
+    {"input": "what laws protect my personal health data?", "output": "Detailed Response"},
+    {"input": "does public health scotland comply with gdpr?", "output": "Detailed Response"},
+    {"input": "how do i know my data isn't being misused?", "output": "Detailed Response"},
+    {"input": "can i see who accessed my personal health data?", "output": "Detailed Response"},
+    {"input": "how does public health scotland keep data security up to date?", "output": "Detailed Response"},
+    {"input": "will my data be shared outside the uk?", "output": "Detailed Response"},
+    {"input": "how often is my personal data reviewed for accuracy?", "output": "Detailed Response"},
+    {"input": "not sure why you need my gender reassignment info", 
+  "output": "Detailed Response"
+  },
+  {"input": "i dont wanna share gender reassignment details", "output": "Detailed Response"},
+  {"input": "why does gender reassignment matter for my care", "output": "Detailed Response"},
+  {"input": "is marital status really relevant", "output": "Detailed Response"},
+  {"input": "why do i need to give marital status", "output": "Detailed Response"},
+  {"input": "not feeling okay with giving marital status", "output": "Detailed Response"},
+  {"input": "why pregnancy info needed at all", "output": "Detailed Response"},
+  {"input": "do i have to tell you if pregnant", "output": "Detailed Response"},
+  {"input": "pregnancy details seem too personal to share", "output": "Detailed Response"},
+  {"input": "not sure why you need ethnicity", "output": "Detailed Response"},
+  {"input": "ethnicity info seems unnecessary", "output": "Detailed Response"},
+  {"input": "why race is part of my health data", "output": "Detailed Response"},
+  {"input": "why you wanna know my religion", "output": "Detailed Response"},
+  {"input": "not comfortable sharing religion belief", "output": "Detailed Response"},
+  {"input": "religion info seems unrelated to healthcare", "output": "Detailed Response"},
+  {"input": "why ask biological sex when gender matters more", "output": "Detailed Response"},
+  {"input": "not feeling good about giving biological sex", "output": "Detailed Response"},
+  {"input": "do i have to tell biological sex", "output": "Detailed Response"},
+  {"input": "why you need to know sexual orientation", "output": "Detailed Response"},
+  {"input": "sexual orientation is private, why ask", "output": "Detailed Response"},
+  {"input": "not sure if sexual orientation should be shared", "output": "Detailed Response"},
+  {"input": "why does age matter for health care", "output": "Detailed Response"},
+  {"input": "i dont wanna share my age", "output": "Detailed Response"},
+  {"input": "do i have to provide my age", "output": "Detailed Response"},
+  {"input": "not sure why disability info is needed", "output": "Detailed Response"},
+  {"input": "is disability info required", "output": "Detailed Response"},
+  {"input": "why ask disability details", "output": "Detailed Response"},
+  {"input": "who exactly sees my sensitive data", "output": "Detailed Response"},
+  {"input": "how do i know my info is secure", "output": "Detailed Response"},
+  {"input": "can i refuse to share personal details", "output": "Detailed Response"},
+  {"input": "why is this data collection so broad", "output": "Detailed Response"},
+  {"input": "not sure why you need all these personal details", "output": "Detailed Response"},
+  {"input": "can i just skip the sensitive questions", "output": "Detailed Response"}
 
   ]
   

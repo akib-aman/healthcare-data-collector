@@ -31,6 +31,13 @@
       "Value": ""
     },
     {
+      "Name": "Ethnicity",
+      "Label": "Ethnicity",
+      "Code": "23",
+      "Description": "Long shared cultural experiences, religious practices, traditions, ancestry, language, dialect or national origins",
+      "Value": ""
+    },
+    {
       "Name": "Pregnancy/Maternity",
       "Label": "Pregnancy/Maternity",
       "Value": ""
@@ -53,13 +60,6 @@
       "Label": "Religion/Belief",
       "Code": "21",
       "Description": "The set of beliefs, practices, principles, values, and teachings that individuals hold based on their faith",
-      "Value": ""
-    },
-    {
-      "Name": "Ethnicity",
-      "Label": "Ethnicity",
-      "Code": "23",
-      "Description": "Long shared cultural experiences, religious practices, traditions, ancestry, language, dialect or national origins",
       "Value": ""
     },
     {

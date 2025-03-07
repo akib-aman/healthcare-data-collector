@@ -464,6 +464,14 @@
       "answer": "This system is designed to assist you with understanding why certain personal information is collected in healthcare settings, how it is used, and how it is securely stored. We can provide explanations on sensitive data categories such as ethnicity, sexual orientation, gender, and disability."
     },
     {
+      "question": "what can you do",
+      "answer": "This system is designed to assist you with understanding why certain personal information is collected in healthcare settings, how it is used, and how it is securely stored. We can provide explanations on sensitive data categories such as ethnicity, sexual orientation, gender, and disability."
+    },
+    {
+      "question": "what does this bot do",
+      "answer": "This system is designed to assist you with understanding why certain personal information is collected in healthcare settings, how it is used, and how it is securely stored. We can provide explanations on sensitive data categories such as ethnicity, sexual orientation, gender, and disability."
+    },
+    {
       "question": "What can this do?",
       "answer": "This system is designed to assist you with understanding why certain personal information is collected in healthcare settings, how it is used, and how it is securely stored. We can provide explanations on sensitive data categories such as ethnicity, sexual orientation, gender, and disability."
     },
@@ -942,7 +950,427 @@
     {
       "question": "sexual orientation info feels personal, needed?",
       "answer": "Understanding sexual orientation helps us deliver healthcare that acknowledges and respects your identity."
-    }
+    },
+    {
+      "question": "i dont know about giving my age",
+      "answer": "Sharing your age helps Public Health Scotland give healthcare and support that matches your age group."
+  },
+  {
+      "question": "not sure wanna tell you disability",
+      "answer": "Telling us about your disability helps us provide healthcare that's right for your individual needs."
+  },
+  {
+      "question": "I kinda dont wanna share gender reassignment",
+      "answer": "Sharing gender reassignment helps us give respectful care that matches your identity."
+  },
+  {
+      "question": "dont feel comfy telling marital status",
+      "answer": "Knowing marital status helps us understand your personal support system and social care needs."
+  },
+  {
+      "question": "why u need pregnancy maternity info",
+      "answer": "Pregnancy and maternity info helps ensure your care is safe and matches your personal needs."
+  },
+  {
+      "question": "why ask bout race",
+      "answer": "Race and ethnicity information helps us identify health trends and provide culturally respectful care."
+  },
+  {
+      "question": "kinda don't wanna say religion",
+      "answer": "Knowing your religion or beliefs helps us respect your spiritual needs and provide culturally sensitive care."
+  },
+  {
+      "question": "I dont want to give my biological sex info",
+      "answer": "Biological sex information ensures medical care is safe and appropriate for your body."
+  },
+  {
+      "question": "sexual orientation not comfy saying",
+      "answer": "Your sexual orientation information helps us provide inclusive and respectful healthcare."
+  },
+  {
+      "question": "not sure wanna say my age",
+      "answer": "Knowing your age helps us make sure the healthcare you receive suits your life stage."
+  },
+  {
+      "question": "I feel unsure about disability info",
+      "answer": "Sharing disability information allows us to adapt our healthcare services for your specific requirements."
+  },
+  {
+      "question": "dont wanna share gender reassignment stuff",
+      "answer": "Providing gender reassignment information allows healthcare to be inclusive, sensitive, and supportive."
+  },
+  {
+      "question": "unsure why you ask marital status",
+      "answer": "Marital status information helps us understand your support network to give better care."
+  },
+  {
+      "question": "I feel hesitant giving pregnancy maternity info",
+      "answer": "Pregnancy and maternity information ensures we provide safe, suitable care tailored for you."
+  },
+  {
+      "question": "I don’t know why you ask ethnicity",
+      "answer": "Knowing your ethnicity ensures healthcare respects your cultural needs and helps identify specific health trends."
+  },
+  {
+      "question": "unsure about saying my religion",
+      "answer": "Sharing your religion or belief helps us respect your spiritual needs during healthcare."
+  },
+  {
+      "question": "biological sex no comfortable saying",
+      "answer": "We ask biological sex to ensure healthcare treatments and screenings are suitable and safe for you."
+  },
+  {
+      "question": "not sure why you ask sexual orientation",
+      "answer": "Knowing your sexual orientation helps us deliver respectful care that recognises your identity."
+  },
+  {
+      "question": "I dont know if I wanna give you my disability info",
+      "answer": "Disability information helps us remove barriers and provide healthcare tailored to your needs."
+  },
+  {
+      "question": "I dont really want say ethnicity",
+      "answer": "Your ethnicity information helps us improve healthcare services to meet different cultural needs."
+  },
+  {
+      "question": "religion belief why important?",
+      "answer": "Knowing religion or belief helps us provide care that respects your cultural or spiritual needs."
+  },
+  {
+      "question": "what you need sexual orientation data for?",
+      "answer": "Sexual orientation data helps ensure healthcare is inclusive and meets your individual needs respectfully."
+  },
+  {
+      "question": "dont wanna say if i have disability",
+      "answer": "Knowing about disability helps us make sure your healthcare services are accessible and inclusive."
+  },
+  {
+      "question": "age necessary information?",
+      "answer": "Knowing your age helps healthcare providers offer appropriate care, tests, and treatments."
+  },
+  {
+      "question": "why gender reassignment info needed",
+      "answer": "Information about gender reassignment helps us provide healthcare that respects your identity and privacy."
+  },
+  {
+      "question": "unsure bout giving sexual orientation details",
+      "answer": "We collect sexual orientation info to ensure healthcare is respectful and sensitive to everyone's identity."
+  },
+  {
+      "question": "why need marital status info",
+      "answer": "Marital status can help us provide support that considers your home and social situation."
+  },
+  {
+      "question": "why pregnancy maternity needed",
+      "answer": "Information about pregnancy or maternity helps us ensure healthcare is safe and meets the needs of you and your baby."
+  },
+  {
+      "question": "biological sex why ask",
+      "answer": "Knowing biological sex helps ensure medical advice and care are safe and correct for your physical body."
+  },
+  {
+      "question": "unsure bout gender reassignment info",
+      "answer": "Gender reassignment information helps us support you and provide healthcare that matches your needs."
+  },
+  {
+      "question": "why ask me sexual orientation?",
+      "answer": "Sexual orientation info ensures healthcare services understand and respect your identity."
+  },
+  {
+      "question": "I feel unsure bout sharing religion",
+      "answer": "Religion or belief information helps healthcare workers respect your beliefs and provide appropriate care."
+  },
+  {
+      "question": "no comfortable give biological sex details",
+      "answer": "We ask for biological sex to ensure accurate and suitable healthcare treatment."
+  },
+  {
+      "question": "kinda unsure bout race ethnicity",
+      "answer": "We collect ethnicity data to identify and reduce health inequalities and provide fair healthcare for everyone."
+  },
+  {
+      "question": "do I need say if pregnant or maternity",
+      "answer": "Pregnancy information helps ensure we provide safe and suitable healthcare to you."
+  },
+  {
+      "question": "why need info religion",
+      "answer": "Knowing your religion helps healthcare providers respect your beliefs when offering care."
+  },
+  {
+      "question": "biological sex uncomfortable",
+      "answer": "Sharing biological sex helps us give accurate, safe medical care and screening appropriate to your body."
+  },
+  {
+      "question": "feel unsure bout age",
+      "answer": "Age helps us offer healthcare that's appropriate and relevant to you."
+  },
+  {
+      "question": "can i skip ethnicity?",
+      "answer": "You can skip this, but ethnicity data helps us improve healthcare for everyone by understanding diverse needs."
+  },
+  {
+      "question": "sexual orientation dont know if wanna share",
+      "answer": "Understanding sexual orientation helps us deliver respectful, inclusive care suitable to you."
+  },
+  {
+    "question": "I feel weird giving my personal info, is it safe?",
+    "answer": "Yeah, your personal info is kept super secure and only NHS people who need it for your healthcare ever see it."
+  },
+  {
+    "question": "Not sure about giving you all my details, bit worried who sees it",
+    "answer": "Your details stay private and are only used by NHS healthcare teams to help you get good care. Nobody else sees it."
+  },
+  {
+      "question": "why do you ask for my age",
+      "answer": "We ask for your age to ensure you receive healthcare services and screenings that are appropriate for your stage of life. Your data is always kept private and secure."
+  },
+  {
+      "question": "do i have to tell you my age",
+      "answer": "You don’t have to share your age, but it helps us offer treatments and advice that are most relevant to you. Your privacy is always respected."
+  },
+  {
+      "question": "how does my age affect my healthcare",
+      "answer": "Age is important for medical screenings, treatments, and understanding health risks at different life stages. This helps us provide the best possible care for you."
+  },
+  {
+      "question": "can i refuse to share my age",
+      "answer": "Yes, you can choose not to share your age, but it may limit our ability to provide fully tailored healthcare recommendations."
+  },
+  {
+      "question": "why do you need to know if i have a disability",
+      "answer": "We ask about disabilities to make sure healthcare services are accessible and meet your specific needs. This information helps us provide any necessary support or accommodations."
+  },
+  {
+      "question": "do i have to tell you if i am disabled",
+      "answer": "No, you do not have to disclose this information. However, sharing it helps us ensure you get the right support and access to inclusive healthcare."
+  },
+  {
+      "question": "how will my disability information be used",
+      "answer": "Your disability information is used only to ensure our healthcare services are accessible and adapted to your needs. It is never shared without your consent."
+  },
+  {
+      "question": "can i still get care if i dont tell you about my disability",
+      "answer": "Yes, you will still receive healthcare. However, sharing information about your disability allows us to offer better support and accommodations for your needs."
+  },
+  {
+      "question": "why do you ask about gender reassignment",
+      "answer": "We ask about gender reassignment to ensure healthcare is inclusive and that any treatments or support are appropriate for your needs. Sharing this is optional and your privacy is protected."
+  },
+  {
+      "question": "do i have to tell you if i had gender reassignment",
+      "answer": "No, sharing this information is entirely up to you. It helps us ensure you receive respectful and appropriate care, but it is not mandatory."
+  },
+  {
+      "question": "will my gender reassignment status affect my healthcare",
+      "answer": "No, your gender reassignment status does not affect the quality of care you receive. It is used only to make sure your care is tailored to your needs."
+  },
+  {
+      "question": "who will see my gender reassignment information",
+      "answer": "Only authorized healthcare professionals involved in your care will have access to this information. It is kept private and secure."
+  },
+  {
+      "question": "why do you need to know my marital status",
+      "answer": "We ask about marital status to understand your support system, which can sometimes impact healthcare decisions and access to resources."
+  },
+  {
+      "question": "do i have to share my marital status",
+      "answer": "No, you are not required to share this information. It is only collected to help us understand your social circumstances and offer relevant support."
+  },
+  {
+      "question": "will my marital status affect my healthcare",
+      "answer": "No, your marital status does not impact the quality of care you receive. It simply helps us understand your personal support system."
+  },
+  {
+      "question": "why do you ask if i am pregnant",
+      "answer": "We ask about pregnancy to ensure that any treatments or advice we provide are safe for both you and your baby."
+  },
+  {
+      "question": "do i have to tell you if i am pregnant",
+      "answer": "No, you do not have to disclose this. However, some medications and treatments may not be suitable during pregnancy, so sharing this helps us provide safer care."
+  },
+  {
+      "question": "why do you need to know if i am breastfeeding",
+      "answer": "We ask about breastfeeding to ensure that any treatments or medications provided are safe for both you and your baby."
+  },
+  {
+      "question": "what if i do not want to share my pregnancy status",
+      "answer": "That is your choice. However, knowing if you are pregnant helps us offer healthcare that is safe and appropriate for your situation."
+  },
+  {
+      "question": "why do you ask about my ethnicity",
+      "answer": "We ask about ethnicity because some health conditions can be more common in certain ethnic groups. This helps us provide more personalized and effective care."
+  },
+  {
+      "question": "do i have to share my ethnicity",
+      "answer": "No, you do not have to provide this information. However, sharing it helps us ensure healthcare is inclusive and addresses health inequalities."
+  },
+  {
+      "question": "how does my ethnicity affect my healthcare",
+      "answer": "Some health conditions are more common in certain ethnic groups, so knowing your ethnicity helps us offer appropriate screenings and care."
+  },
+  {
+      "question": "why do you need to know my religion",
+      "answer": "We ask about religion or belief to respect any spiritual or cultural needs you may have in your healthcare experience."
+  },
+  {
+      "question": "do i have to tell you my religion",
+      "answer": "No, sharing your religion is completely optional. However, it helps us provide culturally appropriate care."
+  },
+  {
+      "question": "will my religion affect my healthcare",
+      "answer": "No, your religion does not affect the quality of care you receive. It only helps us accommodate any religious or cultural considerations."
+  },
+  {
+      "question": "why do you ask for my sex",
+      "answer": "We ask for your sex to ensure that medical treatments, screenings, and advice are appropriate for your body."
+  },
+  {
+      "question": "do i have to tell you my sex",
+      "answer": "No, but providing this information helps us ensure that you receive accurate medical advice and care."
+  },
+  {
+      "question": "how does my sex affect my healthcare",
+      "answer": "Certain medical conditions and treatments vary based on sex, so knowing this helps us provide the right care."
+  },
+  {
+      "question": "why do you ask about sexual orientation",
+      "answer": "We ask about sexual orientation to ensure that healthcare services are inclusive and tailored to meet the needs of all individuals."
+  },
+  {
+      "question": "do i have to tell you my sexual orientation",
+      "answer": "No, sharing this information is entirely optional. It helps us provide respectful and inclusive care, but it is your choice."
+  },
+  {
+      "question": "will my sexual orientation affect my healthcare",
+      "answer": "No, your sexual orientation does not impact the quality of care you receive. It only helps us ensure our services are inclusive and respectful."
+  },
+  {
+      "question": "who has access to my personal information",
+      "answer": "Only authorized healthcare professionals involved in your care will have access to your personal information. It is kept secure and private."
+  },
+  {
+      "question": "what if i do not feel safe sharing my personal data",
+      "answer": "Your privacy is a priority. You can choose what information to share, and all data is kept secure and used only for your healthcare."
+  },
+  {
+      "question": "how do i know my information will not be misused",
+      "answer": "We follow strict data protection regulations, and your information is only accessed by authorized healthcare professionals."
+  },
+  {
+      "question": "can i change or delete my personal information later",
+      "answer": "Yes, you can update or request deletion of your personal information, subject to legal and healthcare requirements."
+  },
+  {
+      "question": "what if i do not trust the system with my data",
+      "answer": "We understand your concerns. Your data is stored securely, and you have control over what you share."
+  },
+  {
+    "question": "Why do you ask about my ethnicity?",
+    "answer": "We ask about your ethnicity to ensure healthcare services are inclusive and accessible to everyone. Some health conditions may affect different ethnic groups differently, so this information helps us provide the most appropriate care. Your data is securely stored and only used for healthcare purposes."
+},
+{
+    "question": "How does my ethnicity impact my healthcare?",
+    "answer": "Certain medical conditions, such as diabetes or sickle cell disease, are more common in specific ethnic groups. By understanding your background, we can tailor healthcare advice and screenings to your needs. Your privacy is always respected, and data is used only to improve care."
+},
+{
+    "question": "Will my ethnicity affect the care I receive?",
+    "answer": "No, healthcare is provided equally to everyone. Knowing your ethnicity helps us offer relevant screenings or preventive care if you are at higher risk for certain conditions. However, sharing this information is completely optional."
+},
+{
+    "question": "Why do you ask about my sexual orientation?",
+    "answer": "Your sexual orientation helps us ensure that healthcare services are inclusive and respectful of diverse needs. It also helps us address health disparities within LGBTQ+ communities. This information is optional and stored securely."
+},
+{
+    "question": "Will my sexual orientation be shared with others?",
+    "answer": "No, your sexual orientation is confidential and is only used to improve healthcare services in an anonymous and secure manner. It will not be shared without your explicit consent."
+},
+{
+    "question": "How does gender reassignment information affect my healthcare?",
+    "answer": "Understanding gender reassignment helps us provide care that is appropriate for your needs, such as hormone therapy management or screenings. This information is optional and kept private."
+},
+{
+    "question": "Why do you need my gender identity?",
+    "answer": "We ask about gender identity to ensure that our services are inclusive and respectful. For example, certain screenings (such as cervical or prostate exams) may still be relevant based on your anatomy. This information is securely stored and only used for healthcare purposes."
+},
+{
+    "question": "Can I refuse to answer questions about my gender identity?",
+    "answer": "Yes, you can choose not to provide this information. It is only collected to improve healthcare inclusivity, and your privacy will always be respected."
+},
+{
+    "question": "Why do you ask if I have a disability?",
+    "answer": "We ask about disability to make sure healthcare services are fully accessible to you. This helps us provide any necessary accommodations, such as accessible communication formats, mobility support, or alternative appointment arrangements."
+},
+{
+    "question": "What happens if I don’t disclose my disability?",
+    "answer": "You are not required to disclose your disability. However, sharing this information helps us ensure that healthcare services are accessible and tailored to your needs."
+},
+{
+    "question": "Why do you need to know my marital or civil partnership status?",
+    "answer": "We ask about marital status to understand your support system, which can sometimes impact healthcare decisions, caregiving, and access to support networks. This information is optional and stored securely."
+},
+{
+    "question": "Do I have to disclose if I am pregnant?",
+    "answer": "No, but sharing this information helps us ensure that any treatments or advice provided are safe for both you and your baby."
+},
+{
+    "question": "Why do you need to know if I am breastfeeding?",
+    "answer": "We ask about breastfeeding to ensure that any treatments or medications prescribed are safe for both you and your baby."
+},
+{
+    "question": "How does Public Health Scotland use my data?",
+    "answer": "Public Health Scotland uses anonymized data to analyze health trends, identify disparities, and improve healthcare services. Your personal identity remains protected, and strict data security measures are in place."
+},
+{
+    "question": "Who has access to my personal data?",
+    "answer": "Only authorized healthcare professionals involved in your care can access your data. It is securely stored and protected by strict confidentiality policies."
+},
+{
+    "question": "Will my data be shared with third parties?",
+    "answer": "No, your personal data will not be shared with third parties such as employers or insurance companies without your explicit consent."
+},
+{
+    "question": "Can I request to have my personal data deleted?",
+    "answer": "Yes, you have the right to request deletion of your personal data. However, some medical records must be retained for legal and healthcare purposes. You can contact your healthcare provider for more information."
+},
+{
+    "question": "Why do you collect data on protected characteristics?",
+    "answer": "Collecting data on protected characteristics helps healthcare services identify and address inequalities, ensuring fair and inclusive care for everyone. This data is used for service improvement and is securely stored."
+},
+{
+    "question": "Can I refuse to share my protected characteristic data?",
+    "answer": "Yes, sharing this information is completely voluntary. If you choose not to disclose it, you will still receive the same quality of care."
+},
+{
+    "question": "How is my data protected?",
+    "answer": "We follow strict data protection laws, use secure storage systems, and limit access to authorized personnel only. Your data is encrypted and protected against unauthorized access."
+},
+{
+    "question": "Can I access the personal data you have about me?",
+    "answer": "Yes, you have the right to request a copy of your personal data. You can contact your healthcare provider to make a request under data protection regulations."
+},
+{
+    "question": "Why do you ask for my age?",
+    "answer": "Age is an important factor in healthcare. Some screenings, treatments, and risk factors vary based on age. Providing your age helps ensure you receive appropriate medical care."
+},
+{
+    "question": "Can I refuse to share my age?",
+    "answer": "Yes, sharing your age is voluntary. However, providing this information helps healthcare providers offer appropriate screenings and treatments for your stage of life."
+},
+{
+    "question": "Why do you need my contact details?",
+    "answer": "We use your contact details to send important healthcare updates, appointment reminders, or test results. Your information is stored securely and accessed only by authorized personnel."
+},
+{
+    "question": "How does collecting this data improve public health policies?",
+    "answer": "Aggregated data helps identify health trends, disparities, and resource needs. This enables better planning and the development of targeted public health policies to improve care for everyone."
+},
+{
+    "question": "Will my personal details be shared with my employer?",
+    "answer": "No, we do not share your personal health information with employers or insurance providers without your explicit consent."
+},
+{
+    "question": "Can I update my personal information if it changes?",
+    "answer": "Yes, you have the right to update or correct your personal information at any time to ensure your records remain accurate."
+}
     
 ]
   

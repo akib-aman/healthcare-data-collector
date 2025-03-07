@@ -1,6 +1,7 @@
 import os
 import json
 import uuid
+import re
 from langchain.prompts import PromptTemplate
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, T5Tokenizer, T5ForConditionalGeneration
 
@@ -160,6 +161,14 @@ def generate_with_gpt(question: str) -> str:
         if "Answer:" in generated_text:
             # Keep only text after "Answer:"
             generated_text = generated_text.split("Answer:", 1)[-1].strip()
+        
+        keywords = ["What happens if I ", "Learn more about", "However,", "For example,", "For more information,"]
+
+        # Create a pattern that matches any of these keywords and everything following them.
+        pattern = r'(?:' + '|'.join(re.escape(kw) for kw in keywords) + r').*$'
+
+        # Remove the keyword and everything after it.
+        generated_text = re.sub(pattern, '', generated_text).strip()
 
         return generated_text
     except Exception as e:

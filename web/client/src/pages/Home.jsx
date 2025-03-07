@@ -54,7 +54,7 @@ function Home() {
             {
               type: "bot",
               text:
-                "Hello! I'm DoctorBot. I'm here to help you fill out a GP Registration form for Public Health Scotland. Let's begin firstly by giving us your " +
+                "Hello! I'm here to help you fill out this equalities form. We ask you for these details in order to fully hlpe you Let's begin firstly by giving us your " +
                 firstField +
                 "!",
             },

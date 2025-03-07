@@ -24,6 +24,7 @@ else:
 # T5 TRAINING LOGIC
 #############################################
 def train_t5():
+    return
     """
     Train a T5 model for extracting fields (age, name, sex, etc.).
     Saves the model & tokenizer to ./t5-trained-model
