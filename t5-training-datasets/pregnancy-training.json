@@ -22,5 +22,774 @@
     {
         "input": "Extract the pregnancy/maternity from this text: This is personal",
         "output": "{\"Marriage/CivilPartnership\": \"Prefer Not to Say\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m expecting",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not expecting",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m pregnant",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not pregnant",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m with child",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not with child",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m up the duff",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not up the duff",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m preggers",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not preggers",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m knocked up",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not knocked up",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m carrying a baby",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not carrying a baby",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the pudding club",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the pudding club",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m having a baby",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not having a baby",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m expecting a little one",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not expecting a little one",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in a delicate condition",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in a delicate condition",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m baking a bun",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not baking a bun",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m expecting a bundle of joy",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not expecting a bundle of joy",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m expecting a child",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not expecting a child",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m carrying a child",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not carrying a child",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in a delicate condition",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in a delicate condition",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the club",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the club",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m baking a bun",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not baking a bun",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m expecting a bundle of joy",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not expecting a bundle of joy",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not in the family way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I got a bun in the oven",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No bun in the oven here",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: She’s got a little one on the way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Ain’t got no baby coming",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way, yeah",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in the family way, nah",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m eating for two now",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m not eating for two",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Got a baby on board",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No baby on board here",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the pudding club, mate",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in the pudding club, no way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m up the stick",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not up the stick, no",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the club, you know",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in the club, nope",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m baking a little muffin",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No muffin in the oven",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m carrying a little one",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not carrying anything, no",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in a delicate state",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in a delicate state, nah",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m expecting a little bundle",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No little bundle coming",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way, yep",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in the family way, nope",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the club, yeah",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in the club, nah",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m baking a little loaf",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No loaf in the oven",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m carrying a little joy",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not carrying any joy, no",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in a delicate way",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in a delicate way, nah",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m expecting a little miracle",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No little miracle coming",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way, sure",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in the family way, no",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the club, sure",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in the club, no",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m baking a little cake",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No cake in the oven",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m carrying a little hope",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not carrying any hope, no",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in a delicate way, yeah",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in a delicate way, no",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m expecting a little star",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No little star coming",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in the family way, sure thing",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in the family way, no way",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m baking a little pie",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No pie in the oven",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m carrying a little dream",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not carrying any dream, no",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m in a delicate way, yep",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Not in a delicate way, nope",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I’m expecting a little angel",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: No little angel coming",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: i will one day",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: one day",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
     }
 ]

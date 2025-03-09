@@ -1,6 +1,10 @@
 import os
 import json
 import torch
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
+import numpy as np
 from datasets import Dataset, concatenate_datasets
 from transformers import (
     # T5 imports
@@ -20,10 +24,11 @@ else:
     print(" NO GPU DETECTED! ")
     exit()
 
-#############################################
-# T5 TRAINING LOGIC
-#############################################
+# ---------------------
+# T5 Training Logic
+# ---------------------
 def train_t5():
+    return
     """
     Train a T5 model for extracting fields (age, name, sex, etc.).
     Saves the model & tokenizer to ./t5-trained-model
@@ -31,6 +36,20 @@ def train_t5():
     
     # Configuration for T5 dataset paths
     dataset_paths = {
+        "firstname_training": {
+            "file_path": "./t5-training-datasets/firstname-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the firstname from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
+        "lastname_training": {
+            "file_path": "./t5-training-datasets/lastname-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the lastname from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
         "age_training": {
             "file_path": "./t5-training-datasets/age-training.json",
             "conversion_logic": lambda ex: {
@@ -109,6 +128,13 @@ def train_t5():
             "file_path": "./t5-training-datasets/sexual-orientation-training.json",
             "conversion_logic": lambda ex: {
                 "input": f"Extract the sexual orientation from this text: {ex['input']}",
+                "output": ex["output"]
+            }
+        },
+        "pregnancy_training": {
+            "file_path": "./t5-training-datasets/pregnancy-training.json",
+            "conversion_logic": lambda ex: {
+                "input": f"Extract the pregnancy/maternity from this text: {ex['input']}",
                 "output": ex["output"]
             }
         }
@@ -205,10 +231,88 @@ def train_t5():
     tokenizer.save_pretrained("./web/server/t5-trained-model")
     print("T5 model saved to ./t5-trained-model")
 
+def compute_similarity(generated, expected):
+    """Compute cosine similarity between generated and expected answer embeddings"""
+    embeddings = sbert_model.encode([generated, expected])
+    similarity_score = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
+    return similarity_score
 
-#############################################
-# GPT TRAINING LOGIC
-#############################################
+# ---------------------
+# GPT Validation Logic
+# ---------------------
+def load_validation_dataset():
+    validation_file_path = "./gpt-training-datasets/question-answer-validation.json"
+
+    with open(validation_file_path, "r") as file:
+        validation_data = json.load(file)
+
+    validation_dataset = Dataset.from_list([
+        {
+            "text": (
+                f"<|startoftext|>Question: {ex['question']}\n"
+                f"Answer: {ex['answer']}"
+                f"<|endoftext|>"
+            )
+        }
+        for ex in validation_data
+    ])
+    
+    return validation_dataset
+
+# ---------------------
+# GPT Evaluate
+# ---------------------
+def evaluate_gpt(model, tokenizer, validation_dataset, output_file="gpt2-medium-validation-results.json"):
+    model.eval()
+    results = []
+    total_similarity = 0
+    passing_threshold = 0.7  # Consider answers "acceptable" if similarity is above 0.7
+    passing_count = 0
+
+    for example in validation_dataset:
+        input_text = f"<|startoftext|>Question: {example['text'].split('Question: ')[1].split('\\n')[0]}\nAnswer:"
+        
+        input_ids = tokenizer.encode(input_text, return_tensors="pt").to(device)
+        output = model.generate(input_ids, max_length=100, num_beams=5, early_stopping=True)
+
+        generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+        generated_answer = generated_text.split("Answer:")[-1].strip()
+        expected_answer = example['text'].split('Answer: ')[1].split("<|endoftext|>")[0].strip()
+
+        # Compute similarity score
+        similarity_score = compute_similarity(generated_answer, expected_answer)
+        total_similarity += similarity_score
+        if similarity_score >= passing_threshold:
+            passing_count += 1
+
+        results.append({
+            "question": example['text'].split('Question: ')[1].split('\\n')[0],
+            "generated_answer": generated_answer,
+            "expected_answer": expected_answer,
+            "similarity_score": similarity_score
+        })
+
+    # Compute final statistics
+    avg_similarity = total_similarity / len(results)
+    passing_percentage = (passing_count / len(results)) * 100
+
+    # Save results to JSON
+    with open(output_file, "w") as f:
+        json.dump({
+            "average_similarity": avg_similarity,
+            "passing_percentage": passing_percentage,
+            "detailed_results": results
+        }, f, indent=4)
+
+    print(f"Evaluation complete. Average Similarity: {avg_similarity:.4f}")
+    print(f"Percentage of 'acceptable' answers: {passing_percentage:.2f}%")
+    print(f"Results saved to {output_file}")
+
+    return avg_similarity, passing_percentage
+
+# ---------------------
+# GPT Training Logic
+# ---------------------
 def train_gpt():
     """
     Train a GPT model for Q&A style interactions, 
@@ -275,45 +379,34 @@ def train_gpt():
         data_collator=data_collator
     )
 
-    # 6. Train
+    # 6. Evaluate
+    validation_dataset = load_validation_dataset()
+
+    # 7. Train
     print("Starting GPT training...")
     trainer.train()
     print("GPT training complete.")
 
-    # 7. Save the model & tokenizer
+    # 8. Evaluate
+    predictions = evaluate_gpt(model, tokenizer, validation_dataset)
+    for pred in predictions[:5]:  # Print first 5 results
+        print(f"Q: {pred['question']}\nGPT-2 Answer: {pred['generated_answer']}\nExpected: {pred['expected_answer']}\n")
+
+    # 9. Save the model & tokenizer
     model.save_pretrained("./gpt-trained-model")
     tokenizer.save_pretrained("./gpt-trained-model")
 
-    # Optionally save elsewhere too
+    # 10. Save to Server
     model.save_pretrained("./web/server/gpt-trained-model")
     tokenizer.save_pretrained("./web/server/gpt-trained-model")
 
     print("GPT model saved to ./gpt-trained-model")
 
 
-#############################################
-# MAIN SCRIPT ENTRY POINT
-#############################################
+# ---------------------
+# Main Entry
+# ---------------------
 if __name__ == "__main__":
     # Option A: Just call both
-    train_t5()
-    train_gpt()
-
-    # Option B (comment out the above two lines) and selectively call one:
     # train_t5()
-    # train_gpt()
-
-    # Or handle CLI arguments to choose which model to train, e.g.:
-    #
-    # import sys
-    # args = sys.argv
-    # if len(args) > 1:
-    #     if args[1] == "t5":
-    #         train_t5()
-    #     elif args[1] == "gpt":
-    #         train_gpt()
-    #     elif args[1] == "both":
-    #         train_t5()
-    #         train_gpt()
-    # else:
-    #     print("Usage: python train_models.py [t5 | gpt | both]")
+    train_gpt()

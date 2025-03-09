@@ -1,6 +1,7 @@
 import os
 import json
 import uuid
+import re
 from langchain.prompts import PromptTemplate
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, T5Tokenizer, T5ForConditionalGeneration
 
@@ -45,7 +46,8 @@ field_commands = {
     "religion/belief": "Extract the religion/belief from this text: ",
     "ethnicity": "Extract the ethnicity from this text: ",
     "race": "Extract the race from this text: ",
-    "pregnancy/maternity": "Extract the pregnancy/maternity from this text: "
+    "pregnancy/maternity": "Extract the pregnancy/maternity from this text: ",
+    "specialrequirements": "Extract the special requirements from this text: ",
 }
 
 # Ensure session-forms directory exists
@@ -156,10 +158,24 @@ def generate_with_gpt(question: str) -> str:
         # Decode the tokens
         generated_text = gpt_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-        # OPTIONAL: Post-process if you want to strip out the "Question: ...\nAnswer:" portion
         if "Answer:" in generated_text:
             # Keep only text after "Answer:"
             generated_text = generated_text.split("Answer:", 1)[-1].strip()
+        
+        keywords = ["What happens if I ", "Learn more about", "However,", "For example,", "For more information,"]
+
+        # Convert both text and keywords to lowercase for case-insensitive matching
+        lower_text = generated_text.lower()
+
+        # Create regex pattern to match each keyword (case-insensitive)
+        pattern = r'(?i)(' + '|'.join(re.escape(kw.lower()) for kw in keywords) + r').*'
+
+        # Find match position
+        match = re.search(pattern, lower_text)
+
+        if match:
+            # Remove everything from the keyword onwards
+            generated_text = generated_text[:match.start()].strip()
 
         return generated_text
     except Exception as e:
