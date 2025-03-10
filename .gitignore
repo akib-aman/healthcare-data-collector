@@ -6,4 +6,4 @@ results/
 t5-trained-model/
 session-forms/
 t5-training-datasets.zip
-./web/server/__pycache__
+web/server/__pycache__

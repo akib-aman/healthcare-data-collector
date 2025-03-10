@@ -1,6 +1,7 @@
 import os
 import json
 import torch
+import re
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -14,6 +15,7 @@ from transformers import (
 )
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # The directory of the current script
 
 # Check GPU availability
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -224,11 +226,12 @@ def train_t5():
     print("T5 training complete.")
 
     # Save T5 model & tokenizer
-    model.save_pretrained("./t5-trained-model")
-    tokenizer.save_pretrained("./t5-trained-model")
+    model.save_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
+    tokenizer.save_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
 
-    model.save_pretrained("./web/server/t5-trained-model")
-    tokenizer.save_pretrained("./web/server/t5-trained-model")
+    # Save to Server
+    model.save_pretrained(os.path.join(BASE_DIR, "./web/server/t5-trained-model"))
+    tokenizer.save_pretrained(os.path.join(BASE_DIR, "./web/server/t5-trained-model"))
     print("T5 model saved to ./t5-trained-model")
 
 def compute_similarity(generated, expected):
@@ -260,9 +263,20 @@ def load_validation_dataset():
     return validation_dataset
 
 # ---------------------
+# Trim Last Sentence
+# ---------------------
+def trim_last_sentence(text: str) -> str:
+    """
+    Trims the last sentence from the text by removing everything 
+    after the last period (".").
+    """
+    match = re.search(r'^(.*?\.)[^.]*$', text, re.DOTALL)
+    return match.group(1).strip() if match else text  # Return trimmed text or original if no period found
+
+# ---------------------
 # GPT Evaluate
 # ---------------------
-def evaluate_gpt(model, tokenizer, validation_dataset, output_file="gpt2-medium-validation-results.json"):
+def evaluate_gpt(model, tokenizer, validation_dataset, output_file="evaluations/gpt2/gpt2-medium-validation-results.json"):
     model.eval()
     results = []
     total_similarity = 0
@@ -270,33 +284,65 @@ def evaluate_gpt(model, tokenizer, validation_dataset, output_file="gpt2-medium-
     passing_count = 0
 
     for example in validation_dataset:
-        input_text = f"<|startoftext|>Question: {example['text'].split('Question: ')[1].split('\\n')[0]}\nAnswer:"
+        question_text = example['text'].split('Question: ')[1].split('\n')[0]
+        input_text = f"<|startoftext|>Question: {question_text}\nAnswer:"
         
-        input_ids = tokenizer.encode(input_text, return_tensors="pt").to(device)
-        output = model.generate(input_ids, max_length=100, num_beams=5, early_stopping=True)
+        inputs = tokenizer(input_text, return_tensors="pt", padding=True, truncation=True).to(device)
+        
+        output = model.generate(
+            inputs['input_ids'],
+            attention_mask=inputs['attention_mask'],
+            max_new_tokens=40,
+            min_length=20,
+            do_sample=True,
+            top_k=50,
+            top_p=0.85,
+            temperature=0.7,
+            pad_token_id=tokenizer.eos_token_id,
+            repetition_penalty=1.1,  # discourage repetition
+            no_repeat_ngram_size=2,  # block 2-gram repeats
+            early_stopping=False
+        )
 
         generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
         generated_answer = generated_text.split("Answer:")[-1].strip()
+
+        keywords = ["What happens if I ", "Learn more about", "However,", "For example,", "For more information,"]
+
+        # Convert both text and keywords to lowercase for case-insensitive matching
+        lower_text = generated_answer.lower()
+
+        # Trim last sentence
+        generated_answer = trim_last_sentence(generated_answer)
+        
+        # Create regex pattern to match each keyword (case-insensitive)
+        pattern = r'(?i)(' + '|'.join(re.escape(kw.lower()) for kw in keywords) + r').*'
+
+        # Find match position
+        match = re.search(pattern, lower_text)
+
+        if match:
+            # Remove everything from the keyword onwards
+            generated_answer = generated_answer[:match.start()].strip()
+        
         expected_answer = example['text'].split('Answer: ')[1].split("<|endoftext|>")[0].strip()
 
-        # Compute similarity score
         similarity_score = compute_similarity(generated_answer, expected_answer)
         total_similarity += similarity_score
         if similarity_score >= passing_threshold:
             passing_count += 1
 
+
         results.append({
-            "question": example['text'].split('Question: ')[1].split('\\n')[0],
+            "question": question_text,
             "generated_answer": generated_answer,
             "expected_answer": expected_answer,
-            "similarity_score": similarity_score
+            "similarity_score": float(similarity_score)  # Convert to native float
         })
 
-    # Compute final statistics
-    avg_similarity = total_similarity / len(results)
-    passing_percentage = (passing_count / len(results)) * 100
+    avg_similarity = float(total_similarity / len(results))
+    passing_percentage = float((passing_count / len(results)) * 100)
 
-    # Save results to JSON
     with open(output_file, "w") as f:
         json.dump({
             "average_similarity": avg_similarity,
@@ -308,7 +354,7 @@ def evaluate_gpt(model, tokenizer, validation_dataset, output_file="gpt2-medium-
     print(f"Percentage of 'acceptable' answers: {passing_percentage:.2f}%")
     print(f"Results saved to {output_file}")
 
-    return avg_similarity, passing_percentage
+    return avg_similarity, passing_percentage, results
 
 # ---------------------
 # GPT Training Logic
@@ -388,20 +434,19 @@ def train_gpt():
     print("GPT training complete.")
 
     # 8. Evaluate
-    predictions = evaluate_gpt(model, tokenizer, validation_dataset)
-    for pred in predictions[:5]:  # Print first 5 results
+    avg_similarity, passing_percentage, detailed_results = evaluate_gpt(model, tokenizer, validation_dataset)
+    for pred in detailed_results[:5]:  # Now iterate over the detailed results list
         print(f"Q: {pred['question']}\nGPT-2 Answer: {pred['generated_answer']}\nExpected: {pred['expected_answer']}\n")
 
     # 9. Save the model & tokenizer
-    model.save_pretrained("./gpt-trained-model")
-    tokenizer.save_pretrained("./gpt-trained-model")
+    model.save_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+    tokenizer.save_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
 
     # 10. Save to Server
-    model.save_pretrained("./web/server/gpt-trained-model")
-    tokenizer.save_pretrained("./web/server/gpt-trained-model")
+    model.save_pretrained(os.path.join(BASE_DIR, "./web/server/gpt-trained-model"))
+    tokenizer.save_pretrained(os.path.join(BASE_DIR, "./web/server/gpt-trained-model"))
 
     print("GPT model saved to ./gpt-trained-model")
-
 
 # ---------------------
 # Main Entry
