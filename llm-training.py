@@ -1,6 +1,7 @@
 import os
 import json
 import torch
+import re
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -262,6 +263,17 @@ def load_validation_dataset():
     return validation_dataset
 
 # ---------------------
+# Trim Last Sentence
+# ---------------------
+def trim_last_sentence(text: str) -> str:
+    """
+    Trims the last sentence from the text by removing everything 
+    after the last period (".").
+    """
+    match = re.search(r'^(.*?\.)[^.]*$', text, re.DOTALL)
+    return match.group(1).strip() if match else text  # Return trimmed text or original if no period found
+
+# ---------------------
 # GPT Evaluate
 # ---------------------
 def evaluate_gpt(model, tokenizer, validation_dataset, output_file="evaluations/gpt2/gpt2-medium-validation-results.json"):
@@ -281,21 +293,45 @@ def evaluate_gpt(model, tokenizer, validation_dataset, output_file="evaluations/
             inputs['input_ids'],
             attention_mask=inputs['attention_mask'],
             max_new_tokens=40,
-            min_length=10,
-            do_sample=True,  # enables sampling
+            min_length=20,
+            do_sample=True,
             top_k=50,
-            top_p=0.95,
-            pad_token_id=tokenizer.eos_token_id
+            top_p=0.85,
+            temperature=0.7,
+            pad_token_id=tokenizer.eos_token_id,
+            repetition_penalty=1.1,  # discourage repetition
+            no_repeat_ngram_size=2,  # block 2-gram repeats
+            early_stopping=False
         )
 
         generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
         generated_answer = generated_text.split("Answer:")[-1].strip()
+
+        keywords = ["What happens if I ", "Learn more about", "However,", "For example,", "For more information,"]
+
+        # Convert both text and keywords to lowercase for case-insensitive matching
+        lower_text = generated_answer.lower()
+
+        # Trim last sentence
+        generated_answer = trim_last_sentence(generated_answer)
+        
+        # Create regex pattern to match each keyword (case-insensitive)
+        pattern = r'(?i)(' + '|'.join(re.escape(kw.lower()) for kw in keywords) + r').*'
+
+        # Find match position
+        match = re.search(pattern, lower_text)
+
+        if match:
+            # Remove everything from the keyword onwards
+            generated_answer = generated_answer[:match.start()].strip()
+        
         expected_answer = example['text'].split('Answer: ')[1].split("<|endoftext|>")[0].strip()
 
         similarity_score = compute_similarity(generated_answer, expected_answer)
         total_similarity += similarity_score
         if similarity_score >= passing_threshold:
             passing_count += 1
+
 
         results.append({
             "question": question_text,

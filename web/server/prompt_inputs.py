@@ -139,6 +139,20 @@ def classify_prompt(prompt: str) -> str:
     except Exception as e:
         return f"Error in classification: {str(e)}"
 
+# ---------------------
+# Trim Last Sentence
+# ---------------------
+def trim_last_sentence(text: str) -> str:
+    """
+    Trims the last sentence from the text by removing everything 
+    after the last period (".").
+    """
+    match = re.search(r'^(.*?\.)[^.]*$', text, re.DOTALL)
+    return match.group(1).strip() if match else text  # Return trimmed text or original if no period found
+
+# ---------------------
+# GPT Generator
+# ---------------------
 def generate_with_gpt(question: str) -> str:
     """
     Generates a detailed response using GPT-2 
@@ -149,11 +163,18 @@ def generate_with_gpt(question: str) -> str:
     try:
         inputs = gpt_tokenizer(prompt_text, return_tensors="pt")
         outputs = gpt_model.generate(
-            inputs.input_ids, 
-            max_length=100, 
-            num_beams=5,
-            no_repeat_ngram_size=2,  # helps avoid repetition
-            repetition_penalty=1.2   # slightly penalizes repeated text
+            inputs['input_ids'],
+            attention_mask=inputs['attention_mask'],
+            max_new_tokens=60,
+            min_length=30,
+            do_sample=True,
+            top_k=50,
+            top_p=0.85,
+            temperature=0.7,
+            pad_token_id=gpt_tokenizer.eos_token_id,
+            repetition_penalty=1.1,  # discourage repetition
+            no_repeat_ngram_size=2,  # block 2-gram repeats
+            early_stopping=False
         )
         # Decode the tokens
         generated_text = gpt_tokenizer.decode(outputs[0], skip_special_tokens=True)
@@ -167,6 +188,9 @@ def generate_with_gpt(question: str) -> str:
         # Convert both text and keywords to lowercase for case-insensitive matching
         lower_text = generated_text.lower()
 
+        # Trim last sentence
+        generated_text = trim_last_sentence(generated_text)
+        
         # Create regex pattern to match each keyword (case-insensitive)
         pattern = r'(?i)(' + '|'.join(re.escape(kw.lower()) for kw in keywords) + r').*'
 
@@ -181,7 +205,9 @@ def generate_with_gpt(question: str) -> str:
     except Exception as e:
         return f"Error generating GPT response: {str(e)}"
 
-
+# ---------------------
+# T5 Generator
+# ---------------------
 def generate_with_t5(prompt: str) -> str:
     """
     Extracts data using T5.
