@@ -357,7 +357,7 @@
     },
     {
       "input": "Non-binary",
-      "output": "Data Extraction"
+      "output": "Detailed Response"
     },
     {
       "input": "Transgender",
@@ -492,6 +492,14 @@
       "output": "Data Extraction"
     },
     {
+      "input": "I am in a wheelchair",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I use a wheelchair",
+      "output": "Data Extraction"
+    },
+    {
       "input": "Deafblind",
       "output": "Data Extraction"
     },
@@ -517,6 +525,10 @@
     },
     {
       "input": "Married",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "Yes i am currently married",
       "output": "Data Extraction"
     },
     {
@@ -1380,7 +1392,7 @@
   },
   {
       "input": "I identify as non-binary",
-      "output": "Data Extraction"
+      "output": "Detailed Response"
   },
   {
       "input": "I am a UK citizen",
@@ -1388,7 +1400,7 @@
   },
   {
       "input": "I identify as non-binary",
-      "output": "Data Extraction"
+      "output": "Detailed Response"
   },
   {
       "input": "My title is Dr.",
@@ -1468,7 +1480,7 @@
   },
   {
       "input": "I identify as non-binary",
-      "output": "Data Extraction"
+      "output": "Detailed Response"
   },
   {
       "input": "I am Mr. Smith",
@@ -2260,6 +2272,22 @@
   },
   {
     "input": "why disability data important?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "im non binary",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "my sex is non binary",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "im non-binary",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "my sex is non-binary",
     "output": "Detailed Response"
   },
   {

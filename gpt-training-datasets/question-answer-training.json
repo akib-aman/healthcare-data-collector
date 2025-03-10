@@ -1746,6 +1746,134 @@
 {
   "question": "How is my data used to improve public health?",
   "answer": "Your anonymized data may be used to identify health trends, develop new treatments, and plan public health initiatives to benefit the wider population."
+},
+{
+  "question": "why do you need my age?",
+  "answer": "We need your age to provide age-specific medical care and advice. This helps ensure you receive treatments or recommendations that are most appropriate for your age group. Your data is kept secure and confidential."
+},
+{
+  "question": "how does my age affect my healthcare?",
+  "answer": "Your age helps us recommend appropriate screenings, vaccinations, and treatments specific to your life stage. This ensures you receive the best medical advice and care."
+},
+{
+  "question": "why do i need to share my date of birth?",
+  "answer": "Your date of birth ensures we match you with the right medical records and age-appropriate healthcare services."
+},
+{
+  "question": "why do you need to know my ethnicity?",
+  "answer": "We ask for your ethnicity because certain medical conditions or risks can be more common in specific ethnic groups. This information helps us provide you with better, more personalized care. Your data is always kept secure and never shared with third parties."
+},
+{
+  "question": "do i have to tell you my ethnicity?",
+  "answer": "No, sharing your ethnicity is optional. However, it helps us provide better care by identifying potential health risks and ensuring services are inclusive."
+},
+{
+  "question": "why does my ethnicity matter in healthcare?",
+  "answer": "Some health conditions are more common in specific ethnic groups. Understanding this helps us provide better preventative care and treatment."
+},
+{
+  "question": "why do you ask about my sexual orientation?",
+  "answer": "We ask about sexual orientation to ensure healthcare services are inclusive and sensitive to your needs. This information is optional and kept confidential."
+},
+{
+  "question": "do i have to disclose my sexual orientation?",
+  "answer": "No, you are not required to share this information. We ask to ensure inclusivity, but it is entirely your choice."
+},
+{
+  "question": "why do you need to know my gender?",
+  "answer": "We ask for your gender to ensure that medical care, screenings, and advice are appropriate for you. Certain conditions or treatments may vary by gender."
+},
+{
+  "question": "do i need to answer questions about my gender?",
+  "answer": "No, this is optional, but it helps us provide medical care that aligns with your biological sex, which can be relevant for screenings and treatments."
+},
+{
+  "question": "why do you need to know if i have a disability?",
+  "answer": "We ask about disabilities to ensure our services are accessible and tailored to your needs. This helps us provide the best possible care and support."
+},
+{
+  "question": "what if i don’t want to share my disability status?",
+  "answer": "You do not have to share this information, but it helps us make accommodations to better support your healthcare experience."
+},
+{
+  "question": "why do you ask about gender reassignment?",
+  "answer": "We ask about gender reassignment to ensure that the care and services we provide are inclusive and tailored to your specific needs. This information is optional and is kept confidential in line with strict data protection laws."
+},
+{
+  "question": "do i have to disclose if i have had gender reassignment surgery?",
+  "answer": "No, this is completely optional. If shared, this information helps us ensure your healthcare needs are met appropriately."
+},
+{
+  "question": "why do you ask about pregnancy or maternity?",
+  "answer": "We ask about pregnancy and maternity to ensure that any treatments or advice provided are safe for both you and your child."
+},
+{
+  "question": "do i have to tell you if i'm pregnant?",
+  "answer": "No, you do not have to disclose this information, but it helps us provide the safest and most appropriate care."
+},
+{
+  "question": "how does knowing if i’m pregnant affect my care?",
+  "answer": "Certain treatments, medications, or procedures may need to be adjusted during pregnancy to protect your health and your baby’s development."
+},
+{
+  "question": "why do you ask about my marital or civil partnership status?",
+  "answer": "We ask about this to understand your support system and any factors that may influence your care. This information is optional and kept private."
+},
+{
+  "question": "does being married affect my healthcare?",
+  "answer": "No, but knowing your marital status helps us provide resources or support systems that may be relevant to you."
+},
+{
+  "question": "why do you ask about my religion or belief?",
+  "answer": "Knowing your religion or belief helps us respect your spiritual and cultural needs during your care. This can include dietary preferences, religious practices, or accommodations during treatment."
+},
+{
+  "question": "what if i don’t have a religion?",
+  "answer": "You can indicate ‘no religion’ or leave this blank. It’s entirely up to you."
+},
+{
+  "question": "why do you need to know my biological sex?",
+  "answer": "We ask for your biological sex to ensure appropriate medical treatments and screenings. Certain health risks and conditions differ by sex."
+},
+{
+  "question": "i'm non-binary, what do i put for sex?",
+  "answer": "Sex refers to biological characteristics. If unsure, select the option that aligns with the sex you were assigned at birth."
+},
+{
+  "question": "i'm neither male nor female, how do i answer?",
+  "answer": "Biological sex is different from gender identity. If you’re non-binary, you can select the sex assigned to you at birth."
+},
+{
+  "question": "i don’t identify with a sex, what do i put?",
+  "answer": "Sex is based on biology, not identity. If unsure, select the option that matches your birth sex."
+},
+{
+  "question": "i'm genderfluid, what do i put for sex?",
+  "answer": "Your sex refers to biological traits, so you can select the one assigned at birth."
+},
+{
+  "question": "i identify as non-binary, should i select male or female?",
+  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth."
+},
+{
+  "question": "do i have to disclose my non-binary identity?",
+  "answer": "No, you do not have to disclose gender identity. However, for medical purposes, we ask for biological sex to ensure accurate care."
+},
+{
+  "question": "what if i don’t feel comfortable selecting a sex?",
+  "answer": "While gender identity is personal, sex is needed for medical reasons. If unsure, choose the sex you were assigned at birth."
+},
+{
+  "question": "can i put ‘other’ for my sex?",
+  "answer": "Most systems require either ‘male’ or ‘female’ due to biological differences affecting medical care. Choose the one that aligns with your birth sex."
+},
+{
+  "question": "im non-binary",
+  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth."
+},
+{
+  "question": "im non-binary",
+  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth."
 }
 
 ]

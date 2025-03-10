@@ -410,6 +410,14 @@
         "output": "{\"Disability\": \"Physical Disability\"}"
     },
     {
+        "input": "Extract the disability from this text: i am in a wheelchair",
+        "output": "{\"Disability\": \"Physical Disability\"}"
+    },
+    {
+        "input": "Extract the disability from this text: i am in a wheelchair right now",
+        "output": "{\"Disability\": \"Physical Disability\"}"
+    },
+    {
         "input": "Extract the disability from this text: no disability at all",
         "output": "{\"Disability\": \"None\"}"
     },

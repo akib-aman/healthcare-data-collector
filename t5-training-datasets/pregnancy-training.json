@@ -28,6 +28,30 @@
         "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
     },
     {
+        "input": "Extract the pregnancy/maternity from this text: Im 5 months in",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Im 2 months in",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Im 4 weeks in in",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: Im a few days in",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I think I am",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I think I have a baby",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
         "input": "Extract the pregnancy/maternity from this text: I’m not expecting",
         "output": "{\"Pregnancy/Maternity\": \"No\"}"
     },

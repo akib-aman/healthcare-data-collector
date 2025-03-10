@@ -282,6 +282,10 @@
         "output": "{\"Title\": \"Prefer Not to Say\"}"
     },
     {
+        "input": "Extract the title from this text: I have a Phd",
+        "output": "{\"Title\": \"Dr\"}"
+    },
+    {
         "input": "Extract the title from this text: I’d rather keep my title private.",
         "output": "{\"Title\": \"Prefer Not to Say\"}"
     },

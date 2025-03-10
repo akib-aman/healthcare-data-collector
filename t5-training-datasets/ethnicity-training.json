@@ -353,6 +353,10 @@
         "output": "{\"Ethnicity\": \"White British\"}"
     },
     {
+        "input": "Extract the ethnicity from this text: english",
+        "output": "{\"Ethnicity\": \"White British\"}"
+    },
+    {
         "input": "Extract the ethnicity from this text: scottish white",
         "output": "{\"Ethnicity\": \"White British\"}"
     },

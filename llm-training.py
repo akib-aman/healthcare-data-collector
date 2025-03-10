@@ -2,6 +2,7 @@ import os
 import json
 import torch
 import re
+import tqdm
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -56,13 +57,6 @@ def train_t5():
             "file_path": "./t5-training-datasets/age-training.json",
             "conversion_logic": lambda ex: {
                 "input": f"Extract the age from this text: {ex['input']}",
-                "output": ex["output"]
-            }
-        },
-        "name_training": {
-            "file_path": "./t5-training-datasets/names-and-age-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the name from this text: {ex['input']}",
                 "output": ex["output"]
             }
         },
