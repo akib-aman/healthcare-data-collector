@@ -18,20 +18,20 @@ decision_prompt = PromptTemplate(
 )
 
 # ---------------------
-# Load Models & Tokenizers
-# ---------------------
-gpt_tokenizer = GPT2Tokenizer.from_pretrained("./gpt-trained-model")
-gpt_model = GPT2LMHeadModel.from_pretrained("./gpt-trained-model")
-
-t5_tokenizer = T5Tokenizer.from_pretrained("./t5-trained-model")
-t5_model = T5ForConditionalGeneration.from_pretrained("./t5-trained-model")
-
-# ---------------------
 # Directory to store session-specific forms
 # ---------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # The directory of the current script
 FORM_DATA_DIR = os.path.join(BASE_DIR, "form-data")    
 SESSION_FORMS_DIR = os.path.join(FORM_DATA_DIR, "session-forms")
+
+# ---------------------
+# Load Models & Tokenizers
+# ---------------------
+gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+gpt_model = GPT2LMHeadModel.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+
+t5_tokenizer = T5Tokenizer.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
+t5_model = T5ForConditionalGeneration.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
 
 field_commands = {
     "title": "Extract the title from this text: ",
