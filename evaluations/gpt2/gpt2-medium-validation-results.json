@@ -1,942 +1,444 @@
 {
-    "average_similarity": 0.4947926104068756,
-    "passing_percentage": 8.974358974358974,
+    "average_similarity": 0.5264499187469482,
+    "passing_percentage": 8.21917808219178,
     "detailed_results": [
         {
-            "question": "Why do you need to know my gender identity?",
-            "generated_answer": "We ask about your biological sex as part of healthcare planning and screening. Your data is kept secure, protected by strict privacy policies.",
-            "expected_answer": "We ask about gender identity to ensure that healthcare services are inclusive and respectful of your needs. This helps us provide care that aligns with your identity and avoids assumptions based on biological sex.",
-            "similarity_score": 0.5967385768890381
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my ethnicity?",
-            "generated_answer": "This is completely optional, but it helps us understand your cultural background and make healthcare decisions that respect the needs of everyone. Your data will only be shared with authorized personnel involved in this process.",
-            "expected_answer": "You are not required to share your ethnicity. However, providing this information helps us identify health disparities and offer culturally sensitive care. Your privacy is always respected.",
-            "similarity_score": 0.6348077058792114
-        },
-        {
-            "question": "Why do you ask about my religion during registration?",
-            "generated_answer": "We collect your religious or cultural background to ensure healthcare is accessible and respectful. This information helps us provide the most appropriate accommodations for everyone involved in our care.",
-            "expected_answer": "We ask about religion to respect your spiritual or cultural preferences during your care. For example, it helps us accommodate dietary restrictions or provide access to prayer spaces if needed.",
-            "similarity_score": 0.7398124933242798
-        },
-        {
-            "question": "Can I refuse to answer questions about my disability?",
-            "generated_answer": "No, you cannot request a specific medical condition. However it is entirely your choice whether or not we ask for this information during our healthcare services process.",
-            "expected_answer": "Yes, you can choose not to answer. However, sharing this information helps us ensure our services are accessible and tailored to your needs.",
-            "similarity_score": 0.4365127682685852
-        },
-        {
-            "question": "Why is my marital status relevant to my healthcare?",
-            "generated_answer": "Marital Status helps us offer care that respects your needs and ensures the health of everyone involved.",
-            "expected_answer": "Marital status helps us understand your support system, which can be important in emergencies or when making decisions about your care. This information is optional and kept confidential.",
-            "similarity_score": 0.9057159423828125
-        },
-        {
-            "question": "What happens if I don\u00e2\u20ac\u2122t disclose my pregnancy status?",
-            "generated_answer": "You can request a medical or maternity leave exemption, which means you are not required to provide it. However the information is kept confidential and your privacy remains protected from unauthorized access.",
-            "expected_answer": "You are not required to disclose your pregnancy status. However, sharing this information ensures that any treatments or advice provided are safe for you and your baby.",
-            "similarity_score": 0.5967549085617065
-        },
-        {
-            "question": "Why do you need to know my sexual orientation?",
-            "generated_answer": "We ask about your gender identity based on medical screening, screenings and recommendations. Your information is used only for healthcare purposes. It does not be shared without our explicit consent.",
-            "expected_answer": "We ask about sexual orientation to ensure that healthcare services are inclusive and respectful of diverse identities. This helps us address specific health needs and provide equitable care.",
-            "similarity_score": 0.6828242540359497
-        },
-        {
-            "question": "Will my data be shared with researchers?",
-            "generated_answer": "No, your personal information will not be used to identify you for research purposes.",
-            "expected_answer": "Your data may be used for research, but it will always be anonymized to protect your identity. You can opt out of research use if you prefer.",
-            "similarity_score": 0.7489510774612427
-        },
-        {
-            "question": "How do you ensure my data is not misused?",
-            "generated_answer": "We follow strict confidentiality policies, ensuring your information remains secure and confidential. Your personal details are only accessed by authorized personnel or authorised healthcare professionals who care for it appropriately.",
-            "expected_answer": "We follow strict data protection laws, including encryption and access controls, to ensure your data is only used for healthcare purposes and is never misused.",
-            "similarity_score": 0.7268549203872681
-        },
-        {
-            "question": "Can I update my personal information later?",
-            "generated_answer": "Yes, you have the right to request a copy of your healthcare records at any time.",
-            "expected_answer": "Yes, you can update your personal information at any time by contacting your healthcare provider. Keeping your details current ensures you receive the best possible care.",
-            "similarity_score": 0.5866049528121948
-        },
-        {
-            "question": "Why do you ask about my cultural background?",
-            "generated_answer": "We collect information on your culture to make sure we respect and offer respectful, inclusive care. This helps us deliver the best possible healthcare for everyone involved.",
-            "expected_answer": "Understanding your cultural background helps us provide care that respects your traditions and preferences, such as dietary needs or language support.",
-            "similarity_score": 0.6767086982727051
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t feel comfortable sharing my gender identity?",
-            "generated_answer": "Sharing your sexual orientation or ethnicity helps us provide inclusive healthcare and support. Your information is kept confidential, but it will not be shared without our consent.",
-            "expected_answer": "You are not required to share your gender identity. However, providing this information helps us offer care that is respectful and tailored to your needs.",
-            "similarity_score": 0.6885573863983154
-        },
-        {
-            "question": "Why do you need to know if I am breastfeeding?",
-            "generated_answer": "We ask about breast milk because certain conditions, such as pregnancy or lactation, can impact how we provide care.",
-            "expected_answer": "We ask about breastfeeding to ensure that any treatments or medications prescribed are safe for both you and your baby.",
-            "similarity_score": 0.6450273990631104
-        },
-        {
-            "question": "How does my age affect my eligibility for certain treatments?",
-            "generated_answer": "Age may influence your treatment choices and screenings, but it is entirely up to you.",
-            "expected_answer": "Some treatments, such as cancer screenings or vaccinations, are age-specific. Knowing your age ensures you receive the right care at the right time.",
-            "similarity_score": 0.723889946937561
-        },
-        {
-            "question": "Why do you collect data on protected characteristics?",
-            "generated_answer": "We ask for your privacy to ensure our services are secure, personalized and tailored according the needs of each individual. Your information is used only in accordance with law or regulations at all times.",
-            "expected_answer": "We collect this data to ensure healthcare services are equitable and inclusive. It helps us identify and address disparities in care for different groups.",
-            "similarity_score": 0.386569082736969
-        },
-        {
-            "question": "Can I access my healthcare records?",
-            "generated_answer": "No, you cannot. However we ask for your personal data to ensure it is securely stored and used only by authorized personnel in accordance with NHS regulations or other legal requirements.",
-            "expected_answer": "Yes, you have the right to access your healthcare records under the UK Data Protection Act. You can request a copy from your healthcare provider.",
-            "similarity_score": 0.6894278526306152
-        },
-        {
-            "question": "What happens if I don\u00e2\u20ac\u2122t provide my religion or belief?",
-            "generated_answer": "We ask for your religious beliefs and cultural background to ensure healthcare services are inclusive, respectful of all different faiths. This information is optional but it helps us offer a safe environment where everyone feels welcome.",
-            "expected_answer": "You are not required to provide this information. However, sharing it helps us respect your spiritual or cultural needs during your care.",
-            "similarity_score": 0.6191258430480957
-        },
-        {
-            "question": "Why do you ask about my family history?",
-            "generated_answer": "We collect data on our background to ensure healthcare is accessible and equitable. Sharing this helps us deliver better care for everyone, no matter where they live.",
-            "expected_answer": "Family history helps us understand your risk for certain conditions, such as heart disease or diabetes, and allows us to provide preventive care.",
-            "similarity_score": 0.4196004271507263
-        },
-        {
-            "question": "Will my data be used for public health planning?",
-            "generated_answer": "No, your personal information will not be shared with third parties without our explicit consent. Your privacy is always protected by law and maintained to the maximum extent possible in accordance of strict confidentiality policies.",
-            "expected_answer": "Yes, anonymized data may be used to identify health trends and plan public health initiatives. Your personal identity is always protected.",
-            "similarity_score": 0.5254496335983276
-        },
-        {
-            "question": "Why do you need my contact information?",
-            "generated_answer": "We collect your personal data to improve healthcare services and ensure accurate care.",
-            "expected_answer": "We use your contact information to communicate important updates, appointment reminders, or test results. Your details are stored securely and accessed only by authorized personnel.",
-            "similarity_score": 0.5039023160934448
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want my data used for research?",
-            "generated_answer": "Sharing your personal information helps us ensure our services are secure and confidential.",
-            "expected_answer": "You can opt out of having your data used for research. This will not affect the quality of care you receive.",
-            "similarity_score": 0.3648805320262909
-        },
-        {
-            "question": "Why do you ask about my employment status?",
-            "generated_answer": "We collect information to improve healthcare services, identify trends in care and provide tailored support. This helps us deliver better outcomes for everyone involved.",
-            "expected_answer": "Employment status helps us understand your social circumstances, which can influence your health and access to care. This information is optional and kept confidential.",
-            "similarity_score": 0.38171541690826416
-        },
-        {
-            "question": "How does my ethnicity affect my risk for certain conditions?",
-            "generated_answer": "Certain medical procedures or treatments may not be suitable in specific ethnic groups.",
-            "expected_answer": "Certain conditions, such as sickle cell anemia or diabetes, are more common in specific ethnic groups. Knowing your ethnicity helps us provide targeted screenings and care.",
-            "similarity_score": 0.5481531023979187
-        },
-        {
-            "question": "Why do you ask about my housing situation?",
-            "generated_answer": "We collect data on the quality of care we provide, such as access to safe and accessible healthcare. This helps us deliver better outcomes for everyone involved.",
-            "expected_answer": "Housing situation can impact your health and access to care. This information helps us provide support and resources tailored to your needs.",
-            "similarity_score": 0.5367107391357422
+            "question": "Why do you need to know if I\u00e2\u20ac\u2122ve had gender reassignment surgery?",
+            "generated_answer": "We ask about this because some medical conditions or treatments might affect certain aspects of our sexual orientation. This information helps us make appropriate accommodations, such as ensuring that medications are safe for everyone involved in care.",
+            "expected_answer": "We ask about gender reassignment surgery to ensure your healthcare is tailored to your needs, such as hormone therapy or post-surgery care. This information is kept confidential and used only to provide appropriate care.",
+            "similarity_score": 0.6384564638137817
         },
         {
             "question": "What if I don\u00e2\u20ac\u2122t want to share my sexual orientation?",
-            "generated_answer": "Sharing your identity helps us provide respectful and sensitive healthcare, but it is entirely up the individual's choice. Your privacy will always be respected in this respect.",
-            "expected_answer": "You are not required to share your sexual orientation. However, providing this information helps us ensure our services are inclusive and respectful of your identity.",
-            "similarity_score": 0.6492631435394287
+            "generated_answer": "Sharing your identity helps us respect and address any cultural or religious needs. This information is optional, but it ensures that you receive the right support during this process. Your privacy remains protected.",
+            "expected_answer": "Sharing your sexual orientation is optional. However, it helps us provide inclusive care and address specific health concerns relevant to LGBTQ+ individuals.",
+            "similarity_score": 0.5632104873657227
         },
         {
-            "question": "Why do you need to know my education level?",
-            "generated_answer": "We ask about your background because some aspects of healthcare are more common in advanced settings, such as nursing or mental health services.",
-            "expected_answer": "Education level can influence health literacy and access to care. This information helps us provide resources and support tailored to your needs.",
-            "similarity_score": 0.43454065918922424
+            "question": "How will my ethnicity data be used to improve healthcare?",
+            "generated_answer": "Your ethnic background information helps us provide culturally sensitive care, such as ensuring that certain dietary preferences are inclusive and respectful of different groups. It also ensures we respect your cultural or spiritual needs during the process. This is optional for legal reasons only.",
+            "expected_answer": "Your ethnicity data helps us identify health disparities and improve services for diverse communities. It ensures healthcare is culturally sensitive and addresses specific needs.",
+            "similarity_score": 0.7863281965255737
         },
         {
-            "question": "How does my data help improve healthcare services?",
-            "generated_answer": "Your personal information is kept secure and only used for your care. It may not be shared without our explicit consent or if necessary to ensure accurate medical records are maintained securely in accordance with HIPAA regulations.",
-            "expected_answer": "Your data helps us identify trends, allocate resources, and develop policies that improve healthcare for everyone. It is always anonymized and used responsibly.",
-            "similarity_score": 0.5854520201683044
+            "question": "Can I refuse to answer questions about my religion?",
+            "generated_answer": "No, refusing or failing a religious test is completely optional. However it helps us provide respectful care and understanding during your healthcare journey (e-mailing details at info@religiousdiscipleshipnetwork).",
+            "expected_answer": "Yes, you can refuse to answer. However, sharing your religion helps us respect your beliefs, such as dietary preferences or spiritual practices during treatment.",
+            "similarity_score": 0.5792479515075684
         },
         {
-            "question": "Why do you ask about my income?",
-            "generated_answer": "We collect data to ensure that we provide fair and equitable healthcare. This helps us offer the best possible care for everyone, ensuring your health is protected from harm or discrimination.",
-            "expected_answer": "Income can affect access to healthcare and influence health outcomes. This information helps us provide support and resources to those who need it most.",
-            "similarity_score": 0.5545867085456848
+            "question": "Why do you need to know if I\u00e2\u20ac\u2122m pregnant for a routine checkup?",
+            "generated_answer": "We ask about pregnancy and maternity as part of our screening process. Certain treatments or risks may not be suitable during this time period, so it is important that we provide appropriate care such in line with your needs at any stage.",
+            "expected_answer": "Pregnancy can affect your health and the safety of certain treatments or medications. Knowing this ensures we provide care that\u00e2\u20ac\u2122s safe for both you and your baby.",
+            "similarity_score": 0.6664660573005676
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status?",
-            "generated_answer": "Sharing your personal information helps us provide inclusive care and support. Your privacy is always respected, but it's entirely up for you! We respect the right to make any changes necessary without regard or liability.",
-            "expected_answer": "You are not required to share your disability status. However, providing this information helps us ensure our services are accessible and tailored to your needs.",
-            "similarity_score": 0.553244948387146
+            "question": "Will my disability status affect the type of care I receive?",
+            "generated_answer": "Yes, your disabilities will be treated according to medical recommendations and strict eligibility requirements. However it is important that you provide accurate information about any screenings or treatments needed for specific needs during this process.",
+            "expected_answer": "Yes, knowing about your disability helps us make reasonable adjustments, such as providing accessible facilities or tailored communication methods, to ensure you receive the best care.",
+            "similarity_score": 0.6536740064620972
         },
         {
-            "question": "Why do you ask about my language preferences?",
-            "generated_answer": "We collect this information to make sure our services are accessible and tailored for your needs. Your privacy is always respected, so please choose the right option at any time.",
-            "expected_answer": "Language preferences help us provide care in a language you understand, ensuring effective communication and better health outcomes.",
-            "similarity_score": 0.15201953053474426
+            "question": "How is my age used to determine my treatment options?",
+            "generated_answer": "Age-appropriate treatments and screenings are provided by healthcare providers, such as diabetes medications or hormone therapy. This information helps us provide the most appropriate care for your needs at a young stage. Certain risks associated with certain conditions may vary based on individual circumstances.",
+            "expected_answer": "Your age helps us recommend age-appropriate treatments, screenings, and vaccinations. For example, certain cancer screenings are recommended based on age.",
+            "similarity_score": 0.7255049347877502
         },
         {
-            "question": "How does my data help with medical research?",
-            "generated_answer": "Your personal information is stored securely and only accessed by authorized healthcare professionals. It can include your identity, social security details, or any other sensitive records required to provide care in a timely manner.",
-            "expected_answer": "Anonymized data is used to study health trends, develop new treatments, and improve public health policies. Your personal identity is always protected.",
-            "similarity_score": 0.5815563201904297
+            "question": "Why do you ask about my marital status during a hospital visit?",
+            "generated_answer": "We collect this information to improve healthcare for all our patients. It helps us ensure your care is inclusive and tailored specifically toward the needs of each individual, not just those in need.",
+            "expected_answer": "Marital status helps us understand your support system and ensures your partner is involved in care decisions if needed, especially in emergencies.",
+            "similarity_score": 0.3659088611602783
         },
         {
-            "question": "Why do you ask about my travel history?",
-            "generated_answer": "We collect information on your travels to ensure our services are accessible and meet the needs of healthcare professionals. Your data is stored securely, protected against unauthorized access or deletion during registration processes.",
-            "expected_answer": "Travel history helps us identify potential exposure to diseases or conditions that may require specific care or precautions.",
-            "similarity_score": 0.5169575810432434
+            "question": "What happens if I don\u00e2\u20ac\u2122t disclose my gender identity?",
+            "generated_answer": "Sharing your sexual orientation will not affect healthcare services. It only helps us offer care that matches the needs of everyone involved.",
+            "expected_answer": "You are not required to disclose your gender identity. However, sharing this information helps us provide respectful and inclusive care tailored to your needs.",
+            "similarity_score": 0.5516824722290039
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my religion?",
-            "generated_answer": "You can choose not provide this information, but it helps us offer inclusive care that respects your religious beliefs and practices. This ensures our services are accessible for everyone involved.",
-            "expected_answer": "You are not required to share your religion. However, providing this information helps us respect your spiritual or cultural needs during your care.",
-            "similarity_score": 0.704908013343811
+            "question": "How is my data protected from cyberattacks?",
+            "generated_answer": "Your personal information will not be shared without your explicit consent.",
+            "expected_answer": "We use advanced cybersecurity measures, including encryption, firewalls, and regular security audits, to protect your data from unauthorized access or cyberattacks.",
+            "similarity_score": 0.23223640024662018
         },
         {
-            "question": "Why do you ask about my mental health history?",
-            "generated_answer": "We collect information to improve healthcare and support your individual needs. This helps us ensure we provide the most appropriate care for everyone, ensuring that any medications or treatments are safe and effective at their best.",
-            "expected_answer": "Mental health history helps us provide appropriate support and treatment for conditions such as anxiety, depression, or other mental health concerns.",
-            "similarity_score": 0.47173336148262024
+            "question": "Can I request that my data be deleted after my treatment?",
+            "generated_answer": "Yes, under the Data Protection Act (CBA), you have a right to access your healthcare records only for medical and legal reasons. This is optional but it ensures our services are safe from unauthorized disclosure or misuse.",
+            "expected_answer": "Yes, you can request deletion of your data, but some records must be retained for legal or medical reasons. Contact your healthcare provider for more details.",
+            "similarity_score": 0.6051053404808044
         },
         {
-            "question": "How does my data help with public health emergencies?",
-            "generated_answer": "Your personal information is kept secure and only accessed by authorized personnel. It remains private, but you can request that it be deleted or anonymized entirely after your access to this system has been secured.",
-            "expected_answer": "Your data helps us track and respond to public health emergencies, such as outbreaks or pandemics, ensuring timely and effective interventions.",
-            "similarity_score": 0.14625659584999084
+            "question": "Will my healthcare data be shared with researchers?",
+            "generated_answer": "Your personal information will not contain sensitive medical or social details, but it can help us identify health trends and improve care. It is stored securely by law enforcement agencies only.",
+            "expected_answer": "Your data may be shared with researchers in an anonymized form to improve public health outcomes. However, your identity will never be disclosed without your consent.",
+            "similarity_score": 0.6766632795333862
         },
         {
-            "question": "Why do you ask about my vaccination history?",
-            "generated_answer": "We collect data on vaccinations and risk factors for certain conditions, such as HPV or oral sex. This helps us ensure your care is safe during pregnancy and postnatal years.",
-            "expected_answer": "Vaccination history helps us ensure you are up to date on recommended vaccines and protected against preventable diseases.",
-            "similarity_score": 0.5973831415176392
+            "question": "Why do you need to know my biological sex for mental health services?",
+            "generated_answer": "We ask about your sexual orientation and provide healthcare that respects gender identity. This information is optional, but it helps us ensure our care meets the needs of both genders at any stage in life.",
+            "expected_answer": "Biological sex can influence mental health conditions and treatment options. For example, some conditions like depression may present differently in males and females.",
+            "similarity_score": 0.39432501792907715
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my income?",
-            "generated_answer": "No, sharing your personal information helps us provide better care and ensure our services are accessible. Your data is protected by strict confidentiality policies that protect it only as required by law.",
-            "expected_answer": "You are not required to share your income. However, providing this information helps us identify and address health disparities related to socioeconomic status.",
-            "similarity_score": 0.5352480411529541
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my ethnicity during registration?",
+            "generated_answer": "Sharing your ethnic background helps us ensure healthcare services are inclusive and tailored for you. This information is optional, but it ensures we offer appropriate accommodations or follow-up care when needed in a timely manner.",
+            "expected_answer": "You can choose not to share your ethnicity. However, providing this information helps us address health disparities and offer culturally sensitive care.",
+            "similarity_score": 0.8105635046958923
         },
         {
-            "question": "Why do you ask about my access to transportation?",
-            "generated_answer": "We collect information on your personal or public transport needs from time to period, and any updates will be kept private. Your data is securely stored in secure locations such as databases for safekeeping and retrieval.",
-            "expected_answer": "Access to transportation can affect your ability to attend appointments or access healthcare services. This information helps us provide support where needed.",
-            "similarity_score": 0.4212084710597992
+            "question": "How does my pregnancy status affect my eligibility for clinical trials?",
+            "generated_answer": "Certain conditions or treatments are more likely to be effective in certain circumstances. Your data is anonymized and used only as a guide during your care, ensuring you receive the most appropriate support system advice tailored to meet specific needs.",
+            "expected_answer": "Pregnancy may exclude you from certain clinical trials to protect your health and the health of your unborn baby. This ensures your safety during research studies.",
+            "similarity_score": 0.31508487462997437
         },
         {
-            "question": "How does my data help with health equity?",
-            "generated_answer": "Your information helps us provide equitable healthcare for everyone. We collect and store your personal details securely, ensuring you receive accurate care at the right time or in a secure manner.",
-            "expected_answer": "Your data helps us identify and address health disparities, ensuring that everyone has access to equitable and high-quality care.",
-            "similarity_score": 0.7026241421699524
+            "question": "Why do you ask about my religion when I\u00e2\u20ac\u2122m admitted to the hospital?",
+            "generated_answer": "We collect religious data during medical appointments and screenings, ensuring that appropriate healthcare services are provided. This information is kept confidential under strict confidentiality laws.",
+            "expected_answer": "We ask about your religion to respect your spiritual needs, such as dietary restrictions, prayer times, or end-of-life care preferences.",
+            "similarity_score": 0.528101921081543
         },
         {
-            "question": "Why do you ask about my social support network?",
-            "generated_answer": "We collect information from your personal data to ensure that we provide respectful and inclusive care. This helps us deliver the best possible services for everyone, including LGBTQ+ individuals.",
-            "expected_answer": "Social support networks can influence your health and recovery. This information helps us provide resources and support tailored to your needs.",
-            "similarity_score": 0.386776328086853
+            "question": "Can I opt-out of my data being used for public health research?",
+            "generated_answer": "Yes, you have the right to refuse access. However this is optional and your privacy remains protected during collection or analysis purposes only. Your information will not be shared with third parties without our prior written consent.",
+            "expected_answer": "Yes, you can opt-out of your data being used for research. However, this may limit opportunities to contribute to medical advancements and public health improvements.",
+            "similarity_score": 0.4503740072250366
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my housing situation?",
-            "generated_answer": "No, sharing your status helps us offer better care and accommodations. Your privacy is always protected by law.",
-            "expected_answer": "You are not required to share your housing situation. However, providing this information helps us address social determinants of health and provide appropriate support.",
-            "similarity_score": 0.5728481411933899
+            "question": "How is my sexual orientation data stored and protected?",
+            "generated_answer": "Sexual Orientation information helps us identify health trends, offer appropriate support services, or ensure public safety. Your privacy remains secure during your access to this sensitive system.",
+            "expected_answer": "Your sexual orientation data is stored securely in encrypted databases and accessed only by authorized healthcare professionals involved in your care.",
+            "similarity_score": 0.7410919666290283
         },
         {
-            "question": "Why do you ask about my access to technology?",
-            "generated_answer": "We collect data on your personal information so that it is only accessible by authorized healthcare professionals.",
-            "expected_answer": "Access to technology can affect your ability to use digital health services, such as telehealth. This information helps us provide alternative options if needed.",
-            "similarity_score": 0.5246725082397461
+            "question": "Why do you need to know my disability for a routine appointment?",
+            "generated_answer": "We ask about disabilities in order that healthcare services can be more accessible and tailored appropriately. This information is optional, but it helps us provide the best possible care when needed.",
+            "expected_answer": "Knowing about your disability helps us provide accommodations, such as accessible facilities or communication support, to ensure you receive the best care.",
+            "similarity_score": 0.7008034586906433
         },
         {
-            "question": "How does my data help with preventive care?",
-            "generated_answer": "Your personal information is kept secure and only used to improve healthcare services. It's never shared without your explicit consent or control, so it will not be accessed by third parties who might have access.",
-            "expected_answer": "Your data helps us identify risk factors and provide preventive care, such as screenings or vaccinations, to keep you healthy.",
-            "similarity_score": 0.41158825159072876
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my age during a consultation?",
+            "generated_answer": "Sharing your information helps us ensure that our services are accessible and tailored for you. We do this in partnership with healthcare providers who may be involved, but we ask only about providing accurate care or recommendations based on biological sex at birth.",
+            "expected_answer": "You can choose not to share your age. However, providing this information helps us recommend age-appropriate treatments and screenings.",
+            "similarity_score": 0.50479656457901
         },
         {
-            "question": "Why do you ask about my exercise habits?",
-            "generated_answer": "We collect data to ensure that healthcare services are inclusive, respectful and tailored for your needs. This helps us provide the best possible care based on personal preferences or dietary requirements during treatment.",
-            "expected_answer": "Exercise habits can influence your overall health and risk for certain conditions. This information helps us provide personalized health advice.",
-            "similarity_score": 0.38223791122436523
+            "question": "How does my gender reassignment status affect my access to hormone therapy?",
+            "generated_answer": "Certain treatments or services may not be suitable for your specific sex at birth, and you are required by law (such as healthcare regulations) exclusively to receive such care.",
+            "expected_answer": "Your gender reassignment status ensures you receive appropriate hormone therapy and monitoring as part of your transition process.",
+            "similarity_score": 0.39966338872909546
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my mental health history?",
-            "generated_answer": "Sharing your personal data helps us provide care that respects and supports diverse cultural backgrounds. Your privacy is always respected, so you can access it without restrictions or pressure from outside parties such as healthcare providers.",
-            "expected_answer": "You are not required to share your mental health history. However, providing this information helps us offer appropriate support and treatment.",
-            "similarity_score": 0.4592326283454895
+            "question": "Will my data be shared with my employer or insurance company?",
+            "generated_answer": "Your personal information will not remain confidential unless required by law. We respect your privacy and ensure it is securely stored, secure, anonymized, protected from unauthorized access during any period of service use.",
+            "expected_answer": "No, your healthcare data will not be shared with employers or insurance companies without your explicit consent, unless required by law.",
+            "similarity_score": 0.5697618126869202
         },
         {
-            "question": "Why do you ask about my diet?",
-            "generated_answer": "We collect dietary data to ensure that health services are appropriate for your specific needs. This helps us provide tailored and targeted treatments, screenings or recommendations based on the information we receive from our healthcare providers.",
-            "expected_answer": "Diet can influence your risk for conditions such as diabetes or heart disease. This information helps us provide personalized dietary advice.",
-            "similarity_score": 0.573758602142334
+            "question": "Why do you need to know my ethnicity for a blood test?",
+            "generated_answer": "We ask about your ethnic background because some diseases or conditions are more common in specific groups of people. This information helps us ensure our treatments and screenings match the needs surrounding each individual's health history.",
+            "expected_answer": "Certain health conditions, such as sickle cell anemia, are more common in specific ethnic groups. Knowing your ethnicity helps us interpret test results accurately.",
+            "similarity_score": 0.6533557176589966
         },
         {
-            "question": "How does my data help with chronic disease management?",
-            "generated_answer": "Your medical records provide important information about your health history, dietary needs and lifestyle preferences. This helps us offer appropriate care tailored to meet specific healthcare challenges such as diabetes or mental illness in a timely manner.",
-            "expected_answer": "Your data helps us monitor and manage chronic conditions, such as diabetes or hypertension, ensuring you receive the best possible care.",
-            "similarity_score": 0.6858962178230286
+            "question": "Can I access my healthcare data online?",
+            "generated_answer": "Yes, you have the right to request your personal information stored securely and only accessed by authorized personnel at certain times. Your privacy is always respected during this process.",
+            "expected_answer": "Yes, many healthcare providers offer online portals where you can securely access your medical records, test results, and appointment details.",
+            "similarity_score": 0.47251349687576294
         },
         {
-            "question": "Why do you ask about my smoking or alcohol use?",
-            "generated_answer": "We collect this information to ensure that healthcare services are inclusive, respectful and tailored for your specific needs.",
-            "expected_answer": "Smoking and alcohol use can affect your health and risk for certain conditions. This information helps us provide support and resources to reduce these risks.",
-            "similarity_score": 0.2528969645500183
+            "question": "Why do you ask about my religion when prescribing medication?",
+            "generated_answer": "We collect this information to make sure our care is respectful and meets your needs. This helps us provide culturally sensitive treatments, such as dietary restrictions or specific spiritual beliefs that may influence health outcomes in the long-term.",
+            "expected_answer": "Some medications may conflict with religious beliefs, such as those containing animal products. Knowing your religion helps us prescribe alternatives if needed.",
+            "similarity_score": 0.45042362809181213
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my exercise habits?",
-            "generated_answer": "You can choose not sharing your physical activity, but it helps us offer better care and support. Your privacy is always protected during this process.",
-            "expected_answer": "You are not required to share your exercise habits. However, providing this information helps us offer personalized health advice and support.",
-            "similarity_score": 0.7863600254058838
+            "question": "How does my sexual orientation affect my access to sexual health services?",
+            "generated_answer": "Certain healthcare conditions or treatments may be more common in certain ethnic groups, such as HIV/AIDS. This information helps us provide appropriate support and accommodations based on your needs during pregnancy and postpartum. Your data is always kept secure at all times.",
+            "expected_answer": "Your sexual orientation helps sexual health services provide appropriate screenings, vaccinations, and advice tailored to your needs.",
+            "similarity_score": 0.4220304489135742
         },
         {
-            "question": "Why do you ask about my sleep patterns?",
-            "generated_answer": "Knowing your physical condition helps us provide effective treatments and screenings, which may vary by stage of the illness. Your privacy is always respected in this respect.",
-            "expected_answer": "Sleep patterns can influence your overall health and well-being. This information helps us provide advice and support to improve your sleep.",
-            "similarity_score": 0.290886789560318
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my doctor?",
+            "generated_answer": "Sharing your disabilities may improve care and ensure that treatments are accessible for everyone. This information is optional, but it helps us provide the best possible support during surgery or treatment appointments. It also ensures you receive appropriate medical advice as required by law.",
+            "expected_answer": "You are not required to share your disability status. However, providing this information helps us make necessary accommodations for your care.",
+            "similarity_score": 0.6991369724273682
         },
         {
-            "question": "How does my data help with mental health services?",
-            "generated_answer": "Your personal information is kept secure and private. It remains encrypted, but it can be accessed by authorized personnel or law enforcement authorities during your visit to a healthcare facility.",
-            "expected_answer": "Your data helps us identify mental health needs and provide appropriate support, such as counseling or therapy, to improve your well-being.",
-            "similarity_score": 0.2973715364933014
+            "question": "Why do you need to know my age for a flu vaccine?",
+            "generated_answer": "We ask about your ages because some people who are older might not receive the necessary vaccinations.",
+            "expected_answer": "Certain flu vaccines are recommended for specific age groups, such as older adults or young children, to ensure maximum effectiveness.",
+            "similarity_score": 0.5852638483047485
         },
         {
-            "question": "Why do you ask about my access to healthy food?",
-            "generated_answer": "We collect dietary information, such as how many calories are in your diet and whether certain foods have been recently added.",
-            "expected_answer": "Access to healthy food can influence your diet and overall health. This information helps us provide resources and support to improve your nutrition.",
-            "similarity_score": 0.5708735585212708
+            "question": "How does my gender reassignment status affect my mental health care?",
+            "generated_answer": "Your assigned sex at birth helps us provide appropriate support and accommodations to your life stage. This information is optional, but it will assist you in understanding how healthcare services may impact specific needs of transgender individuals or their families during pregnancy and postpartum development.",
+            "expected_answer": "Your gender reassignment status helps us provide mental health support tailored to your needs, such as counseling for gender dysphoria or transition-related stress.",
+            "similarity_score": 0.534018874168396
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my smoking or alcohol use?",
-            "generated_answer": "Sharing your medical data helps us ensure that healthcare services are accessible and tailored for you.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to reduce health risks.",
-            "similarity_score": 0.5618671178817749
+            "question": "Will my data be used to improve healthcare services?",
+            "generated_answer": "No, your personal information will not have been shared with third parties without our explicit consent. This ensures that any changes or improvements are securely and appropriately addressed by the appropriate authorities in accordance of privacy legislation.",
+            "expected_answer": "Yes, anonymized data may be used to identify health trends, develop new treatments, and improve healthcare services for everyone.",
+            "similarity_score": 0.4362858235836029
         },
         {
-            "question": "Why do you ask about my stress levels?",
-            "generated_answer": "We use this information to provide support and resources for your health needs. It helps us make the best possible care, while respecting individual privacy settings. Your data is never shared without our explicit consent.",
-            "expected_answer": "Stress levels can affect your mental and physical health. This information helps us provide support and resources to manage stress effectively.",
-            "similarity_score": 0.24923008680343628
+            "question": "Why do you ask about my marital status for a prescription?",
+            "generated_answer": "We use this information to ensure our care is inclusive and tailored towards your needs. This data helps us provide better, more personalized treatments or support during pregnancy and postpartum periods.",
+            "expected_answer": "Marital status helps us understand your support system, which may be relevant for managing medications or treatment plans.",
+            "similarity_score": 0.34573641419410706
         },
         {
-            "question": "How does my data help with health education?",
-            "generated_answer": "Your personal information is securely stored and used only for healthcare purposes, ensuring your care meets strict ethical requirements.",
-            "expected_answer": "Your data helps us identify areas where health education is needed, ensuring you have the information and resources to make informed decisions about your health.",
-            "similarity_score": 0.4416387379169464
+            "question": "Can I refuse to share my pregnancy status with my doctor?",
+            "generated_answer": "Yes, you have the right notifying your healthcare provider of any changes in health conditions. However it is entirely up for interpretation and confidentiality involved so please keep this information confidential at all times.",
+            "expected_answer": "Yes, you can refuse to share your pregnancy status. However, this information helps us ensure treatments and medications are safe for you and your baby.",
+            "similarity_score": 0.4399399757385254
         },
         {
-            "question": "Why do you ask about my access to childcare?",
-            "generated_answer": "We collect information on your eligibility for healthcare services, such as vaccinations and screenings. This helps us provide the best possible care at a respectful time during any period of life.",
-            "expected_answer": "Access to childcare can affect your ability to attend appointments or manage your health. This information helps us provide support where needed.",
-            "similarity_score": 0.45996859669685364
+            "question": "How does my ethnicity affect my access to genetic testing?",
+            "generated_answer": "Your health history helps us offer appropriate treatments and screenings, ensuring your data is protected. Certain risks or conditions are not fully understood by healthcare professionals who use this information for medical purposes.",
+            "expected_answer": "Certain genetic conditions are more common in specific ethnic groups. Knowing your ethnicity helps us recommend appropriate genetic testing and counseling.",
+            "similarity_score": 0.3211939036846161
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my sleep patterns?",
-            "generated_answer": "You can choose not sharing your data with us, but it helps ensure you receive appropriate care. Your privacy is always respected and protected in the event of any changes or concerns regarding healthcare services.",
-            "expected_answer": "You are not required to share your sleep patterns. However, providing this information helps us offer advice and support to improve your sleep.",
-            "similarity_score": 0.3810955584049225
+            "question": "Why do you need to know my religion for surgery scheduling?",
+            "generated_answer": "We ask about religious beliefs and practices based on your caregiving needs. This information is optional, provided it helps us provide the best possible medical treatment or advice tailored specifically towards each individual's spiritual situation.",
+            "expected_answer": "We ask about your religion to respect your beliefs, such as avoiding surgery on holy days or providing dietary accommodations during recovery.",
+            "similarity_score": 0.6355203986167908
         },
         {
-            "question": "Why do you ask about my access to mental health services?",
-            "generated_answer": "We collect your personal data securely and use it only for healthcare purposes. Your information is kept secure, confidential and stored in strict compliance with laws governing civil liberties.",
-            "expected_answer": "Access to mental health services can affect your well-being. This information helps us provide resources and support to ensure you receive the care you need.",
-            "similarity_score": 0.32188671827316284
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my sexual orientation with my therapist?",
+            "generated_answer": "Sharing your identity helps us respect and offer appropriate care. Your privacy is always respected, but it may be necessary in certain circumstances (e., pregnancy or maternity).",
+            "expected_answer": "You are not required to share your sexual orientation. However, this information helps your therapist provide inclusive and supportive care.",
+            "similarity_score": 0.4637964963912964
         },
         {
-            "question": "How does my data help with community health programs?",
-            "generated_answer": "Your personal information is kept secure and only used for healthcare purposes. It will not be shared without your explicit consent or any other legal obligations, such as sharing sensitive medical records in public places.",
-            "expected_answer": "Your data helps us identify community health needs and develop programs that address these needs, improving health outcomes for everyone.",
-            "similarity_score": 0.3264819383621216
+            "question": "How does my disability status affect my access to physical therapy?",
+            "generated_answer": "Disability means having a body that is physically and mentally different from your own. It can include hearing loss, diabetes mellitus or certain conditions without the need for medications such as insulin resistance medication (IDP).",
+            "expected_answer": "Your disability status helps us tailor physical therapy sessions to your needs, such as providing accessible equipment or modified exercises.",
+            "similarity_score": 0.6304371356964111
         },
         {
-            "question": "Why do you ask about my access to transportation for healthcare?",
-            "generated_answer": "We collect your data only in accordance with applicable laws, regulations or rules. Your privacy is always respected during this process. It helps us ensure that our services are accessible and secure at all times.",
-            "expected_answer": "Access to transportation can affect your ability to attend appointments or access healthcare services. This information helps us provide support where needed.",
-            "similarity_score": 0.26749902963638306
+            "question": "Why do you need to know my age for a cancer screening?",
+            "generated_answer": "We ask about your biological sex because some cancers can be more common during the treatment stage. This information helps us offer appropriate treatments and screenings that are most effective against specific health conditions, such as type 1 diabetes or certain types of heart disease risk factors.",
+            "expected_answer": "Certain cancer screenings, such as mammograms or colonoscopies, are recommended at specific ages to ensure early detection and treatment.",
+            "similarity_score": 0.3702761232852936
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my stress levels?",
-            "generated_answer": "Sharing your personal data helps us provide appropriate healthcare and support, which may include monitoring dietary habits or screenings. It is entirely up for you! Your privacy remains protected during this process.",
-            "expected_answer": "You are not required to share your stress levels. However, providing this information helps us offer support and resources to manage stress effectively.",
-            "similarity_score": 0.41052812337875366
+            "question": "How is my gender reassignment data stored and protected?",
+            "generated_answer": "Your information will only be accessed by authorized personnel involved in your care, who can provide appropriate medical advice or screenings. It may not remain private for more than 30 days after being collected (e-mailing us at info@genderassignments.",
+            "expected_answer": "Your gender reassignment data is stored securely in encrypted databases and accessed only by authorized healthcare professionals involved in your care.",
+            "similarity_score": 0.6750379800796509
         },
         {
-            "question": "Why do you ask about my access to social services?",
-            "generated_answer": "We collect data on your use of our networks and personal information for healthcare purposes. This helps us provide tailored, targeted care that meets the needs most closely aligned with individual circumstances.",
-            "expected_answer": "Access to social services can influence your health and well-being. This information helps us provide resources and support tailored to your needs.",
-            "similarity_score": 0.4952024817466736
+            "question": "Will my data be shared with government agencies?",
+            "generated_answer": "No, your personal information will not remain private. It is stored securely and only used for authorized purposes such as healthcare or legal advice provided by law-abiding individuals who share it safely.",
+            "expected_answer": "Your data will only be shared with government agencies if required by law, such as for public health reporting or legal investigations.",
+            "similarity_score": 0.5459479689598083
         },
         {
-            "question": "How does my data help with health policy development?",
-            "generated_answer": "Your information helps us provide better, more personalized care tailored to your individual needs. It's stored securely and is never shared without our explicit consent.",
-            "expected_answer": "Your data helps us identify health trends and develop policies that improve healthcare access and outcomes for everyone.",
-            "similarity_score": 0.48562347888946533
+            "question": "Why do you ask about my ethnicity for a diabetes screening?",
+            "generated_answer": "This information helps us offer healthcare that is inclusive and personalized to your needs. It ensures screenings are targeted at individuals with specific ethnic backgrounds, ensuring accurate data protection systems remain secure during any treatment process.",
+            "expected_answer": "Certain ethnic groups, such as South Asians, are at higher risk for diabetes. Knowing your ethnicity helps us recommend appropriate screenings and preventive care.",
+            "similarity_score": 0.4672888517379761
         },
         {
-            "question": "Why do you ask about my access to financial resources?",
-            "generated_answer": "We collect your personal information in accordance with UK law, and it is stored securely. This ensures that any updates or changes are secure for everyone involved.",
-            "expected_answer": "Access to financial resources can affect your ability to afford healthcare or medications. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.18053291738033295
+            "question": "Can I request that my data not be used for research?",
+            "generated_answer": "Yes, you have the right to access your personal information only if required by law. However this is entirely optional and handled with care according on strict confidentiality guidelines set out in UK Data Protection Act regulations (www) .",
+            "expected_answer": "Yes, you can opt-out of your data being used for research. However, this may limit opportunities to contribute to medical advancements.",
+            "similarity_score": 0.43513745069503784
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to childcare?",
-            "generated_answer": "Sharing this information ensures your care is accessible and meets all applicable health needs. This helps us ensure you receive the best possible healthcare for every child involved in our caring process.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to address your healthcare needs.",
-            "similarity_score": 0.7157367467880249
+            "question": "How does my religion affect my access to fertility treatments?",
+            "generated_answer": "Your religious or cultural background helps us provide appropriate care and advice tailored specifically for your specific needs.",
+            "expected_answer": "Your religion may influence your preferences for fertility treatments, such as in vitro fertilization (IVF) or surrogacy. We respect your beliefs when offering care.",
+            "similarity_score": 0.4844348728656769
         },
         {
-            "question": "Why do you ask about my access to mental health resources?",
-            "generated_answer": "We collect data on your personal and social lives, so we understand why certain screenings or treatments may be appropriate. This helps us provide the best possible care for everyone involved.",
-            "expected_answer": "Access to mental health resources can affect your well-being. This information helps us provide support and ensure you receive the care you need.",
-            "similarity_score": 0.4673013687133789
+            "question": "Why do you need to know my sexual orientation for mental health support?",
+            "generated_answer": "We ask about your identity based on medical conditions, preferences or cultural needs. This information helps us provide appropriate accommodations and screenings in the most respectful manner possible. Your data is stored securely by secure servers located throughout our network without access restrictions.",
+            "expected_answer": "LGBTQ+ individuals may face unique mental health challenges, such as discrimination or stigma. Knowing your sexual orientation helps us provide targeted support.",
+            "similarity_score": 0.3029412627220154
         },
         {
-            "question": "How does my data help with health equity initiatives?",
-            "generated_answer": "Your healthcare records provide valuable and sensitive information about your life experience.",
-            "expected_answer": "Your data helps us identify and address health disparities, ensuring that everyone has access to equitable and high-quality care.",
-            "similarity_score": 0.616470217704773
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my therapist?",
+            "generated_answer": "Sharing your disabilities is optional, and you can choose not disclose it. However we ask for a medical or mental health evaluation before sharing this information publicly in the public interest. Your privacy remains secure while respecting healthcare settings during therapy sessions.",
+            "expected_answer": "You are not required to share your disability status. However, this information helps your therapist provide tailored support and accommodations.",
+            "similarity_score": 0.8091647028923035
         },
         {
-            "question": "Why do you ask about my access to community support?",
-            "generated_answer": "We collect data on your care and the quality of services that are provided.",
-            "expected_answer": "Access to community support can influence your health and recovery. This information helps us provide resources and support tailored to your needs.",
-            "similarity_score": 0.4180506467819214
+            "question": "How does my age affect my eligibility for a COVID-19 vaccine?",
+            "generated_answer": "Age helps healthcare providers provide appropriate screenings and treatments to your body, ensuring that the recommended ages are correct. This information is optional but important in understanding how long it takes you to receive treatment or whether certain conditions might improve over time.",
+            "expected_answer": "Certain COVID-19 vaccines are prioritized for specific age groups, such as older adults or young children, to ensure maximum protection.",
+            "similarity_score": 0.4952998161315918
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to financial resources?",
-            "generated_answer": "You can request your information by contacting the appropriate healthcare provider. Sharing this helps us provide a more personalized, accessible and secure system for you during treatment.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to address your healthcare needs.",
-            "similarity_score": 0.6904131174087524
+            "question": "Why do you ask about my gender reassignment for hormone therapy?",
+            "generated_answer": "We use this information to ensure that our treatments are inclusive and tailored appropriately. It is entirely your choice whether hormone treatment helps or hinders any specific health conditions, such as cancer risk factors or mental illness at all stages of life (e.",
+            "expected_answer": "Your gender reassignment status ensures you receive appropriate hormone therapy and monitoring as part of your transition process.",
+            "similarity_score": 0.4974127411842346
         },
         {
-            "question": "Why do you ask about my access to healthcare providers?",
-            "generated_answer": "We collect data on your health status and share it with third parties. This helps us provide better, more personalized care tailored for each individual needs.",
-            "expected_answer": "Access to healthcare providers can affect your ability to receive timely care. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.5802758932113647
+            "question": "Will my data be shared with pharmaceutical companies?",
+            "generated_answer": "No, your personal information is never collected without our explicit consent. However it will still remain securely stored and used for healthcare purposes only as required by law.",
+            "expected_answer": "No, your healthcare data will not be shared with pharmaceutical companies without your explicit consent, unless required by law.",
+            "similarity_score": 0.6752312183380127
         },
         {
-            "question": "How does my data help with health education programs?",
-            "generated_answer": "Your information helps us ensure that healthcare services are accessible and meet your specific needs. We collect this info to improve the quality of care you receive, such as ensuring screenings or treatments match dietary preferences.",
-            "expected_answer": "Your data helps us identify areas where health education is needed, ensuring you have the information and resources to make informed decisions about your health.",
-            "similarity_score": 0.7144081592559814
+            "question": "Why do you need to know my ethnicity for a heart disease screening?",
+            "generated_answer": "We ask about your ethnic background because certain medications, treatments or risks are more common in specific communities. This helps us ensure the right care is provided and meets our diverse needs based on health history at all stages of life.",
+            "expected_answer": "Certain ethnic groups, such as African Americans, are at higher risk for heart disease. Knowing your ethnicity helps us recommend appropriate screenings and preventive care.",
+            "similarity_score": 0.5872587561607361
         },
         {
-            "question": "Why do you ask about my access to preventive care?",
-            "generated_answer": "We collect data on your healthcare needs, ensuring it meets the most appropriate public health and safety standards.",
-            "expected_answer": "Access to preventive care can influence your overall health. This information helps us provide resources and support to ensure you receive timely screenings and vaccinations.",
-            "similarity_score": 0.5752190351486206
+            "question": "Can I request that my data be anonymized for research?",
+            "generated_answer": "No, your personal information is never shared without our consent. It remains private and secure until required by law to do so or it will not receive any further processing unless requested otherwise. Your privacy settings are kept confidential during this process.",
+            "expected_answer": "Yes, you can request that your data be anonymized before being used for research. This ensures your identity is protected while contributing to medical advancements.",
+            "similarity_score": 0.5970383286476135
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to community support?",
-            "generated_answer": "No, sharing your healthcare needs is entirely optional. Sharing this helps us provide the most appropriate care and tailored services for you. Your privacy remains protected during use of our systems.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to address your healthcare needs.",
-            "similarity_score": 0.7390402555465698
+            "question": "How does my religion affect my access to end-of-life care?",
+            "generated_answer": "Your religious or belief may influence your healthcare decisions, but you have the right notify health authorities about this. It is entirely up for interpretation and can impact any decision that relates specifically with respect by age group (e., male vs female).",
+            "expected_answer": "Your religion may influence your preferences for end-of-life care, such as the use of life support or organ donation. We respect your beliefs when offering care.",
+            "similarity_score": 0.4895147383213043
         },
         {
-            "question": "Why do you ask about my access to healthcare facilities?",
-            "generated_answer": "We collect your information in accordance with strict data protection laws, which are designed for individual privacy and confidentiality. This helps us ensure that care is accessible only by authorized personnel involved in the health process.",
-            "expected_answer": "Access to healthcare facilities can affect your ability to receive care. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.5477371215820312
+            "question": "Why do you need to know my sexual orientation for sexual health screenings?",
+            "generated_answer": "We ask about your sexuality in order that we can offer appropriate care. This information is optional and kept confidential, ensuring accurate data protection laws are followed during any screening process.",
+            "expected_answer": "Your sexual orientation helps us recommend appropriate sexual health screenings, such as STI tests or HPV vaccinations, tailored to your needs.",
+            "similarity_score": 0.5550974607467651
         },
         {
-            "question": "How does my data help with health promotion campaigns?",
-            "generated_answer": "Your information helps us provide culturally sensitive and inclusive care. We use your privacy to ensure that healthcare services are accessible, secure, equitable and tailored for you at all stages of life.",
-            "expected_answer": "Your data helps us identify health trends and develop campaigns that promote healthy behaviors and improve health outcomes for everyone.",
-            "similarity_score": 0.4361506700515747
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my surgeon?",
+            "generated_answer": "Knowing your disabilities helps us provide appropriate care and support. This information is optional, but it will help ensure our services are accessible for everyone involved. Your privacy remains protected during this process.",
+            "expected_answer": "You are not required to share your disability status. However, this information helps your surgeon make necessary accommodations for your care.",
+            "similarity_score": 0.6394253969192505
         },
         {
-            "question": "Why do you ask about my access to health insurance?",
-            "generated_answer": "We collect information from your healthcare provider and provide it only as needed. Your data is kept secure, protected by strict confidentiality policies while respecting privacy laws.",
-            "expected_answer": "Access to health insurance can affect your ability to afford healthcare. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.48708051443099976
+            "question": "How does my age affect my eligibility for a mammogram?",
+            "generated_answer": "Your Age refers to your physical and mental health status, which may vary by stage of life. Certain conditions or screenings are more common during this time period than others (e., certain medications do not reach the same level).",
+            "expected_answer": "Mammograms are typically recommended for women aged 50 and older. Knowing your age helps us recommend appropriate screenings for breast cancer.",
+            "similarity_score": 0.45488864183425903
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to preventive care?",
-            "generated_answer": "No, you do not have permission from healthcare providers or your health provider to disclose this information. However it is important that sharing helps us provide appropriate and effective screenings for everyone involved.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you receive timely screenings and vaccinations.",
-            "similarity_score": 0.6662079095840454
+            "question": "Why do you ask about my gender reassignment for mental health care?",
+            "generated_answer": "We use this information to ensure that our services are inclusive and tailored in the most appropriate manner. This ensures accurate medical records, such as pregnancy tests or screenings performed during your transition period.",
+            "expected_answer": "Your gender reassignment status helps us provide mental health support tailored to your needs, such as counseling for gender dysphoria or transition-related stress.",
+            "similarity_score": 0.33400559425354004
         },
         {
-            "question": "Why do you ask about my access to medications?",
-            "generated_answer": "We collect this information only for medical purposes, and it is used solely in accordance with strict health laws. It does not include your personal data or sensitive healthcare records without our explicit consent.",
-            "expected_answer": "Access to medications can affect your ability to manage chronic conditions. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.40002715587615967
+            "question": "Will my data be shared with academic researchers?",
+            "generated_answer": "No, your personal information will not remain confidential. It is only used to support healthcare services and research initiatives that are most appropriate for you or someone else's needs during the course of their care. Your privacy remains protected in accordance this policy.",
+            "expected_answer": "Your data may be shared with academic researchers in an anonymized form to improve public health outcomes. Your identity will never be disclosed without your consent.",
+            "similarity_score": 0.6712781190872192
         },
         {
-            "question": "How does my data help with health advocacy efforts?",
-            "generated_answer": "Your personal information is stored securely and used only for healthcare purposes. It remains private, secure, or deleted at your discretion without any third parties knowing about it.",
-            "expected_answer": "Your data helps us identify health disparities and advocate for policies and resources that improve healthcare access and outcomes for everyone.",
-            "similarity_score": 0.3147141933441162
+            "question": "Why do you need to know my ethnicity for a mental health assessment?",
+            "generated_answer": "We ask about your ethnic background in order that healthcare services are inclusive and tailored according. This information is kept private, but it helps us provide better care if needed during the course of our treatment or post-treatment process.",
+            "expected_answer": "Certain mental health conditions, such as depression or anxiety, may present differently in specific ethnic groups. Knowing your ethnicity helps us provide culturally sensitive care.",
+            "similarity_score": 0.5601468086242676
         },
         {
-            "question": "Why do you ask about my access to specialist care?",
-            "generated_answer": "We collect data on your healthcare needs and ensure that it is accessible, tailored for specific health conditions. This information helps us provide the best possible support in a safe environment.",
-            "expected_answer": "Access to specialist care can affect your ability to receive treatment for specific conditions. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.5491284728050232
+            "question": "Can I request that my data not be used for public health reporting?",
+            "generated_answer": "Yes, under the UK Data Protection Act you have a right to access your personal information only by submitting an informed consent form. This can vary depending on circumstances and legal requirements such as confidentiality agreements or civil liability laws.",
+            "expected_answer": "Yes, you can opt-out of your data being used for public health reporting. However, this may limit opportunities to improve healthcare services for everyone.",
+            "similarity_score": 0.5175662040710449
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health insurance?",
-            "generated_answer": "We ask for your personal information only. It is kept secure and private, so it will not be shared without our explicit consent.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to address your healthcare needs.",
-            "similarity_score": 0.537559986114502
+            "question": "How does my religion affect my access to organ donation services?",
+            "generated_answer": "Certain religious or cultural practices may not be suitable for everyone. This information is optional and kept confidential during your care, but it helps us ensure that you receive the best possible medical advice based on what's in our personalised healthcare records.",
+            "expected_answer": "Your religion may influence your preferences for organ donation. We respect your beliefs and ensure your wishes are followed during your healthcare journey.",
+            "similarity_score": 0.44986093044281006
         },
         {
-            "question": "Why do you ask about my access to emergency care?",
-            "generated_answer": "We collect information on your healthcare needs and provide appropriate screenings, medications or support. Your data is kept secure for up-to 10 years after it has been accessed by authorized personnel at our facilities.",
-            "expected_answer": "Access to emergency care can affect your ability to receive timely treatment. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.38122838735580444
+            "question": "Why do you need to know my sexual orientation for fertility treatments?",
+            "generated_answer": "We ask about your sex as part of screening and screenings, which can influence certain medical conditions or preferences. This information helps us make sure we provide appropriate care tailored specifically by the individual.",
+            "expected_answer": "Your sexual orientation helps us recommend appropriate fertility treatments, such as IVF or surrogacy, tailored to your needs.",
+            "similarity_score": 0.4808766841888428
         },
         {
-            "question": "How does my data help with health research?",
-            "generated_answer": "Your personal information is kept secure and confidential, ensuring it's always up-to date. It can only be accessed by authorized personnel or healthcare professionals involved in your care.",
-            "expected_answer": "Your data helps researchers study health trends, develop new treatments, and improve public health policies. It is always anonymized to protect your identity.",
-            "similarity_score": 0.4907528758049011
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my pharmacist?",
+            "generated_answer": "No, sharing your information is completely voluntary. However it helps us ensure our services are accessible and tailored for you during this transition. Your privacy remains protected at all times.",
+            "expected_answer": "You are not required to share your disability status. However, this information helps your pharmacist provide tailored support and accommodations.",
+            "similarity_score": 0.4528769850730896
         },
         {
-            "question": "Why do you ask about my access to mental health specialists?",
-            "generated_answer": "We collect data on your personal details, such as how long ago someone has been diagnosed with a condition or whether they have had any treatments.",
-            "expected_answer": "Access to mental health specialists can affect your ability to receive treatment for mental health conditions. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.340268075466156
+            "question": "How does my age affect my eligibility for a colonoscopy?",
+            "generated_answer": "Age is important to ensure your care meets the healthcare needs of older adults.",
+            "expected_answer": "Colonoscopies are typically recommended for adults aged 45 and older. Knowing your age helps us recommend appropriate screenings for colorectal cancer.",
+            "similarity_score": 0.47009825706481934
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to medications?",
-            "generated_answer": "You can request a copy of your prescription or dietary data, but this is optional. It helps us provide appropriate care and support during treatment for you and any other individual involved in the process.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you can manage your health effectively.",
-            "similarity_score": 0.5630306005477905
+            "question": "Why do you ask about my gender reassignment for surgery planning?",
+            "generated_answer": "We collect data on medical conditions, screenings and treatments to ensure that healthcare services are inclusive. This information is kept private or secure from third parties who might use it inappropriately in the future. Your privacy remains protected during your care.",
+            "expected_answer": "Your gender reassignment status helps us plan surgeries that align with your transition goals, such as gender-affirming procedures.",
+            "similarity_score": 0.24533140659332275
         },
         {
-            "question": "Why do you ask about my access to rehabilitation services?",
-            "generated_answer": "We collect data on our patients' needs and resources, ensuring that they receive appropriate care. This helps us provide the best possible outcomes for everyone involved.",
-            "expected_answer": "Access to rehabilitation services can affect your recovery from illness or injury. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.5082744359970093
+            "question": "Will my data be shared with international researchers?",
+            "generated_answer": "No, your personal information will not remain private. It is only used for healthcare research and advice purposes without any form of liability or shareware restrictions. Your privacy remains protected during the process.",
+            "expected_answer": "Your data may be shared with international researchers in an anonymized form to improve global health outcomes. Your identity will never be disclosed without your consent.",
+            "similarity_score": 0.6096140742301941
         },
         {
-            "question": "How does my data help with health policy advocacy?",
-            "generated_answer": "Your personal information is stored securely and used only for healthcare purposes. It never contains identity theft or unauthorized access, nor can it be shared without your explicit consent.",
-            "expected_answer": "Your data helps us advocate for policies that improve healthcare access and outcomes, ensuring that everyone receives equitable and high-quality care.",
-            "similarity_score": 0.39184731245040894
+            "question": "Why do you need to know my ethnicity for a bone density test?",
+            "generated_answer": "We ask about your ethnic background because some diseases or conditions can be more common in certain groups.",
+            "expected_answer": "Certain ethnic groups, such as Caucasians, are at higher risk for osteoporosis. Knowing your ethnicity helps us recommend appropriate screenings and preventive care.",
+            "similarity_score": 0.5707568526268005
         },
         {
-            "question": "Why do you ask about my access to long-term care?",
-            "generated_answer": "We use data from healthcare records, such as medical history and ethnicity. This information helps us provide personalized support for your health needs during treatment or postpartum monitoring.",
-            "expected_answer": "Access to long-term care can affect your ability to manage chronic conditions or recover from illness. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.36512690782546997
+            "question": "Can I request that my data not be used for clinical trials?",
+            "generated_answer": "Yes, under the UK Data Protection Act, you have a right to access your healthcare records only after receiving informed consent. This is voluntary and confidential so it helps us ensure our services are safe during medical treatment or follow-up appointments (e.",
+            "expected_answer": "Yes, you can opt-out of your data being used for clinical trials. However, this may limit opportunities to contribute to medical advancements.",
+            "similarity_score": 0.45347338914871216
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to emergency care?",
-            "generated_answer": "Sharing your healthcare is optional and only helps us provide the best possible support. Your privacy remains protected during this process.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you receive timely treatment when needed.",
-            "similarity_score": 0.5433849096298218
+            "question": "How does my religion affect my access to blood transfusions?",
+            "generated_answer": "Your religious or cultural beliefs and practices influence your care. Certain medications, dietary restrictions, etc., may not be suitable for certain conditions (e-gliadin), so you need specific advice about appropriate therapy options during this process.",
+            "expected_answer": "Some religions, such as Jehovah\u00e2\u20ac\u2122s Witnesses, may prohibit blood transfusions. Knowing your religion helps us respect your beliefs and offer alternative treatments.",
+            "similarity_score": 0.3896968960762024
         },
         {
-            "question": "Why do you ask about my access to palliative care?",
-            "generated_answer": "We collect information on your healthcare needs, including how long it takes for treatments or screenings to be effective. This helps us ensure our services are accessible and tailored appropriately by health professionals in a safe environment.",
-            "expected_answer": "Access to palliative care can affect your quality of life during serious illness. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.454448938369751
+            "question": "Why do you need to know my sexual orientation for mental health screenings?",
+            "generated_answer": "We ask about your identity because certain medications or treatments may affect specific aspects of gender reassignment. This information is optional and kept confidential from healthcare providers during treatment planning, screening, research questions or advice.",
+            "expected_answer": "LGBTQ+ individuals may face unique mental health challenges, such as discrimination or stigma. Knowing your sexual orientation helps us provide targeted support.",
+            "similarity_score": 0.4772920608520508
         },
         {
-            "question": "How does my data help with health equity research?",
-            "generated_answer": "Your personal information is securely stored and used only for healthcare purposes. It remains private, secure and never shared without your consent. We respect the privacy of all involved in this process.",
-            "expected_answer": "Your data helps researchers study health disparities and develop strategies to ensure equitable access to healthcare for everyone.",
-            "similarity_score": 0.3851073980331421
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my nurse?",
+            "generated_answer": "Your information will not be shared without your explicit consent. This ensures you receive appropriate care, such as hormone therapy or screenings during pregnancy and postpartum. Sharing this is optional but necessary for healthcare purposes only.",
+            "expected_answer": "You are not required to share your disability status. However, this information helps your nurse provide tailored support and accommodations.",
+            "similarity_score": 0.504226565361023
         },
         {
-            "question": "Why do you ask about my access to home healthcare services?",
-            "generated_answer": "We collect information on your care and provide it in a secure manner.",
-            "expected_answer": "Access to home healthcare services can affect your ability to manage chronic conditions or recover from illness. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.4752963185310364
+            "question": "How does my age affect my eligibility for a prostate exam?",
+            "generated_answer": "Age refers to how many years someone has been alive, so it's important that you receive accurate care. Certain screenings may not be suitable at this stage in life, and certain treatments or advice might differ by body size (such as hormone therapy).",
+            "expected_answer": "Prostate exams are typically recommended for men aged 50 and older. Knowing your age helps us recommend appropriate screenings for prostate cancer.",
+            "similarity_score": 0.5449478626251221
         },
         {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to rehabilitation services?",
-            "generated_answer": "You can request a copy of your disability status, which may be available during regular appointments or at healthcare facilities. It is kept confidential and only accessed by authorized personnel involved in the care system.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you receive the care you need.",
-            "similarity_score": 0.431450754404068
+            "question": "Why do you ask about my gender reassignment for hormone therapy monitoring?",
+            "generated_answer": "We collect this information to ensure that appropriate treatments are provided, such as testosterone replacement or dietary adjustments. Certain screenings and medications may vary by sex during your care experience.",
+            "expected_answer": "Your gender reassignment status ensures you receive appropriate hormone therapy and monitoring as part of your transition process.",
+            "similarity_score": 0.6163407564163208
         },
         {
-            "question": "Why do you ask about my access to end-of-life care?",
-            "generated_answer": "We collect data on your life expectancy, age at death and the condition of any relevant healthcare services.",
-            "expected_answer": "Access to end-of-life care can affect your quality of life during serious illness. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.5828065276145935
+            "question": "Will my data be shared with non-profit organizations?",
+            "generated_answer": "No, your personal information is kept confidential and only accessed by authorized personnel involved in the healthcare process. It may not include sensitive medical records or health advice you receive during treatment (e.",
+            "expected_answer": "Your data may be shared with non-profit organizations in an anonymized form to improve public health outcomes. Your identity will never be disclosed without your consent.",
+            "similarity_score": 0.5731432437896729
         },
         {
-            "question": "How does my data help with health system improvements?",
-            "generated_answer": "Your personal information is kept secure and never shared without your explicit consent. It's only used to improve healthcare services, provide tailored advice or tailor care for you.",
-            "expected_answer": "Your data helps us identify areas for improvement in healthcare delivery, ensuring that services are efficient, effective, and equitable for everyone.",
-            "similarity_score": 0.43510645627975464
+            "question": "Why do you need to know my ethnicity for a cholesterol test?",
+            "generated_answer": "We ask about your ethnic background because certain health conditions can impact different groups differently. This information helps us provide better care and improve quality of life services, such as screenings or treatments tailored specifically toward specific needs.",
+            "expected_answer": "Certain ethnic groups, such as South Asians, are at higher risk for high cholesterol. Knowing your ethnicity helps us recommend appropriate screenings and preventive care.",
+            "similarity_score": 0.5646611452102661
         },
         {
-            "question": "Why do you ask about my access to telehealth services?",
-            "generated_answer": "We collect your personal information in accordance with privacy laws and regulations, including data protection legislation. Your use of our service is entirely optional without any restrictions or obligations under law.",
-            "expected_answer": "Access to telehealth services can affect your ability to receive care remotely. This information helps us provide support and resources where needed.",
-            "similarity_score": 0.32094353437423706
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to palliative care?",
-            "generated_answer": "No, sharing your personal information is entirely voluntary.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you receive the care you need.",
-            "similarity_score": 0.48817580938339233
-        },
-        {
-            "question": "Why do you ask about my access to community health workers?",
-            "generated_answer": "We collect data on the quality of care provided by healthcare professionals, ensuring they have appropriate resources and screenings tailored to your needs.",
-            "expected_answer": "Access to community health workers can affect your ability to receive support and education about your health. This information helps us provide resources where needed.",
-            "similarity_score": 0.4259663224220276
-        },
-        {
-            "question": "How does my data help with health workforce planning?",
-            "generated_answer": "Your healthcare records will be kept secure and confidential, ensuring your care is tailored to meet the needs of diverse groups. This information helps us deliver better outcomes for you while respecting privacy laws.",
-            "expected_answer": "Your data helps us identify areas where healthcare workers are needed, ensuring that services are available and accessible to everyone.",
-            "similarity_score": 0.5801739692687988
-        },
-        {
-            "question": "Why do you ask about my access to health education programs?",
-            "generated_answer": "We collect data on how people are treated and care. This helps us provide culturally sensitive, targeted support services that address specific needs in a respectful manner.",
-            "expected_answer": "Access to health education programs can affect your ability to make informed decisions about your health. This information helps us provide resources where needed.",
-            "similarity_score": 0.3217015862464905
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to end-of-life care?",
-            "generated_answer": "Sharing your information is completely optional, and we respect this. However it helps us provide the best possible healthcare for you as soon after death. Your privacy remains protected during use of our services.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you receive the care you need.",
-            "similarity_score": 0.6485050916671753
-        },
-        {
-            "question": "Why do you ask about my access to health advocacy organizations?",
-            "generated_answer": "We collect data on your healthcare needs based on factors such as ethnicity, gender identity, and disability status. Your privacy is always protected during this process.",
-            "expected_answer": "Access to health advocacy organizations can affect your ability to receive support and resources for your health. This information helps us provide assistance where needed.",
-            "similarity_score": 0.4132998585700989
-        },
-        {
-            "question": "How does my data help with health service delivery?",
-            "generated_answer": "Your personal information is kept secure and stored securely, ensuring you receive care as soon or at any time. We use advanced encryption techniques to protect your privacy during sensitive medical procedures.",
-            "expected_answer": "Your data helps us identify areas where healthcare services can be improved, ensuring that care is efficient, effective, and equitable for everyone.",
-            "similarity_score": 0.45698386430740356
-        },
-        {
-            "question": "Why do you ask about my access to health insurance navigators?",
-            "generated_answer": "We collect information on your healthcare needs and provide tailored care based on specific medical conditions or risk factors. This helps us deliver better, more personalized services for everyone involved.",
-            "expected_answer": "Access to health insurance navigators can affect your ability to understand and access healthcare coverage. This information helps us provide support where needed.",
-            "similarity_score": 0.5258979797363281
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to community health workers?",
-            "generated_answer": "You can choose not sharing this information, but it helps us ensure you receive appropriate care. Your privacy is always respected and protected during your visit.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you receive the care you need.",
-            "similarity_score": 0.7325209975242615
-        },
-        {
-            "question": "Why do you ask about my access to health literacy programs?",
-            "generated_answer": "We collect data on your eligibility for healthcare services, including age at diagnosis and screenings. This helps us ensure that any information we share is appropriate or relevant in a respectful manner during our care process.",
-            "expected_answer": "Access to health literacy programs can affect your ability to understand and manage your health. This information helps us provide resources where needed.",
-            "similarity_score": 0.41755369305610657
-        },
-        {
-            "question": "How does my data help with health technology development?",
-            "generated_answer": "Your personal information is kept secure and never shared without your explicit consent. It remains private, protected by strict privacy laws or recordskeeping regulations to ensure it meets healthcare needs as prescribed.",
-            "expected_answer": "Your data helps researchers and developers create new technologies that improve healthcare delivery and outcomes for everyone.",
-            "similarity_score": 0.3342655897140503
-        },
-        {
-            "question": "Why do you ask about my access to health policy resources?",
-            "generated_answer": "We use data from healthcare systems across the globe in order for our services and policies to be as accessible, effective, or tailored to your needs. Your privacy is always protected by law during this process.",
-            "expected_answer": "Access to health policy resources can affect your ability to advocate for your health needs. This information helps us provide support where needed.",
-            "similarity_score": 0.4587591886520386
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health advocacy organizations?",
-            "generated_answer": "You can choose not sharing your healthcare information, but it helps us provide culturally sensitive care that is inclusive and respectful.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you receive the care you need.",
-            "similarity_score": 0.5980368852615356
-        },
-        {
-            "question": "Why do you ask about my access to health research opportunities?",
-            "generated_answer": "We collect data on healthcare outcomes, including ethnicity and sexual orientation. This helps us offer culturally sensitive care tailored specifically for your needs during any given event or transition period.",
-            "expected_answer": "Access to health research opportunities can affect your ability to participate in studies that improve healthcare. This information helps us provide resources where needed.",
-            "similarity_score": 0.42364412546157837
-        },
-        {
-            "question": "How does my data help with health innovation?",
-            "generated_answer": "Your personal information is stored securely and used only for healthcare purposes.",
-            "expected_answer": "Your data helps researchers and innovators develop new solutions that improve healthcare access, quality, and outcomes for everyone.",
-            "similarity_score": 0.38818320631980896
-        },
-        {
-            "question": "Why do you ask about my access to health equity initiatives?",
-            "generated_answer": "We collect data on healthcare services, ethnicity and disability status. This helps us provide appropriate support for your needs while respecting cultural practices such as dietary preferences or physical activity patterns.",
-            "expected_answer": "Access to health equity initiatives can affect your ability to receive fair and inclusive healthcare. This information helps us provide support where needed.",
-            "similarity_score": 0.49178415536880493
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health literacy programs?",
-            "generated_answer": "Sharing your healthcare needs is always optional, but it helps us provide tailored support and resources that improve care. Your privacy remains protected during this process.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you can manage your health effectively.",
-            "similarity_score": 0.6225309371948242
-        },
-        {
-            "question": "Why do you ask about my access to health technology tools?",
-            "generated_answer": "We use data protection measures such as encryption, authentication or anonymization in order for healthcare services and products. This information is kept private so it remains secure while respecting your privacy settings.",
-            "expected_answer": "Access to health technology tools, such as apps or wearable devices, can affect your ability to monitor and manage your health. This information helps us provide resources where needed.",
-            "similarity_score": 0.43009841442108154
-        },
-        {
-            "question": "How does my data help with health system resilience?",
-            "generated_answer": "Your information helps us provide more effective care, ensuring it is secure and accessible to everyone. It may also be used for healthcare planning or legal advice purposes during your stay in Canada.",
-            "expected_answer": "Your data helps us identify areas where healthcare systems can be strengthened, ensuring they are prepared to meet the needs of everyone, especially during emergencies.",
-            "similarity_score": 0.6166650056838989
-        },
-        {
-            "question": "Why do you ask about my access to health policy advocacy groups?",
-            "generated_answer": "We collect data on healthcare trends and how providers are addressing them. This helps us provide better, more inclusive care tailored specifically for your needs.",
-            "expected_answer": "Access to health policy advocacy groups can affect your ability to influence healthcare policies that impact your well-being. This information helps us provide support where needed.",
-            "similarity_score": 0.5239958763122559
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health research opportunities?",
-            "generated_answer": "No, sharing your data is entirely optional. Sharing this information ensures that we offer the best possible care for you and our patients' needs in a secure manner.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you can participate in studies that improve healthcare.",
-            "similarity_score": 0.5794447660446167
-        },
-        {
-            "question": "Why do you ask about my access to health innovation programs?",
-            "generated_answer": "We collect data on how healthcare services are provided, such as eligibility criteria and accessibility. This helps us provide the best possible care for your individual needs during times of need.",
-            "expected_answer": "Access to health innovation programs can affect your ability to benefit from new healthcare solutions. This information helps us provide resources where needed.",
-            "similarity_score": 0.5344717502593994
-        },
-        {
-            "question": "How does my data help with health equity research?",
-            "generated_answer": "Your personal information is stored securely and used only to provide healthcare services. It's never shared without your explicit consent, such as medical records or privacy policies.",
-            "expected_answer": "Your data helps researchers study health disparities and develop strategies to ensure equitable access to healthcare for everyone.",
-            "similarity_score": 0.4236438274383545
-        },
-        {
-            "question": "Why do you ask about my access to health technology training?",
-            "generated_answer": "We collect data on your use of healthcare services, such as screenings or treatments. This information is used only for improving care and screening practices that are most appropriate for specific needs.",
-            "expected_answer": "Access to health technology training can affect your ability to use tools that improve your health. This information helps us provide resources where needed.",
-            "similarity_score": 0.4986944794654846
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health equity initiatives?",
-            "generated_answer": "You can opt-out of sharing your healthcare data with us, but this is optional. Sharing helps ensure we provide tailored and respectful care that meets the needs you have in mind.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you receive fair and inclusive healthcare.",
-            "similarity_score": 0.6038209199905396
-        },
-        {
-            "question": "Why do you ask about my access to health policy education?",
-            "generated_answer": "We collect data on personal information, such as your medical history or ethnicity. This helps us provide better care tailored to meet healthcare needs and ensure the right support services are provided at every stage of life.",
-            "expected_answer": "Access to health policy education can affect your ability to advocate for your health needs. This information helps us provide support where needed.",
-            "similarity_score": 0.43872329592704773
-        },
-        {
-            "question": "How does my data help with health system innovation?",
-            "generated_answer": "Your personal information is kept secure and protected against unauthorized access.",
-            "expected_answer": "Your data helps researchers and innovators develop new solutions that improve healthcare delivery and outcomes for everyone.",
-            "similarity_score": 0.2373020350933075
-        },
-        {
-            "question": "Why do you ask about my access to health technology resources?",
-            "generated_answer": "We collect data on your privacy and use it in accordance with strict regulations. This helps us provide the best possible care, while respecting any healthcare needs that arise during or after treatment.",
-            "expected_answer": "Access to health technology resources, such as apps or devices, can affect your ability to monitor and manage your health. This information helps us provide support where needed.",
-            "similarity_score": 0.5644711256027222
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health innovation programs?",
-            "generated_answer": "Sharing your healthcare data helps us provide better, more personalized care tailored for you. This information is kept private and secure from third parties without compromising our privacy or security practices.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you benefit from new healthcare solutions.",
-            "similarity_score": 0.6353408694267273
-        },
-        {
-            "question": "Why do you ask about my access to health equity training?",
-            "generated_answer": "We use your personal information only for healthcare purposes and any updates or recommendations are kept private. Your data is never shared with third parties without our explicit consent.",
-            "expected_answer": "Access to health equity training can affect your ability to advocate for fair and inclusive healthcare. This information helps us provide resources where needed.",
-            "similarity_score": 0.2644833028316498
-        },
-        {
-            "question": "How does my data help with health policy development?",
-            "generated_answer": "Your personal information is handled securely and kept private. It's stored only for your benefit, never shared or used to harm you personally. This ensures that medical records are secure during use.",
-            "expected_answer": "Your data helps policymakers develop strategies that improve healthcare access, quality, and outcomes for everyone.",
-            "similarity_score": 0.3901786804199219
-        },
-        {
-            "question": "Why do you ask about my access to health technology education?",
-            "generated_answer": "We collect and analyze data on your healthcare needs for medical research, screenings/therapy recommendations (e.g.",
-            "expected_answer": "Access to health technology education can affect your ability to use tools that improve your health. This information helps us provide resources where needed.",
-            "similarity_score": 0.4510127305984497
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health policy education?",
-            "generated_answer": "No, sharing your healthcare information is entirely optional. Your privacy will remain protected and kept secure during any updates or changes in public policies (e-mailing support@healthcarenetworkfoundationcharity.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you can advocate for your health needs.",
-            "similarity_score": 0.631057620048523
-        },
-        {
-            "question": "Why do you ask about my access to health system training?",
-            "generated_answer": "We collect data on how we provide care, such as dietary needs or screenings. This helps us ensure our services are accessible and tailored for your specific situation.",
-            "expected_answer": "Access to health system training can affect your ability to navigate and use healthcare services effectively. This information helps us provide resources where needed.",
-            "similarity_score": 0.4769529700279236
-        },
-        {
-            "question": "How does my data help with health technology innovation?",
-            "generated_answer": "Your personal information is kept secure and stored securely, avoiding unauthorized access. It remains private for as long after it has been accessed by authorized personnel or law enforcement officials without your consent.",
-            "expected_answer": "Your data helps researchers and developers create new technologies that improve healthcare delivery and outcomes for everyone.",
-            "similarity_score": 0.22539669275283813
-        },
-        {
-            "question": "Why do you ask about my access to health equity resources?",
-            "generated_answer": "We collect data on how many healthcare services we offer, which categories they support and what screenings are needed. This helps us provide better care for everyone involved.",
-            "expected_answer": "Access to health equity resources can affect your ability to advocate for fair and inclusive healthcare. This information helps us provide support where needed.",
-            "similarity_score": 0.46271753311157227
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health technology training?",
-            "generated_answer": "Sharing your healthcare needs is optional and always treated with care.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you can use tools that improve your health.",
-            "similarity_score": 0.44966691732406616
-        },
-        {
-            "question": "Why do you ask about my access to health policy training?",
-            "generated_answer": "We collect data on healthcare providers, their activities, and risks. This helps us improve our care for your wellbeing during any stage in life.",
-            "expected_answer": "Access to health policy training can affect your ability to advocate for your health needs. This information helps us provide resources where needed.",
-            "similarity_score": 0.5314623117446899
-        },
-        {
-            "question": "How does my data help with health system resilience?",
-            "generated_answer": "Your information is kept secure and confidential, ensuring it meets strict security standards. It's never shared without your explicit consent or any third parties' permission.",
-            "expected_answer": "Your data helps us identify areas where healthcare systems can be strengthened, ensuring they are prepared to meet the needs of everyone, especially during emergencies.",
-            "similarity_score": 0.28351253271102905
-        },
-        {
-            "question": "Why do you ask about my access to health technology advocacy?",
-            "generated_answer": "We collect data on your use of healthcare services, which can provide important information such as ethnicity or gender reassignment preferences.",
-            "expected_answer": "Access to health technology advocacy can affect your ability to influence the development of tools that improve your health. This information helps us provide support where needed.",
-            "similarity_score": 0.39544618129730225
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health equity training?",
-            "generated_answer": "Sharing your healthcare needs is always a priority.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you can advocate for fair and inclusive healthcare.",
-            "similarity_score": 0.5999731421470642
-        },
-        {
-            "question": "Why do you ask about my access to health policy advocacy?",
-            "generated_answer": "We use data on healthcare settings and practices, such as ethnicity or sexual orientation. This helps us offer appropriate care tailored specifically for your needs. Your privacy is always protected while using this service.",
-            "expected_answer": "Access to health policy advocacy can affect your ability to influence healthcare policies that impact your well-being. This information helps us provide support where needed.",
-            "similarity_score": 0.4640207886695862
-        },
-        {
-            "question": "How does my data help with health technology development?",
-            "generated_answer": "Your personal information is kept secure and stored securely.",
-            "expected_answer": "Your data helps researchers and developers create new technologies that improve healthcare delivery and outcomes for everyone.",
-            "similarity_score": 0.34268471598625183
-        },
-        {
-            "question": "Why do you ask about my access to health equity advocacy?",
-            "generated_answer": "We collect data on healthcare needs, such as ethnicity or sexual orientation. This information is optional and kept confidential without your consent.",
-            "expected_answer": "Access to health equity advocacy can affect your ability to influence policies that ensure fair and inclusive healthcare. This information helps us provide support where needed.",
-            "similarity_score": 0.44651225209236145
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health policy training?",
-            "generated_answer": "Sharing your healthcare needs is completely optional. We ask for this information only, and it helps us provide appropriate support during medical care delivery (e-mailing details) or screenings at home.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you can advocate for your health needs.",
-            "similarity_score": 0.7435298562049866
-        },
-        {
-            "question": "Why do you ask about my access to health system advocacy?",
-            "generated_answer": "We collect data on your healthcare needs and support services in partnership with our community partners, ensuring that any changes or improvements are secure. This helps us provide the best possible care for everyone involved.",
-            "expected_answer": "Access to health system advocacy can affect your ability to influence improvements in healthcare delivery. This information helps us provide support where needed.",
-            "similarity_score": 0.544346034526825
-        },
-        {
-            "question": "How does my data help with health equity innovation?",
-            "generated_answer": "Your personal information is used to provide better care and ensure healthcare services are accessible. It's stored securely, anonymized or deleted at the last minute without your knowledge.",
-            "expected_answer": "Your data helps researchers and innovators develop new solutions that ensure fair and inclusive healthcare for everyone.",
-            "similarity_score": 0.39579349756240845
-        },
-        {
-            "question": "Why do you ask about my access to health technology policy?",
-            "generated_answer": "We collect information on your personal data and share it with third parties. This helps us provide healthcare that is inclusive, respectful of diverse identities, cultural practices & preferences without compromising the privacy rights of others.",
-            "expected_answer": "Access to health technology policy can affect your ability to influence the development of tools that improve your health. This information helps us provide support where needed.",
-            "similarity_score": 0.4685550034046173
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health equity advocacy?",
-            "generated_answer": "You can request a copy of your healthcare plan at any time, but you will need it only after receiving written informed consent.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you can advocate for fair and inclusive healthcare.",
-            "similarity_score": 0.3691534399986267
-        },
-        {
-            "question": "Why do you ask about my access to health system innovation?",
-            "generated_answer": "We collect data on your personal and healthcare needs, such as whether it is necessary for certain conditions or treatments. This helps us offer tailored care that meets the individual's specific need at home or abroad.",
-            "expected_answer": "Access to health system innovation can affect your ability to benefit from new healthcare solutions. This information helps us provide resources where needed.",
-            "similarity_score": 0.4757125973701477
-        },
-        {
-            "question": "How does my data help with health policy innovation?",
-            "generated_answer": "Your personal information is used only for healthcare purposes and you are not required to share it.",
-            "expected_answer": "Your data helps policymakers develop strategies that improve healthcare access, quality, and outcomes for everyone.",
-            "similarity_score": 0.3848058581352234
-        },
-        {
-            "question": "Why do you ask about my access to health technology equity?",
-            "generated_answer": "We collect data on your personal information in accordance with laws and regulations, such as privacy legislation. This helps us provide tailored healthcare services that respect individual needs or ensure the safety of all participants.",
-            "expected_answer": "Access to health technology equity can affect your ability to benefit from tools that improve your health. This information helps us provide support where needed.",
-            "similarity_score": 0.3982589840888977
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health system advocacy?",
-            "generated_answer": "No, sharing your healthcare needs is entirely voluntary. It's up for you to ensure that any information provided helps us provide better care and improve outcomes across the UK population.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you can influence improvements in healthcare delivery.",
-            "similarity_score": 0.7097394466400146
-        },
-        {
-            "question": "Why do you ask about my access to health equity technology?",
-            "generated_answer": "We use your personal information only for healthcare purposes, and it is kept secure. Your data remains private unless required by law or regulations such as confidentiality laws.",
-            "expected_answer": "Access to health equity technology can affect your ability to benefit from tools that ensure fair and inclusive healthcare. This information helps us provide resources where needed.",
-            "similarity_score": 0.31159523129463196
-        },
-        {
-            "question": "How does my data help with health technology policy development?",
-            "generated_answer": "Your personal information is securely stored and used only to improve healthcare services. It remains private, secure, or deleted at your option if necessary for legal reasons.",
-            "expected_answer": "Your data helps policymakers develop strategies that ensure the responsible use of technology in healthcare, improving outcomes for everyone.",
-            "similarity_score": 0.3934599757194519
-        },
-        {
-            "question": "Why do you ask about my access to health system equity?",
-            "generated_answer": "We collect data on your healthcare needs and ensure that it is accessible, secure, or tailored for specific groups. This information helps us improve care delivery by ensuring appropriate screenings are given appropriately during treatment options.",
-            "expected_answer": "Access to health system equity can affect your ability to receive fair and inclusive healthcare. This information helps us provide support where needed.",
-            "similarity_score": 0.4413439631462097
-        },
-        {
-            "question": "What if I don\u00e2\u20ac\u2122t want to share my access to health technology equity?",
-            "generated_answer": "Sharing your healthcare data ensures you receive equitable care and support, which helps us ensure our services are accessible for everyone.",
-            "expected_answer": "You are not required to share this information. However, providing it helps us offer support and resources to ensure you benefit from tools that improve your health.",
-            "similarity_score": 0.49464482069015503
-        },
-        {
-            "question": "Why do you ask about my access to health policy technology?",
-            "generated_answer": "We collect and store your data for healthcare purposes only, ensuring it is secure. This ensures that we provide appropriate care or recommendations tailored specifically in the context of specific needs.",
-            "expected_answer": "Access to health policy technology can affect your ability to influence the development of tools that improve your health. This information helps us provide support where needed.",
-            "similarity_score": 0.45270612835884094
-        },
-        {
-            "question": "How does my data help with health equity policy development?",
-            "generated_answer": "Your information helps us improve healthcare services, such as screenings and treatments tailored to your individual needs. It is stored securely during registration or after you have completed the process of providing it (e-mail).",
-            "expected_answer": "Your data helps policymakers develop strategies that ensure fair and inclusive healthcare for everyone.",
-            "similarity_score": 0.4835575819015503
-        },
-        {
-            "question": "Why do you ask about my access to health system technology?",
-            "generated_answer": "We collect data on your physical and mental well-being, providing tailored care that respects biological differences. Your privacy is always protected during this process.",
-            "expected_answer": "Access to health system technology can affect your ability to benefit from tools that improve healthcare delivery.",
-            "similarity_score": 0.41687068343162537
+            "question": "Can I request that my data not be used for health trend analysis?",
+            "generated_answer": "Yes, you have the right to access your personal information. This is entirely up-to date and secure with strict confidentiality policies in place at all times.",
+            "expected_answer": "Yes, you can opt-out of your data being used for health trend analysis. However, this may limit opportunities to improve healthcare services for everyone.",
+            "similarity_score": 0.31455111503601074
         }
     ]
 }

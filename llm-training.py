@@ -31,7 +31,6 @@ else:
 # T5 Training Logic
 # ---------------------
 def train_t5():
-    return
     """
     Train a T5 model for extracting fields (age, name, sex, etc.).
     Saves the model & tokenizer to ./t5-trained-model
@@ -270,7 +269,8 @@ def trim_last_sentence(text: str) -> str:
 # ---------------------
 # GPT Evaluate
 # ---------------------
-def evaluate_gpt(model, tokenizer, validation_dataset, output_file="evaluations/gpt2/gpt2-medium-validation-results.json"):
+def evaluate_gpt(model, tokenizer, validation_dataset, output_file="evaluations/gpt2/gpt2-medium-validation-results-iter-2.json"):
+    print("Starting Evaluation...")
     model.eval()
     results = []
     total_similarity = 0
@@ -286,14 +286,14 @@ def evaluate_gpt(model, tokenizer, validation_dataset, output_file="evaluations/
         output = model.generate(
             inputs['input_ids'],
             attention_mask=inputs['attention_mask'],
-            max_new_tokens=40,
-            min_length=20,
+            max_new_tokens=50,
+            min_length=30,
             do_sample=True,
             top_k=50,
             top_p=0.85,
             temperature=0.7,
             pad_token_id=tokenizer.eos_token_id,
-            repetition_penalty=1.1,  # discourage repetition
+            repetition_penalty=1.15,  # discourage repetition
             no_repeat_ngram_size=2,  # block 2-gram repeats
             early_stopping=False
         )
@@ -416,11 +416,12 @@ def train_gpt():
         model=model,
         args=training_args,
         train_dataset=tokenized_dataset,
+        eval_dataset=load_validation_dataset(),
         data_collator=data_collator
     )
 
     # 6. Evaluate
-    validation_dataset = load_validation_dataset()
+    validation_dataset = load_validation_dataset() 
 
     # 7. Train
     print("Starting GPT training...")
@@ -449,3 +450,9 @@ if __name__ == "__main__":
     # Option A: Just call both
     # train_t5()
     train_gpt()
+
+    # gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+    # gpt_model = GPT2LMHeadModel.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+    # validation_dataset = load_validation_dataset() 
+
+    # evaluate_gpt(gpt_model, gpt_tokenizer,validation_dataset)

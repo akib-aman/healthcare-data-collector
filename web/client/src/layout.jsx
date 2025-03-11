@@ -51,7 +51,7 @@ function Layout({ children }) {
       </div>
 
       <footer className="footer">
-        <p className="w-full big-gray-200 text-center py-4">© 2024 Healthcare App</p>
+        <p className="w-full big-gray-200 text-center py-4">© 2025 Healthcare App</p>
       </footer>
     </div>
   );

@@ -1020,6 +1020,38 @@
       "answer": "Sharing your religion or belief helps us respect your spiritual needs during healthcare."
   },
   {
+    "question": "can I request to see my data",
+    "answer": "Yes, under the UK Data Protection Act, you have the right to access your healthcare records by submitting a request to your healthcare provider."
+  },
+  {
+    "question": "can I see what data you hold of me",
+    "answer": "Yes, under the UK Data Protection Act, you have the right to access your healthcare records by submitting a request to your healthcare provider."
+  },
+  {
+    "question": "can i ask to have all my data deleted and gone?",
+    "answer": "Yes, under the UK Data Protection Act, you have the right to access your healthcare records by submitting a request to your healthcare provider."
+  },
+  {
+    "question": "can i ask to have all my info deleted",
+    "answer": "Yes, under the UK Data Protection Act, you have the right to access your healthcare records by submitting a request to your healthcare provider."
+  },
+  {
+    "question": "Hello",
+    "answer": "Hello! I'm here to help you fill out this equalities form."
+  },
+  {
+    "question": "Hi",
+    "answer": "Hello! I'm here to help you fill out this equalities form."
+  },
+  {
+    "question": "hi there",
+    "answer": "Hello! I'm here to help you fill out this equalities form."
+  },
+  {
+    "question": "how are you?",
+    "answer": "Hello! I'm here to help you fill out this equalities form."
+  },
+  {
       "question": "biological sex no comfortable saying",
       "answer": "We ask biological sex to ensure healthcare treatments and screenings are suitable and safe for you."
   },

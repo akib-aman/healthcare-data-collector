@@ -54,7 +54,7 @@ function Home() {
             {
               type: "bot",
               text:
-                "Hello! I'm here to help you fill out this equalities form. \n \n Your responses about characteristics help us understand your unique needs and offer you the best possible healthcare experience. All your information remains confidential, secure, and will be treated sensitively. You can skip any question you're not comfortable answering. \n \n  Let's begin firstly by giving us your " +
+                "Hello! I'm here to help you fill out this equalities form. \n \n Your responses about characteristics help us understand your unique needs and offer you the best possible healthcare experience. All your information remains confidential, secure, and will be treated sensitively. You can type 'Prefer Not To Say' for questions you dont want to answer. \n \n If you would like to view our privacy statement please refer to: https://publichealthscotland.scot/our-privacy-notice/personal-data-collection/  \n \n  Let's begin firstly by giving us your " +
                 firstField +
                 ":",
             },

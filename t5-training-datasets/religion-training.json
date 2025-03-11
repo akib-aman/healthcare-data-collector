@@ -56,6 +56,18 @@
         "output": "{\"Religion/Belief\": \"Islam\"}"
     },
     {
+        "input": "Extract the religion/belief from this text: im a muslim",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: im a christian",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: im a jew",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
         "input": "Extract the religion/belief from this text: muslim",
         "output": "{\"Religion/Belief\": \"Islam\"}"
     },

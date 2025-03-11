@@ -352,6 +352,14 @@
     "output": "{\"GenderReassignment\": \"No\"}"
   },
   {
+    "input": "Extract the gender reassignment from this text: My gender is the same.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: my gender is the same",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
     "input": "Extract the gender reassignment from this text: id says male now",
     "output": "{\"GenderReassignment\": \"Yes\"}"
   },

@@ -172,6 +172,18 @@
         "output": "{\"Disability\": \"None\"}"
     },
     {
+        "input": "Extract the disability from this text: no disability",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: No disability.",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: Not disabled.",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
         "input": "Extract the disability from this text: none",
         "output": "{\"Disability\": \"None\"}"
     },

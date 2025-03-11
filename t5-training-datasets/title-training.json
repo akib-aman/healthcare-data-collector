@@ -370,6 +370,22 @@
         "output": "{\"Title\": \"Miss\"}"
     },
     {
+        "input": "Extract the title from this text: Mister",
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the title from this text: mister",
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the title from this text: Misses",
+        "output": "{\"Title\": \"Mrs\"}"
+    },
+    {
+        "input": "Extract the title from this text: Misses",
+        "output": "{\"Title\": \"Mrs\"}"
+    },
+    {
         "input": "Extract the title from this text: Dr Emily White will present the findings.",
         "output": "{\"Title\": \"Dr\"}"
     },
