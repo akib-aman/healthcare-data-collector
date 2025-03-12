@@ -153,13 +153,14 @@ def trim_last_sentence(text: str) -> str:
 # ---------------------
 # GPT Generator
 # ---------------------
-def generate_with_gpt(question: str) -> str:
+def generate_with_gpt(question: str, field: str) -> str:
     """
     Generates a detailed response using GPT-2 
     with a Question: / Answer: style prompt.
     """
     # Use the same format you applied during training
-    prompt_text = f"<|startoftext|>Question: {question}\nAnswer:"
+    print(question + " Regarding " + field)
+    prompt_text = f"<|startoftext|>Question: {question + " Regarding " + field}\nAnswer:"
     try:
         inputs = gpt_tokenizer(prompt_text, return_tensors="pt")
         outputs = gpt_model.generate(
@@ -267,7 +268,7 @@ def handle_prompt(prompt: str, session_form: dict, field: str):
 
     elif "Detailed Response" in decision:
         # For a detailed response, use GPT
-        answer = generate_with_gpt(prompt)
+        answer = generate_with_gpt(prompt, field)
         return answer, session_form
 
     else:

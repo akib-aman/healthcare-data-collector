@@ -664,5 +664,9 @@
     {
         "input": "Extract the title from this text: Prof Peter Bennett delivered the lecture.",
         "output": "{\"Title\": \"Prof\"}"
+    },
+    {
+        "input": "Extract the title from this text: Dr",
+        "output": "{\"Title\": \"Dr\"}"
     }
 ]

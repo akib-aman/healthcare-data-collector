@@ -447,7 +447,7 @@ def train_gpt():
 # ---------------------
 if __name__ == "__main__":
     # Option A: Just call both
-    # train_t5()
+    train_t5()
     train_gpt()
 
     # gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))

@@ -2111,6 +2111,691 @@
     "output": "Detailed Response"
   },
   {
+    "input": "i dont know what this means",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding pregnancy",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding pregnancy",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding pregnancy",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding pregnancy",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding pregnancy",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding pregnancy",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding pregnancy",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding pregnancy",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding maternity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding marriage",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding marriage",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding marriage",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding marriage",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding marriage",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding marriage",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding marriage",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding marriage",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding civil partnership",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding civil partnership",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding civil partnership",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding civil partnership",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding civil partnership",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding civil partnership",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding civil partnership",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding civil partnership",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding disability",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding religion",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding religion",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding religion",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding religion",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding religion",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding religion",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding religion",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding religion",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding belief",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont know what this means Regarding sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what does this mean Regarding sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "dont get what this means Regarding sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what do you mean by this? Regarding sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you explain this? Regarding sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i dont understand this Regarding sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "what is this about? Regarding sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you clarify this? Regarding sexual orientation",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me understand what this means Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help, i dont know what this means Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you help explain what this means Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help understanding what this means Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me out, what does this mean Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "please help, i dont get what this means Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can someone help me figure out what this means Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me understand this Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help, what does this mean Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help! what does this mean Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you help me with what this means Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me clarify what this means Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need some help understanding this Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me figure this out Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me with this Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me understand what this is about Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help figuring out what this means Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me out here, what does this mean Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me understand Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me understand Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me Regarding age?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me out Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me Regarding age",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me understand what this means Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help, i dont know what this means Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you help explain what this means Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help understanding what this means Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me out, what does this mean Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "please help, i dont get what this means Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can someone help me figure out what this means Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me understand this Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help, what does this mean Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help! what does this mean Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you help me with what this means Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me clarify what this means Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need some help understanding this Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me figure this out Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me with this Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me understand what this is about Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help figuring out what this means Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me out here, what does this mean Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me understand Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me understand Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me Regarding sex?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me out Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me Regarding sex",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me understand what this means Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help, i dont know what this means Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you help explain what this means Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help understanding what this means Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me out, what does this mean Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "please help, i dont get what this means Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can someone help me figure out what this means Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me understand this Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help, what does this mean Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help! what does this mean Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "could you help me with what this means Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me clarify what this means Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need some help understanding this Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me figure this out Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me with this Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me understand what this is about Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help figuring out what this means Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me out here, what does this mean Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me understand Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me understand Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "can you help me Regarding ethnicity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me out Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "i need help Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "help me Regarding ethnicity",
+    "output": "Detailed Response"
+  },
+
+  {
     "input": "what can you do",
     "output": "Detailed Response"
   },
@@ -2284,6 +2969,10 @@
   },
   {
     "input": "im non-binary",
+    "output": "Detailed Response"
+  },
+  {
+    "input": " non binary",
     "output": "Detailed Response"
   },
   {

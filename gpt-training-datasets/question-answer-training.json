@@ -1452,6 +1452,182 @@
   "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
 },
 {
+  "question": "what does this mean? Regarding age",
+  "answer": "Age shows how many years someone has been alive."
+},
+{
+  "question": "what do you mean? Regarding age",
+  "answer": "Age shows how many years someone has been alive."
+},
+{
+  "question": "idk what this means Regarding age",
+  "answer": "Age shows how many years someone has been alive."
+},
+{
+  "question": "i dont understand Regarding age",
+  "answer": "Age shows how many years someone has been alive."
+},
+{
+  "question": "what does this mean? Regarding sex",
+  "answer": "Sex refers to whether a person is only male or female biologically, based on body characteristics at birth."
+},
+{
+  "question": "what do you mean? Regarding sex",
+  "answer": "Sex refers to whether a person is only male or female biologically, based on body characteristics at birth."
+},
+{
+  "question": "idk what this means Regarding sex",
+  "answer": "Sex refers to whether a person is only male or female biologically, based on body characteristics at birth."
+},
+{
+  "question": "i dont understand Regarding sex",
+  "answer": "Sex refers to whether a person is only male or female biologically, based on body characteristics at birth."
+},
+{
+  "question": "what does this mean? Regarding ethnicity",
+  "answer": "Ethnicity describes your shared culture, traditions, ancestry, language, religion, or national origins."
+},
+{
+  "question": "what do you mean? Regarding ethnicity",
+  "answer": "Ethnicity describes your shared culture, traditions, ancestry, language, religion, or national origins."
+},
+{
+  "question": "idk what this means Regarding ethnicity",
+  "answer": "Ethnicity describes your shared culture, traditions, ancestry, language, religion, or national origins."
+},
+{
+  "question": "i dont understand Regarding ethnicity",
+  "answer": "Ethnicity describes your shared culture, traditions, ancestry, language, religion, or national origins."
+},
+{
+  "question": "what does this mean? Regarding pregnancy",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant."
+},
+{
+  "question": "what do you mean? Regarding pregnancy",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant."
+},
+{
+  "question": "idk what this means Regarding pregnancy",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant."
+},
+{
+  "question": "i dont understand Regarding pregnancy",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant."
+},
+{
+  "question": "what does this mean? Regarding maternity",
+  "answer": "Maternity refers to the period after giving birth and relates to caring for a newborn."
+},
+{
+  "question": "what do you mean? Regarding maternity",
+  "answer": "Maternity refers to the period after giving birth and relates to caring for a newborn."
+},
+{
+  "question": "idk what this means Regarding maternity",
+  "answer": "Maternity refers to the period after giving birth and relates to caring for a newborn."
+},
+{
+  "question": "i dont understand Regarding maternity",
+  "answer": "Maternity refers to the period after giving birth and relates to caring for a newborn."
+},
+{
+  "question": "what does this mean? Regarding marriage",
+  "answer": "Marriage is a legally recognised relationship between two people."
+},
+{
+  "question": "what do you mean? Regarding marriage",
+  "answer": "Marriage is a legally recognised relationship between two people."
+},
+{
+  "question": "idk what this means Regarding marriage",
+  "answer": "Marriage is a legally recognised relationship between two people."
+},
+{
+  "question": "i dont understand Regarding marriage",
+  "answer": "Marriage is a legally recognised relationship between two people."
+},
+{
+  "question": "what does this mean? Regarding civil partnership",
+  "answer": "Civil partnership is a legally recognised union between two people, offering similar rights to marriage."
+},
+{
+  "question": "what do you mean? Regarding civil partnership",
+  "answer": "Civil partnership is a legally recognised union between two people, offering similar rights to marriage."
+},
+{
+  "question": "idk what this means Regarding civil partnership",
+  "answer": "Civil partnership is a legally recognised union between two people, offering similar rights to marriage."
+},
+{
+  "question": "i dont understand Regarding civil partnership",
+  "answer": "Civil partnership is a legally recognised union between two people, offering similar rights to marriage."
+},
+{
+  "question": "what does this mean? Regarding disability",
+  "answer": "Disability means having a physical or mental condition that affects daily activities and interactions."
+},
+{
+  "question": "what do you mean? Regarding disability",
+  "answer": "Disability means having a physical or mental condition that affects daily activities and interactions."
+},
+{
+  "question": "idk what this means Regarding disability",
+  "answer": "Disability means having a physical or mental condition that affects daily activities and interactions."
+},
+{
+  "question": "i dont understand Regarding disability",
+  "answer": "Disability means having a physical or mental condition that affects daily activities and interactions."
+},
+{
+  "question": "what does this mean? Regarding religion",
+  "answer": "Religion is the set of spiritual beliefs, faiths, or practices someone follows."
+},
+{
+  "question": "what do you mean? Regarding religion",
+  "answer": "Religion is the set of spiritual beliefs, faiths, or practices someone follows."
+},
+{
+  "question": "idk what this means Regarding religion",
+  "answer": "Religion is the set of spiritual beliefs, faiths, or practices someone follows."
+},
+{
+  "question": "i dont understand Regarding religion",
+  "answer": "Religion is the set of spiritual beliefs, faiths, or practices someone follows."
+},
+{
+  "question": "what does this mean? Regarding belief",
+  "answer": "Belief refers to someone's personal values or principles, whether religious or non-religious."
+},
+{
+  "question": "what do you mean? Regarding belief",
+  "answer": "Belief refers to someone's personal values or principles, whether religious or non-religious."
+},
+{
+  "question": "idk what this means Regarding belief",
+  "answer": "Belief refers to someone's personal values or principles, whether religious or non-religious."
+},
+{
+  "question": "i dont understand Regarding belief",
+  "answer": "Belief refers to someone's personal values or principles, whether religious or non-religious."
+},
+{
+  "question": "what does this mean? Regarding sexual orientation",
+  "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
+},
+{
+  "question": "what do you mean? Regarding sexual orientation",
+  "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
+},
+{
+  "question": "idk what this means Regarding sexual orientation",
+  "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
+},
+{
+  "question": "i dont understand Regarding sexual orientation",
+  "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
+},
+{
   "question": "sexual orientation meaning",
   "answer": "Sexual orientation refers to who someone feels romantically or sexually attracted to, such as being straight, gay, lesbian, or bisexual."
 },
@@ -1885,7 +2061,7 @@
 },
 {
   "question": "i identify as non-binary, should i select male or female?",
-  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth."
+  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth at birth either Male or Female."
 },
 {
   "question": "do i have to disclose my non-binary identity?",
@@ -1893,19 +2069,19 @@
 },
 {
   "question": "what if i don’t feel comfortable selecting a sex?",
-  "answer": "While gender identity is personal, sex is needed for medical reasons. If unsure, choose the sex you were assigned at birth."
+  "answer": "While gender identity is personal, sex is needed for medical reasons. If unsure, choose the sex you were assigned at birth at birth either Male or Female."
 },
 {
   "question": "can i put ‘other’ for my sex?",
-  "answer": "Most systems require either ‘male’ or ‘female’ due to biological differences affecting medical care. Choose the one that aligns with your birth sex."
+  "answer": "Most systems require either ‘male’ or ‘female’ due to biological differences affecting medical care. Choose the one that aligns with your birth sex at birth either Male or Female."
 },
 {
   "question": "im non-binary",
-  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth."
+  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth either Male or Female."
 },
 {
   "question": "im non-binary",
-  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth."
+  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth at birth either Male or Female."
 }
 
 ]
