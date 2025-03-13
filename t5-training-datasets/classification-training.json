@@ -360,6 +360,14 @@
       "output": "Detailed Response"
     },
     {
+      "input": "nonbinary",
+      "output": "Detailed Response"
+    },
+    {
+      "input": "Nonbinary",
+      "output": "Detailed Response"
+    },
+    {
       "input": "Transgender",
       "output": "Data Extraction"
     },

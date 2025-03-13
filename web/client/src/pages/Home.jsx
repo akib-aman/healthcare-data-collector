@@ -46,7 +46,7 @@ function Home() {
         // Step C: If there's at least one field, set it as the active field
         const characteristics = finalFormData.Characteristics || [];
         if (characteristics.length > 0) {
-          const firstField = characteristics[0].Label;
+          const firstField = characteristics[0].Name.toLowerCase();
           setActiveField(firstField);
 
           // Also add a message letting the user know
@@ -332,7 +332,7 @@ function Home() {
               ) : (
                 // else Message is bot
                 <>
-                  <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center aspect-square">
                     <img src={DoctorIcon} alt="Bot Icon" className="w-12 h-12 rounded-full" />
                   </div>
                   <div className="bg-blue-500 p-4 rounded-lg border border-cyan-400 max-w-lg">

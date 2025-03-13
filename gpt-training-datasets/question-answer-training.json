@@ -2080,7 +2080,15 @@
   "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth either Male or Female."
 },
 {
-  "question": "im non-binary",
+  "question": "Im non-binary",
+  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth at birth either Male or Female."
+},
+{
+  "question": "Non-binary",
+  "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth at birth either Male or Female."
+},
+{
+  "question": "Nonbinary",
   "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth at birth either Male or Female."
 }
 

@@ -694,5 +694,349 @@
   {
     "input": "Extract the gender reassignment from this text: prefer nto to say",
     "output": "{\"GenderReassignment\": \"Prefer Not to Say\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I was born a male and still a male.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve always been female and never changed anything.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born as.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never felt the need to transition.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m comfortable with my birth gender.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never considered gender reassignment.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender woman, no changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cis man, never transitioned.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related surgeries.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m happy with the gender I was assigned at birth.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never taken hormones or had surgery.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same as I was born.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never felt the need to change my gender.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender male, no changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never undergone any gender-affirming procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I’ve always been.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender female, no changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming surgeries.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same as I was born, no changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender person, no changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born with.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender individual, no changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born as, no changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender person, never transitioned.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born with, no changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender individual, never transitioned.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born as, never transitioned.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender person, never had any changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born with, never transitioned.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender individual, never had any changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born as, never had any changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender person, never had any medical changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born with, never had any medical changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender individual, never had any medical changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born as, never had any medical changes.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender person, never had any medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born with, never had any medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender individual, never had any medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born as, never had any medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender person, never had any medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born with, never had any medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender individual, never had any medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born as, never had any medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender person, never had any medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born with, never had any medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender individual, never had any medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born as, never had any medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender person, never had any medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born with, never had any medical treatments.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender individual, never had any medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-affirming medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m still the same gender I was born as, never had any medical interventions.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’ve never had any gender-related medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I’m a cisgender person, never had any medical procedures.",
+    "output": "{\"GenderReassignment\": \"No\"}"
   }
 ]

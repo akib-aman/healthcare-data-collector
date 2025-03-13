@@ -668,5 +668,9 @@
     {
         "input": "Extract the title from this text: Dr",
         "output": "{\"Title\": \"Dr\"}"
+    },
+    {
+        "input": "Extract the title from this text: dr",
+        "output": "{\"Title\": \"Dr\"}"
     }
 ]

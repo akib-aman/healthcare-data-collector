@@ -242,7 +242,6 @@ def handle_prompt(prompt: str, session_form: dict, field: str):
     if "Data Extraction" in decision:
         # Look up the extraction command based on the field parameter
         # Fallback to a generic "extract:" if the field isn’t found
-        print("field: " + field)
         extraction_prefix = field_commands.get(field.lower(), "extract: ")
         
         # Combine prefix + user prompt
@@ -261,7 +260,8 @@ def handle_prompt(prompt: str, session_form: dict, field: str):
 
             # If everything is valid, update the form
             update_form(session_form, extracted_fields)
-            return json.dumps(extracted_fields, indent=4), session_form
+            print("FIELDS:", extracted_fields)
+            return "Thank you, answer has been extracted for: " + field, session_form
 
         except json.JSONDecodeError:
             return f"Error: Invalid JSON output. T5 said:\n{t5_output}", session_form
@@ -293,7 +293,6 @@ def update_form(form_data, extracted_fields):
       form_data["Characteristics"] is a list of characteristic dicts, each with "Name", "Value", etc.
       form_data["Form"] (if present) is an object keyed by field name with a "SelectedValue".
     """
-    print("FIELDS:", extracted_fields)
     characteristics = form_data.get("Characteristics", [])
     for key, value in extracted_fields.items():
         updated_in_characteristics = False
