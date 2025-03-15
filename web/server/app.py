@@ -58,7 +58,6 @@ def setup_form():
     # 1. Build absolute paths based on the directory of this app.py file
     base_dir = os.path.dirname(__file__)  # folder where app.py is located
     data_inventory_path = os.path.join(base_dir, "form-data", "data-inventory.json")
-    form_config_path = os.path.join(base_dir, "form-data", "form-config.json")
 
     # 2. Read JSON from POST body
     request_data = request.get_json()
@@ -68,23 +67,12 @@ def setup_form():
     with open(data_inventory_path, 'r', encoding='utf-8') as f:
         data_inventory = json.load(f)
 
-    with open(form_config_path, 'r', encoding='utf-8') as f:
-        form_config = json.load(f)
-
-    # 4. Use the form_config to determine which data to send back
-    form_def = form_config["forms"].get(form_type)
-
-    if not form_def:
-        # If no matching form definition, return an error
-        return jsonify({"error": "Unknown formType requested."}), 400
-
-    if form_def["type"] == "CHARACTERISTICS_ONLY":
+    # 4. Load Relevant form
+    if form_type:
         return jsonify(data_inventory["Characteristics"])
-    elif form_def["type"] == "FULL_FORM":
-        return jsonify(data_inventory)
     else:
         # Handle other variants as needed
-        return jsonify(data_inventory)  # or something else
+        return jsonify({"error": "Unknown formType requested."}), 400
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)

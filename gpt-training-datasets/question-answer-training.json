@@ -1416,7 +1416,20 @@
   "answer": "Sex refers to whether a person is only male or female biologically, based on body characteristics at birth."
 },
 {
+  "question": "sex meaning",
+  "answer": "Sex refers to whether a person is only male or female biologically, based on body characteristics at birth."
+},
+{
+  "question": "sex",
+  "answer": "Sex refers to whether a person is only male or female biologically, based on body characteristics at birth."
+},
+{
   "question": "what does ethnicity mean",
+  "answer": "Ethnicity describes your shared culture, traditions, ancestry, language, religion, or national origins."
+},
+
+{
+  "question": "ethnicity meaning",
   "answer": "Ethnicity describes your shared culture, traditions, ancestry, language, religion, or national origins."
 },
 {
@@ -1514,6 +1527,22 @@
 {
   "question": "i dont understand Regarding pregnancy",
   "answer": "Pregnancy means expecting a baby or being currently pregnant."
+},
+{
+  "question": "what does this mean? Regarding pregnancy/maternity",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant. Maternity refers to the period after giving birth and relates to caring for a newborn. Type 'Yes' if you fall under any of these."
+},
+{
+  "question": "what do you mean? Regarding pregnancy/maternity",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant. Maternity refers to the period after giving birth and relates to caring for a newborn. Type 'Yes' if you fall under any of these."
+},
+{
+  "question": "idk what this means Regarding pregnancy/maternity",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant. Maternity refers to the period after giving birth and relates to caring for a newborn. Type 'Yes' if you fall under any of these."
+},
+{
+  "question": "i dont understand Regarding pregnancy/maternity",
+  "answer": "Pregnancy means expecting a baby or being currently pregnant. Maternity refers to the period after giving birth and relates to caring for a newborn. Type 'Yes' if you fall under any of these."
 },
 {
   "question": "what does this mean? Regarding maternity",
@@ -2073,7 +2102,7 @@
 },
 {
   "question": "can i put ‘other’ for my sex?",
-  "answer": "Most systems require either ‘male’ or ‘female’ due to biological differences affecting medical care. Choose the one that aligns with your birth sex at birth either Male or Female."
+  "answer": "We require either ‘male’ or ‘female’ due to biological differences affecting medical care. Choose the one that aligns with your birth sex at birth either Male or Female."
 },
 {
   "question": "im non-binary Regarding Sex",
