@@ -5,7 +5,7 @@ import json
 from prompt_inputs import handle_prompt, create_session_form, load_session_form, save_session_form
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for communication with the React frontend
+CORS(app)
 
 # Directory for session JSON files
 SESSION_FORMS_DIR = "form-data/session-forms"
@@ -19,7 +19,7 @@ def create_session():
     Expects JSON with { "formType": "<someFormType>" } in the POST body.
     """
     data = request.get_json()
-    form_type = data.get("formType", "").lower()  # e.g. "gp-registration"
+    form_type = data.get("formType", "").lower() 
 
     # Pass the form_type to create_session_form
     session_id = create_session_form(form_type)
