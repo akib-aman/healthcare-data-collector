@@ -226,11 +226,34 @@ def train_t5():
     tokenizer.save_pretrained(os.path.join(BASE_DIR, "./web/server/t5-trained-model"))
     print("T5 model saved to ./t5-trained-model")
 
+# ---------------------
+# Cosine Similarity with Sbert
+# ---------------------
 def compute_similarity(generated, expected):
     """Compute cosine similarity between generated and expected answer embeddings"""
     embeddings = sbert_model.encode([generated, expected])
     similarity_score = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
     return similarity_score
+
+# ---------------------
+# F1 Scores
+# ---------------------
+def compute_f1(generated, expected):
+    """
+    Compute a simple token-level F1 score between generated and expected answers.
+    This function splits the strings into tokens, calculates precision and recall based on common tokens,
+    and then computes the harmonic mean.
+    """
+    gen_tokens = generated.split()
+    exp_tokens = expected.split()
+    if len(gen_tokens) == 0 or len(exp_tokens) == 0:
+        return 0.0
+    common_tokens = set(gen_tokens) & set(exp_tokens)
+    if len(common_tokens) == 0:
+        return 0.0
+    precision = len(common_tokens) / len(gen_tokens)
+    recall = len(common_tokens) / len(exp_tokens)
+    return 2 * precision * recall / (precision + recall)
 
 # ---------------------
 # GPT Validation Logic
@@ -286,6 +309,81 @@ def trim_last_sentence(text) :
     """
     match = re.search(r'^(.*?\.)[^.]*$', text, re.DOTALL)
     return match.group(1).strip() if match else text  # Return trimmed text or original if no period found
+
+# ---------------------
+# T5 Test Logic
+# ---------------------
+def evaluate_t5(model, tokenizer, dataset, output_file):
+    """
+    Evaluate a T5 model using a provided dataset. The dataset is a list of examples with keys:
+       "input": a prompt for the T5 model,
+       "output": the expected answer.  
+    Results are saved to the specified output_file.
+    """
+    model.eval()
+    results = []
+    total_similarity = 0
+    total_f1 = 0
+    passing_threshold = 0.7  # Example threshold for acceptable similarity
+    passing_count = 0
+    
+    for example in dataset:
+        input_text = example['input']
+        expected_answer = example['output']
+        
+        # Tokenize the input
+        inputs = tokenizer(input_text, return_tensors="pt", padding=True, truncation=True).to(device)
+        
+        # Generate output from T5
+        output_ids = model.generate(
+            inputs['input_ids'],
+            attention_mask=inputs['attention_mask'],
+            max_new_tokens=50,
+            do_sample=False  # Use greedy decoding (or set sampling parameters as desired)
+        )
+        generated_text = tokenizer.decode(output_ids[0], skip_special_tokens=True).strip()
+        
+        # Optionally: you could trim extra sentences if needed (see your trim_last_sentence() function)
+        generated_answer = generated_text
+        
+        # Compute cosine similarity between generated and expected answers
+        similarity_score = compute_similarity(generated_answer, expected_answer)
+        total_similarity += similarity_score
+        
+        # Compute token-level F1 score
+        f1_score = compute_f1(generated_answer, expected_answer)
+        total_f1 += f1_score
+        
+        if similarity_score >= passing_threshold:
+            passing_count += 1
+        
+        results.append({
+            "input": input_text,
+            "generated_answer": generated_answer,
+            "expected_answer": expected_answer,
+            "similarity_score": float(similarity_score),
+            "f1_score": float(f1_score)
+        })
+    
+    avg_similarity = total_similarity / len(dataset)
+    avg_f1 = total_f1 / len(dataset)
+    passing_percentage = (passing_count / len(dataset)) * 100
+    
+    output_data = {
+        "average_similarity": avg_similarity,
+        "average_f1": avg_f1,
+        "passing_percentage": passing_percentage,
+        "detailed_results": results
+    }
+    
+    with open(output_file, "w") as f:
+        json.dump(output_data, f, indent=4)
+    
+    print(f"Evaluation complete. Average Similarity: {avg_similarity:.4f}, Average F1: {avg_f1:.4f}")
+    print(f"Percentage of 'acceptable' answers: {passing_percentage:.2f}%")
+    print(f"Results saved to {output_file}")
+    
+    return avg_similarity, avg_f1, passing_percentage, results
 
 # ---------------------
 # GPT Evaluate
@@ -450,9 +548,7 @@ def train_gpt():
     print("GPT training complete.")
 
     # 8. Evaluate
-    detailed_results = evaluate_gpt(model, tokenizer, validation_dataset, "evaluations/gpt2/gpt2-medium-validation-results-iter-2.json")
-    for pred in detailed_results[:5]:  # Now iterate over the detailed results list
-        print(f"Q: {pred['question']}\nGPT-2 Answer: {pred['generated_answer']}\nExpected: {pred['expected_answer']}\n")
+    detailed_results = evaluate_gpt(model, tokenizer, validation_dataset, "evaluations/gpt2/gpt2-medium-validation-results-iter-3.json")
 
     # 9. Save the model & tokenizer
     model.save_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
@@ -468,12 +564,11 @@ def train_gpt():
 # Main Entry
 # ---------------------
 if __name__ == "__main__":
-    # Option A: Just call both
     train_t5()
     train_gpt()
 
-    gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
-    gpt_model = GPT2LMHeadModel.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
-    testing_dataset = load_testing_dataset() 
+    # gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+    # gpt_model = GPT2LMHeadModel.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+    # testing_dataset = load_testing_dataset() 
 
-    evaluate_gpt(gpt_model, gpt_tokenizer, testing_dataset, "evaluations/gpt2/gpt2-medium-test-results-iter-2.json")
+    # evaluate_gpt(gpt_model, gpt_tokenizer, testing_dataset, "evaluations/gpt2/gpt2-medium-test-results.json")

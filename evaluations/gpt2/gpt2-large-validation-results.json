@@ -1,0 +1,444 @@
+{
+    "average_similarity": 0.6009697914123535,
+    "passing_percentage": 31.506849315068493,
+    "detailed_results": [
+        {
+            "question": "Why do you need to know if I\u00e2\u20ac\u2122ve had gender reassignment surgery?",
+            "generated_answer": "We ask about gender identity to ensure that medical care, screenings, and advice are appropriate for you. This information is optional and kept private. Your data is always secure.",
+            "expected_answer": "We ask about gender reassignment surgery to ensure your healthcare is tailored to your needs, such as hormone therapy or post-surgery care. This information is kept confidential and used only to provide appropriate care.",
+            "similarity_score": 0.7240210771560669
+        },
+        {
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my sexual orientation?",
+            "generated_answer": "You are not required to provide this information. It is only collected to improve healthcare inclusivity and ensure that everyone receives accurate and appropriate care. Your privacy is always protected.",
+            "expected_answer": "Sharing your sexual orientation is optional. However, it helps us provide inclusive care and address specific health concerns relevant to LGBTQ+ individuals.",
+            "similarity_score": 0.39286571741104126
+        },
+        {
+            "question": "How will my ethnicity data be used to improve healthcare?",
+            "generated_answer": "Your ethnicity information helps us identify and reduce health inequalities, ensuring fair and inclusive care for everyone. This can help in developing targeted public health policies and programs to benefit all communities.",
+            "expected_answer": "Your ethnicity data helps us identify health disparities and improve services for diverse communities. It ensures healthcare is culturally sensitive and addresses specific needs.",
+            "similarity_score": 0.9169418811798096
+        },
+        {
+            "question": "Can I refuse to answer questions about my religion?",
+            "generated_answer": "Yes, sharing your religion or belief is entirely voluntary. It helps us provide culturally sensitive care, but it is your choice. Your decision will be respected.",
+            "expected_answer": "Yes, you can refuse to answer. However, sharing your religion helps us respect your beliefs, such as dietary preferences or spiritual practices during treatment.",
+            "similarity_score": 0.7121004462242126
+        },
+        {
+            "question": "Why do you need to know if I\u00e2\u20ac\u2122m pregnant for a routine checkup?",
+            "generated_answer": "We ask about pregnancy to ensure that any treatments or advice we provide are safe for both you and your baby.",
+            "expected_answer": "Pregnancy can affect your health and the safety of certain treatments or medications. Knowing this ensures we provide care that\u00e2\u20ac\u2122s safe for both you and your baby.",
+            "similarity_score": 0.7129063606262207
+        },
+        {
+            "question": "Will my disability status affect the type of care I receive?",
+            "generated_answer": "No, your disability will not affect your healthcare access. It only helps us provide reasonable accommodations, such as accessible therapy rooms or alternative communication methods. Your data remains secure and private.",
+            "expected_answer": "Yes, knowing about your disability helps us make reasonable adjustments, such as providing accessible facilities or tailored communication methods, to ensure you receive the best care.",
+            "similarity_score": 0.7529536485671997
+        },
+        {
+            "question": "How is my age used to determine my treatment options?",
+            "generated_answer": "Your age helps us tailor your treatments to keep you healthy and safe.",
+            "expected_answer": "Your age helps us recommend age-appropriate treatments, screenings, and vaccinations. For example, certain cancer screenings are recommended based on age.",
+            "similarity_score": 0.7599613666534424
+        },
+        {
+            "question": "Why do you ask about my marital status during a hospital visit?",
+            "generated_answer": "Knowing your marital or civil partnership status helps us understand your support system and offer relevant resources if needed. This information is optional and kept private.",
+            "expected_answer": "Marital status helps us understand your support system and ensures your partner is involved in care decisions if needed, especially in emergencies.",
+            "similarity_score": 0.7230173349380493
+        },
+        {
+            "question": "What happens if I don\u00e2\u20ac\u2122t disclose my gender identity?",
+            "generated_answer": "You are not required to share this information.",
+            "expected_answer": "You are not required to disclose your gender identity. However, sharing this information helps us provide respectful and inclusive care tailored to your needs.",
+            "similarity_score": 0.4223868250846863
+        },
+        {
+            "question": "How is my data protected from cyberattacks?",
+            "generated_answer": "Your data is protected against cyber attacks by using advanced security measures, including encryption and regular audits. We adhere to strict data protection laws in order to keep your information safe.",
+            "expected_answer": "We use advanced cybersecurity measures, including encryption, firewalls, and regular security audits, to protect your data from unauthorized access or cyberattacks.",
+            "similarity_score": 0.7203090786933899
+        },
+        {
+            "question": "Can I request that my data be deleted after my treatment?",
+            "generated_answer": "Yes, you have the right to request deletion of your personal data.",
+            "expected_answer": "Yes, you can request deletion of your data, but some records must be retained for legal or medical reasons. Contact your healthcare provider for more details.",
+            "similarity_score": 0.7984774112701416
+        },
+        {
+            "question": "Will my healthcare data be shared with researchers?",
+            "generated_answer": "No, your healthcare information will not be disclosed without your explicit consent. Researchers using this data are bound by strict confidentiality policies to ensure their privacy is protected.\nQuestion.",
+            "expected_answer": "Your data may be shared with researchers in an anonymized form to improve public health outcomes. However, your identity will never be disclosed without your consent.",
+            "similarity_score": 0.7433829307556152
+        },
+        {
+            "question": "Why do you need to know my biological sex for mental health services?",
+            "generated_answer": "We ask for your biological gender to ensure medical care is provided correctly and safely for each individual.",
+            "expected_answer": "Biological sex can influence mental health conditions and treatment options. For example, some conditions like depression may present differently in males and females.",
+            "similarity_score": 0.44926273822784424
+        },
+        {
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my ethnicity during registration?",
+            "generated_answer": "You are not required to provide this information.",
+            "expected_answer": "You can choose not to share your ethnicity. However, providing this information helps us address health disparities and offer culturally sensitive care.",
+            "similarity_score": 0.2771567106246948
+        },
+        {
+            "question": "How does my pregnancy status affect my eligibility for clinical trials?",
+            "generated_answer": "Pregnancy may exclude you from certain clinical trial protocols, such as those evaluating treatments for preterm birth or cancer, to protect your health and the health of your unborn baby.",
+            "expected_answer": "Pregnancy may exclude you from certain clinical trials to protect your health and the health of your unborn baby. This ensures your safety during research studies.",
+            "similarity_score": 0.8884783983230591
+        },
+        {
+            "question": "Why do you ask about my religion when I\u00e2\u20ac\u2122m admitted to the hospital?",
+            "generated_answer": "Your religion or belief helps us respect your spiritual and cultural needs during your care. This can include dietary preferences, religious practices, or specific treatments.",
+            "expected_answer": "We ask about your religion to respect your spiritual needs, such as dietary restrictions, prayer times, or end-of-life care preferences.",
+            "similarity_score": 0.7713764905929565
+        },
+        {
+            "question": "Can I opt-out of my data being used for public health research?",
+            "generated_answer": "Yes, you can opt out of your data ending up in public healthcare research, but this may limit opportunities to contribute to medical advancements. Your decision will always be respected.",
+            "expected_answer": "Yes, you can opt-out of your data being used for research. However, this may limit opportunities to contribute to medical advancements and public health improvements.",
+            "similarity_score": 0.9252160787582397
+        },
+        {
+            "question": "How is my sexual orientation data stored and protected?",
+            "generated_answer": "Your data is stored securely and used only for your healthcare. It is accessed only by authorized staff and never shared without your consent. Any unauthorized access is promptly reported to the appropriate authorities.",
+            "expected_answer": "Your sexual orientation data is stored securely in encrypted databases and accessed only by authorized healthcare professionals involved in your care.",
+            "similarity_score": 0.7021129131317139
+        },
+        {
+            "question": "Why do you need to know my disability for a routine appointment?",
+            "generated_answer": "We ask about disabilities to make sure that our services are accessible and tailored to your needs.",
+            "expected_answer": "Knowing about your disability helps us provide accommodations, such as accessible facilities or communication support, to ensure you receive the best care.",
+            "similarity_score": 0.6593059301376343
+        },
+        {
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my age during a consultation?",
+            "generated_answer": "You are not required to provide this information.",
+            "expected_answer": "You can choose not to share your age. However, providing this information helps us recommend age-appropriate treatments and screenings.",
+            "similarity_score": 0.2845018208026886
+        },
+        {
+            "question": "How does my gender reassignment status affect my access to hormone therapy?",
+            "generated_answer": "Some medical treatments (such as cancer screenings) may need to be tailored to your needs based on your gender identity. This ensures you receive the best possible care.",
+            "expected_answer": "Your gender reassignment status ensures you receive appropriate hormone therapy and monitoring as part of your transition process.",
+            "similarity_score": 0.5858826637268066
+        },
+        {
+            "question": "Will my data be shared with my employer or insurance company?",
+            "generated_answer": "No, your healthcare information will not be provided to employers or insurers without your explicit consent. We comply with data protection laws to ensure your privacy is maintained.",
+            "expected_answer": "No, your healthcare data will not be shared with employers or insurance companies without your explicit consent, unless required by law.",
+            "similarity_score": 0.9034436941146851
+        },
+        {
+            "question": "Why do you need to know my ethnicity for a blood test?",
+            "generated_answer": "We ask for your ethnicity because certain health risks can be more common in specific ethnic groups. This helps us provide you with better, personalized care while ensuring your privacy is protected.",
+            "expected_answer": "Certain health conditions, such as sickle cell anemia, are more common in specific ethnic groups. Knowing your ethnicity helps us interpret test results accurately.",
+            "similarity_score": 0.6562567949295044
+        },
+        {
+            "question": "Can I access my healthcare data online?",
+            "generated_answer": "Yes, you have the right to request your healthcare records from any public or private health service. You can contact your provider directly to make a request under data protection regulations.",
+            "expected_answer": "Yes, many healthcare providers offer online portals where you can securely access your medical records, test results, and appointment details.",
+            "similarity_score": 0.6656855344772339
+        },
+        {
+            "question": "Why do you ask about my religion when prescribing medication?",
+            "generated_answer": "We ask for your religion or belief to respect cultural and spiritual needs during your care. This can include dietary preferences, religious practices, or specific treatments. Your information is handled with care and kept private.",
+            "expected_answer": "Some medications may conflict with religious beliefs, such as those containing animal products. Knowing your religion helps us prescribe alternatives if needed.",
+            "similarity_score": 0.4872037172317505
+        },
+        {
+            "question": "How does my sexual orientation affect my access to sexual health services?",
+            "generated_answer": "Your sexual identity may limit the types of care you receive, ensuring you are treated equally.",
+            "expected_answer": "Your sexual orientation helps sexual health services provide appropriate screenings, vaccinations, and advice tailored to your needs.",
+            "similarity_score": 0.6584373712539673
+        },
+        {
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my doctor?",
+            "generated_answer": "You are not required to disclose your disability.",
+            "expected_answer": "You are not required to share your disability status. However, providing this information helps us make necessary accommodations for your care.",
+            "similarity_score": 0.6860863566398621
+        },
+        {
+            "question": "Why do you need to know my age for a flu vaccine?",
+            "generated_answer": "We ask about age to ensure that the vaccinations we recommend are safe and effective for you.",
+            "expected_answer": "Certain flu vaccines are recommended for specific age groups, such as older adults or young children, to ensure maximum effectiveness.",
+            "similarity_score": 0.6312928795814514
+        },
+        {
+            "question": "How does my gender reassignment status affect my mental health care?",
+            "generated_answer": "Gender reassigned people may be more likely to experience depression, anxiety, or post-traumatic stress disorder (PTSD). Understanding your gender identity helps providers offer targeted support and resources.",
+            "expected_answer": "Your gender reassignment status helps us provide mental health support tailored to your needs, such as counseling for gender dysphoria or transition-related stress.",
+            "similarity_score": 0.7422067523002625
+        },
+        {
+            "question": "Will my data be used to improve healthcare services?",
+            "generated_answer": "No, your personal data will not be shared for any medical or public health purposes without your explicit consent.",
+            "expected_answer": "Yes, anonymized data may be used to identify health trends, develop new treatments, and improve healthcare services for everyone.",
+            "similarity_score": 0.6246855854988098
+        },
+        {
+            "question": "Why do you ask about my marital status for a prescription?",
+            "generated_answer": "We ask this to ensure that any medications prescribed are appropriate for you and your partner's lifestyle. This information is optional, and it is kept confidential in line with strict data protection laws.",
+            "expected_answer": "Marital status helps us understand your support system, which may be relevant for managing medications or treatment plans.",
+            "similarity_score": 0.4419938325881958
+        },
+        {
+            "question": "Can I refuse to share my pregnancy status with my doctor?",
+            "generated_answer": "Yes, sharing this information is completely voluntary. If you choose not to provide it, we will still provide any necessary care. Your decision will always be respected.\nQuestion.",
+            "expected_answer": "Yes, you can refuse to share your pregnancy status. However, this information helps us ensure treatments and medications are safe for you and your baby.",
+            "similarity_score": 0.47515764832496643
+        },
+        {
+            "question": "How does my ethnicity affect my access to genetic testing?",
+            "generated_answer": "Some health conditions are more common in specific ethnic groups, so knowing your ethnicity helps us provide relevant tests and preventive care. Your data is always kept private and secure.\nQuestion.",
+            "expected_answer": "Certain genetic conditions are more common in specific ethnic groups. Knowing your ethnicity helps us recommend appropriate genetic testing and counseling.",
+            "similarity_score": 0.7252427935600281
+        },
+        {
+            "question": "Why do you need to know my religion for surgery scheduling?",
+            "generated_answer": "We ask about religion to respect your cultural or spiritual needs during your care.",
+            "expected_answer": "We ask about your religion to respect your beliefs, such as avoiding surgery on holy days or providing dietary accommodations during recovery.",
+            "similarity_score": 0.708687424659729
+        },
+        {
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my sexual orientation with my therapist?",
+            "generated_answer": "You are not required to provide this information.",
+            "expected_answer": "You are not required to share your sexual orientation. However, this information helps your therapist provide inclusive and supportive care.",
+            "similarity_score": 0.3099762201309204
+        },
+        {
+            "question": "How does my disability status affect my access to physical therapy?",
+            "generated_answer": "Your disability may require adjustments, such as accessible therapy rooms or tailored communication methods, to ensure you receive effective treatments. This is entirely optional and your privacy is always protected.",
+            "expected_answer": "Your disability status helps us tailor physical therapy sessions to your needs, such as providing accessible equipment or modified exercises.",
+            "similarity_score": 0.7194715142250061
+        },
+        {
+            "question": "Why do you need to know my age for a cancer screening?",
+            "generated_answer": "We ask about age to ensure that certain treatments or advice are appropriate for your stage of life.",
+            "expected_answer": "Certain cancer screenings, such as mammograms or colonoscopies, are recommended at specific ages to ensure early detection and treatment.",
+            "similarity_score": 0.5278468132019043
+        },
+        {
+            "question": "How is my gender reassignment data stored and protected?",
+            "generated_answer": "Your data is stored securely in encrypted databases that comply with UK data protection laws. It is accessed only by authorized personnel involved in your care. No personal information is shared without your explicit consent.",
+            "expected_answer": "Your gender reassignment data is stored securely in encrypted databases and accessed only by authorized healthcare professionals involved in your care.",
+            "similarity_score": 0.6328070163726807
+        },
+        {
+            "question": "Will my data be shared with government agencies?",
+            "generated_answer": "No, your personal health information will not be provided to any third parties such as employers or insurance companies without your explicit consent. We comply with data protection laws to ensure your privacy is maintained.",
+            "expected_answer": "Your data will only be shared with government agencies if required by law, such as for public health reporting or legal investigations.",
+            "similarity_score": 0.6459193229675293
+        },
+        {
+            "question": "Why do you ask about my ethnicity for a diabetes screening?",
+            "generated_answer": "We collect ethnicity data to identify and reduce healthcare inequalities, such as skin colour, language, religion, or national origins. This helps us deliver better care for everyone. Your data is always kept private.",
+            "expected_answer": "Certain ethnic groups, such as South Asians, are at higher risk for diabetes. Knowing your ethnicity helps us recommend appropriate screenings and preventive care.",
+            "similarity_score": 0.5065323114395142
+        },
+        {
+            "question": "Can I request that my data not be used for research?",
+            "generated_answer": "Yes, you have the right to request deletion of your personal data.",
+            "expected_answer": "Yes, you can opt-out of your data being used for research. However, this may limit opportunities to contribute to medical advancements.",
+            "similarity_score": 0.46709227561950684
+        },
+        {
+            "question": "How does my religion affect my access to fertility treatments?",
+            "generated_answer": "Your religion or belief may influence your preferences for treatment, such as blood transfusions, dietary restrictions, or end-of-life care.",
+            "expected_answer": "Your religion may influence your preferences for fertility treatments, such as in vitro fertilization (IVF) or surrogacy. We respect your beliefs when offering care.",
+            "similarity_score": 0.6351159811019897
+        },
+        {
+            "question": "Why do you need to know my sexual orientation for mental health support?",
+            "generated_answer": "We ask about sexual orientations to ensure that our services are inclusive and tailored to meet the needs of everyone. This information is optional and stored securely.",
+            "expected_answer": "LGBTQ+ individuals may face unique mental health challenges, such as discrimination or stigma. Knowing your sexual orientation helps us provide targeted support.",
+            "similarity_score": 0.5407088994979858
+        },
+        {
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my therapist?",
+            "generated_answer": "You are not required to disclose your disability.",
+            "expected_answer": "You are not required to share your disability status. However, this information helps your therapist provide tailored support and accommodations.",
+            "similarity_score": 0.6622071862220764
+        },
+        {
+            "question": "How does my age affect my eligibility for a COVID-19 vaccine?",
+            "generated_answer": "Your age helps us ensure you receive the best possible health care.",
+            "expected_answer": "Certain COVID-19 vaccines are prioritized for specific age groups, such as older adults or young children, to ensure maximum protection.",
+            "similarity_score": 0.48537957668304443
+        },
+        {
+            "question": "Why do you ask about my gender reassignment for hormone therapy?",
+            "generated_answer": "We ask this to ensure that your care is inclusive and tailored to your needs. Certain treatments or medications may need to be adjusted based on your medical history.",
+            "expected_answer": "Your gender reassignment status ensures you receive appropriate hormone therapy and monitoring as part of your transition process.",
+            "similarity_score": 0.3099602460861206
+        },
+        {
+            "question": "Will my data be shared with pharmaceutical companies?",
+            "generated_answer": "No, your personal data will not be sold to any company without your explicit consent.",
+            "expected_answer": "No, your healthcare data will not be shared with pharmaceutical companies without your explicit consent, unless required by law.",
+            "similarity_score": 0.6603853106498718
+        },
+        {
+            "question": "Why do you need to know my ethnicity for a heart disease screening?",
+            "generated_answer": "We ask about your ethnicity because certain risk factors for certain diseases (e.g., being Asian, black, or Native American) can sometimes be more common in specific ethnic groups.",
+            "expected_answer": "Certain ethnic groups, such as African Americans, are at higher risk for heart disease. Knowing your ethnicity helps us recommend appropriate screenings and preventive care.",
+            "similarity_score": 0.7237020134925842
+        },
+        {
+            "question": "Can I request that my data be anonymized for research?",
+            "generated_answer": "Yes, you have the right to request your data to be masked for medical and legal purposes. This ensures your identity remains protected during your care. Your decision will be respected.",
+            "expected_answer": "Yes, you can request that your data be anonymized before being used for research. This ensures your identity is protected while contributing to medical advancements.",
+            "similarity_score": 0.7870525121688843
+        },
+        {
+            "question": "How does my religion affect my access to end-of-life care?",
+            "generated_answer": "Your religion may influence your preferences for end of life care, such as organ donation or specific treatments.",
+            "expected_answer": "Your religion may influence your preferences for end-of-life care, such as the use of life support or organ donation. We respect your beliefs when offering care.",
+            "similarity_score": 0.9408588409423828
+        },
+        {
+            "question": "Why do you need to know my sexual orientation for sexual health screenings?",
+            "generated_answer": "We ask about sexual orientations to ensure that healthcare services are inclusive and tailored to meet diverse needs. This information is optional and kept confidential in line with strict data protection laws.",
+            "expected_answer": "Your sexual orientation helps us recommend appropriate sexual health screenings, such as STI tests or HPV vaccinations, tailored to your needs.",
+            "similarity_score": 0.5632902383804321
+        },
+        {
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my surgeon?",
+            "generated_answer": "You are not required to provide this information.",
+            "expected_answer": "You are not required to share your disability status. However, this information helps your surgeon make necessary accommodations for your care.",
+            "similarity_score": 0.2940976023674011
+        },
+        {
+            "question": "How does my age affect my eligibility for a mammogram?",
+            "generated_answer": "Age is important for screening because certain cancers are more common at different stages of life.",
+            "expected_answer": "Mammograms are typically recommended for women aged 50 and older. Knowing your age helps us recommend appropriate screenings for breast cancer.",
+            "similarity_score": 0.6119428873062134
+        },
+        {
+            "question": "Why do you ask about my gender reassignment for mental health care?",
+            "generated_answer": "We ask this to ensure that any treatments or support you receive are appropriate for your needs. Certain conditions or treatments may vary based on gender identity.",
+            "expected_answer": "Your gender reassignment status helps us provide mental health support tailored to your needs, such as counseling for gender dysphoria or transition-related stress.",
+            "similarity_score": 0.595650315284729
+        },
+        {
+            "question": "Will my data be shared with academic researchers?",
+            "generated_answer": "No, your personal health information will not be used for any commercial purposes. It is securely stored and only accessed by authorized staff.",
+            "expected_answer": "Your data may be shared with academic researchers in an anonymized form to improve public health outcomes. Your identity will never be disclosed without your consent.",
+            "similarity_score": 0.5905839204788208
+        },
+        {
+            "question": "Why do you need to know my ethnicity for a mental health assessment?",
+            "generated_answer": "We ask about ethnicity because certain conditions or risks can be more common in specific ethnic groups. This information helps us provide the most appropriate care, such as dietary restrictions or screenings tailored to your needs.",
+            "expected_answer": "Certain mental health conditions, such as depression or anxiety, may present differently in specific ethnic groups. Knowing your ethnicity helps us provide culturally sensitive care.",
+            "similarity_score": 0.620070219039917
+        },
+        {
+            "question": "Can I request that my data not be used for public health reporting?",
+            "generated_answer": "Yes, you have the right to request data deletion.",
+            "expected_answer": "Yes, you can opt-out of your data being used for public health reporting. However, this may limit opportunities to improve healthcare services for everyone.",
+            "similarity_score": 0.48084014654159546
+        },
+        {
+            "question": "How does my religion affect my access to organ donation services?",
+            "generated_answer": "Your religion or belief may influence your preferences for organ procurement, such as blood transfusions, organ culture selection, and post-transplant care.",
+            "expected_answer": "Your religion may influence your preferences for organ donation. We respect your beliefs and ensure your wishes are followed during your healthcare journey.",
+            "similarity_score": 0.8676978349685669
+        },
+        {
+            "question": "Why do you need to know my sexual orientation for fertility treatments?",
+            "generated_answer": "We ask about sexual orientations to ensure that any treatments or advice we provide are appropriate for your needs. This information is optional and kept confidential in line with strict data protection laws.",
+            "expected_answer": "Your sexual orientation helps us recommend appropriate fertility treatments, such as IVF or surrogacy, tailored to your needs.",
+            "similarity_score": 0.5772421360015869
+        },
+        {
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my pharmacist?",
+            "generated_answer": "You are not required to provide this information.",
+            "expected_answer": "You are not required to share your disability status. However, this information helps your pharmacist provide tailored support and accommodations.",
+            "similarity_score": 0.24855491518974304
+        },
+        {
+            "question": "How does my age affect my eligibility for a colonoscopy?",
+            "generated_answer": "Certain treatments or conditions vary by age, so certain screenings and exams are recommended at specific stages of life. This ensures you receive appropriate care. Your data is handled with the utmost confidentiality.",
+            "expected_answer": "Colonoscopies are typically recommended for adults aged 45 and older. Knowing your age helps us recommend appropriate screenings for colorectal cancer.",
+            "similarity_score": 0.4586623013019562
+        },
+        {
+            "question": "Why do you ask about my gender reassignment for surgery planning?",
+            "generated_answer": "We ask this to ensure that any medical care you receive is appropriate for your needs.",
+            "expected_answer": "Your gender reassignment status helps us plan surgeries that align with your transition goals, such as gender-affirming procedures.",
+            "similarity_score": 0.2690547704696655
+        },
+        {
+            "question": "Will my data be shared with international researchers?",
+            "generated_answer": "No, your personal data will not be disclosed to third parties such as employers or insurance companies without your explicit consent. We comply with data protection laws to ensure your privacy is maintained.",
+            "expected_answer": "Your data may be shared with international researchers in an anonymized form to improve global health outcomes. Your identity will never be disclosed without your consent.",
+            "similarity_score": 0.6566178798675537
+        },
+        {
+            "question": "Why do you need to know my ethnicity for a bone density test?",
+            "generated_answer": "We ask for your ethnicity because certain health risks and conditions can be more common in specific ethnic groups. This helps us provide better, more personalized care while ensuring your privacy is protected.",
+            "expected_answer": "Certain ethnic groups, such as Caucasians, are at higher risk for osteoporosis. Knowing your ethnicity helps us recommend appropriate screenings and preventive care.",
+            "similarity_score": 0.6292270421981812
+        },
+        {
+            "question": "Can I request that my data not be used for clinical trials?",
+            "generated_answer": "Yes, you have the right to request your data be deleted or anonymized. This process may take up to a year to complete, and any legal action taken will be kept confidential.",
+            "expected_answer": "Yes, you can opt-out of your data being used for clinical trials. However, this may limit opportunities to contribute to medical advancements.",
+            "similarity_score": 0.40744203329086304
+        },
+        {
+            "question": "How does my religion affect my access to blood transfusions?",
+            "generated_answer": "Your religion may influence your preferences for blood donation (e.g., no blood for Muslims), which in turn may affect the timing of your next blood draw (i.e.",
+            "expected_answer": "Some religions, such as Jehovah\u00e2\u20ac\u2122s Witnesses, may prohibit blood transfusions. Knowing your religion helps us respect your beliefs and offer alternative treatments.",
+            "similarity_score": 0.6764001846313477
+        },
+        {
+            "question": "Why do you need to know my sexual orientation for mental health screenings?",
+            "generated_answer": "We ask about sexual orientations to ensure that our services are inclusive and accessible to everyone. This information helps us provide appropriate treatments, screenings, and support during your care.",
+            "expected_answer": "LGBTQ+ individuals may face unique mental health challenges, such as discrimination or stigma. Knowing your sexual orientation helps us provide targeted support.",
+            "similarity_score": 0.658219039440155
+        },
+        {
+            "question": "What if I don\u00e2\u20ac\u2122t want to share my disability status with my nurse?",
+            "generated_answer": "You are not required to provide this information.",
+            "expected_answer": "You are not required to share your disability status. However, this information helps your nurse provide tailored support and accommodations.",
+            "similarity_score": 0.26441285014152527
+        },
+        {
+            "question": "How does my age affect my eligibility for a prostate exam?",
+            "generated_answer": "Age is important because certain medical conditions and screenings vary based on age. This ensures you receive appropriate care. Your data is always kept private and secure.",
+            "expected_answer": "Prostate exams are typically recommended for men aged 50 and older. Knowing your age helps us recommend appropriate screenings for prostate cancer.",
+            "similarity_score": 0.5295637845993042
+        },
+        {
+            "question": "Why do you ask about my gender reassignment for hormone therapy monitoring?",
+            "generated_answer": "We ask this to ensure that any treatments or medications prescribed are appropriate for your needs. This information is optional and kept private. Your privacy is always safeguarded.",
+            "expected_answer": "Your gender reassignment status ensures you receive appropriate hormone therapy and monitoring as part of your transition process.",
+            "similarity_score": 0.24454662203788757
+        },
+        {
+            "question": "Will my data be shared with non-profit organizations?",
+            "generated_answer": "No, your personal data will not be provided to third parties such as religious groups or civil society groups without your explicit consent. We comply with data protection laws to ensure your privacy is maintained.",
+            "expected_answer": "Your data may be shared with non-profit organizations in an anonymized form to improve public health outcomes. Your identity will never be disclosed without your consent.",
+            "similarity_score": 0.6966333389282227
+        },
+        {
+            "question": "Why do you need to know my ethnicity for a cholesterol test?",
+            "generated_answer": "Knowing your ethnicity helps us provide better, more personalized care by understanding your risk factors for certain conditions (such as high blood pressure or diabetes) and providing targeted preventive measures.",
+            "expected_answer": "Certain ethnic groups, such as South Asians, are at higher risk for high cholesterol. Knowing your ethnicity helps us recommend appropriate screenings and preventive care.",
+            "similarity_score": 0.6703352928161621
+        },
+        {
+            "question": "Can I request that my data not be used for health trend analysis?",
+            "generated_answer": "Yes, you have the right to request deletion of your personal data.",
+            "expected_answer": "Yes, you can opt-out of your data being used for health trend analysis. However, this may limit opportunities to improve healthcare services for everyone.",
+            "similarity_score": 0.37570834159851074
+        }
+    ]
+}
