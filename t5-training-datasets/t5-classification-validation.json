@@ -229,7 +229,7 @@
   },
   {
     "input": "I identify as non-binary",
-    "output": "Data Extraction"
+    "output": "Detailed Response"
   },
   {
     "input": "How does age influence the type of medical care I receive?",
@@ -661,7 +661,7 @@
 },
 {
     "input": "I identify as non-binary",
-    "output": "Data Extraction"
+    "output": "Detailed Response"
 },
 {
     "input": "I have epilepsy and need emergency care instructions on file",

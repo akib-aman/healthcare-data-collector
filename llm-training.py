@@ -35,39 +35,12 @@ def train_t5():
     Saves the model & tokenizer to ./t5-trained-model
     """
     
-    # Configuration for T5 dataset paths
-    dataset_paths = {
-        "firstname_training": {
-            "file_path": "./t5-training-datasets/firstname-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the firstname from this text: {ex['input']}",
-                "output": ex["output"]
-            }
-        },
-        "lastname_training": {
-            "file_path": "./t5-training-datasets/lastname-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the lastname from this text: {ex['input']}",
-                "output": ex["output"]
-            }
-        },
-        "age_training": {
-            "file_path": "./t5-training-datasets/age-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the age from this text: {ex['input']}",
-                "output": ex["output"]
-            }
-        },
-        "sex_training": {
-            "file_path": "./t5-training-datasets/sex-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the sex from this text: {ex['input']}",
-                "output": ex["output"]
-            }
-        },
-        "classification_training": {
-            "file_path": "./t5-training-datasets/classification-training.json",
-            "conversion_logic": lambda ex: {
+    # Helper function to return conversion logic.
+    # For extraction tasks, simply pass the raw input.
+    # For classification, use the full prompt.
+    def get_conversion_logic(classification=False):
+        if classification:
+            return lambda ex: {
                 "input": (
                     "Does this input require data extraction or a detailed response?\n"
                     f"Input: {ex['input']}\n"
@@ -75,62 +48,65 @@ def train_t5():
                 ),
                 "output": ex["output"]
             }
+        else:
+            return lambda ex: {
+                "input": ex["input"],
+                "output": ex["output"]
+            }
+    
+    # Configuration for T5 dataset paths
+    dataset_paths = {
+        "firstname_training": {
+            "file_path": "./t5-training-datasets/firstname-training.json",
+            "conversion_logic": get_conversion_logic(False)
+        },
+        "lastname_training": {
+            "file_path": "./t5-training-datasets/lastname-training.json",
+            "conversion_logic": get_conversion_logic(False)
+        },
+        "age_training": {
+            "file_path": "./t5-training-datasets/age-training.json",
+            "conversion_logic": get_conversion_logic(False)
+        },
+        "sex_training": {
+            "file_path": "./t5-training-datasets/sex-training.json",
+            "conversion_logic": get_conversion_logic(False)
+        },
+        "classification_training": {
+            "file_path": "./t5-training-datasets/classification-training.json",
+            "conversion_logic": get_conversion_logic(True)
         },
         "religion_training": {
             "file_path": "./t5-training-datasets/religion-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the religion/belief from this text: {ex['input']}",
-                "output": ex["output"]
-            }
+            "conversion_logic": get_conversion_logic(False)
         },
         "title_training": {
             "file_path": "./t5-training-datasets/title-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the title from this text: {ex['input']}",
-                "output": ex["output"]
-            }
+            "conversion_logic": get_conversion_logic(False)
         },
         "disability_training": {
             "file_path": "./t5-training-datasets/disability-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the disability from this text: {ex['input']}",
-                "output": ex["output"]
-            }
+            "conversion_logic": get_conversion_logic(False)
         },
         "ethnicity_training": {
             "file_path": "./t5-training-datasets/ethnicity-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the ethnicity from this text: {ex['input']}",
-                "output": ex["output"]
-            }
+            "conversion_logic": get_conversion_logic(False)
         },
         "gender_reassignment_training": {
             "file_path": "./t5-training-datasets/gender-reassignment-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the gender reassignment from this text: {ex['input']}",
-                "output": ex["output"]
-            }
+            "conversion_logic": get_conversion_logic(False)
         },
         "marriage_civilrelationship_training": {
             "file_path": "./t5-training-datasets/marriage-civilrelationship-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the marriage/civil partnership status from this text: {ex['input']}",
-                "output": ex["output"]
-            }
+            "conversion_logic": get_conversion_logic(False)
         },
         "sexual_orientation_training": {
             "file_path": "./t5-training-datasets/sexual-orientation-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the sexual orientation from this text: {ex['input']}",
-                "output": ex["output"]
-            }
+            "conversion_logic": get_conversion_logic(False)
         },
         "pregnancy_training": {
             "file_path": "./t5-training-datasets/pregnancy-training.json",
-            "conversion_logic": lambda ex: {
-                "input": f"Extract the pregnancy/maternity from this text: {ex['input']}",
-                "output": ex["output"]
-            }
+            "conversion_logic": get_conversion_logic(False)
         }
     }
 
@@ -217,6 +193,12 @@ def train_t5():
     trainer.train()
     print("T5 training complete.")
 
+    # Evaluate Classification
+    testing_classification_dataset = load_testing_classification_dataset() 
+    testing_extraction_dataset = load_testing_extraction_dataset()
+    evaluate_t5(model, tokenizer, testing_classification_dataset, "evaluations/t5/t5-base-classification-validation-results.json")
+    evaluate_t5(model, tokenizer, testing_extraction_dataset, "evaluations/t5/t5-base-extraction-validation-results.json")
+
     # Save T5 model & tokenizer
     model.save_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
     tokenizer.save_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
@@ -225,6 +207,7 @@ def train_t5():
     model.save_pretrained(os.path.join(BASE_DIR, "./web/server/t5-trained-model"))
     tokenizer.save_pretrained(os.path.join(BASE_DIR, "./web/server/t5-trained-model"))
     print("T5 model saved to ./t5-trained-model")
+
 
 # ---------------------
 # Cosine Similarity with Sbert
@@ -278,6 +261,55 @@ def load_validation_dataset():
     return validation_dataset
 
 # ---------------------
+# t5 Test Logic
+# ---------------------
+def load_testing_extraction_dataset():
+    """
+    Load the T5 extraction testing dataset, converting it into the required format.
+    This version directly uses the "input" and "output" keys from the dataset.
+    """
+    validation_file_path = "./t5-training-datasets/t5-extraction-validation.json"
+
+    with open(validation_file_path, "r", encoding="utf-8") as file:
+        validation_data = json.load(file)
+
+    validation_dataset = Dataset.from_list([
+        {
+            "input": ex["input"],
+            "output": ex["output"]
+        }
+        for ex in validation_data
+    ])
+
+    return validation_dataset
+
+# ---------------------
+# t5 Test Logic
+# ---------------------
+def load_testing_classification_dataset():
+    """
+    Load the T5 classification testing dataset, converting it into the required format.
+    """
+    validation_file_path = "./t5-training-datasets/t5-classification-validation.json"
+
+    with open(validation_file_path, "r", encoding="utf-8") as file:
+        validation_data = json.load(file)
+
+    validation_dataset = Dataset.from_list([
+        {
+            "input": (
+                "Does this input require data extraction or a detailed response?\n"
+                f"Input: {ex['input']}\n"
+                "Answer with either 'Data Extraction' or 'Detailed Response'."
+            ),
+            "output": ex["output"]
+        }
+        for ex in validation_data
+    ])
+
+    return validation_dataset
+
+# ---------------------
 # GPT Test Logic
 # ---------------------
 def load_testing_dataset():
@@ -302,7 +334,7 @@ def load_testing_dataset():
 # ---------------------
 # Trim Last Sentence
 # ---------------------
-def trim_last_sentence(text) :
+def trim_last_sentence(text):
     """
     Trims the last sentence from the text by removing everything 
     after the last period (".").
@@ -320,6 +352,7 @@ def evaluate_t5(model, tokenizer, dataset, output_file):
        "output": the expected answer.  
     Results are saved to the specified output_file.
     """
+    print("Starting T5 Evaluation...")
     model.eval()
     results = []
     total_similarity = 0
@@ -332,15 +365,10 @@ def evaluate_t5(model, tokenizer, dataset, output_file):
         expected_answer = example['output']
         
         # Tokenize the input
-        inputs = tokenizer(input_text, return_tensors="pt", padding=True, truncation=True).to(device)
+        inputs = tokenizer.encode(input_text, return_tensors="pt").to(device)
         
         # Generate output from T5
-        output_ids = model.generate(
-            inputs['input_ids'],
-            attention_mask=inputs['attention_mask'],
-            max_new_tokens=50,
-            do_sample=False  # Use greedy decoding (or set sampling parameters as desired)
-        )
+        output_ids = model.generate(inputs, max_length=50, num_beams=5)
         generated_text = tokenizer.decode(output_ids[0], skip_special_tokens=True).strip()
         
         # Optionally: you could trim extra sentences if needed (see your trim_last_sentence() function)
@@ -370,9 +398,9 @@ def evaluate_t5(model, tokenizer, dataset, output_file):
     passing_percentage = (passing_count / len(dataset)) * 100
     
     output_data = {
-        "average_similarity": avg_similarity,
-        "average_f1": avg_f1,
-        "passing_percentage": passing_percentage,
+        "average_similarity": float(avg_similarity),
+        "average_f1": float(avg_f1),
+        "passing_percentage": float(passing_percentage),
         "detailed_results": results
     }
     
@@ -389,14 +417,16 @@ def evaluate_t5(model, tokenizer, dataset, output_file):
 # GPT Evaluate
 # ---------------------
 def evaluate_gpt(model, tokenizer, dataset_to_use, output_file):
-    print("Starting Evaluation...")
+    print("Starting GPT Evaluation...")
     model.eval()
     results = []
     total_similarity = 0
+    total_f1 = 0
     passing_threshold = 0.7  # Consider answers "acceptable" if similarity is above 0.7
     passing_count = 0
 
     for example in dataset_to_use:
+        # Extract question text safely
         question_text = example['text'].split('Question: ')[1].split('\n')[0]
         input_text = f"<|startoftext|>Question: {question_text}\nAnswer:"
         
@@ -418,56 +448,58 @@ def evaluate_gpt(model, tokenizer, dataset_to_use, output_file):
         )
 
         generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+        # Extract generated answer from the generated text
         generated_answer = generated_text.split("Answer:")[-1].strip()
-
-        keywords = ["What happens if I ", "Learn more about", "However,", "For example,", "For more information,"]
-
-        # Convert both text and keywords to lowercase for case-insensitive matching
+        
+        # First, trim the last sentence
+        generated_answer = trim_last_sentence(generated_answer)
+        # Now compute lowercase version for keyword matching
         lower_text = generated_answer.lower()
 
-        # Trim last sentence
-        generated_answer = trim_last_sentence(generated_answer)
-        
-        # Create regex pattern to match each keyword (case-insensitive)
-        pattern = r'(?i)(' + '|'.join(re.escape(kw.lower()) for kw in keywords) + r').*'
-
-        # Find match position
+        keywords = ["what happens if i ", "learn more about", "however,", "for example,", "for more information,"]
+        # Create regex pattern to match any of the keywords (case-insensitive)
+        pattern = r'(?i)(' + '|'.join(re.escape(kw) for kw in keywords) + r').*'
         match = re.search(pattern, lower_text)
-
         if match:
-            # Remove everything from the keyword onwards
             generated_answer = generated_answer[:match.start()].strip()
         
         expected_answer = example['text'].split('Answer: ')[1].split("<|endoftext|>")[0].strip()
 
         similarity_score = compute_similarity(generated_answer, expected_answer)
         total_similarity += similarity_score
+        
+        # Compute token-level F1 score
+        f1_score = compute_f1(generated_answer, expected_answer)
+        total_f1 += f1_score
+
         if similarity_score >= passing_threshold:
             passing_count += 1
-
 
         results.append({
             "question": question_text,
             "generated_answer": generated_answer,
             "expected_answer": expected_answer,
-            "similarity_score": float(similarity_score)  # Convert to native float
+            "similarity_score": float(similarity_score),
+            "f1_score": float(f1_score)
         })
 
     avg_similarity = float(total_similarity / len(results))
+    avg_f1 = float(total_f1 / len(results))
     passing_percentage = float((passing_count / len(results)) * 100)
 
     with open(output_file, "w") as f:
         json.dump({
             "average_similarity": avg_similarity,
+            "average_f1": avg_f1,
             "passing_percentage": passing_percentage,
             "detailed_results": results
         }, f, indent=4)
 
-    print(f"Evaluation complete. Average Similarity: {avg_similarity:.4f}")
+    print(f"Evaluation complete. Average Similarity: {avg_similarity:.4f}, Average F1: {avg_f1:.4f}")
     print(f"Percentage of 'acceptable' answers: {passing_percentage:.2f}%")
     print(f"Results saved to {output_file}")
 
-    return avg_similarity, passing_percentage, results
+    return avg_similarity, avg_f1, passing_percentage, results
 
 # ---------------------
 # GPT Training Logic
@@ -513,7 +545,7 @@ def train_gpt():
 
     tokenized_dataset = dataset.map(tokenize_function, batched=True)
 
-   # 4. Load GPT-2 model, move to device, and resize token embeddings
+    # 4. Load GPT-2 model, move to device, and resize token embeddings
     model = GPT2LMHeadModel.from_pretrained("gpt2").to(device)
     model.resize_token_embeddings(len(tokenizer))
 
@@ -539,8 +571,6 @@ def train_gpt():
         data_collator=data_collator
     )
 
-    # 6. Evaluate
-    validation_dataset = load_validation_dataset() 
 
     # 7. Train
     print("Starting GPT training...")
@@ -548,7 +578,8 @@ def train_gpt():
     print("GPT training complete.")
 
     # 8. Evaluate
-    detailed_results = evaluate_gpt(model, tokenizer, validation_dataset, "evaluations/gpt2/gpt2-medium-validation-results-iter-3.json")
+    validation_dataset = load_validation_dataset() 
+    evaluate_gpt(model, tokenizer, validation_dataset, "evaluations/gpt2/gpt2-medium-validation-results-iter-3.json")
 
     # 9. Save the model & tokenizer
     model.save_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
@@ -572,3 +603,10 @@ if __name__ == "__main__":
     # testing_dataset = load_testing_dataset() 
 
     # evaluate_gpt(gpt_model, gpt_tokenizer, testing_dataset, "evaluations/gpt2/gpt2-medium-test-results.json")
+
+    # T5
+    # t5_tokenizer = T5Tokenizer.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
+    # t5_model = T5ForConditionalGeneration.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
+    # testing_classification_dataset = load_testing_classification_dataset() 
+
+    # evaluate_t5(t5_model, t5_tokenizer, testing_classification_dataset, "evaluations/t5/t5-base-validation-results.json")
