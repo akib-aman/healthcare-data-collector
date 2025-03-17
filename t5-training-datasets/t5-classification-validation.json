@@ -1,0 +1,688 @@
+[
+{
+    "input": "What is the process for changing my registered GP?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My previous address was 45 Oak Street, London",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can I register with a GP if I don’t have proof of address?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was assigned male at birth but identify as female",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does my ethnicity impact my healthcare treatment?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am a practicing Hindu",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can you explain why my disability status is relevant to my care?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My national insurance number is AB123456C",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What happens if I decline to share my sexual orientation?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am of mixed White and Asian ethnicity",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How is gender reassignment data used in healthcare settings?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My partner and I are in a civil partnership",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What are my rights regarding personal data protection in healthcare?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am legally blind and require accessible healthcare services",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can I request that my personal data be deleted?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was born in 1992",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why is my marital status required when registering with a GP?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My full name is Alexander James Cooper",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What should I do if my data is incorrect on my medical records?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I have a long-term mental health condition",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What is the process for changing my registered GP?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My previous address was 45 Oak Street, London",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can I register with a GP if I don’t have proof of address?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was assigned male at birth but identify as female",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does my ethnicity impact my healthcare treatment?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am a practicing Hindu",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can you explain why my disability status is relevant to my care?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My national insurance number is AB123456C",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What happens if I decline to share my sexual orientation?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am of mixed White and Asian ethnicity",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How is gender reassignment data used in healthcare settings?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My partner and I are in a civil partnership",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What are my rights regarding personal data protection in healthcare?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am legally blind and require accessible healthcare services",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can I request that my personal data be deleted?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was born in 1992",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why is my marital status required when registering with a GP?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My full name is Alexander James Cooper",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What should I do if my data is incorrect on my medical records?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I have a long-term mental health condition",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How can I update my emergency contact details with my GP?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was diagnosed with Type 2 Diabetes last year",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What services does my GP provide for mental health support?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I use a wheelchair and need accessible GP facilities",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What options are available if I need an interpreter for my appointment?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My email address is jane.doe@example.com",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can I register with a GP if I’m a temporary resident?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My preferred language is Spanish",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What happens to my medical records if I move to another country?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I require a carer to assist me during my GP visit",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does my disability status affect my access to healthcare services?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My ethnicity is Black Caribbean",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can you explain how gender reassignment data is used in medical research?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am in a same-sex marriage",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What are my rights if I choose not to disclose my religion?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My date of birth is 15/06/1988",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why does my GP ask for my marital status?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I identify as non-binary",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does age influence the type of medical care I receive?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I have a visual impairment and require accommodations",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why does my healthcare provider ask about my sexual orientation?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My registered religion is Sikhism",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What happens if I don’t disclose my gender identity during registration?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was born in 1975",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why is my disability status relevant for my healthcare provider?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My gender identity is transgender woman",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What steps are taken to protect my personal data in healthcare?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am currently undergoing gender transition",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can I request not to disclose my disability status to my GP?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My marital status is separated",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why does healthcare collect data on gender reassignment?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am an atheist",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What support is available for disabled individuals in healthcare settings?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My nationality is British Pakistani",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How is age-related data used in medical decision-making?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am a civil partner",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can I refuse to disclose my ethnicity in a medical form?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My sexual orientation is queer",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does ethnicity impact access to healthcare resources?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am a wheelchair user and need an accessible entrance at my GP",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why does my GP need to know if I have a disability?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was diagnosed with a hearing impairment last year",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does my religious belief impact my healthcare options?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I follow the Jewish faith and observe dietary restrictions",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can I request a same-gender doctor for personal reasons?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My gender identity is non-conforming",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why is gender reassignment data collected in medical records?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am bisexual",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What support is available for LGBTQ+ individuals in healthcare?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I practice Buddhism",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What are my rights if I don’t want to share my sexual orientation?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My ethnicity is South Asian",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why does ethnicity data matter in public health research?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was born in 1967",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How is age-related data used in medical risk assessments?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My partner and I have been married for 10 years",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why does marital status affect medical treatment options?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I have been diagnosed with autism spectrum disorder",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What reasonable adjustments can be made for patients with disabilities?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am an agnostic",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does my religion or belief impact medical care decisions?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My sexual orientation is pansexual",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Can healthcare providers refuse treatment based on gender identity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was assigned female at birth and identify as non-binary",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What laws protect my gender identity in healthcare settings?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My registered faith is Christianity",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How do healthcare policies ensure non-discrimination based on religion?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am visually impaired and use screen readers",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What accessibility measures are in place for disabled patients?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My partner and I are cohabiting but not married",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Does my marital status impact my eligibility for healthcare services?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I have epilepsy and require medication",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why do medical forms ask about pre-existing conditions?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My ethnic background is Irish Traveller",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does ethnicity data help improve health equity?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I was diagnosed with dyslexia",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does healthcare accommodate patients with learning disabilities?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My date of birth is 22/03/1995",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why does age factor into medical eligibility for treatments?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I am in a heterosexual marriage",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "Why does sexual orientation data matter in patient care?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I practice Sikhism and require a prayer space in healthcare facilities",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How do medical providers respect cultural and religious practices?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I have ADHD and need additional support during appointments",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What adjustments can be made for neurodiverse patients?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "I identify as intersex",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "What protections exist for intersex individuals in healthcare?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My disability affects my mobility and requires home visits",
+    "output": "Data Extraction"
+  },
+  {
+    "input": "How does disability status impact priority access to healthcare?",
+    "output": "Detailed Response"
+  },
+  {
+    "input": "My preferred pronouns are they/them",
+    "output": "Data Extraction"
+},
+{
+    "input": "I have a hearing impairment and require sign language interpreters",
+    "output": "Data Extraction"
+},
+{
+    "input": "My partner and I are in a long-term same-sex relationship",
+    "output": "Data Extraction"
+},
+{
+    "input": "I was diagnosed with a chronic illness at age 21",
+    "output": "Data Extraction"
+},
+{
+    "input": "I require a same-gender chaperone during medical examinations",
+    "output": "Data Extraction"
+},
+{
+    "input": "My ethnicity is Chinese",
+    "output": "Data Extraction"
+},
+{
+    "input": "My religious beliefs require specific dietary accommodations in hospitals",
+    "output": "Data Extraction"
+},
+{
+    "input": "I identify as gender-fluid",
+    "output": "Data Extraction"
+},
+{
+    "input": "I have multiple sclerosis and need home-based healthcare services",
+    "output": "Data Extraction"
+},
+{
+    "input": "My registered faith is Islam",
+    "output": "Data Extraction"
+},
+{
+    "input": "My date of birth is 12/05/1979",
+    "output": "Data Extraction"
+},
+{
+    "input": "I am a widower",
+    "output": "Data Extraction"
+},
+{
+    "input": "I have ADHD and require additional time for medical forms",
+    "output": "Data Extraction"
+},
+{
+    "input": "My nationality is Polish",
+    "output": "Data Extraction"
+},
+{
+    "input": "I identify as demisexual",
+    "output": "Data Extraction"
+},
+{
+    "input": "My marital status is divorced",
+    "output": "Data Extraction"
+},
+{
+    "input": "I have fibromyalgia and need pain management accommodations",
+    "output": "Data Extraction"
+},
+{
+    "input": "My ethnicity is Kurdish",
+    "output": "Data Extraction"
+},
+{
+    "input": "I am a practicing Pagan",
+    "output": "Data Extraction"
+},
+{
+    "input": "My preferred spoken language is Portuguese",
+    "output": "Data Extraction"
+},
+{
+    "input": "I require an advocate to help me with medical appointments",
+    "output": "Data Extraction"
+},
+{
+    "input": "I am left-handed and require specific medical equipment adaptations",
+    "output": "Data Extraction"
+},
+{
+    "input": "I was diagnosed with PTSD due to past trauma",
+    "output": "Data Extraction"
+},
+{
+    "input": "My partner and I are in a polyamorous relationship",
+    "output": "Data Extraction"
+},
+{
+    "input": "I was assigned intersex at birth but identify as male",
+    "output": "Data Extraction"
+},
+{
+    "input": "My date of birth is 09/11/1983",
+    "output": "Data Extraction"
+},
+{
+    "input": "I was born in 1985",
+    "output": "Data Extraction"
+},
+{
+    "input": "My ethnicity is Somali",
+    "output": "Data Extraction"
+},
+{
+    "input": "I have autism and require sensory-friendly medical environments",
+    "output": "Data Extraction"
+},
+{
+    "input": "I am Catholic",
+    "output": "Data Extraction"
+},
+{
+    "input": "My marital status is engaged",
+    "output": "Data Extraction"
+},
+{
+    "input": "I am bisexual",
+    "output": "Data Extraction"
+},
+{
+    "input": "I am transgender and want to update my NHS records",
+    "output": "Data Extraction"
+},
+{
+    "input": "I have a mobility impairment and need transport support",
+    "output": "Data Extraction"
+},
+{
+    "input": "I need a braille version of my medical forms",
+    "output": "Data Extraction"
+},
+{
+    "input": "My partner and I are cohabiting",
+    "output": "Data Extraction"
+},
+{
+    "input": "I identify as non-binary",
+    "output": "Data Extraction"
+},
+{
+    "input": "I have epilepsy and need emergency care instructions on file",
+    "output": "Data Extraction"
+},
+{
+    "input": "I practice Hinduism and require a prayer space in hospitals",
+    "output": "Data Extraction"
+},
+{
+    "input": "My national identity is Welsh",
+    "output": "Data Extraction"
+},
+{
+    "input": "I am a carer for my elderly mother",
+    "output": "Data Extraction"
+},
+{
+    "input": "I need a personal health budget due to my disability",
+    "output": "Data Extraction"
+}
+
+
+]

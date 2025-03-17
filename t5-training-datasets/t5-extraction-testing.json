@@ -1,0 +1,1522 @@
+[
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 47 years old.",
+        "output": "{\"Age\": 47}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Benjamin.",
+        "output": "{\"FirstName\": \"Benjamin\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Queer.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Mobility Impairment.",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm a widow.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Pansexual.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Lucas.",
+        "output": "{\"FirstName\": \"Lucas\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mr Isabella Rodriguez",
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me James.",
+        "output": "{\"FirstName\": \"James\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Lucas.",
+        "output": "{\"FirstName\": \"Lucas\"}"
+    },
+    {
+        "input": "Extract the title from this text: Major Emma Garcia",
+        "output": "{\"Title\": \"Major\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Mixed White and Black Caribbean.",
+        "output": "{\"Ethnicity\": \"Mixed White and Black Caribbean\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the title from this text: Sir Emma Garcia",
+        "output": "{\"Title\": \"Sir\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Bisexual.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Agnostic beliefs.",
+        "output": "{\"Religion/Belief\": \"Agnostic\"}"
+    },
+    {
+        "input": "Extract the title from this text: Sir Olivia Davis",
+        "output": "{\"Title\": \"Sir\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm divorced.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm a widow.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm a widow.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Bisexual.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Queer.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the title from this text: Baroness Noah Davis",
+        "output": "{\"Title\": \"Baroness\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+        "output": "{\"GenderReassignment\": \"No\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Judaism beliefs.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Sikhism beliefs.",
+        "output": "{\"Religion/Belief\": \"Sikhism\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Scottish.",
+        "output": "{\"Ethnicity\": \"Scottish\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Sikhism beliefs.",
+        "output": "{\"Religion/Belief\": \"Sikhism\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Mixed White and Black Caribbean.",
+        "output": "{\"Ethnicity\": \"Mixed White and Black Caribbean\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Christianity beliefs.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Indian.",
+        "output": "{\"Ethnicity\": \"Indian\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Mixed White and Black Caribbean.",
+        "output": "{\"Ethnicity\": \"Mixed White and Black Caribbean\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Queer.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Dyslexia.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the title from this text: Hon Liam Davis",
+        "output": "{\"Title\": \"Hon\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 72 years old.",
+        "output": "{\"Age\": 72}"
+    },
+    {
+        "input": "Extract the age from this text: I am 21 years old.",
+        "output": "{\"Age\": 21}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+        "output": "{\"GenderReassignment\": \"No\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me James.",
+        "output": "{\"FirstName\": \"James\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Davis.",
+        "output": "{\"LastName\": \"Davis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Autism Spectrum Disorder.",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Olivia.",
+        "output": "{\"FirstName\": \"Olivia\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 75 years old.",
+        "output": "{\"Age\": 75}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Benjamin.",
+        "output": "{\"FirstName\": \"Benjamin\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Homosexual.",
+        "output": "{\"SexualOrientation\": \"Homosexual\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Patel.",
+        "output": "{\"LastName\": \"Patel\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Christianity beliefs.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Heterosexual.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I got married last year.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Bisexual.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Emma.",
+        "output": "{\"FirstName\": \"Emma\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 36 years old.",
+        "output": "{\"Age\": 36}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Liam.",
+        "output": "{\"FirstName\": \"Liam\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Pansexual.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the title from this text: Baroness Isabella Rodriguez",
+        "output": "{\"Title\": \"Baroness\"}"
+    },
+    {
+        "input": "Extract the title from this text: Rev Isabella Brown",
+        "output": "{\"Title\": \"Rev\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Demisexual.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Pakistani.",
+        "output": "{\"Ethnicity\": \"Pakistani\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Autism Spectrum Disorder.",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Mobility Impairment.",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Islam beliefs.",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 29 years old.",
+        "output": "{\"Age\": 29}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Buddhism beliefs.",
+        "output": "{\"Religion/Belief\": \"Buddhism\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+        "output": "{\"GenderReassignment\": \"No\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Dyslexia.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the title from this text: Baroness Isabella Wilson",
+        "output": "{\"Title\": \"Baroness\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Demisexual.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Christianity beliefs.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Heterosexual.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm a widow.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Judaism beliefs.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I got married last year.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 73 years old.",
+        "output": "{\"Age\": 73}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 50 years old.",
+        "output": "{\"Age\": 50}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 72 years old.",
+        "output": "{\"Age\": 72}"
+    },
+    {
+        "input": "Extract the title from this text: Hon Emma Smith",
+        "output": "{\"Title\": \"Hon\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Indian.",
+        "output": "{\"Ethnicity\": \"Indian\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 60 years old.",
+        "output": "{\"Age\": 60}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Sophia.",
+        "output": "{\"FirstName\": \"Sophia\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Bisexual.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I got married last year.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm in my second trimester.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Scottish.",
+        "output": "{\"Ethnicity\": \"Scottish\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Bisexual.",
+        "output": "{\"SexualOrientation\": \"Bisexual\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Dyslexia.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the title from this text: Rev Sophia Rodriguez",
+        "output": "{\"Title\": \"Rev\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Demisexual.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Afro-Caribbean.",
+        "output": "{\"Ethnicity\": \"Afro-Caribbean\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Christianity beliefs.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 31 years old.",
+        "output": "{\"Age\": 31}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Hinduism beliefs.",
+        "output": "{\"Religion/Belief\": \"Hinduism\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+        "output": "{\"GenderReassignment\": \"No\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me James.",
+        "output": "{\"FirstName\": \"James\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Benjamin.",
+        "output": "{\"FirstName\": \"Benjamin\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 55 years old.",
+        "output": "{\"Age\": 55}"
+    },
+    {
+        "input": "Extract the age from this text: I am 45 years old.",
+        "output": "{\"Age\": 45}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Heterosexual.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mrs Emma Davis",
+        "output": "{\"Title\": \"Mrs\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I got married last year.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 31 years old.",
+        "output": "{\"Age\": 31}"
+    },
+    {
+        "input": "Extract the title from this text: Capt James Johnson",
+        "output": "{\"Title\": \"Capt\"}"
+    },
+    {
+        "input": "Extract the title from this text: Lord James Patel",
+        "output": "{\"Title\": \"Lord\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Patel.",
+        "output": "{\"LastName\": \"Patel\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Irish.",
+        "output": "{\"Ethnicity\": \"Irish\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm in a civil partnership.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Rodriguez.",
+        "output": "{\"LastName\": \"Rodriguez\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Afro-Caribbean.",
+        "output": "{\"Ethnicity\": \"Afro-Caribbean\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Judaism beliefs.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Davis.",
+        "output": "{\"LastName\": \"Davis\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 55 years old.",
+        "output": "{\"Age\": 55}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the title from this text: Capt Noah Martinez",
+        "output": "{\"Title\": \"Capt\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Noah.",
+        "output": "{\"FirstName\": \"Noah\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Olivia.",
+        "output": "{\"FirstName\": \"Olivia\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 38 years old.",
+        "output": "{\"Age\": 38}"
+    },
+    {
+        "input": "Extract the age from this text: I am 80 years old.",
+        "output": "{\"Age\": 80}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Christianity beliefs.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mr Lucas Miller",
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Johnson.",
+        "output": "{\"LastName\": \"Johnson\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I got married last year.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the title from this text: Major Olivia Martinez",
+        "output": "{\"Title\": \"Major\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Autism Spectrum Disorder.",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Islam beliefs.",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Davis.",
+        "output": "{\"LastName\": \"Davis\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 50 years old.",
+        "output": "{\"Age\": 50}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Sophia.",
+        "output": "{\"FirstName\": \"Sophia\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 31 years old.",
+        "output": "{\"Age\": 31}"
+    },
+    {
+        "input": "Extract the age from this text: I am 29 years old.",
+        "output": "{\"Age\": 29}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 31 years old.",
+        "output": "{\"Age\": 31}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm divorced.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 53 years old.",
+        "output": "{\"Age\": 53}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Rodriguez.",
+        "output": "{\"LastName\": \"Rodriguez\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Judaism beliefs.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Mobility Impairment.",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Miller.",
+        "output": "{\"LastName\": \"Miller\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Patel.",
+        "output": "{\"LastName\": \"Patel\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Indian.",
+        "output": "{\"Ethnicity\": \"Indian\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Autism Spectrum Disorder.",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 72 years old.",
+        "output": "{\"Age\": 72}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Dyslexia.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Isabella.",
+        "output": "{\"FirstName\": \"Isabella\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the title from this text: Major Benjamin Patel",
+        "output": "{\"Title\": \"Major\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 73 years old.",
+        "output": "{\"Age\": 73}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Irish.",
+        "output": "{\"Ethnicity\": \"Irish\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Sikhism beliefs.",
+        "output": "{\"Religion/Belief\": \"Sikhism\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Smith.",
+        "output": "{\"LastName\": \"Smith\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+        "output": "{\"GenderReassignment\": \"No\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 27 years old.",
+        "output": "{\"Age\": 27}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Smith.",
+        "output": "{\"LastName\": \"Smith\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm in my second trimester.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Chronic Pain.",
+        "output": "{\"Disability\": \"Chronic Pain\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Buddhism beliefs.",
+        "output": "{\"Religion/Belief\": \"Buddhism\"}"
+    },
+    {
+        "input": "Extract the title from this text: Capt Lucas Brown",
+        "output": "{\"Title\": \"Capt\"}"
+    },
+    {
+        "input": "Extract the title from this text: Miss Emma Davis",
+        "output": "{\"Title\": \"Miss\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Mia.",
+        "output": "{\"FirstName\": \"Mia\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm in my second trimester.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Demisexual.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 47 years old.",
+        "output": "{\"Age\": 47}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Judaism beliefs.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the title from this text: Rev Olivia Martinez",
+        "output": "{\"Title\": \"Rev\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Davis.",
+        "output": "{\"LastName\": \"Davis\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Agnostic beliefs.",
+        "output": "{\"Religion/Belief\": \"Agnostic\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 27 years old.",
+        "output": "{\"Age\": 27}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm in a civil partnership.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Pakistani.",
+        "output": "{\"Ethnicity\": \"Pakistani\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Brown.",
+        "output": "{\"LastName\": \"Brown\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 44 years old.",
+        "output": "{\"Age\": 44}"
+    },
+    {
+        "input": "Extract the age from this text: I am 66 years old.",
+        "output": "{\"Age\": 66}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Liam.",
+        "output": "{\"FirstName\": \"Liam\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Heterosexual.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 33 years old.",
+        "output": "{\"Age\": 33}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Queer.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Indian.",
+        "output": "{\"Ethnicity\": \"Indian\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Afro-Caribbean.",
+        "output": "{\"Ethnicity\": \"Afro-Caribbean\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Olivia.",
+        "output": "{\"FirstName\": \"Olivia\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Afro-Caribbean.",
+        "output": "{\"Ethnicity\": \"Afro-Caribbean\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm divorced.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Pakistani.",
+        "output": "{\"Ethnicity\": \"Pakistani\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Chronic Pain.",
+        "output": "{\"Disability\": \"Chronic Pain\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Noah.",
+        "output": "{\"FirstName\": \"Noah\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the title from this text: Major Mia Martinez",
+        "output": "{\"Title\": \"Major\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mr James Brown",
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+        "output": "{\"GenderReassignment\": \"No\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Afro-Caribbean.",
+        "output": "{\"Ethnicity\": \"Afro-Caribbean\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Demisexual.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Indian.",
+        "output": "{\"Ethnicity\": \"Indian\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 28 years old.",
+        "output": "{\"Age\": 28}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Mobility Impairment.",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the title from this text: Major Mia Miller",
+        "output": "{\"Title\": \"Major\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm in a civil partnership.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Sophia.",
+        "output": "{\"FirstName\": \"Sophia\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Homosexual.",
+        "output": "{\"SexualOrientation\": \"Homosexual\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Dyslexia.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 74 years old.",
+        "output": "{\"Age\": 74}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Dyslexia.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 79 years old.",
+        "output": "{\"Age\": 79}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm in a civil partnership.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Lucas.",
+        "output": "{\"FirstName\": \"Lucas\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm in my second trimester.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me James.",
+        "output": "{\"FirstName\": \"James\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Wilson.",
+        "output": "{\"LastName\": \"Wilson\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Afro-Caribbean.",
+        "output": "{\"Ethnicity\": \"Afro-Caribbean\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Judaism beliefs.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Smith.",
+        "output": "{\"LastName\": \"Smith\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm in a civil partnership.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 34 years old.",
+        "output": "{\"Age\": 34}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Patel.",
+        "output": "{\"LastName\": \"Patel\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Queer.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Johnson.",
+        "output": "{\"LastName\": \"Johnson\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the title from this text: Baroness Emma Garcia",
+        "output": "{\"Title\": \"Baroness\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 56 years old.",
+        "output": "{\"Age\": 56}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Heterosexual.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Patel.",
+        "output": "{\"LastName\": \"Patel\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 48 years old.",
+        "output": "{\"Age\": 48}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Heterosexual.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Rodriguez.",
+        "output": "{\"LastName\": \"Rodriguez\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Liam.",
+        "output": "{\"FirstName\": \"Liam\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Pansexual.",
+        "output": "{\"SexualOrientation\": \"Pansexual\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Dyslexia.",
+        "output": "{\"Disability\": \"Dyslexia\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Christianity beliefs.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Judaism beliefs.",
+        "output": "{\"Religion/Belief\": \"Judaism\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Irish.",
+        "output": "{\"Ethnicity\": \"Irish\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 50 years old.",
+        "output": "{\"Age\": 50}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm in a civil partnership.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Heterosexual.",
+        "output": "{\"SexualOrientation\": \"Heterosexual\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Brown.",
+        "output": "{\"LastName\": \"Brown\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Christianity beliefs.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Hinduism beliefs.",
+        "output": "{\"Religion/Belief\": \"Hinduism\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm in my second trimester.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Hearing Impairment.",
+        "output": "{\"Disability\": \"Hearing Impairment\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Chronic Pain.",
+        "output": "{\"Disability\": \"Chronic Pain\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Mixed White and Black Caribbean.",
+        "output": "{\"Ethnicity\": \"Mixed White and Black Caribbean\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Chinese.",
+        "output": "{\"Ethnicity\": \"Chinese\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm in a civil partnership.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm in my second trimester.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the title from this text: Lord Benjamin Davis",
+        "output": "{\"Title\": \"Lord\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Brown.",
+        "output": "{\"LastName\": \"Brown\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Brown.",
+        "output": "{\"LastName\": \"Brown\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mrs Mia Martinez",
+        "output": "{\"Title\": \"Mrs\"}"
+    },
+    {
+        "input": "Extract the title from this text: Capt Sophia Garcia",
+        "output": "{\"Title\": \"Capt\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Irish.",
+        "output": "{\"Ethnicity\": \"Irish\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Demisexual.",
+        "output": "{\"SexualOrientation\": \"Demisexual\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+        "output": "{\"GenderReassignment\": \"No\"}"
+    },
+    {
+        "input": "Extract the title from this text: Mr Benjamin Smith",
+        "output": "{\"Title\": \"Mr\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+        "output": "{\"GenderReassignment\": \"No\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Homosexual.",
+        "output": "{\"SexualOrientation\": \"Homosexual\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Christianity beliefs.",
+        "output": "{\"Religion/Belief\": \"Christianity\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+        "output": "{\"GenderReassignment\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm a widow.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm in a civil partnership.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Afro-Caribbean.",
+        "output": "{\"Ethnicity\": \"Afro-Caribbean\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin sister.",
+        "output": "{\"Sex\": \"F\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Homosexual.",
+        "output": "{\"SexualOrientation\": \"Homosexual\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Chronic Pain.",
+        "output": "{\"Disability\": \"Chronic Pain\"}"
+    },
+    {
+        "input": "Extract the title from this text: Col Lucas Martinez",
+        "output": "{\"Title\": \"Col\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the firstname from this text: People call me Liam.",
+        "output": "{\"FirstName\": \"Liam\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I'm in my second trimester.",
+        "output": "{\"Pregnancy/Maternity\": \"No\"}"
+    },
+    {
+        "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+        "output": "{\"Pregnancy/Maternity\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the title from this text: Col Sophia Johnson",
+        "output": "{\"Title\": \"Col\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm a widow.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Atheist beliefs.",
+        "output": "{\"Religion/Belief\": \"Atheist\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+        "output": "{\"GenderReassignment\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Islam beliefs.",
+        "output": "{\"Religion/Belief\": \"Islam\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Davis.",
+        "output": "{\"LastName\": \"Davis\"}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Smith.",
+        "output": "{\"LastName\": \"Smith\"}"
+    },
+    {
+        "input": "Extract the sex from this text: My twin brother.",
+        "output": "{\"Sex\": \"M\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Scottish.",
+        "output": "{\"Ethnicity\": \"Scottish\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+        "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Asexual.",
+        "output": "{\"SexualOrientation\": \"Asexual\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: I'm a widow.",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the title from this text: Dame Liam Rodriguez",
+        "output": "{\"Title\": \"Dame\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Autism Spectrum Disorder.",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder\"}"
+    },
+    {
+        "input": "Extract the age from this text: I am 54 years old.",
+        "output": "{\"Age\": 54}"
+    },
+    {
+        "input": "Extract the lastname from this text: My surname is Davis.",
+        "output": "{\"LastName\": \"Davis\"}"
+    },
+    {
+        "input": "Extract the sexual orientation from this text: I identify as Queer.",
+        "output": "{\"SexualOrientation\": \"Queer\"}"
+    },
+    {
+        "input": "Extract the title from this text: Lord Isabella Wilson",
+        "output": "{\"Title\": \"Lord\"}"
+    },
+    {
+        "input": "Extract the disability from this text: I have Mobility Impairment.",
+        "output": "{\"Disability\": \"Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the religion/belief from this text: I follow Agnostic beliefs.",
+        "output": "{\"Religion/Belief\": \"Agnostic\"}"
+    },
+    {
+        "input": "Extract the ethnicity from this text: I'm Afro-Caribbean.",
+        "output": "{\"Ethnicity\": \"Afro-Caribbean\"}"
+    }
+]

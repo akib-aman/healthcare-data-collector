@@ -152,7 +152,7 @@ def train_t5():
     combined_dataset = concatenate_datasets(list(processed_datasets.values()))
 
     # Load the tokenizer
-    tokenizer = T5Tokenizer.from_pretrained("t5-small")
+    tokenizer = T5Tokenizer.from_pretrained("t5-base")
 
     # Preprocess the dataset
     def preprocess_function(examples):
@@ -184,7 +184,7 @@ def train_t5():
     tokenized_dataset = tokenized_dataset.remove_columns(["input", "output"])
 
     # Load the model and move it to the device (GPU/CPU)
-    model = T5ForConditionalGeneration.from_pretrained("t5-small").to(device)
+    model = T5ForConditionalGeneration.from_pretrained("t5-base").to(device)
 
     # Define training arguments
     training_args = TrainingArguments(
@@ -255,9 +255,31 @@ def load_validation_dataset():
     return validation_dataset
 
 # ---------------------
+# GPT Test Logic
+# ---------------------
+def load_testing_dataset():
+    validation_file_path = "./gpt-training-datasets/question-answer-testing.json"
+
+    with open(validation_file_path, "r") as file:
+        validation_data = json.load(file)
+
+    validation_dataset = Dataset.from_list([
+        {
+            "text": (
+                f"<|startoftext|>Question: {ex['question']}\n"
+                f"Answer: {ex['answer']}"
+                f"<|endoftext|>"
+            )
+        }
+        for ex in validation_data
+    ])
+    
+    return validation_dataset
+
+# ---------------------
 # Trim Last Sentence
 # ---------------------
-def trim_last_sentence(text: str) -> str:
+def trim_last_sentence(text) :
     """
     Trims the last sentence from the text by removing everything 
     after the last period (".").
@@ -268,7 +290,7 @@ def trim_last_sentence(text: str) -> str:
 # ---------------------
 # GPT Evaluate
 # ---------------------
-def evaluate_gpt(model, tokenizer, validation_dataset, output_file="evaluations/gpt2/gpt2-medium-validation-results-iter-2.json"):
+def evaluate_gpt(model, tokenizer, dataset_to_use, output_file):
     print("Starting Evaluation...")
     model.eval()
     results = []
@@ -276,7 +298,7 @@ def evaluate_gpt(model, tokenizer, validation_dataset, output_file="evaluations/
     passing_threshold = 0.7  # Consider answers "acceptable" if similarity is above 0.7
     passing_count = 0
 
-    for example in validation_dataset:
+    for example in dataset_to_use:
         question_text = example['text'].split('Question: ')[1].split('\n')[0]
         input_text = f"<|startoftext|>Question: {question_text}\nAnswer:"
         
@@ -428,7 +450,7 @@ def train_gpt():
     print("GPT training complete.")
 
     # 8. Evaluate
-    avg_similarity, passing_percentage, detailed_results = evaluate_gpt(model, tokenizer, validation_dataset)
+    detailed_results = evaluate_gpt(model, tokenizer, validation_dataset, "evaluations/gpt2/gpt2-medium-validation-results-iter-2.json")
     for pred in detailed_results[:5]:  # Now iterate over the detailed results list
         print(f"Q: {pred['question']}\nGPT-2 Answer: {pred['generated_answer']}\nExpected: {pred['expected_answer']}\n")
 
@@ -450,8 +472,8 @@ if __name__ == "__main__":
     train_t5()
     train_gpt()
 
-    # gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
-    # gpt_model = GPT2LMHeadModel.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
-    # validation_dataset = load_validation_dataset() 
+    gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+    gpt_model = GPT2LMHeadModel.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+    testing_dataset = load_testing_dataset() 
 
-    # evaluate_gpt(gpt_model, gpt_tokenizer,validation_dataset)
+    evaluate_gpt(gpt_model, gpt_tokenizer, testing_dataset, "evaluations/gpt2/gpt2-medium-test-results-iter-2.json")

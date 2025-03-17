@@ -8,6 +8,14 @@
         "output": "{\"Marriage/CivilPartnership\": \"No\"}"
     },
     {
+        "input": "Extract the marriage/civil partnership status from this text: No",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
+        "input": "Extract the marriage/civil partnership status from this text: no",
+        "output": "{\"Marriage/CivilPartnership\": \"No\"}"
+    },
+    {
         "input": "Extract the marriage/civil partnership status from this text: I have a husband",
         "output": "{\"Marriage/CivilPartnership\": \"Yes\"}"
     },

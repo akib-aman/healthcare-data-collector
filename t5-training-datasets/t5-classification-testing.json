@@ -1,0 +1,531 @@
+[
+    {
+        "input": "How do I change my registered gender in my medical records?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My preferred pronouns are they/them",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Why does my GP need to know my ethnicity?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I have a hearing impairment and require sign language interpreters",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Can I choose a healthcare provider based on religious preference?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My partner and I are in a long-term same-sex relationship",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How do I update my disability status with my GP?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I was diagnosed with a chronic illness at age 21",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "What steps can I take if my gender identity is not correctly recorded?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I require a same-gender chaperone during medical examinations",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Why does my GP ask about my sexual orientation?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My ethnicity is Chinese",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Can I request that my personal data be kept private from other departments?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My religious beliefs require specific dietary accommodations in hospitals",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "What legal protections exist for patients disclosing gender reassignment?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I identify as gender-fluid",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How is age data used in predictive healthcare models?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I have multiple sclerosis and need home-based healthcare services",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "What happens if I do not wish to disclose my disability status?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My registered faith is Islam",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How does healthcare accommodate fasting patients during Ramadan?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My date of birth is 12/05/1979",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Why do hospitals ask for marital status upon admission?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I am a widower",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How do hospitals ensure accessibility for visually impaired patients?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I have ADHD and require additional time for medical forms",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Can I opt out of ethnicity data collection in NHS records?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My nationality is Polish",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How does sexual orientation data contribute to public health research?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I identify as demisexual",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Can I request an LGBTQ+ specialist for my medical needs?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My marital status is divorced",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Why does the NHS collect data on disability and chronic illnesses?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I have fibromyalgia and need pain management accommodations",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "What happens if my name does not match my gender identity on my records?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My ethnicity is Kurdish",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How does the NHS protect data about religious beliefs?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I am a practicing Pagan",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Can I opt out of data sharing between healthcare providers?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My preferred spoken language is Portuguese",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Why does my healthcare provider ask about preferred language?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I require an advocate to help me with medical appointments",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "What adjustments are available for patients with learning disabilities?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I am left-handed and require specific medical equipment adaptations",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How does the NHS handle the privacy of transgender patients?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I was diagnosed with PTSD due to past trauma",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "What mental health support options exist for trauma survivors?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My partner and I are in a polyamorous relationship",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How do relationship structures affect healthcare rights?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I was assigned intersex at birth but identify as male",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "What are my rights regarding intersex medical treatments?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My date of birth is 09/11/1983",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Why does the NHS ask for a patient’s birth year instead of age?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What do the nine protected characteristics mean?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What is the purpose of collecting personal data in healthcare?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I was born in 1985",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How does age affect my access to healthcare?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My ethnicity is Somali",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Why do medical forms ask about race or ethnicity?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I have autism and require sensory-friendly medical environments",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "What disability accommodations are available in hospitals?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I am Catholic",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Why does my religion matter in a medical setting?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My marital status is engaged",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Does being married affect my healthcare options?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I am bisexual",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Why does healthcare track sexual orientation?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I am transgender and want to update my NHS records",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How is gender identity data used in the NHS?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I have a mobility impairment and need transport support",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Can I request transportation help for medical appointments?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I need a braille version of my medical forms",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How do healthcare providers support visually impaired patients?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My partner and I are cohabiting",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Does cohabiting affect access to medical benefits?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I identify as non-binary",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How does non-binary identity affect healthcare records?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I have epilepsy and need emergency care instructions on file",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Can I store emergency medical instructions in my NHS record?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I practice Hinduism and require a prayer space in hospitals",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Are religious accommodations available in hospitals?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "My national identity is Welsh",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "Does my national identity impact my healthcare rights?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I am a carer for my elderly mother",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "What support is available for carers in the NHS?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "I need a personal health budget due to my disability",
+        "output": "Data Extraction"
+    },
+    {
+        "input": "How does the NHS support disabled patients financially?",
+        "output": "Detailed Response"
+    },
+
+    {
+        "input": "How do I change my registered gender in my medical records?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Why does my GP need to know my ethnicity?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Can I choose a healthcare provider based on religious preference?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How do I update my disability status with my GP?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What steps can I take if my gender identity is not correctly recorded?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Why does my GP ask about my sexual orientation?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Can I request that my personal data be kept private from other departments?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What legal protections exist for patients disclosing gender reassignment?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How is age data used in predictive healthcare models?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What happens if I do not wish to disclose my disability status?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How does healthcare accommodate fasting patients during Ramadan?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Why do hospitals ask for marital status upon admission?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How do hospitals ensure accessibility for visually impaired patients?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Can I opt out of ethnicity data collection in NHS records?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How does sexual orientation data contribute to public health research?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Can I request an LGBTQ+ specialist for my medical needs?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Why does the NHS collect data on disability and chronic illnesses?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What happens if my name does not match my gender identity on my records?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How does the NHS protect data about religious beliefs?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Can I opt out of data sharing between healthcare providers?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Why does my healthcare provider ask about preferred language?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What adjustments are available for patients with learning disabilities?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How does the NHS handle the privacy of transgender patients?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What mental health support options exist for trauma survivors?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How do relationship structures affect healthcare rights?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What are my rights regarding intersex medical treatments?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Why does the NHS ask for a patient\u2019s birth year instead of age?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What do the nine protected characteristics mean?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What is the purpose of collecting personal data in healthcare?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How does age affect my access to healthcare?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Why do medical forms ask about race or ethnicity?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What disability accommodations are available in hospitals?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Why does my religion matter in a medical setting?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Does being married affect my healthcare options?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Why does healthcare track sexual orientation?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How is gender identity data used in the NHS?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Can I request transportation help for medical appointments?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How do healthcare providers support visually impaired patients?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Does cohabiting affect access to medical benefits?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How does non-binary identity affect healthcare records?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Can I store emergency medical instructions in my NHS record?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Are religious accommodations available in hospitals?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "Does my national identity impact my healthcare rights?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "What support is available for carers in the NHS?",
+        "output": "Detailed Response"
+    },
+    {
+        "input": "How does the NHS support disabled patients financially?",
+        "output": "Detailed Response"
+    }
+]

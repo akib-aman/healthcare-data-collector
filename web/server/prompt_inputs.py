@@ -56,7 +56,7 @@ os.makedirs(SESSION_FORMS_DIR, exist_ok=True)
 # ---------------------
 # Create a Session-Specific JSON
 # ---------------------
-def create_session_form(form_type: str) -> str:
+def create_session_form(form_type):
     """
     Creates a new session-specific JSON file based on data-inventory.json and form-config.json.
     """
@@ -68,34 +68,25 @@ def create_session_form(form_type: str) -> str:
         session_id = str(uuid.uuid4())
         session_form_path = os.path.join(SESSION_FORMS_DIR, f"{session_id}.json")
 
-    # Paths to data files
+    # Paths to data file
     data_inventory_path = os.path.join(FORM_DATA_DIR, "data-inventory.json")
-    form_config_path = os.path.join(FORM_DATA_DIR, "form-config.json")
 
     # Load data
     with open(data_inventory_path, "r", encoding="utf-8") as f:
         data_inventory = json.load(f)
-    with open(form_config_path, "r", encoding="utf-8") as f:
-        form_config = json.load(f)
 
-    # Process form type
-    form_def = form_config["forms"].get(form_type.lower())
-    session_form_data = data_inventory if not form_def else (
-        {"Characteristics": data_inventory.get("Characteristics", [])}
-        if form_def["type"] == "CHARACTERISTICS_ONLY"
-        else data_inventory
-    )
+    session_form_data = {form_type: data_inventory.get(form_type, [])}
 
     # Save session data
     with open(session_form_path, "w", encoding="utf-8") as f:
         json.dump(session_form_data, f, indent=4)
 
-    return session_id
+    return session_id, session_form_data
 
 # ---------------------
 # Load & Save Session Files
 # ---------------------
-def load_session_form(session_id: str) -> dict:
+def load_session_form(session_id):
     """
     Loads the session-specific JSON form.
     Raises FileNotFoundError if the session file doesn't exist.
@@ -107,7 +98,7 @@ def load_session_form(session_id: str) -> dict:
     with open(session_form_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def save_session_form(session_id: str, session_form: dict):
+def save_session_form(session_id, session_form):
     """
     Saves the updated session-specific JSON form.
     """
@@ -118,7 +109,7 @@ def save_session_form(session_id: str, session_form: dict):
 # ---------------------
 # Classification & Generation
 # ---------------------
-def classify_prompt(prompt: str) -> str:
+def classify_prompt(prompt):
     """
     Classifies the user input as 'Data Extraction' or 'Detailed Response' using T5.
     """
@@ -140,27 +131,47 @@ def classify_prompt(prompt: str) -> str:
         return f"Error in classification: {str(e)}"
 
 # ---------------------
-# Trim Last Sentence
+# Output Cleanse
 # ---------------------
-def trim_last_sentence(text: str) -> str:
+def output_cleanse(text):
     """
-    Trims the last sentence from the text by removing everything 
-    after the last period (".").
+    Cleanses the output text by:
+    - Trimming the last sentence if incomplete.
+    - Removing unnecessary or misleading keywords and filler phrases.
     """
+    keywords = [
+        "What happens if I ", "Learn more about", "However,", 
+        "For example,", "For more information,"
+    ]
+    
+    # Convert text and keywords to lowercase for case-insensitive matching
+    lower_text = text.lower()
+
+    # Trim last sentence: Remove everything after the last period (".") if found
     match = re.search(r'^(.*?\.)[^.]*$', text, re.DOTALL)
-    return match.group(1).strip() if match else text  # Return trimmed text or original if no period found
+    cleaned_text = match.group(1).strip() if match else text  # Return trimmed text or original if no period found
+
+    # Create regex pattern to match each keyword (case-insensitive)
+    pattern = r'(?i)(' + '|'.join(re.escape(kw.lower()) for kw in keywords) + r').*'
+
+    # Find match position and remove everything after matched keyword
+    match = re.search(pattern, lower_text)
+    if match:
+        cleaned_text = cleaned_text[:match.start()].strip()
+
+    return cleaned_text
 
 # ---------------------
 # GPT Generator
 # ---------------------
-def generate_with_gpt(question: str, field: str) -> str:
+def generate_with_gpt(question, field):
     """
     Generates a detailed response using GPT-2 
     with a Question: / Answer: style prompt.
     """
-    # Use the same format you applied during training
     print(question + " Regarding " + field)
-    prompt_text = f"<|startoftext|>Question: {question + " Regarding " + field}\nAnswer:"
+    prompt_text = f"<|startoftext|>Question: {question + ' Regarding ' + field}\nAnswer:"
+    
     try:
         inputs = gpt_tokenizer(prompt_text, return_tensors="pt")
         outputs = gpt_model.generate(
@@ -177,39 +188,24 @@ def generate_with_gpt(question: str, field: str) -> str:
             no_repeat_ngram_size=2,  # block 2-gram repeats
             early_stopping=False
         )
+
         # Decode the tokens
         generated_text = gpt_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
         if "Answer:" in generated_text:
             # Keep only text after "Answer:"
             generated_text = generated_text.split("Answer:", 1)[-1].strip()
-        
-        keywords = ["What happens if I ", "Learn more about", "However,", "For example,", "For more information,"]
 
-        # Convert both text and keywords to lowercase for case-insensitive matching
-        lower_text = generated_text.lower()
+        # Apply Output Cleanse
+        return output_cleanse(generated_text)
 
-        # Trim last sentence
-        generated_text = trim_last_sentence(generated_text)
-        
-        # Create regex pattern to match each keyword (case-insensitive)
-        pattern = r'(?i)(' + '|'.join(re.escape(kw.lower()) for kw in keywords) + r').*'
-
-        # Find match position
-        match = re.search(pattern, lower_text)
-
-        if match:
-            # Remove everything from the keyword onwards
-            generated_text = generated_text[:match.start()].strip()
-
-        return generated_text
     except Exception as e:
         return f"Error generating GPT response: {str(e)}"
 
 # ---------------------
 # T5 Generator
 # ---------------------
-def generate_with_t5(prompt: str) -> str:
+def generate_with_t5(prompt):
     """
     Extracts data using T5.
     """
@@ -230,7 +226,7 @@ def generate_with_t5(prompt: str) -> str:
 # ---------------------
 # Main Prompt Handler
 # ---------------------
-def handle_prompt(prompt: str, session_form: dict, field: str):
+def handle_prompt(prompt, session_form, field):
     """
     Routes the prompt to the appropriate model (T5 for data extraction or GPT-2 for detailed response).
     `field` is the key that tells us which extraction prefix to use if 'Data Extraction' is required.

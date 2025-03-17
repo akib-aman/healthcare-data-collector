@@ -8,6 +8,14 @@
         "output": "{\"Disability\": \"None\"}"
     },
     {
+        "input": "Extract the disability from this text: no",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
+        "input": "Extract the disability from this text: No",
+        "output": "{\"Disability\": \"None\"}"
+    },
+    {
         "input": "Extract the disability from this text: none",
         "output": "{\"Disability\": \"None\"}"
     },
