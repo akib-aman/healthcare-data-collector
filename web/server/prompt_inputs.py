@@ -56,7 +56,7 @@ os.makedirs(SESSION_FORMS_DIR, exist_ok=True)
 # ---------------------
 # Create a Session-Specific JSON
 # ---------------------
-def create_session_form(form_type: str) -> str:
+def create_session_form(form_type):
     """
     Creates a new session-specific JSON file based on data-inventory.json and form-config.json.
     """
@@ -86,7 +86,7 @@ def create_session_form(form_type: str) -> str:
 # ---------------------
 # Load & Save Session Files
 # ---------------------
-def load_session_form(session_id: str) -> dict:
+def load_session_form(session_id):
     """
     Loads the session-specific JSON form.
     Raises FileNotFoundError if the session file doesn't exist.
@@ -98,7 +98,7 @@ def load_session_form(session_id: str) -> dict:
     with open(session_form_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def save_session_form(session_id: str, session_form: dict):
+def save_session_form(session_id, session_form):
     """
     Saves the updated session-specific JSON form.
     """
@@ -109,7 +109,7 @@ def save_session_form(session_id: str, session_form: dict):
 # ---------------------
 # Classification & Generation
 # ---------------------
-def classify_prompt(prompt: str) -> str:
+def classify_prompt(prompt):
     """
     Classifies the user input as 'Data Extraction' or 'Detailed Response' using T5.
     """
@@ -133,7 +133,7 @@ def classify_prompt(prompt: str) -> str:
 # ---------------------
 # Output Cleanse
 # ---------------------
-def output_cleanse(text: str) -> str:
+def output_cleanse(text):
     """
     Cleanses the output text by:
     - Trimming the last sentence if incomplete.
@@ -164,7 +164,7 @@ def output_cleanse(text: str) -> str:
 # ---------------------
 # GPT Generator
 # ---------------------
-def generate_with_gpt(question: str, field: str) -> str:
+def generate_with_gpt(question, field):
     """
     Generates a detailed response using GPT-2 
     with a Question: / Answer: style prompt.
@@ -205,7 +205,7 @@ def generate_with_gpt(question: str, field: str) -> str:
 # ---------------------
 # T5 Generator
 # ---------------------
-def generate_with_t5(prompt: str) -> str:
+def generate_with_t5(prompt):
     """
     Extracts data using T5.
     """
@@ -226,7 +226,7 @@ def generate_with_t5(prompt: str) -> str:
 # ---------------------
 # Main Prompt Handler
 # ---------------------
-def handle_prompt(prompt: str, session_form: dict, field: str):
+def handle_prompt(prompt, session_form, field):
     """
     Routes the prompt to the appropriate model (T5 for data extraction or GPT-2 for detailed response).
     `field` is the key that tells us which extraction prefix to use if 'Data Extraction' is required.

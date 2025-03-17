@@ -11,7 +11,9 @@ CORS(app)
 SESSION_FORMS_DIR = "form-data/session-forms"
 os.makedirs(SESSION_FORMS_DIR, exist_ok=True)
 
-
+# ---------------------
+# Setup and initalise session with client
+# ---------------------
 @app.route("/api/setup", methods=["POST"])
 def create_session():
     """
@@ -28,6 +30,9 @@ def create_session():
 
     return jsonify({"session_id": session_id, "form_data": form_data})
 
+# ---------------------
+# Handle user prompts
+# ---------------------
 @app.route("/api/prompt", methods=["POST"])
 def handle_prompt_route():
     data = request.get_json()
@@ -53,6 +58,9 @@ def handle_prompt_route():
     # 4. Return the response
     return jsonify({ "response": response, "updated_form": updated_form })
 
+# ---------------------
+# Conclude User Sessions
+# ---------------------
 @app.route("/api/finish", methods=["POST"])
 def finish_session():
     data = request.get_json()
