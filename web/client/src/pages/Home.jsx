@@ -2,12 +2,14 @@ import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import DoctorIcon from "../assets/images/doctoricon.png";
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const [prompt, setPrompt] = useState("");
   const [messages, setMessages] = useState([]);
   const [formData, setFormData] = useState(null);
   const [sessionId, setSessionId] = useState(null);
+  const navigate = useNavigate();
   const [activeField, setActiveField] = useState(null); // Start with no active field
   const [suggestions, setSuggestions] = useState([
     "Who can see my personal information?",
@@ -16,34 +18,32 @@ function Home() {
   ]);
   
   const chatContainerRef = useRef(null);
-  
-  // 1. Create session & fetch initial form data on mount
+
+  // Create session & fetch initial form data on mount
   useEffect(() => {
     const createSessionAndFetchForm = async () => {
       try {
-        // Step A: Create a new session
-        const sessionRes = await axios.post("http://localhost:5000/api/session", {
-          formType: "gp-registration",
+        // Step 1: Create a new session
+        const sessionRes = await axios.post("http://localhost:5000/api/setup", {
+          formType: "Characteristics",
         });
-        const newSessionId = sessionRes.data.session_id;
-        setSessionId(newSessionId);
-
-        // Step B: Fetch the initial form data
-        const formRes = await axios.post("http://localhost:5000/api/setup", {
-          formType: "gp-registration",
-        });
-        const setupData = formRes.data; 
-
+        
+        const { session_id, form_data } = sessionRes.data;
+        
+        // Store session ID
+        setSessionId(session_id);
+        
+        // Ensure the form data is in the expected format
         let finalFormData = {};
-        if (Array.isArray(setupData)) {
-          finalFormData = { Characteristics: setupData };
-        } else if (setupData?.Characteristics) {
-          finalFormData = setupData;
+        if (Array.isArray(form_data)) {
+          finalFormData = { Characteristics: form_data };
+        } else if (form_data?.Characteristics) {
+          finalFormData = form_data;
         }
 
         setFormData(finalFormData);
 
-        // Step C: If there's at least one field, set it as the active field
+        // Step 2: If there's at least one field, set it as the active field
         const characteristics = finalFormData.Characteristics || [];
         if (characteristics.length > 0) {
           const firstField = characteristics[0].Name.toLowerCase();
@@ -54,7 +54,7 @@ function Home() {
             {
               type: "bot",
               text:
-                "Hello! I'm here to help you fill out this equalities form. \n \n Your responses about characteristics help us understand your unique needs and offer you the best possible healthcare experience. All your information remains confidential, secure, and will be treated sensitively. You can type 'Prefer Not To Say' for questions you dont want to answer. \n \n If you would like to view our privacy statement please refer to: https://publichealthscotland.scot/our-privacy-notice/personal-data-collection/  \n \n  Let's begin firstly by giving us your " +
+                "Hello! I'm here to help you fill out this equalities form. \n \n Your responses about characteristics help us understand your unique needs and offer you the best possible healthcare experience. All your information remains confidential, secure, and will be treated sensitively. You can type 'Prefer Not To Say' for questions you don't want to answer. \n \n If you would like to view our privacy statement please refer to: https://publichealthscotland.scot/our-privacy-notice/personal-data-collection/  \n \n Let's begin firstly by giving us your " +
                 firstField +
                 ":",
             },
@@ -82,7 +82,20 @@ function Home() {
     createSessionAndFetchForm();
   }, []);
 
-  // 2. Auto-scroll chat messages
+  // New useEffect to check if all fields are filled and add a bot message if so
+  useEffect(() => {
+    if (formData && formData.Characteristics && formData.Characteristics.length > 0) {
+      const allFilled = formData.Characteristics.every(
+        (item) => item.Value && String(item.Value).trim() !== ""
+      );
+      const thankYouMessage = "Thank you for filling out the form. Please ensure that all fields are correct before submitting.";
+      if (allFilled && !messages.some((msg) => msg.type === "bot" && msg.text.includes("Thank you for filling out the form"))) {
+        setMessages((prev) => [...prev, { type: "bot", text: thankYouMessage }]);
+      }
+    }
+  }, [formData, messages]);
+
+  // Auto-scroll chat messages
   useEffect(() => {
     if (chatContainerRef.current) {
       chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
@@ -95,7 +108,7 @@ function Home() {
     let chatString = `We are now going to ask you about ${item.Label}. `;
     if (potentialDescription){
       chatString += '\n \n ' + item.Label + ' Definition: ' + potentialDescription;
-    };
+    }
     setActiveField(item.Name.toLowerCase());
     setMessages((prev) => [
       ...prev,
@@ -103,7 +116,22 @@ function Home() {
     ]);
   };
 
-  // 4. Submit user prompt
+  // Handle Submit Form
+  const handleSubmitForm = async () => {
+    try {
+      const res = await axios.post("http://localhost:5000/api/finish", {
+        session_id: sessionId,
+      });
+      console.log(res.data.message);
+      
+    } catch (error) {
+      console.error("Error finishing session:", error);
+      // Optionally display an error message to the user here
+    }
+    navigate('/FormComplete');
+  };
+
+  // Submit user prompt
   const handleSubmit = async (event) => {
     event.preventDefault();
 
@@ -150,7 +178,7 @@ function Home() {
             let chatString = `Thank you, we are now going to ask you about ${nextFieldLabel}.`;
             if (potentialDescription){
               chatString += '\n \n Definition: ' + potentialDescription;
-            };
+            }
             setActiveField(nextField);
 
             // Notify the user about the next field
@@ -178,7 +206,7 @@ function Home() {
     setPrompt("");
   };
 
-  // 5. Mic Functionality
+  // Mic Functionality
   const {
     transcript,
     listening,
@@ -186,7 +214,6 @@ function Home() {
     browserSupportsSpeechRecognition
   } = useSpeechRecognition();
 
-  
   useEffect(() => {
     setPrompt(transcript);
   }, [transcript]);
@@ -195,7 +222,6 @@ function Home() {
     return <div>Your browser does not support speech recognition.</div>;
   }
   
-  // 3) Function to start/stop listening
   const handleMicToggle = () => {
     if (listening) {
       SpeechRecognition.stopListening();
@@ -207,14 +233,10 @@ function Home() {
 
   // Handle suggestion bubble click
   const handleSuggestionClick = async (suggestion) => {
-    // Remove the clicked suggestion from the suggestions list
     setSuggestions((prev) => prev.filter((s) => s !== suggestion));
-
-    // Simulate user sending the suggestion
     setMessages((prev) => [...prev, { type: "user", text: suggestion }]);
 
     try {
-      // Send the suggestion as prompt to the API
       const res = await axios.post("http://localhost:5000/api/prompt", {
         prompt: suggestion,
         field: activeField,
@@ -222,11 +244,8 @@ function Home() {
       });
 
       const { response, updated_form } = res.data;
-
-      // Add bot response to chat
       setMessages((prev) => [...prev, { type: "bot", text: response }]);
 
-      // If there's an updated form, check for changes and move to the next field
       if (updated_form) {
         const previousForm = formData;
         const updatedCharacteristics = updated_form.Characteristics;
@@ -240,7 +259,6 @@ function Home() {
         if (fieldUpdated) {
           setFormData(updated_form);
 
-          // Automatically move to the next field
           const characteristics = updatedCharacteristics;
           const currentIndex = characteristics.findIndex(
             (item) => item.Name.toLowerCase() === activeField
@@ -250,7 +268,6 @@ function Home() {
             const nextFieldLabel = characteristics[currentIndex + 1].Label;
             setActiveField(nextField);
 
-            // Notify the user about the next field
             setMessages((prev) => [
               ...prev,
               {
@@ -263,8 +280,6 @@ function Home() {
       }
     } catch (error) {
       console.error("Error sending suggestion prompt:", error);
-
-      // Add error message to the chat
       setMessages((prev) => [
         ...prev,
         { type: "bot", text: "Error: Unable to fetch response from the server." },
@@ -312,6 +327,11 @@ function Home() {
     );
   };
 
+  // Determine if the form is fully filled
+  const isFormComplete = formData && formData.Characteristics && formData.Characteristics.every(
+    (item) => item.Value && String(item.Value).trim() !== ""
+  );
+
   // Main chat UI
   return (
     <div className="flex min-h-[70vh]">
@@ -321,16 +341,13 @@ function Home() {
           {messages.map((message, index) => (
             <div
               key={index}
-              className={`flex items-start gap-3 p-2 w-[80%] ${
-                message.type === "user" ? "self-end" : ""
-              }`}
+              className={`flex items-start gap-3 p-2 w-[80%] ${message.type === "user" ? "self-end" : ""}`}
             >
               {message.type === "user" ? (
                 <div className="bg-gray-100 p-4 mb-4 w-full max-w-none rounded text-base font-inter">
                   {message.text}
                 </div>
               ) : (
-                // else Message is bot
                 <>
                   <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center aspect-square">
                     <img src={DoctorIcon} alt="Bot Icon" className="w-12 h-12 rounded-full" />
@@ -344,7 +361,7 @@ function Home() {
           ))}
         </div>
 
-        {/* NEW: Suggestion Bubbles (positioned above the text input) */}
+        {/* Suggestion Bubbles */}
         {suggestions.length > 0 && (
           <div className="flex flex-wrap gap-2 p-2">
             {suggestions.map((suggestion, index) => (
@@ -369,7 +386,6 @@ function Home() {
             onChange={(e) => setPrompt(e.target.value)}
           ></textarea>
 
-          {/* Microphone Button */}
           <button
             type="button"
             onClick={handleMicToggle}
@@ -377,7 +393,7 @@ function Home() {
           >
             {listening ? "Stop" : "Mic"}
           </button>
-          {/* Submit Button */}
+
           <button
             type="submit"
             className="bg-blue-500 text-white px-4 py-2 rounded cursor-pointer text-sm whitespace-nowrap hover:bg-blue-700"
@@ -391,6 +407,19 @@ function Home() {
       <div className="w-2/5 bg-gray-100 p-4">
         <h2 className="text-xl font-bold mb-4">Form</h2>
         {renderCharacteristicsTable()}
+        {isFormComplete && (
+          <div className="mt-4">
+            <div className="bg-green-100 text-green-800 p-4 rounded">
+              Thank you for filling out the form. Please ensure that all fields are correct before submitting.
+            </div>
+            <button
+              className="bg-green-500 text-white px-4 py-2 mt-2 rounded w-full"
+              onClick={handleSubmitForm}
+            >
+              Submit Form
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

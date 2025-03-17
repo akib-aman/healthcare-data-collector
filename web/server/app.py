@@ -12,25 +12,28 @@ SESSION_FORMS_DIR = "form-data/session-forms"
 os.makedirs(SESSION_FORMS_DIR, exist_ok=True)
 
 
-@app.route("/api/session", methods=["POST"])
+@app.route("/api/setup", methods=["POST"])
 def create_session():
     """
-    Creates a new session for a specific form type and returns the session ID.
-    Expects JSON with { "formType": "<someFormType>" } in the POST body.
+    Creates a new session, generates session ID, and returns the initial form data.
     """
     data = request.get_json()
-    form_type = data.get("formType", "").lower() 
+    form_type = data.get("formType", "")
 
-    # Pass the form_type to create_session_form
-    session_id = create_session_form(form_type)
-    return jsonify({"session_id": session_id})
+    if not form_type:
+        return jsonify({"error": "formType is required"}), 400
+
+    # Create session and get form data
+    session_id, form_data = create_session_form(form_type)
+
+    return jsonify({"session_id": session_id, "form_data": form_data})
 
 @app.route("/api/prompt", methods=["POST"])
 def handle_prompt_route():
     data = request.get_json()
     session_id = data.get("session_id")
     user_prompt = data.get("prompt", "")
-    active_field = data.get("field", "")
+    active_field = data.get("field", "") 
 
     if not session_id:
         return jsonify({"error": "Missing session_id."}), 400
@@ -50,29 +53,33 @@ def handle_prompt_route():
     # 4. Return the response
     return jsonify({ "response": response, "updated_form": updated_form })
 
-@app.route("/api/setup", methods=["POST"])
-def setup_form():
-    """
-    Handles setup of a specific form type and returns the appropriate data.
-    """
-    # 1. Build absolute paths based on the directory of this app.py file
-    base_dir = os.path.dirname(__file__)  # folder where app.py is located
-    data_inventory_path = os.path.join(base_dir, "form-data", "data-inventory.json")
+@app.route("/api/finish", methods=["POST"])
+def finish_session():
+    data = request.get_json()
+    session_id = data.get("session_id")
 
-    # 2. Read JSON from POST body
-    request_data = request.get_json()
-    form_type = request_data.get("formType", "").lower()
+    if not session_id:
+        return jsonify({"error": "Missing session_id."}), 400
 
-    # 3. Load the relevant JSON files
-    with open(data_inventory_path, 'r', encoding='utf-8') as f:
-        data_inventory = json.load(f)
+    # 1. Load the session form once
+    try:
+        session_form = load_session_form(session_id)
+    except FileNotFoundError:
+        return jsonify({"error": f"Session {session_id} not found."}), 404
 
-    # 4. Load Relevant form
-    if form_type:
-        return jsonify(data_inventory["Characteristics"])
-    else:
-        # Handle other variants as needed
-        return jsonify({"error": "Unknown formType requested."}), 400
+    # Send to Records: simulate sending the session form JSON data to a medical database or GP database.
+    # For simulation, we log the session form to the console.
+    print("Sending session form to records:", session_form)
+
+    # 2. Delete the entire session JSON file
+    session_form_path = os.path.join(SESSION_FORMS_DIR, f"{session_id}.json")
+    try:
+        os.remove(session_form_path)
+    except Exception as e:
+        return jsonify({"error": f"Error deleting session form: {str(e)}"}), 500
+
+    return jsonify({"message": "Session finished and form data sent to records."})
+
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
