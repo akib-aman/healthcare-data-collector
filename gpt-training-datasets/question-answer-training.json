@@ -228,6 +228,10 @@
         "answer": "We ask about marital status to understand your support system, which may influence certain aspects of your care. This information is optional and kept private."
     },
     {
+      "question": "why do I need to tell you if i'm married?",
+      "answer": "We ask about marital status to understand your support system, which may influence certain aspects of your care. This information is optional and kept private."
+    },
+    {
         "question": "what if i don't wanna share my sexual orientation?",
         "answer": "That's completely okay. Sharing your sexual orientation is optional, and it helps us provide inclusive and equitable care. Your privacy is always protected."
     },
@@ -2119,6 +2123,185 @@
 {
   "question": "Nonbinary Regarding Sex",
   "answer": "Sex refers to biological characteristics, while gender identity is different. Please select the option corresponding to your assigned sex at birth at birth either Male or Female."
+},
+{
+  "question": "why do you need to know Regarding age",
+  "answer": "Age is important in healthcare as it helps determine the right screenings, vaccinations, and treatments for different life stages."
+},
+{
+  "question": "why does my age matter Regarding age",
+  "answer": "Certain medical conditions and treatments are more common at specific ages. Knowing your age helps provide appropriate care."
+},
+{
+  "question": "why ask about my age Regarding age",
+  "answer": "Your age helps us assess risks for conditions like diabetes, heart disease, or osteoporosis, ensuring preventive care is tailored to you."
+},
+{
+  "question": "why is my sex important in healthcare Regarding sex",
+  "answer": "Certain medical conditions and treatments vary based on sex, such as hormone levels, reproductive health, and disease risks."
+},
+{
+  "question": "why do doctors need to know my sex Regarding sex",
+  "answer": "Your sex helps us provide accurate medical guidance, such as cancer screenings, pregnancy care, and hormone-based treatments."
+},
+{
+  "question": "why should I tell you my sex Regarding sex",
+  "answer": "Knowing your sex ensures that medical care, screenings, and advice are appropriate for your health needs."
+},
+{
+  "question": "why does ethnicity matter in healthcare Regarding ethnicity",
+  "answer": "Some health conditions are more common in specific ethnic groups, so knowing your ethnicity helps in providing culturally sensitive care."
+},
+{
+  "question": "why do I need to disclose my ethnicity Regarding ethnicity",
+  "answer": "Understanding ethnicity allows us to tailor medical screenings and treatments for conditions that may affect certain populations more."
+},
+{
+  "question": "why does my ethnicity matter for a checkup Regarding ethnicity",
+  "answer": "Certain genetic factors linked to ethnicity influence disease risk and treatment effectiveness, so this helps personalize your healthcare."
+},
+{
+  "question": "why do you ask about this Regarding pregnancy/maternity",
+  "answer": "Knowing about pregnancy helps us provide safe treatments, avoid harmful medications, and offer prenatal care if needed."
+},
+{
+  "question": "why do I have to share this Regarding pregnancy/maternity",
+  "answer": "Some treatments and medications can affect pregnancy. We ask to ensure your safety and provide the best possible care."
+},
+{
+  "question": "why do healthcare providers ask about pregnancy Regarding pregnancy/maternity",
+  "answer": "Pregnancy status is important for determining suitable treatments, ensuring safe prescriptions, and providing necessary support."
+},
+{
+  "question": "why do you ask about marriage in healthcare Regarding marriage/civilpartnership",
+  "answer": "Your marital or civil partnership status helps us understand your support system and can be relevant in medical decision-making."
+},
+{
+  "question": "why does this matter Regarding marriage/civil partnership",
+  "answer": "Marital status can affect legal rights in healthcare, such as next-of-kin rights and decision-making in emergencies."
+},
+{
+  "question": "why do I need to disclose if I'm married Regarding marriage/civilpartnership",
+  "answer": "In some cases, your partner may be involved in your care decisions, and we want to ensure they can support you appropriately."
+},
+{
+  "question": "why does disability matter in healthcare Regarding disability",
+  "answer": "Knowing about disabilities helps us provide necessary accommodations, accessible facilities, and specialized care tailored to your needs."
+},
+{
+  "question": "why do I have to share my disability status Regarding disability",
+  "answer": "Disclosing a disability ensures we can make adjustments to your care, such as providing sign language interpreters or mobility assistance."
+},
+{
+  "question": "why does my disability status matter in treatment Regarding disability",
+  "answer": "Certain disabilities may require adjustments in treatments, medications, or support services to ensure you receive the best care."
+},
+{
+  "question": "why do you ask about religion in healthcare Regarding religion/belief",
+  "answer": "Religious beliefs can influence healthcare choices, such as dietary preferences, treatment restrictions, and end-of-life care decisions."
+},
+{
+  "question": "why does my religion matter to my doctor Regarding religion/belief",
+  "answer": "Understanding your religion allows us to respect your preferences, such as prayer times, fasting, or alternative treatment options."
+},
+{
+  "question": "why does my belief system matter in medical care Regarding religion/belief",
+  "answer": "Beliefs can affect your healthcare choices, and knowing them helps us provide respectful, culturally sensitive care."
+},
+{
+  "question": "why do you need to know my sexual orientation Regarding sexualorientation",
+  "answer": "Your sexual orientation helps us provide inclusive care, ensuring services are relevant to your needs and health risks."
+},
+{
+  "question": "why does sexual orientation matter in healthcare Regarding sexualorientation",
+  "answer": "Some health risks and screenings are tailored based on sexual orientation to ensure inclusive and effective care."
+},
+{
+  "question": "why do I have to disclose my sexual orientation Regarding sexualorientation",
+  "answer": "Disclosing this information is optional, but it helps us provide care that acknowledges and respects diverse health needs."
+},
+{
+  "question": "why do I need to tell you about gender reassignment Regarding genderreassignment",
+  "answer": "Gender reassignment information helps us provide relevant medical support, including hormone therapy and mental health resources."
+},
+{
+  "question": "why does gender reassignment status matter Regarding genderreassignment",
+  "answer": "Some treatments and screenings may differ for transgender individuals, ensuring you receive the right care for your needs."
+},
+{
+  "question": "why do you ask about gender transition in medical forms Regarding genderreassignment",
+  "answer": "Understanding your gender identity helps us offer appropriate support and respectful healthcare tailored to you."
+},{
+  "question": "why do you need to know Regarding age",
+  "answer": "We ask for your age to provide you with age-appropriate medical care, screenings, and vaccinations. Certain health risks and treatments vary depending on your age."
+},
+{
+  "question": "why ask this? Regarding sex",
+  "answer": "We ask for your sex to ensure that medical advice, screenings, and treatments are appropriate for you. Some conditions and medications affect people differently based on sex."
+},
+{
+  "question": "do i really need to answer this? Regarding ethnicity",
+  "answer": "Your ethnicity helps us understand if you may be at a higher risk for certain medical conditions. This allows us to provide more accurate screening and treatment options tailored to your background."
+},
+{
+  "question": "why is this even relevant? Regarding pregnancy/maternity",
+  "answer": "Knowing if you are pregnant or have recently given birth helps us ensure you receive the right care, support, and treatment options, including prenatal and postnatal care."
+},
+{
+  "question": "what’s the point of this question? Regarding marriage/civilpartnership",
+  "answer": "Your marital or civil partnership status can affect your rights in healthcare decisions, visitation, and next-of-kin arrangements. It helps us ensure your support network is considered in your care."
+},
+{
+  "question": "why does this matter? Regarding disability",
+  "answer": "We ask about disabilities to make necessary accommodations and provide accessible healthcare services tailored to your specific needs."
+},
+{
+  "question": "is this necessary? Regarding religion/belief",
+  "answer": "We ask about your religion or beliefs to ensure that your care respects your values and preferences, such as dietary restrictions, prayer needs, or end-of-life decisions."
+},
+{
+  "question": "why do you ask this? Regarding sexual orientation",
+  "answer": "We ask about sexual orientation to ensure our services are inclusive and meet the specific health needs of all individuals, including tailored sexual health advice and mental health support."
+},
+{
+  "question": "why do i have to share this? Regarding genderreassignment",
+  "answer": "Knowing if you have undergone gender reassignment helps us provide respectful and appropriate healthcare, including hormone treatments and specialized medical support."
+},
+{
+  "question": "do i have to tell you this? Regarding age",
+  "answer": "Your age helps us provide care tailored to your stage of life, from childhood vaccinations to age-related health screenings."
+},
+{
+  "question": "is this really needed? Regarding sex",
+  "answer": "Yes, some medical conditions, treatments, and screenings differ based on sex, ensuring you receive the most relevant care."
+},
+{
+  "question": "why should i answer this? Regarding ethnicity",
+  "answer": "Certain health conditions are more common in specific ethnic groups. Understanding your ethnicity allows us to provide better, more personalized care."
+},
+{
+  "question": "how is this related to my health? Regarding pregnancy/maternity",
+  "answer": "Pregnancy and maternity status impact the care you need, ensuring you receive appropriate screenings, treatments, and support."
+},
+{
+  "question": "do you really need to know? Regarding marriage/civilpartnership",
+  "answer": "Yes, this helps us understand your legal and support network, which can be important for decision-making in healthcare settings."
+},
+{
+  "question": "what’s this got to do with anything? Regarding disability",
+  "answer": "Understanding your disability helps us make necessary accommodations to provide you with equitable healthcare access."
+},
+{
+  "question": "why should i tell you? Regarding religion/belief",
+  "answer": "Your religion or beliefs may influence your healthcare preferences, including dietary needs, medical procedures, and end-of-life care."
+},
+{
+  "question": "is this question really important? Regarding sexualorientation",
+  "answer": "Yes, it helps us ensure inclusive healthcare that addresses specific medical and mental health concerns unique to different orientations."
+},
+{
+  "question": "do i need to disclose this? Regarding genderreassignment",
+  "answer": "Providing this information allows us to offer respectful, informed, and appropriate healthcare, including any transition-related medical support."
 }
 
 ]

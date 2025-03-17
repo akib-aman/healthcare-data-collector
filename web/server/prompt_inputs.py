@@ -211,8 +211,7 @@ def generate_with_t5(prompt):
     """
     try:
         # For extraction, we use a different prefix, e.g. "extract:"
-        input_text = f"extract: {prompt}"
-        inputs = t5_tokenizer.encode(input_text, return_tensors="pt")
+        inputs = t5_tokenizer.encode(prompt, return_tensors="pt")
         outputs = t5_model.generate(inputs, max_length=50, num_beams=5)
         t5_output = t5_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
