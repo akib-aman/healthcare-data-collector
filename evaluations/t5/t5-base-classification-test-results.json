@@ -1,0 +1,931 @@
+{
+    "average_similarity": 1.0,
+    "average_f1": 1.0,
+    "passing_percentage": 100.0,
+    "detailed_results": [
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do I change my registered gender in my medical records?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My preferred pronouns are they/them\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does my GP need to know my ethnicity?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I have a hearing impairment and require sign language interpreters\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I choose a healthcare provider based on religious preference?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My partner and I are in a long-term same-sex relationship\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do I update my disability status with my GP?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I was diagnosed with a chronic illness at age 21\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What steps can I take if my gender identity is not correctly recorded?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I require a same-gender chaperone during medical examinations\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does my GP ask about my sexual orientation?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My ethnicity is Chinese\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I request that my personal data be kept private from other departments?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My religious beliefs require specific dietary accommodations in hospitals\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What legal protections exist for patients disclosing gender reassignment?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I identify as gender-fluid\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How is age data used in predictive healthcare models?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I have multiple sclerosis and need home-based healthcare services\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What happens if I do not wish to disclose my disability status?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My registered faith is Islam\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does healthcare accommodate fasting patients during Ramadan?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My date of birth is 12/05/1979\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why do hospitals ask for marital status upon admission?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I am a widower\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do hospitals ensure accessibility for visually impaired patients?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I have ADHD and require additional time for medical forms\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I opt out of ethnicity data collection in NHS records?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My nationality is Polish\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does sexual orientation data contribute to public health research?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I identify as demisexual\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I request an LGBTQ+ specialist for my medical needs?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My marital status is divorced\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does the NHS collect data on disability and chronic illnesses?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I have fibromyalgia and need pain management accommodations\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What happens if my name does not match my gender identity on my records?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My ethnicity is Kurdish\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does the NHS protect data about religious beliefs?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I am a practicing Pagan\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I opt out of data sharing between healthcare providers?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My preferred spoken language is Portuguese\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does my healthcare provider ask about preferred language?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I require an advocate to help me with medical appointments\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What adjustments are available for patients with learning disabilities?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I am left-handed and require specific medical equipment adaptations\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does the NHS handle the privacy of transgender patients?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I was diagnosed with PTSD due to past trauma\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What mental health support options exist for trauma survivors?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My partner and I are in a polyamorous relationship\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do relationship structures affect healthcare rights?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I was assigned intersex at birth but identify as male\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What are my rights regarding intersex medical treatments?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My date of birth is 09/11/1983\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does the NHS ask for a patient\u2019s birth year instead of age?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What do the nine protected characteristics mean?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What is the purpose of collecting personal data in healthcare?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I was born in 1985\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does age affect my access to healthcare?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My ethnicity is Somali\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why do medical forms ask about race or ethnicity?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I have autism and require sensory-friendly medical environments\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What disability accommodations are available in hospitals?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I am Catholic\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does my religion matter in a medical setting?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My marital status is engaged\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Does being married affect my healthcare options?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I am bisexual\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does healthcare track sexual orientation?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I am transgender and want to update my NHS records\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How is gender identity data used in the NHS?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I have a mobility impairment and need transport support\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I request transportation help for medical appointments?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I need a braille version of my medical forms\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do healthcare providers support visually impaired patients?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My partner and I are cohabiting\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Does cohabiting affect access to medical benefits?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I identify as non-binary\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does non-binary identity affect healthcare records?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I have epilepsy and need emergency care instructions on file\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I store emergency medical instructions in my NHS record?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I practice Hinduism and require a prayer space in hospitals\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Are religious accommodations available in hospitals?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: My national identity is Welsh\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Does my national identity impact my healthcare rights?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I am a carer for my elderly mother\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What support is available for carers in the NHS?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: I need a personal health budget due to my disability\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Data Extraction",
+            "expected_answer": "Data Extraction",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does the NHS support disabled patients financially?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do I change my registered gender in my medical records?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does my GP need to know my ethnicity?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I choose a healthcare provider based on religious preference?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do I update my disability status with my GP?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What steps can I take if my gender identity is not correctly recorded?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does my GP ask about my sexual orientation?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I request that my personal data be kept private from other departments?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What legal protections exist for patients disclosing gender reassignment?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How is age data used in predictive healthcare models?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What happens if I do not wish to disclose my disability status?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does healthcare accommodate fasting patients during Ramadan?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why do hospitals ask for marital status upon admission?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do hospitals ensure accessibility for visually impaired patients?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I opt out of ethnicity data collection in NHS records?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does sexual orientation data contribute to public health research?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I request an LGBTQ+ specialist for my medical needs?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does the NHS collect data on disability and chronic illnesses?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What happens if my name does not match my gender identity on my records?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does the NHS protect data about religious beliefs?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I opt out of data sharing between healthcare providers?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does my healthcare provider ask about preferred language?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What adjustments are available for patients with learning disabilities?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does the NHS handle the privacy of transgender patients?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What mental health support options exist for trauma survivors?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do relationship structures affect healthcare rights?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What are my rights regarding intersex medical treatments?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does the NHS ask for a patient\u2019s birth year instead of age?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What do the nine protected characteristics mean?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What is the purpose of collecting personal data in healthcare?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does age affect my access to healthcare?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why do medical forms ask about race or ethnicity?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What disability accommodations are available in hospitals?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does my religion matter in a medical setting?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Does being married affect my healthcare options?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Why does healthcare track sexual orientation?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How is gender identity data used in the NHS?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I request transportation help for medical appointments?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How do healthcare providers support visually impaired patients?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Does cohabiting affect access to medical benefits?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does non-binary identity affect healthcare records?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Can I store emergency medical instructions in my NHS record?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Are religious accommodations available in hospitals?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: Does my national identity impact my healthcare rights?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: What support is available for carers in the NHS?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Does this input require data extraction or a detailed response?\nInput: How does the NHS support disabled patients financially?\nAnswer with either 'Data Extraction' or 'Detailed Response'.",
+            "generated_answer": "Detailed Response",
+            "expected_answer": "Detailed Response",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        }
+    ]
+}
