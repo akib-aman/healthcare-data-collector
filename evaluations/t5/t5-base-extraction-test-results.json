@@ -1,0 +1,3500 @@
+{
+    "average_similarity": 0.9315731525421143,
+    "average_f1": 0.8509352037408148,
+    "passing_percentage": 88.37675350701403,
+    "detailed_results": [
+        {
+            "input": "Extract the title from this text: Mr Jacob Lewis",
+            "generated_answer": "\"Title\": \"Mr\"",
+            "expected_answer": "\"Title\": \"Mr\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Mrs Angela Stevens",
+            "generated_answer": "\"Title\": \"Mrs\"",
+            "expected_answer": "\"Title\": \"Mrs\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Miss Sophie Carter",
+            "generated_answer": "\"Title\": \"Miss\"",
+            "expected_answer": "\"Title\": \"Miss\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Dr Benjamin Harris",
+            "generated_answer": "\"Title\": \"Dr\"",
+            "expected_answer": "\"Title\": \"Dr\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Prof Olivia Turner",
+            "generated_answer": "\"Title\": \"Prof\"",
+            "expected_answer": "\"Title\": \"Prof\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Sir Thomas Wright",
+            "generated_answer": "\"Title\": \"Sir\"",
+            "expected_answer": "\"Title\": \"Sir\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Lady Catherine Morgan",
+            "generated_answer": "\"Title\": \"Lady\"",
+            "expected_answer": "\"Title\": \"Lady\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Dame Fiona Spencer",
+            "generated_answer": "\"Title\": \"Dame\"",
+            "expected_answer": "\"Title\": \"Dame\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Rev Jonathan Powell",
+            "generated_answer": "\"Title\": \"Rev\"",
+            "expected_answer": "\"Title\": \"Rev\"",
+            "similarity_score": 0.9999998211860657,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Hon Margaret Benson",
+            "generated_answer": "\"Title\": \"Hon\"",
+            "expected_answer": "\"Title\": \"Hon\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Lord Henry Dawson",
+            "generated_answer": "\"Title\": \"Lord\"",
+            "expected_answer": "\"Title\": \"Lord\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Baroness Helen Reed",
+            "generated_answer": "\"Title\": \"Baroness\"",
+            "expected_answer": "\"Title\": \"Baroness\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Major Alan Roberts",
+            "generated_answer": "\"Title\": \"Major\"",
+            "expected_answer": "\"Title\": \"Major\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Capt Daniel Brooks",
+            "generated_answer": "\"Title\": \"Capt\"",
+            "expected_answer": "\"Title\": \"Capt\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Col Richard Evans",
+            "generated_answer": "\"Title\": \"Col\"",
+            "expected_answer": "\"Title\": \"Col\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Lt Jessica Collins",
+            "generated_answer": "\"Title\": \"Lt\"",
+            "expected_answer": "\"Title\": \"Lt\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Sgt Patrick Reynolds",
+            "generated_answer": "\"Title\": \"Sgt\"",
+            "expected_answer": "\"Title\": \"Sgt\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Cpl Emily Scott",
+            "generated_answer": "\"Title\": \"Cpl\"",
+            "expected_answer": "\"Title\": \"Cpl\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Brigadier Michael Hughes",
+            "generated_answer": "\"Title\": \"Brigadier\"",
+            "expected_answer": "\"Title\": \"Brigadier\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Archbishop Leonard Williams",
+            "generated_answer": "\"Title\": \"Archbishop\"",
+            "expected_answer": "\"Title\": \"Archbishop\"",
+            "similarity_score": 0.9999998211860657,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Canon Peter Daniels",
+            "generated_answer": "\"Title\": \"Canon\"",
+            "expected_answer": "\"Title\": \"Canon\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Bishop Eleanor Watson",
+            "generated_answer": "\"Title\": \"Bishop\"",
+            "expected_answer": "\"Title\": \"Bishop\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Chief Inspector Bradley Clark",
+            "generated_answer": "\"Title\": \"Chief Inspector\"",
+            "expected_answer": "\"Title\": \"Chief Inspector\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: PC Hannah Johnson",
+            "generated_answer": "\"Title\": \"PC\"",
+            "expected_answer": "\"Title\": \"PC\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Magistrate Lawrence Bennett",
+            "generated_answer": "\"Title\": \"Magistrate\"",
+            "expected_answer": "\"Title\": \"Magistrate\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Justice Diana Parker",
+            "generated_answer": "\"Title\": \"Justice\"",
+            "expected_answer": "\"Title\": \"Justice\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Admiral Samuel Greene",
+            "generated_answer": "\"Title\": \"Admiral\"",
+            "expected_answer": "\"Title\": \"Admiral\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Commander Martin Lewis",
+            "generated_answer": "\"Title\": \"Commander\"",
+            "expected_answer": "\"Title\": \"Commander\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Flight Lieutenant Deborah Nelson",
+            "generated_answer": "\"Title\": \"Flight Lieutenant\"",
+            "expected_answer": "\"Title\": \"Flight Lieutenant\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: General Jonathan Edwards",
+            "generated_answer": "\"Title\": \"General\"",
+            "expected_answer": "\"Title\": \"General\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: His Grace the Duke of Sussex",
+            "generated_answer": "\"Title\": \"His Grace\"",
+            "expected_answer": "\"Title\": \"His Grace\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Her Majesty Queen Victoria",
+            "generated_answer": "\"Title\": \"Her Majesty\"",
+            "expected_answer": "\"Title\": \"Her Majesty\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Master Ethan Ford",
+            "generated_answer": "\"Title\": \"Master\"",
+            "expected_answer": "\"Title\": \"Master\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: The Honorable Judge Christopher Blake",
+            "generated_answer": "\"Title\": \"Honorable\"",
+            "expected_answer": "\"Title\": \"Honorable\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I'm turning 27 this year.",
+            "generated_answer": "\"Age\": 27",
+            "expected_answer": "\"Age\": 27",
+            "similarity_score": 0.9999997615814209,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: Just had my 45th birthday!",
+            "generated_answer": "\"Age\": 45",
+            "expected_answer": "\"Age\": 45",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: Can you believe I'm 60 already?",
+            "generated_answer": "\"Age\": 60",
+            "expected_answer": "\"Age\": 60",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am in my early thirties.",
+            "generated_answer": "\"Age\": 30",
+            "expected_answer": "\"Age\": 30",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: She is nearly 50.",
+            "generated_answer": "\"Age\": 50",
+            "expected_answer": "\"Age\": 49",
+            "similarity_score": 0.8790690898895264,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: He's approaching 40.",
+            "generated_answer": "\"Age\": 40",
+            "expected_answer": "\"Age\": 39",
+            "similarity_score": 0.9297555685043335,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I'm in my late twenties.",
+            "generated_answer": "\"Age\": 20",
+            "expected_answer": "\"Age\": 28",
+            "similarity_score": 0.7915208339691162,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: He's in his mid-forties.",
+            "generated_answer": "\"Age\": 40",
+            "expected_answer": "\"Age\": 45",
+            "similarity_score": 0.8801020979881287,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: My brother is in his late fifties.",
+            "generated_answer": "\"Age\": 50",
+            "expected_answer": "\"Age\": 58",
+            "similarity_score": 0.8892842531204224,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: She is in her early sixties.",
+            "generated_answer": "\"Age\": 60",
+            "expected_answer": "\"Age\": 61",
+            "similarity_score": 0.9014476537704468,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I was born in 1985.",
+            "generated_answer": "\"Age\": 85",
+            "expected_answer": "\"Age\": 40",
+            "similarity_score": 0.8108512163162231,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I was born in 1990, so do the math.",
+            "generated_answer": "\"Age\": 90",
+            "expected_answer": "\"Age\": 35",
+            "similarity_score": 0.7438609004020691,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I celebrated my 21st birthday last year.",
+            "generated_answer": "\"Age\": 21",
+            "expected_answer": "\"Age\": 22",
+            "similarity_score": 0.8824276924133301,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I turned 55 last summer.",
+            "generated_answer": "\"Age\": 55",
+            "expected_answer": "\"Age\": 55",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: My daughter just turned 18.",
+            "generated_answer": "\"Age\": 18",
+            "expected_answer": "\"Age\": 18",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I will be 40 next year.",
+            "generated_answer": "\"Age\": 39",
+            "expected_answer": "\"Age\": 39",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I'm in my mid-thirties.",
+            "generated_answer": "\"Age\": 30",
+            "expected_answer": "\"Age\": 35",
+            "similarity_score": 0.874954879283905,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: My dad just celebrated his 70th.",
+            "generated_answer": "\"Age\": 70",
+            "expected_answer": "\"Age\": 70",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I'm about to hit 50.",
+            "generated_answer": "\"Age\": 50",
+            "expected_answer": "\"Age\": 49",
+            "similarity_score": 0.8790690898895264,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I'm under 25.",
+            "generated_answer": "\"Age\": 25",
+            "expected_answer": "\"Age\": 24",
+            "similarity_score": 0.8745886087417603,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: My falls is 30.",
+            "generated_answer": "\"Age\": 30",
+            "expected_answer": "\"Age\": 30",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am somewhere around 40.",
+            "generated_answer": "\"Age\": 40",
+            "expected_answer": "\"Age\": 40",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: My kid is 4 and just started preschool.",
+            "generated_answer": "\"Age\": 4",
+            "expected_answer": "\"Age\": 4",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I was born 29 years ago.",
+            "generated_answer": "\"Age\": 29",
+            "expected_answer": "\"Age\": 29",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: He's 5 years younger than me, and I'm 45.",
+            "generated_answer": "\"Age\": 45",
+            "expected_answer": "\"Age\": 40",
+            "similarity_score": 0.8801020979881287,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I'm hitting the big 30 this year!",
+            "generated_answer": "\"Age\": 29",
+            "expected_answer": "\"Age\": 30",
+            "similarity_score": 0.9232258796691895,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I'm not quite 40 yet.",
+            "generated_answer": "\"Age\": 40",
+            "expected_answer": "\"Age\": 39",
+            "similarity_score": 0.9297555685043335,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: She's just shy of 50.",
+            "generated_answer": "\"Age\": 50",
+            "expected_answer": "\"Age\": 49",
+            "similarity_score": 0.8790690898895264,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I feel 18, but I\u2019m actually 34.",
+            "generated_answer": "\"Age\": 34",
+            "expected_answer": "\"Age\": 34",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: She said she's in her early twenties.",
+            "generated_answer": "\"Age\": 20",
+            "expected_answer": "\"Age\": 21",
+            "similarity_score": 0.9052180051803589,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: The baby is just a few months old.",
+            "generated_answer": "\"Age\": 12",
+            "expected_answer": "\"Age\": 0",
+            "similarity_score": 0.678568422794342,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: He\u2019s a teenager, about 15",
+            "generated_answer": "\"Age\": 15",
+            "expected_answer": "\"Age\": 15",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: My niece is around 8 years old.",
+            "generated_answer": "\"Age\": 8",
+            "expected_answer": "\"Age\": 8",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I have been alive for 67 years.",
+            "generated_answer": "\"Age\": 67",
+            "expected_answer": "\"Age\": 67",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: My mom is in her seventies.",
+            "generated_answer": "\"Age\": 70",
+            "expected_answer": "\"Age\": 70",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: He will be 33 next month.",
+            "generated_answer": "\"Age\": 32",
+            "expected_answer": "\"Age\": 32",
+            "similarity_score": 0.9999997615814209,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I'll be 45 in a few weeks.",
+            "generated_answer": "\"Age\": 44",
+            "expected_answer": "\"Age\": 44",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I was 10 when we moved here, and that was 20 years ago.",
+            "generated_answer": "\"Age\": 10",
+            "expected_answer": "\"Age\": 30",
+            "similarity_score": 0.802452802658081,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: The kid is about 6.",
+            "generated_answer": "\"Age\": 6",
+            "expected_answer": "\"Age\": 6",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I was born in the late 80s.",
+            "generated_answer": "\"Age\": 80",
+            "expected_answer": "\"Age\": 35",
+            "similarity_score": 0.802500307559967,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: The girl is around 12.",
+            "generated_answer": "\"Age\": 12",
+            "expected_answer": "\"Age\": 12",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: The boy is roughly 9 years old.",
+            "generated_answer": "\"Age\": 9",
+            "expected_answer": "\"Age\": 9",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I have been in this world for 50 years.",
+            "generated_answer": "\"Age\": 50",
+            "expected_answer": "\"Age\": 50",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I recently turned 37.",
+            "generated_answer": "\"Age\": 37",
+            "expected_answer": "\"Age\": 37",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I was a teenager 20 years ago.",
+            "generated_answer": "\"Age\": 20",
+            "expected_answer": "\"Age\": 35",
+            "similarity_score": 0.7803399562835693,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: The little one is just 2.",
+            "generated_answer": "\"Age\": 2",
+            "expected_answer": "\"Age\": 2",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I'm getting close to 30.",
+            "generated_answer": "\"Age\": 30",
+            "expected_answer": "\"Age\": 29",
+            "similarity_score": 0.9232258796691895,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the age from this text: I'm a senior citizen now, 65.",
+            "generated_answer": "\"Age\": 65",
+            "expected_answer": "\"Age\": 65",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I've spent 80 years on this earth.",
+            "generated_answer": "\"Age\": 80",
+            "expected_answer": "\"Age\": 80",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: My eyesight is super bad even with glasses.",
+            "generated_answer": "\"Disability\": \"Visual Impairment\"",
+            "expected_answer": "\"Disability\": \"Visual Impairment\"",
+            "similarity_score": 0.9999997615814209,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: My joints crack every time I move.",
+            "generated_answer": "\"Disability\": \"Arthritis\"",
+            "expected_answer": "\"Disability\": \"Arthritis\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: I need crutches to walk.",
+            "generated_answer": "\"Disability\": \"Chronic Crutches\"",
+            "expected_answer": "\"Disability\": \"Mobility Impairment\"",
+            "similarity_score": 0.6126253604888916,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: My hearing is practically gone.",
+            "generated_answer": "\"Disability\": \"Hearing Impairment\"",
+            "expected_answer": "\"Disability\": \"Hearing Impairment\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: I struggle to understand sounds.",
+            "generated_answer": "\"Disability\": \"Speech Impairment\"",
+            "expected_answer": "\"Disability\": \"Hearing Impairment\"",
+            "similarity_score": 0.8519437313079834,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the disability from this text: My hand trembles when I try to write.",
+            "generated_answer": "\"Disability\": \"Mobility Impairment\"",
+            "expected_answer": "\"Disability\": \"Essential Tremor\"",
+            "similarity_score": 0.5956947803497314,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: My spine is shaped like an S.",
+            "generated_answer": "\"Disability\": \"Spinal Cord Injury\"",
+            "expected_answer": "\"Disability\": \"Scoliosis\"",
+            "similarity_score": 0.7383149862289429,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: My body gets stiff and painful a lot.",
+            "generated_answer": "\"Disability\": \"Arthritis\"",
+            "expected_answer": "\"Disability\": \"Fibromyalgia\"",
+            "similarity_score": 0.6845729351043701,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the disability from this text: I have trouble processing loud noises.",
+            "generated_answer": "\"Disability\": \"Hearing Impairment\"",
+            "expected_answer": "\"Disability\": \"Sensory Processing Disorder\"",
+            "similarity_score": 0.6911160945892334,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the disability from this text: I forget things in the middle of speaking.",
+            "generated_answer": "\"Disability\": \"Autism Impairment\"",
+            "expected_answer": "\"Disability\": \"Memory Impairment\"",
+            "similarity_score": 0.7137237787246704,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the disability from this text: My legs don't work like they used to.",
+            "generated_answer": "\"Disability\": \"Mobility Impairment\"",
+            "expected_answer": "\"Disability\": \"Mobility Impairment\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: My muscles are constantly weak and sore.",
+            "generated_answer": "\"Disability\": \"Muscular Dystrophy\"",
+            "expected_answer": "\"Disability\": \"Neuromuscular Disorder\"",
+            "similarity_score": 0.7460419535636902,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: I have super sensitive skin that reacts badly.",
+            "generated_answer": "\"Disability\": \"Sensory Skin Disorder\"",
+            "expected_answer": "\"Disability\": \"Skin Condition\"",
+            "similarity_score": 0.8588776588439941,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the disability from this text: My brain doesn\u2019t process things fast.",
+            "generated_answer": "\"Disability\": \"Brain Impairment\"",
+            "expected_answer": "\"Disability\": \"Cognitive Impairment\"",
+            "similarity_score": 0.891799807548523,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the disability from this text: My body feels like it's on fire sometimes.",
+            "generated_answer": "\"Disability\": \"Autism Spectrum Disorder\"",
+            "expected_answer": "\"Disability\": \"Chronic Pain\"",
+            "similarity_score": 0.5863939523696899,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the disability from this text: My hands lock up randomly.",
+            "generated_answer": "\"Disability\": \"Mobility Impairment\"",
+            "expected_answer": "\"Disability\": \"Spasticity Disorder\"",
+            "similarity_score": 0.5925095081329346,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: I have nerve damage in my legs.",
+            "generated_answer": "\"Disability\": \"Neuropathy\"",
+            "expected_answer": "\"Disability\": \"Neuropathy\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: My knees keep giving out.",
+            "generated_answer": "\"Disability\": \"Mobility Impairment\"",
+            "expected_answer": "\"Disability\": \"Mobility Impairment\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: My hands don\u2019t do what I tell them to.",
+            "generated_answer": "\"Disability\": \"Mobility Impairment\"",
+            "expected_answer": "\"Disability\": \"Motor Impairment\"",
+            "similarity_score": 0.8474323749542236,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the disability from this text: My back always hurts no matter what.",
+            "generated_answer": "\"Disability\": \"Back Pain\"",
+            "expected_answer": "\"Disability\": \"Chronic Pain\"",
+            "similarity_score": 0.8134638071060181,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the disability from this text: My legs are different lengths.",
+            "generated_answer": "\"Disability\": \"Physical Disability\"",
+            "expected_answer": "\"Disability\": \"Limb Length Discrepancy\"",
+            "similarity_score": 0.6099799275398254,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the disability from this text: I can't stand up for long.",
+            "generated_answer": "\"Disability\": \"Physical Disability\"",
+            "expected_answer": "\"Disability\": \"Mobility Impairment\"",
+            "similarity_score": 0.7498446702957153,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: I can\u2019t control my blinking.",
+            "generated_answer": "\"Disability\": \"Blinking Impairment\"",
+            "expected_answer": "\"Disability\": \"Tourette Syndrome\"",
+            "similarity_score": 0.5788204669952393,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: My body moves on its own sometimes.",
+            "generated_answer": "\"Disability\": \"Autism Spectrum Disorder\"",
+            "expected_answer": "\"Disability\": \"Dystonia\"",
+            "similarity_score": 0.6376892328262329,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: My skin itches constantly due to my condition.",
+            "generated_answer": "\"Disability\": \"Skin Condition\"",
+            "expected_answer": "\"Disability\": \"Chronic Skin Condition\"",
+            "similarity_score": 0.9453038573265076,
+            "f1_score": 0.5714285714285715
+        },
+        {
+            "input": "Extract the disability from this text: My brain gets too tired to function sometimes.",
+            "generated_answer": "\"Disability\": \"Brain Impairment\"",
+            "expected_answer": "\"Disability\": \"Chronic Fatigue Syndrome\"",
+            "similarity_score": 0.5969100594520569,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the disability from this text: I use a voice synthesizer to speak.",
+            "generated_answer": "\"Disability\": \"Voice Disorder\"",
+            "expected_answer": "\"Disability\": \"Speech Impairment\"",
+            "similarity_score": 0.8520700931549072,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: I struggle to move my fingers properly.",
+            "generated_answer": "\"Disability\": \"Mobility Impairment\"",
+            "expected_answer": "\"Disability\": \"Motor Impairment\"",
+            "similarity_score": 0.8474323749542236,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the disability from this text: My eyes hurt when looking at screens.",
+            "generated_answer": "\"Disability\": \"Autism Impairment\"",
+            "expected_answer": "\"Disability\": \"Visual Impairment\"",
+            "similarity_score": 0.7277241349220276,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the disability from this text: My words don\u2019t always come out right.",
+            "generated_answer": "\"Disability\": \"Prefer Not to Say\"",
+            "expected_answer": "\"Disability\": \"Speech Impairment\"",
+            "similarity_score": 0.6058639287948608,
+            "f1_score": 0.25
+        },
+        {
+            "input": "Extract the disability from this text: My muscles randomly spasm.",
+            "generated_answer": "\"Disability\": \"Muscular Dystrophy\"",
+            "expected_answer": "\"Disability\": \"Spasticity Disorder\"",
+            "similarity_score": 0.606109082698822,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: I need help cutting my food.",
+            "generated_answer": "\"Disability\": \"Autism Spectrum Disorder\"",
+            "expected_answer": "\"Disability\": \"Motor Impairment\"",
+            "similarity_score": 0.6986033916473389,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the disability from this text: My vision is blurry all the time.",
+            "generated_answer": "\"Disability\": \"Visual Impairment\"",
+            "expected_answer": "\"Disability\": \"Visual Impairment\"",
+            "similarity_score": 0.9999997615814209,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: My ears ring constantly.",
+            "generated_answer": "\"Disability\": \"Hearing Impairment\"",
+            "expected_answer": "\"Disability\": \"Tinnitus\"",
+            "similarity_score": 0.6428489685058594,
+            "f1_score": 0.4
+        },
+        {
+            "input": "Extract the disability from this text: I get disoriented when I stand up.",
+            "generated_answer": "\"Disability\": \"Autism Impairment\"",
+            "expected_answer": "\"Disability\": \"Balance Disorder\"",
+            "similarity_score": 0.5685805082321167,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the disability from this text: I lose my balance easily.",
+            "generated_answer": "\"Disability\": \"Physical Impairment\"",
+            "expected_answer": "\"Disability\": \"Balance Disorder\"",
+            "similarity_score": 0.7045883536338806,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Anglo-Scottish.",
+            "generated_answer": "\"Ethnicity\": \"Anglo-Scottish\"",
+            "expected_answer": "\"Ethnicity\": \"Anglo-Scottish\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm a mix of Welsh and Irish.",
+            "generated_answer": "\"Ethnicity\": \"Welsh and Irish\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed Welsh and Irish\"",
+            "similarity_score": 0.9444929361343384,
+            "f1_score": 0.6666666666666665
+        },
+        {
+            "input": "Extract the ethnicity from this text: My heritage is White Cornish.",
+            "generated_answer": "\"Ethnicity\": \"White Cornish\"",
+            "expected_answer": "\"Ethnicity\": \"White Cornish\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm of Manx descent.",
+            "generated_answer": "\"Ethnicity\": \"Manx\"",
+            "expected_answer": "\"Ethnicity\": \"Manx\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm a White South African.",
+            "generated_answer": "\"Ethnicity\": \"White South African\"",
+            "expected_answer": "\"Ethnicity\": \"White South African\"",
+            "similarity_score": 0.9999998211860657,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Afrikaner.",
+            "generated_answer": "\"Ethnicity\": \"Afrikan\"",
+            "expected_answer": "\"Ethnicity\": \"Afrikaner\"",
+            "similarity_score": 0.9703902006149292,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the ethnicity from this text: My background is Cape Malay.",
+            "generated_answer": "\"Ethnicity\": \"Cape Malay\"",
+            "expected_answer": "\"Ethnicity\": \"Cape Malay\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm mixed-race Black and Tamil.",
+            "generated_answer": "\"Ethnicity\": \"Mixed White and Tamil\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed Black and Tamil\"",
+            "similarity_score": 0.9500573873519897,
+            "f1_score": 0.8000000000000002
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Hausa-Fulani.",
+            "generated_answer": "\"Ethnicity\": \"Hausa-Fulani\"",
+            "expected_answer": "\"Ethnicity\": \"Hausa-Fulani\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My family is Tuareg.",
+            "generated_answer": "\"Ethnicity\": \"Tuareg\"",
+            "expected_answer": "\"Ethnicity\": \"Tuareg\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Akan and Ewe mixed.",
+            "generated_answer": "\"Ethnicity\": \"Akan and Ewe Mixed\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed Akan and Ewe\"",
+            "similarity_score": 0.9959455728530884,
+            "f1_score": 0.4000000000000001
+        },
+        {
+            "input": "Extract the ethnicity from this text: My ethnicity is Malagasy Creole.",
+            "generated_answer": "\"Ethnicity\": \"Malagasy Creole\"",
+            "expected_answer": "\"Ethnicity\": \"Malagasy Creole\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Mozambican.",
+            "generated_answer": "\"Ethnicity\": \"Mozambican\"",
+            "expected_answer": "\"Ethnicity\": \"Mozambican\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My background is Igbo Yoruba.",
+            "generated_answer": "\"Ethnicity\": \"Igbo Yoruba\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed Igbo and Yoruba\"",
+            "similarity_score": 0.9286574125289917,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the ethnicity from this text: I am Swazi.",
+            "generated_answer": "\"Ethnicity\": \"Swazi\"",
+            "expected_answer": "\"Ethnicity\": \"Swazi\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My ethnicity is Oromo.",
+            "generated_answer": "\"Ethnicity\": \"Oromo\"",
+            "expected_answer": "\"Ethnicity\": \"Oromo\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Ethiopian Amhara.",
+            "generated_answer": "\"Ethnicity\": \"Ethiopian Amhara\"",
+            "expected_answer": "\"Ethnicity\": \"Amhara\"",
+            "similarity_score": 0.8798928260803223,
+            "f1_score": 0.4
+        },
+        {
+            "input": "Extract the ethnicity from this text: My ancestry is Zulu.",
+            "generated_answer": "\"Ethnicity\": \"Zulu\"",
+            "expected_answer": "\"Ethnicity\": \"Zulu\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My ethnicity is Xhosa.",
+            "generated_answer": "\"Ethnicity\": \"Xhosa\"",
+            "expected_answer": "\"Ethnicity\": \"Xhosa\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Basotho.",
+            "generated_answer": "\"Ethnicity\": \"Basotho\"",
+            "expected_answer": "\"Ethnicity\": \"Basotho\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Tswana.",
+            "generated_answer": "\"Ethnicity\": \"Tswana\"",
+            "expected_answer": "\"Ethnicity\": \"Tswana\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm of Serer descent.",
+            "generated_answer": "\"Ethnicity\": \"Serer\"",
+            "expected_answer": "\"Ethnicity\": \"Serer\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My family is Wolof.",
+            "generated_answer": "\"Ethnicity\": \"Wolof\"",
+            "expected_answer": "\"Ethnicity\": \"Wolof\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Mandinka.",
+            "generated_answer": "\"Ethnicity\": \"Mandinka\"",
+            "expected_answer": "\"Ethnicity\": \"Mandinka\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My background is Fulani.",
+            "generated_answer": "\"Ethnicity\": \"Fulani\"",
+            "expected_answer": "\"Ethnicity\": \"Fulani\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Ashanti.",
+            "generated_answer": "\"Ethnicity\": \"Ashanti\"",
+            "expected_answer": "\"Ethnicity\": \"Ashanti\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My ethnicity is Berber-Amazigh.",
+            "generated_answer": "\"Ethnicity\": \"Berber-Amazigh\"",
+            "expected_answer": "\"Ethnicity\": \"Berber-Amazigh\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm from a Druze background.",
+            "generated_answer": "\"Ethnicity\": \"Druze\"",
+            "expected_answer": "\"Ethnicity\": \"Druze\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My family is Sephardi-Mizrahi Jewish.",
+            "generated_answer": "\"Ethnicity\": \"Sephardi-Mizrahi Jewish\"",
+            "expected_answer": "\"Ethnicity\": \"Sephardi-Mizrahi Jewish\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Central Asian.",
+            "generated_answer": "\"Ethnicity\": \"Central Asian\"",
+            "expected_answer": "\"Ethnicity\": \"Central Asian\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm an Afghan Hazara.",
+            "generated_answer": "\"Ethnicity\": \"Afghan Hazara\"",
+            "expected_answer": "\"Ethnicity\": \"Afghan Hazara\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My ethnicity is Uyghur-Kazakh.",
+            "generated_answer": "\"Ethnicity\": \"Uyghur-Kazakh\"",
+            "expected_answer": "\"Ethnicity\": \"Uyghur-Kazakh\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Tajik-Pashtun mixed.",
+            "generated_answer": "\"Ethnicity\": \"Tadjik-Pashtun Mixed\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed Tajik and Pashtun\"",
+            "similarity_score": 0.8756757378578186,
+            "f1_score": 0.25
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Uzbeko-Kyrgyz.",
+            "generated_answer": "\"Ethnicity\": \"Uzbeko-Kyrgyz\"",
+            "expected_answer": "\"Ethnicity\": \"Uzbeko-Kyrgyz\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Tuvan.",
+            "generated_answer": "\"Ethnicity\": \"Tuvan\"",
+            "expected_answer": "\"Ethnicity\": \"Tuvan\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Mongolian-Buryat.",
+            "generated_answer": "\"Ethnicity\": \"Mongolian-Buryat\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed Mongolian and Buryat\"",
+            "similarity_score": 0.9483347535133362,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the ethnicity from this text: My family is Evenk.",
+            "generated_answer": "\"Ethnicity\": \"Evenk\"",
+            "expected_answer": "\"Ethnicity\": \"Evenk\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Sakha.",
+            "generated_answer": "\"Ethnicity\": \"Sakha\"",
+            "expected_answer": "\"Ethnicity\": \"Sakha\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Altai.",
+            "generated_answer": "\"Ethnicity\": \"Altai\"",
+            "expected_answer": "\"Ethnicity\": \"Altai\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Chukchi.",
+            "generated_answer": "\"Ethnicity\": \"Chukchi\"",
+            "expected_answer": "\"Ethnicity\": \"Chukchi\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Yupik.",
+            "generated_answer": "\"Ethnicity\": \"Yupik\"",
+            "expected_answer": "\"Ethnicity\": \"Yupik\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Nenets.",
+            "generated_answer": "\"Ethnicity\": \"Nenets\"",
+            "expected_answer": "\"Ethnicity\": \"Nenets\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My ethnicity is Finno-Ugric.",
+            "generated_answer": "\"Ethnicity\": \"Finno-Ugric\"",
+            "expected_answer": "\"Ethnicity\": \"Finno-Ugric\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm a S\u00e1mi Finn.",
+            "generated_answer": "\"Ethnicity\": \"S\u00e1mi Finn\"",
+            "expected_answer": "\"Ethnicity\": \"S\u00e1mi Finn\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My background is Karelian.",
+            "generated_answer": "\"Ethnicity\": \"Karelian\"",
+            "expected_answer": "\"Ethnicity\": \"Karelian\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Kalmyk.",
+            "generated_answer": "\"Ethnicity\": \"Kalmyk\"",
+            "expected_answer": "\"Ethnicity\": \"Kalmyk\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Ainu.",
+            "generated_answer": "\"Ethnicity\": \"Ainu\"",
+            "expected_answer": "\"Ethnicity\": \"Ainu\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: My ancestry is Okinawan.",
+            "generated_answer": "\"Ethnicity\": \"Okinawan\"",
+            "expected_answer": "\"Ethnicity\": \"Okinawan\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm of Hmong-Vietnamese descent.",
+            "generated_answer": "\"Ethnicity\": \"Hmong-Vietnamese\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed Hmong and Vietnamese\"",
+            "similarity_score": 0.9367769360542297,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm from a mixed Polynesian and Maori background.",
+            "generated_answer": "\"Ethnicity\": \"Mixed Polynesian and Maori\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed Polynesian and Maori\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm of Amazonian indigenous descent.",
+            "generated_answer": "\"Ethnicity\": \"Amazonian Indigenous\"",
+            "expected_answer": "\"Ethnicity\": \"Afro-Indigenous South American\"",
+            "similarity_score": 0.7090640068054199,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the ethnicity from this text: My ethnicity is Quechua-Aymara.",
+            "generated_answer": "\"Ethnicity\": \"Quechua-Aymara\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed Quechua and Aymara\"",
+            "similarity_score": 0.9350886940956116,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Afro-Indigenous from South America.",
+            "generated_answer": "\"Ethnicity\": \"Afro-Indigenous\"",
+            "expected_answer": "\"Ethnicity\": \"Afro-Indigenous South American\"",
+            "similarity_score": 0.8740410804748535,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Afro-Chinese.",
+            "generated_answer": "\"Ethnicity\": \"Afro-Chinese\"",
+            "expected_answer": "\"Ethnicity\": \"Afro-Chinese\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me Tommy.",
+            "generated_answer": "\"FirstName\": \"Tommy\"",
+            "expected_answer": "\"FirstName\": \"Tommy\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My name's Alex.",
+            "generated_answer": "\"FirstName\": \"Alex\"",
+            "expected_answer": "\"FirstName\": \"Alex\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Just call me Jess.",
+            "generated_answer": "\"FirstName\": \"Jess\"",
+            "expected_answer": "\"FirstName\": \"Jess\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I'm known as Nate.",
+            "generated_answer": "\"FirstName\": \"Nate\"",
+            "expected_answer": "\"FirstName\": \"Nate\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Folks call me Jimmy.",
+            "generated_answer": "\"FirstName\": \"Jimmy\"",
+            "expected_answer": "\"FirstName\": \"Jimmy\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My friends call me Bella.",
+            "generated_answer": "\"FirstName\": \"Bella\"",
+            "expected_answer": "\"FirstName\": \"Bella\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: You can call me Ricky.",
+            "generated_answer": "\"FirstName\": \"Ricky\"",
+            "expected_answer": "\"FirstName\": \"Ricky\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Hi, my first name is Yasmine.",
+            "generated_answer": "\"FirstName\": \"Yasmine\"",
+            "expected_answer": "\"FirstName\": \"Yasmine\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: The name's Omar.",
+            "generated_answer": "\"FirstName\": \"Omar\"",
+            "expected_answer": "\"FirstName\": \"Omar\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I go by Raj.",
+            "generated_answer": "\"FirstName\": \"Raj\"",
+            "expected_answer": "\"FirstName\": \"Raj\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My people know me as Javier.",
+            "generated_answer": "\"FirstName\": \"Javier\"",
+            "expected_answer": "\"FirstName\": \"Javier\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I'm Kofi.",
+            "generated_answer": "\"FirstName\": \"Kofi\"",
+            "expected_answer": "\"FirstName\": \"Kofi\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My name is Hiroshi.",
+            "generated_answer": "\"FirstName\": \"Hiroshi\"",
+            "expected_answer": "\"FirstName\": \"Hiroshi\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I am Fatima.",
+            "generated_answer": "\"FirstName\": \"Fatima\"",
+            "expected_answer": "\"FirstName\": \"Fatima\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I'm Pierre.",
+            "generated_answer": "\"FirstName\": \"Pierre\"",
+            "expected_answer": "\"FirstName\": \"Pierre\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Hola! Me llamo Luis.",
+            "generated_answer": "\"FirstName\": \"Luis\"",
+            "expected_answer": "\"FirstName\": \"Luis\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I am Jean-Pierre.",
+            "generated_answer": "\"FirstName\": \"Jean-Pierre\"",
+            "expected_answer": "\"FirstName\": \"Jean-Pierre\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Call me Mei.",
+            "generated_answer": "\"FirstName\": \"Mei\"",
+            "expected_answer": "\"FirstName\": \"Mei\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My first name is Mustafa.",
+            "generated_answer": "\"FirstName\": \"Mushafa\"",
+            "expected_answer": "\"FirstName\": \"Mustafa\"",
+            "similarity_score": 0.522547721862793,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the firstname from this text: Hey, the name\u2019s Dmitri.",
+            "generated_answer": "\"FirstName\": \"Dmitri\"",
+            "expected_answer": "\"FirstName\": \"Dmitri\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I\u2019m Isabella, but call me Izzy.",
+            "generated_answer": "\"FirstName\": \"Isabella\"",
+            "expected_answer": "\"FirstName\": \"Isabella\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My name is Karim.",
+            "generated_answer": "\"FirstName\": \"Karim\"",
+            "expected_answer": "\"FirstName\": \"Karim\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I'm Ling.",
+            "generated_answer": "\"FirstName\": \"Ling\"",
+            "expected_answer": "\"FirstName\": \"Ling\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My first name is Ahmed.",
+            "generated_answer": "\"FirstName\": \"Ahmed\"",
+            "expected_answer": "\"FirstName\": \"Ahmed\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me Tanya.",
+            "generated_answer": "\"FirstName\": \"Tanya\"",
+            "expected_answer": "\"FirstName\": \"Tanya\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My name is Mateo.",
+            "generated_answer": "\"FirstName\": \"Mateo\"",
+            "expected_answer": "\"FirstName\": \"Mateo\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My nickname is Lenny, but it's Leonard.",
+            "generated_answer": "\"FirstName\": \"Lenny\"",
+            "expected_answer": "\"FirstName\": \"Leonard\"",
+            "similarity_score": 0.6083621978759766,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the firstname from this text: The official name is Jonathan, but everyone calls me Johnny.",
+            "generated_answer": "\"FirstName\": \"Jonathan\"",
+            "expected_answer": "\"FirstName\": \"Jonathan\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I'm Arjun.",
+            "generated_answer": "\"FirstName\": \"Arjun\"",
+            "expected_answer": "\"FirstName\": \"Arjun\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My first name is Santiago.",
+            "generated_answer": "\"FirstName\": \"Santiago\"",
+            "expected_answer": "\"FirstName\": \"Santiago\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I am Lucia.",
+            "generated_answer": "\"FirstName\": \"Lucia\"",
+            "expected_answer": "\"FirstName\": \"Lucia\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Call me Vlad.",
+            "generated_answer": "\"FirstName\": \"Vlad\"",
+            "expected_answer": "\"FirstName\": \"Vlad\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My birth name is Raphael, but I go by Rafi.",
+            "generated_answer": "\"FirstName\": \"Rafi\"",
+            "expected_answer": "\"FirstName\": \"Raphael\"",
+            "similarity_score": 0.38623374700546265,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the firstname from this text: I\u2019m Chidi.",
+            "generated_answer": "\"FirstName\": \"Chidi\"",
+            "expected_answer": "\"FirstName\": \"Chidi\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I'm Diego.",
+            "generated_answer": "\"FirstName\": \"Daniel\"",
+            "expected_answer": "\"FirstName\": \"Diego\"",
+            "similarity_score": 0.5046983957290649,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the firstname from this text: Hey, the name\u2019s Nico.",
+            "generated_answer": "\"FirstName\": \"Nico\"",
+            "expected_answer": "\"FirstName\": \"Nico\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I'm Bao.",
+            "generated_answer": "\"FirstName\": \"Bao\"",
+            "expected_answer": "\"FirstName\": \"Bao\"",
+            "similarity_score": 0.9999997019767761,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My official name is Amara.",
+            "generated_answer": "\"FirstName\": \"Amara\"",
+            "expected_answer": "\"FirstName\": \"Amara\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I\u2019m Ivan.",
+            "generated_answer": "\"FirstName\": \"Ivan\"",
+            "expected_answer": "\"FirstName\": \"Ivan\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Just call me Kojo.",
+            "generated_answer": "\"FirstName\": \"Kojo\"",
+            "expected_answer": "\"FirstName\": \"Kojo\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People refer to me as Ayaka.",
+            "generated_answer": "\"FirstName\": \"Ayaka\"",
+            "expected_answer": "\"FirstName\": \"Ayaka\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I am Mikhail.",
+            "generated_answer": "\"FirstName\": \"Michael\"",
+            "expected_answer": "\"FirstName\": \"Mikhail\"",
+            "similarity_score": 0.4975982904434204,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the firstname from this text: Call me Nia.",
+            "generated_answer": "\"FirstName\": \"Nia\"",
+            "expected_answer": "\"FirstName\": \"Nia\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Hey there, I\u2019m Emre.",
+            "generated_answer": "\"FirstName\": \"Emre\"",
+            "expected_answer": "\"FirstName\": \"Emre\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People know me as Elias.",
+            "generated_answer": "\"FirstName\": \"Elias\"",
+            "expected_answer": "\"FirstName\": \"Elias\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: The name I go by is Zahra.",
+            "generated_answer": "\"FirstName\": \"Zahra\"",
+            "expected_answer": "\"FirstName\": \"Zahra\"",
+            "similarity_score": 0.9999998211860657,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Just call me Moh.",
+            "generated_answer": "\"FirstName\": \"Moh\"",
+            "expected_answer": "\"FirstName\": \"Moh\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: You can call me Andre.",
+            "generated_answer": "\"FirstName\": \"Andre\"",
+            "expected_answer": "\"FirstName\": \"Andre\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My name is Zara.",
+            "generated_answer": "\"FirstName\": \"Zara\"",
+            "expected_answer": "\"FirstName\": \"Zara\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Hi! I\u2019m Sergei.",
+            "generated_answer": "\"FirstName\": \"Sergei\"",
+            "expected_answer": "\"FirstName\": \"Sergei\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: I\u2019m Tanya.",
+            "generated_answer": "\"FirstName\": \"Tanya\"",
+            "expected_answer": "\"FirstName\": \"Tanya\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Just go with Manu.",
+            "generated_answer": "\"FirstName\": \"Manu\"",
+            "expected_answer": "\"FirstName\": \"Manu\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: My official first name is Damaris.",
+            "generated_answer": "\"FirstName\": \"Damaris\"",
+            "expected_answer": "\"FirstName\": \"Damaris\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Hola, soy Camila.",
+            "generated_answer": "\"FirstName\": \"Hola\"",
+            "expected_answer": "\"FirstName\": \"Camila\"",
+            "similarity_score": 0.5753430128097534,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the firstname from this text: Bonjour, je suis Fran\u00e7ois.",
+            "generated_answer": "\"FirstName\": \"Fran\u00e7ois\"",
+            "expected_answer": "\"FirstName\": \"Fran\u00e7ois\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: Hallo, ich bin Hans.",
+            "generated_answer": "\"FirstName\": \"Halle\"",
+            "expected_answer": "\"FirstName\": \"Hans\"",
+            "similarity_score": 0.5349076986312866,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the firstname from this text: Salve, mi chiamo Lorenzo.",
+            "generated_answer": "\"FirstName\": \"Salve\"",
+            "expected_answer": "\"FirstName\": \"Lorenzo\"",
+            "similarity_score": 0.4967123568058014,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the firstname from this text: Oi, eu sou Rafael.",
+            "generated_answer": "\"FirstName\": \"Oi\"",
+            "expected_answer": "\"FirstName\": \"Rafael\"",
+            "similarity_score": 0.5484898090362549,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the firstname from this text: My real name is Muhammad.",
+            "generated_answer": "\"FirstName\": \"Muhammad\"",
+            "expected_answer": "\"FirstName\": \"Muhammad\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: People call me Williams",
+            "generated_answer": "\"LastName\": \"Williams\"",
+            "expected_answer": "\"LastName\": \"Williams\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My surname is Patel",
+            "generated_answer": "\"LastName\": \"Patel\"",
+            "expected_answer": "\"LastName\": \"Patel\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: Everyone knows me as Jackson",
+            "generated_answer": "\"LastName\": \"Jackson\"",
+            "expected_answer": "\"LastName\": \"Jackson\"",
+            "similarity_score": 0.9999998211860657,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: Just refer to me as Gonzalez",
+            "generated_answer": "\"LastName\": \"Gonz\u00e1lez\"",
+            "expected_answer": "\"LastName\": \"Gonzalez\"",
+            "similarity_score": 1.0,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the lastname from this text: My last name happens to be Thompson",
+            "generated_answer": "\"LastName\": \"Thompson\"",
+            "expected_answer": "\"LastName\": \"Thompson\"",
+            "similarity_score": 0.9999997615814209,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: They call me by my family name, Kim",
+            "generated_answer": "\"LastName\": \"Kim\"",
+            "expected_answer": "\"LastName\": \"Kim\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: In my documents, my surname is O\u2019Connor",
+            "generated_answer": "\"LastName\": \"O'Connor\"",
+            "expected_answer": "\"LastName\": \"O\u2019Connor\"",
+            "similarity_score": 0.993183970451355,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the lastname from this text: Call me Al-Sayed",
+            "generated_answer": "\"LastName\": \"Al-Sayed\"",
+            "expected_answer": "\"LastName\": \"Al-Sayed\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: I usually go by Hern\u00e1ndez",
+            "generated_answer": "\"LastName\": \"Hern\u00e1ndez\"",
+            "expected_answer": "\"LastName\": \"Hern\u00e1ndez\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My passport says my last name is Laurent",
+            "generated_answer": "\"LastName\": \"Laurent\"",
+            "expected_answer": "\"LastName\": \"Laurent\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My family name, as per records, is Dubois",
+            "generated_answer": "\"LastName\": \"Dubois\"",
+            "expected_answer": "\"LastName\": \"Dubois\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: You can address me as Nakamura",
+            "generated_answer": "\"LastName\": \"Nakamura\"",
+            "expected_answer": "\"LastName\": \"Nakamura\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: I'm officially registered as Singh",
+            "generated_answer": "\"LastName\": \"Singh\"",
+            "expected_answer": "\"LastName\": \"Singh\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: I usually introduce myself as Moreno",
+            "generated_answer": "\"LastName\": \"Moreno\"",
+            "expected_answer": "\"LastName\": \"Moreno\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My government ID states my last name is Kowalski",
+            "generated_answer": "\"LastName\": \"Kowalski\"",
+            "expected_answer": "\"LastName\": \"Kowalski\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My name tag reads Johnson",
+            "generated_answer": "\"LastName\": \"Johnson\"",
+            "expected_answer": "\"LastName\": \"Johnson\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My boss refers to me as Schmidt",
+            "generated_answer": "\"LastName\": \"Schmidt\"",
+            "expected_answer": "\"LastName\": \"Schmidt\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: I'm registered under the name Ivanov",
+            "generated_answer": "\"LastName\": \"Ivanov\"",
+            "expected_answer": "\"LastName\": \"Ivanov\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: You can call me Rizzo",
+            "generated_answer": "\"LastName\": \"Rizzo\"",
+            "expected_answer": "\"LastName\": \"Rizzo\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: Legally, my last name is Ahmed",
+            "generated_answer": "\"LastName\": \"Ahmed\"",
+            "expected_answer": "\"LastName\": \"Ahmed\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My documents list my surname as Kowalczyk",
+            "generated_answer": "\"LastName\": \"Kowalczyk\"",
+            "expected_answer": "\"LastName\": \"Kowalczyk\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: I sign my name as Dubois",
+            "generated_answer": "\"LastName\": \"Dubois\"",
+            "expected_answer": "\"LastName\": \"Dubois\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: On all my papers, my surname is Nielsen",
+            "generated_answer": "\"LastName\": \"Nielsen\"",
+            "expected_answer": "\"LastName\": \"Nielsen\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: At work, I go by Suzuki",
+            "generated_answer": "\"LastName\": \"Suzuki\"",
+            "expected_answer": "\"LastName\": \"Suzuki\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My driver's license states that my surname is Moreau",
+            "generated_answer": "\"LastName\": \"Moreau\"",
+            "expected_answer": "\"LastName\": \"Moreau\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: They always address me as Da Silva",
+            "generated_answer": "\"LastName\": \"Da Silva\"",
+            "expected_answer": "\"LastName\": \"Da Silva\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My friends call me Rossi",
+            "generated_answer": "\"LastName\": \"Rossi\"",
+            "expected_answer": "\"LastName\": \"Rossi\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My online username includes my last name, Costa",
+            "generated_answer": "\"LastName\": \"Costa\"",
+            "expected_answer": "\"LastName\": \"Costa\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: When I introduce myself, I say my name is Chen",
+            "generated_answer": "\"LastName\": \"Chen\"",
+            "expected_answer": "\"LastName\": \"Chen\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: I'm part of the Patel family",
+            "generated_answer": "\"LastName\": \"Patel\"",
+            "expected_answer": "\"LastName\": \"Patel\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My nameplate says I am L\u00f3pez",
+            "generated_answer": "\"LastName\": \"L\u00f3pez\"",
+            "expected_answer": "\"LastName\": \"L\u00f3pez\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: People around here know me as Berg",
+            "generated_answer": "\"LastName\": \"Berg\"",
+            "expected_answer": "\"LastName\": \"Berg\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: The official record shows my last name as M\u00fcller",
+            "generated_answer": "\"LastName\": \"M\u00fcller\"",
+            "expected_answer": "\"LastName\": \"M\u00fcller\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: In my school records, my surname is Ochoa",
+            "generated_answer": "\"LastName\": \"Ochoa\"",
+            "expected_answer": "\"LastName\": \"Ochoa\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My signature always includes the name Kimura",
+            "generated_answer": "\"LastName\": \"Kimura\"",
+            "expected_answer": "\"LastName\": \"Kimura\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: Everyone at work refers to me as Salazar",
+            "generated_answer": "\"LastName\": \"Salzar\"",
+            "expected_answer": "\"LastName\": \"Salazar\"",
+            "similarity_score": 0.42699164152145386,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the lastname from this text: I always go by Ng",
+            "generated_answer": "\"LastName\": \"Ng\"",
+            "expected_answer": "\"LastName\": \"Ng\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: The neighborhood knows me as Baptiste",
+            "generated_answer": "\"LastName\": \"Baptiste\"",
+            "expected_answer": "\"LastName\": \"Baptiste\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: Call me Ferreira, just like my family",
+            "generated_answer": "\"LastName\": \"Ferreira\"",
+            "expected_answer": "\"LastName\": \"Ferreira\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I exchanged vows last summer",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I've been legally wed for three years",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My marriage certificate was issued last year",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I signed a civil partnership agreement",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My civil partner and I live together",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I am in a domestic partnership",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: We had a commitment ceremony, but it's not legally binding",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I was in a registered domestic partnership, but we split up",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My spouse and I recently celebrated our 10th anniversary",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I have a significant other, but we're not legally married",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I am cohabiting with my partner",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 0.9330320954322815,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: We had a wedding ceremony, but never filed the paperwork",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My civil union is legally recognized in my country",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 0.9330320954322815,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I recently filed for divorce",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My marriage was annulled",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I used to have a civil partner, but we ended it",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My spouse and I are separated but not divorced",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I am in a long-term relationship but not married",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My husband and I recently renewed our vows",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My wife and I just got married in a private ceremony",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I'm a widow",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I'm a widower and have not remarried",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I am single and focusing on my career",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My partner and I are together, but we see no need for marriage",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: We live as husband and wife but never made it official",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My marriage is recognized in another country but not here",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My ex and I are on good terms despite the divorce",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 0.9330320954322815,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I'm technically still married, but we've been apart for years",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 0.9330320954322815,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I\u2019m single and not looking for a relationship",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I am committed to my partner, but we don\u2019t believe in marriage",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: We\u2019re in a common-law marriage",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: My marriage was dissolved",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I have been legally single for years",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I prefer to keep my relationship status private",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Prefer Not to Say\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Prefer Not to Say\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I don't disclose my personal details",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Prefer Not to Say\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Prefer Not to Say\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: That\u2019s a personal matter I\u2019d rather not discuss",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Prefer Not to Say\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Prefer Not to Say\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I would rather not answer that question",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Prefer Not to Say\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Prefer Not to Say\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I\u2019m expecting twins!",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I have a baby bump now",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm due in three months",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: Not pregnant, just bloated",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I had my baby last month",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm breastfeeding my newborn",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I am postpartum",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: Not pregnant anymore, my baby is 6 months old",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm in my first trimester",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I just found out I\u2019m expecting!",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I miscarried recently",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm trying to conceive",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.8979778289794922,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: My baby was born last week",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: My maternity leave starts soon",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I\u2019m feeling kicks!",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I had a baby last year",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.8979778289794922,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: My partner and I are expecting",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm adopting, not pregnant",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: My due date is in July",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm in the second trimester",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: Not pregnant, just putting on weight",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: We\u2019re having a baby girl!",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: My pregnancy journey ended early",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.8979778289794922,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I had a stillbirth",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I had a c-section recently",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: My newborn is keeping me up at night",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I don't want to talk about it",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Prefer Not to Say\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Prefer Not to Say\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I have a baby but I'm not pregnant",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm a surrogate mother",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I was born into a Catholic family.",
+            "generated_answer": "\"Religion/Belief\": \"Christianity\"",
+            "expected_answer": "\"Religion/Belief\": \"Christianity\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I'm an observant Muslim.",
+            "generated_answer": "\"Religion/Belief\": \"Islam\"",
+            "expected_answer": "\"Religion/Belief\": \"Islam\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I embrace Hindu philosophy.",
+            "generated_answer": "\"Religion/Belief\": \"Hinduism\"",
+            "expected_answer": "\"Religion/Belief\": \"Hinduism\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I follow the Eightfold Path of Buddhism.",
+            "generated_answer": "\"Religion/Belief\": \"Buddhism\"",
+            "expected_answer": "\"Religion/Belief\": \"Buddhism\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I come from a Jewish heritage.",
+            "generated_answer": "\"Religion/Belief\": \"Judaism\"",
+            "expected_answer": "\"Religion/Belief\": \"Judaism\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I am a baptized Sikh.",
+            "generated_answer": "\"Religion/Belief\": \"Sikhism\"",
+            "expected_answer": "\"Religion/Belief\": \"Sikhism\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: Jain principles guide my life.",
+            "generated_answer": "\"Religion/Belief\": \"Jainism\"",
+            "expected_answer": "\"Religion/Belief\": \"Jainism\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I was raised in an atheist household.",
+            "generated_answer": "\"Religion/Belief\": \"Atheist\"",
+            "expected_answer": "\"Religion/Belief\": \"Atheist\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I am unsure about God, so I consider myself agnostic.",
+            "generated_answer": "\"Religion/Belief\": \"Agnostic\"",
+            "expected_answer": "\"Religion/Belief\": \"Agnostic\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: My path aligns with Wiccan traditions.",
+            "generated_answer": "\"Religion/Belief\": \"Wiccanism\"",
+            "expected_answer": "\"Religion/Belief\": \"Wicca\"",
+            "similarity_score": 0.9607141613960266,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the religion/belief from this text: I adhere to Taoist teachings.",
+            "generated_answer": "\"Religion/Belief\": \"Taoism\"",
+            "expected_answer": "\"Religion/Belief\": \"Taoism\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: As a Baha\u2019i, I believe in unity.",
+            "generated_answer": "\"Religion/Belief\": \"Baha'i Faith\"",
+            "expected_answer": "\"Religion/Belief\": \"Bah\u00e1'\u00ed Faith\"",
+            "similarity_score": 1.0,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the religion/belief from this text: Rastafari is my spiritual path.",
+            "generated_answer": "\"Religion/Belief\": \"Rastafari\"",
+            "expected_answer": "\"Religion/Belief\": \"Rastafarianism\"",
+            "similarity_score": 0.910493016242981,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the religion/belief from this text: My ancestors practiced Zoroastrianism, and so do I.",
+            "generated_answer": "\"Religion/Belief\": \"Zoroastrianism\"",
+            "expected_answer": "\"Religion/Belief\": \"Zoroastrianism\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: Confucian ethics shape my worldview.",
+            "generated_answer": "\"Religion/Belief\": \"Confucianism\"",
+            "expected_answer": "\"Religion/Belief\": \"Confucianism\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I honor the Shinto kami.",
+            "generated_answer": "\"Religion/Belief\": \"Shinto kami\"",
+            "expected_answer": "\"Religion/Belief\": \"Shinto\"",
+            "similarity_score": 0.8899141550064087,
+            "f1_score": 0.4
+        },
+        {
+            "input": "Extract the religion/belief from this text: My spirituality aligns with Pagan traditions.",
+            "generated_answer": "\"Religion/Belief\": \"Paganism\"",
+            "expected_answer": "\"Religion/Belief\": \"Paganism\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I find solace in Unitarian Universalism.",
+            "generated_answer": "\"Religion/Belief\": \"Unitarian Universalism\"",
+            "expected_answer": "\"Religion/Belief\": \"Unitarian Universalist\"",
+            "similarity_score": 0.9904652237892151,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the religion/belief from this text: My moral compass is guided by Humanist principles.",
+            "generated_answer": "\"Religion/Belief\": \"Humanism\"",
+            "expected_answer": "\"Religion/Belief\": \"Humanism\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I hold animistic beliefs about nature and spirits.",
+            "generated_answer": "\"Religion/Belief\": \"Animism\"",
+            "expected_answer": "\"Religion/Belief\": \"Animism\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I was raised in a Deist tradition.",
+            "generated_answer": "\"Religion/Belief\": \"Deism\"",
+            "expected_answer": "\"Religion/Belief\": \"Deism\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: My grandmother taught me Candombl\u00e9 rituals.",
+            "generated_answer": "\"Religion/Belief\": \"Candombl\u00e9\"",
+            "expected_answer": "\"Religion/Belief\": \"Candombl\u00e9\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I honor the Orishas through Santer\u00eda.",
+            "generated_answer": "\"Religion/Belief\": \"Orisha\"",
+            "expected_answer": "\"Religion/Belief\": \"Santer\u00eda\"",
+            "similarity_score": 0.4725891351699829,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the religion/belief from this text: The Orthodox Christian faith is central to my life.",
+            "generated_answer": "\"Religion/Belief\": \"Orthodox Christian\"",
+            "expected_answer": "\"Religion/Belief\": \"Orthodox Christianity\"",
+            "similarity_score": 0.9774488806724548,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the religion/belief from this text: I am a devoted Quaker and attend meetings weekly.",
+            "generated_answer": "\"Religion/Belief\": \"Quakerism\"",
+            "expected_answer": "\"Religion/Belief\": \"Quakerism\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: Jehovah\u2019s Witnesses teachings shape my faith.",
+            "generated_answer": "\"Religion/Belief\": \"Jehovah\u2019s Witnesses\"",
+            "expected_answer": "\"Religion/Belief\": \"Jehovah's Witnesses\"",
+            "similarity_score": 0.9979346394538879,
+            "f1_score": 0.6666666666666666
+        },
+        {
+            "input": "Extract the religion/belief from this text: As a Latter-day Saint, my faith is strong.",
+            "generated_answer": "\"Religion/Belief\": \"Latter-day Saints\"",
+            "expected_answer": "\"Religion/Belief\": \"Latter-day Saints\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I observe the Sabbath as a Seventh-day Adventist.",
+            "generated_answer": "\"Religion/Belief\": \"Seventh-day Adventist\"",
+            "expected_answer": "\"Religion/Belief\": \"Seventh-day Adventist\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I believe in the Universal Law as a Rosicrucian.",
+            "generated_answer": "\"Religion/Belief\": \"Rosicrucianism\"",
+            "expected_answer": "\"Religion/Belief\": \"Rosicrucianism\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: My studies in Theosophy have shaped my spiritual path.",
+            "generated_answer": "\"Religion/Belief\": \"Theosophy\"",
+            "expected_answer": "\"Religion/Belief\": \"Theosophy\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I study esoteric knowledge as part of Anthroposophy.",
+            "generated_answer": "\"Religion/Belief\": \"Anthroposophy\"",
+            "expected_answer": "\"Religion/Belief\": \"Anthroposophy\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I believe in spiritual communication as a Spiritualist.",
+            "generated_answer": "\"Religion/Belief\": \"Spiritualism\"",
+            "expected_answer": "\"Religion/Belief\": \"Spiritualism\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I adhere to the beliefs of the Order of the Golden Dawn.",
+            "generated_answer": "\"Religion/Belief\": \"Ordre of the Golden Dawn\"",
+            "expected_answer": "\"Religion/Belief\": \"Occultism\"",
+            "similarity_score": 0.4611416459083557,
+            "f1_score": 0.25
+        },
+        {
+            "input": "Extract the religion/belief from this text: I actively practice the teachings of Scientology.",
+            "generated_answer": "\"Religion/Belief\": \"Scientology\"",
+            "expected_answer": "\"Religion/Belief\": \"Scientology\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: My beliefs align with the Ethical Culture Movement.",
+            "generated_answer": "\"Religion/Belief\": \"Ethical Culture\"",
+            "expected_answer": "\"Religion/Belief\": \"Secularism\"",
+            "similarity_score": 0.577515721321106,
+            "f1_score": 0.4
+        },
+        {
+            "input": "Extract the religion/belief from this text: My ancestors followed Native American spiritual traditions, and I do too.",
+            "generated_answer": "\"Religion/Belief\": \"Native American\"",
+            "expected_answer": "\"Religion/Belief\": \"Native American spirituality\"",
+            "similarity_score": 0.9130500555038452,
+            "f1_score": 0.5714285714285715
+        },
+        {
+            "input": "Extract the religion/belief from this text: I\u2019m inspired by Druidic wisdom and rituals.",
+            "generated_answer": "\"Religion/Belief\": \"Druidic Wisdom\"",
+            "expected_answer": "\"Religion/Belief\": \"Druidry\"",
+            "similarity_score": 0.8426121473312378,
+            "f1_score": 0.4
+        },
+        {
+            "input": "Extract the sex from this text: a boy child",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a girl child",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: husband",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: wife",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: papa",
+            "generated_answer": "\"Sex\": \"Pa\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 0.6382372379302979,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sex from this text: mama",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 0.6799620389938354,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sex from this text: he's my brother",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 0.6799620389938354,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sex from this text: she's my sister",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: he is an old man",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: she is an old woman",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a bearded man",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a lady with long hair",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: my twin brother",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 0.6799620389938354,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sex from this text: my twin sister",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: the best man at the wedding",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: the maid of honor",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a grandpa",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a grandma",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 0.6799620389938354,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sex from this text: he is a gentleman",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: she is a gentlewoman",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: the waiter",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 0.6799620389938354,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sex from this text: the waitress",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: the landlord",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: the landlady",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: the duke",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: the duchess",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: his son is a boy",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: her daughter is a girl",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a cowboy",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a cowgirl",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a fisherman",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a fisherwoman",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: my little brother",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: my little sister",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a priest",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a nun",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: his father",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 0.6799620389938354,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sex from this text: her mother",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a gentleman",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: a lady",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: father",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: mother",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 0.6799620389938354,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sex from this text: uncle",
+            "generated_answer": "\"Sex\": \"M\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: aunt",
+            "generated_answer": "\"Sex\": \"Aunt\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 0.5162636041641235,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I have no preference when it comes to gender. I'm pansexual.",
+            "generated_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I am exclusively attracted to men.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Gay\"",
+            "similarity_score": 0.7574713826179504,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I love people of all genders and identities.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "similarity_score": 0.6940715312957764,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I feel deep romantic but not sexual attraction.",
+            "generated_answer": "\"SexualOrientation\": \"Romantic\"",
+            "expected_answer": "\"SexualOrientation\": \"Asexual\"",
+            "similarity_score": 0.6519804000854492,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I connect emotionally before anything else. I guess you could say I'm demisexual.",
+            "generated_answer": "\"SexualOrientation\": \"Demisexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Demisexual\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I feel attraction to both guys and girls.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Bisexual\"",
+            "similarity_score": 0.6810584664344788,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I don't feel attraction to anyone, I think I'm ace.",
+            "generated_answer": "\"SexualOrientation\": \"Asexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Asexual\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: Love is love. I don\u2019t limit my attraction based on gender.",
+            "generated_answer": "\"SexualOrientation\": \"Love is Love\"",
+            "expected_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "similarity_score": 0.5896873474121094,
+            "f1_score": 0.3333333333333333
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I find women attractive, but only after forming strong bonds.",
+            "generated_answer": "\"SexualOrientation\": \"F\"",
+            "expected_answer": "\"SexualOrientation\": \"Demisexual\"",
+            "similarity_score": 0.7170380353927612,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I only date men.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Gay\"",
+            "similarity_score": 0.7574713826179504,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I'm figuring things out, not sure yet.",
+            "generated_answer": "\"SexualOrientation\": \"F\"",
+            "expected_answer": "\"SexualOrientation\": \"Questioning\"",
+            "similarity_score": 0.6862168312072754,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I was into guys, but now I feel open to anyone.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Bisexual\"",
+            "similarity_score": 0.6810584664344788,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I don't really experience romantic or sexual attraction.",
+            "generated_answer": "\"SexualOrientation\": \"Prefer Not to Say\"",
+            "expected_answer": "\"SexualOrientation\": \"Asexual\"",
+            "similarity_score": 0.5751146078109741,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I'm just me. Labels don't matter to me, but some would say queer.",
+            "generated_answer": "\"SexualOrientation\": \"Queer\"",
+            "expected_answer": "\"SexualOrientation\": \"Queer\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I'm into women and non-binary people.",
+            "generated_answer": "\"SexualOrientation\": \"F\"",
+            "expected_answer": "\"SexualOrientation\": \"Queer\"",
+            "similarity_score": 0.7543343901634216,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I mostly like women but sometimes feel attraction to men too.",
+            "generated_answer": "\"SexualOrientation\": \"F\"",
+            "expected_answer": "\"SexualOrientation\": \"Bisexual\"",
+            "similarity_score": 0.6883769035339355,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: Gender isn\u2019t a factor in who I love.",
+            "generated_answer": "\"SexualOrientation\": \"Gender\"",
+            "expected_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "similarity_score": 0.7760826349258423,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I like girls. Always have, always will.",
+            "generated_answer": "\"SexualOrientation\": \"F\"",
+            "expected_answer": "\"SexualOrientation\": \"Lesbian\"",
+            "similarity_score": 0.7276186943054199,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: My attractions depend on emotional connections first.",
+            "generated_answer": "\"SexualOrientation\": \"Emotional\"",
+            "expected_answer": "\"SexualOrientation\": \"Demisexual\"",
+            "similarity_score": 0.7193214893341064,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I only like women, no exceptions.",
+            "generated_answer": "\"SexualOrientation\": \"F\"",
+            "expected_answer": "\"SexualOrientation\": \"Lesbian\"",
+            "similarity_score": 0.7276186943054199,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I don\u2019t know, still trying to understand myself.",
+            "generated_answer": "\"SexualOrientation\": \"Prefer Not to Say\"",
+            "expected_answer": "\"SexualOrientation\": \"Questioning\"",
+            "similarity_score": 0.6190506815910339,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I'm in a relationship with a man, but I find women attractive too.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Bisexual\"",
+            "similarity_score": 0.6810584664344788,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: Love isn't about gender to me.",
+            "generated_answer": "\"SexualOrientation\": \"Prefer Not to Say\"",
+            "expected_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "similarity_score": 0.5920888185501099,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I'm married to a woman, but I\u2019m also attracted to men.",
+            "generated_answer": "\"SexualOrientation\": \"F\"",
+            "expected_answer": "\"SexualOrientation\": \"Bisexual\"",
+            "similarity_score": 0.6883769035339355,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I think I might be gay, but I\u2019m still figuring things out.",
+            "generated_answer": "\"SexualOrientation\": \"Gay\"",
+            "expected_answer": "\"SexualOrientation\": \"Questioning\"",
+            "similarity_score": 0.6933633089065552,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I'm into men and men only.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Gay\"",
+            "similarity_score": 0.7574713826179504,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I only date women, but I appreciate beauty in everyone.",
+            "generated_answer": "\"SexualOrientation\": \"F\"",
+            "expected_answer": "\"SexualOrientation\": \"Lesbian\"",
+            "similarity_score": 0.7276186943054199,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I can't see myself with anyone romantically, but I do have strong connections.",
+            "generated_answer": "\"SexualOrientation\": \"Prefer Not to Say\"",
+            "expected_answer": "\"SexualOrientation\": \"Asexual\"",
+            "similarity_score": 0.5751146078109741,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I'm more comfortable dating the same gender.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Gay\"",
+            "similarity_score": 0.7574713826179504,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I wouldn\u2019t label myself, but I love who I love.",
+            "generated_answer": "\"SexualOrientation\": \"Prefer Not to Say\"",
+            "expected_answer": "\"SexualOrientation\": \"Queer\"",
+            "similarity_score": 0.5964585542678833,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I find women and non-binary folks attractive.",
+            "generated_answer": "\"SexualOrientation\": \"F\"",
+            "expected_answer": "\"SexualOrientation\": \"Queer\"",
+            "similarity_score": 0.7543343901634216,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: My attractions change depending on the person, not their gender.",
+            "generated_answer": "\"SexualOrientation\": \"Prefer Not to Say\"",
+            "expected_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "similarity_score": 0.5920888185501099,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I don\u2019t know yet. Maybe bi? Maybe not? Still figuring it out.",
+            "generated_answer": "\"SexualOrientation\": \"Bisexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Questioning\"",
+            "similarity_score": 0.6651604175567627,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I am romantically into people, but not sexually.",
+            "generated_answer": "\"SexualOrientation\": \"Romantic\"",
+            "expected_answer": "\"SexualOrientation\": \"Asexual\"",
+            "similarity_score": 0.6519804000854492,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I\u2019m straight, but I fully support the LGBTQ+ community.",
+            "generated_answer": "\"SexualOrientation\": \"Heterosexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Heterosexual\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I like people who get me, not because of their gender.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "similarity_score": 0.6940715312957764,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I\u2019ve always been into men, but I don\u2019t mind if someone is non-binary.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Queer\"",
+            "similarity_score": 0.7006628513336182,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I like the same gender, but sometimes others too.",
+            "generated_answer": "\"SexualOrientation\": \"M\"",
+            "expected_answer": "\"SexualOrientation\": \"Bisexual\"",
+            "similarity_score": 0.6810584664344788,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I'm attracted to different people at different times. Labels are tricky.",
+            "generated_answer": "\"SexualOrientation\": \"Asexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Queer\"",
+            "similarity_score": 0.7166954874992371,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I completed my transition last year.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Never had any surgeries or hormone therapy.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Been on testosterone for two years.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Nope, I'm still the same as I was born.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I identify as trans but haven't done any medical transition yet.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Had top surgery last month.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: No, I never changed my gender.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I transitioned decades ago.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: On estrogen for about six months now.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I have legally changed my gender.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Never had any surgeries, still the same.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Hormone therapy started a while ago.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I don\u2019t think I will ever transition.",
+            "generated_answer": "\"GenderReassignment\": \"Prefer Not to Say\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 0.7805967926979065,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Done transitioning. It feels great.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Nope, I\u2019m cisgender.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I had bottom surgery recently.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: No, never had any gender-related procedures.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I\u2019m in the middle of my transition process.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I'm non-binary and don\u2019t plan on transitioning medically.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I've changed my gender marker on official documents.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Nah, no medical changes.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Surgery was completed a few months ago.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Not something I want to discuss.",
+            "generated_answer": "\"GenderReassignment\": \"Prefer Not to Say\"",
+            "expected_answer": "\"GenderReassignment\": \"Prefer Not to Say\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I\u2019d rather not answer.",
+            "generated_answer": "\"GenderReassignment\": \"Prefer Not to Say\"",
+            "expected_answer": "\"GenderReassignment\": \"Prefer Not to Say\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: No comment.",
+            "generated_answer": "\"GenderReassignment\": \"Prefer Not to Say\"",
+            "expected_answer": "\"GenderReassignment\": \"Prefer Not to Say\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Still in the early stages of my transition.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I'm nonbinary but have started medical transition.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 0.9296026229858398,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Nah, I\u2019ve always been the same.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I\u2019ve gone through the full transition process.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I'm cisgender, no changes.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I'm on T, and it's been great.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I've had my name legally changed.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I identify as trans but haven\u2019t started transitioning yet.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I am transitioning socially but not medically.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I started transitioning years ago.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Never changed my gender marker.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: My transition is now legally complete.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I\u2019m in therapy for transition but haven't started yet.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Officially recognized as my true gender.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Not something I disclose publicly.",
+            "generated_answer": "\"GenderReassignment\": \"Prefer Not to Say\"",
+            "expected_answer": "\"GenderReassignment\": \"Prefer Not to Say\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I had surgery a few years ago.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: Never took any hormones.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        }
+    ]
+}

@@ -28,6 +28,7 @@
       "Name": "Sex",
       "Label": "Sex",
       "Code": "3",
+      "Description": "Answer with Male or Female only.",
       "Value": ""
     },
     {
@@ -40,12 +41,14 @@
     {
       "Name": "Pregnancy/Maternity",
       "Label": "Pregnancy/Maternity",
+      "Description": "Answers include Yes or No only.",
       "Value": ""
     },
     {
       "Name": "Marriage/CivilPartnership",
       "Label": "Marriage/Civil Partnership",
       "Code": "5",
+      "Description": "Answers include Yes or No only.",
       "Value": ""
     },
     {
@@ -59,20 +62,21 @@
       "Name": "Religion/Belief",
       "Label": "Religion/Belief",
       "Code": "21",
-      "Description": "The set of beliefs, practices, principles, values, and teachings that individuals hold based on their faith",
+      "Description": "The set of beliefs, practices, principles, values, and teachings that individuals hold based on their faith.",
       "Value": ""
     },
     {
       "Name": "SexualOrientation",
       "Label": "Sexual Orientation",
       "Code": "8",
+      "Description": "Answers include Heterosexual, Bisexual, Gay, etc.",
       "Value": ""
     },
     {
       "Name": "GenderReassignment",
       "Label": "Gender Reassignment",
       "Code": "4",
-      "Description": "Anyone whose gender identity differs from the sex they were registered at birth. This includes but is not limited to, trans men/women, and non binary people.",
+      "Description": "Anyone whose gender identity differs from the sex they were registered at birth. This includes but is not limited to, trans men/women, and non binary people. Answered with Yes or No only.",
       "Value": ""
     }
   ],

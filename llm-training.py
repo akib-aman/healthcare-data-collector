@@ -263,12 +263,12 @@ def load_validation_dataset():
 # ---------------------
 # t5 Test Logic
 # ---------------------
-def load_testing_extraction_dataset():
+def load_testing_extraction_dataset(filename):
     """
     Load the T5 extraction testing dataset, converting it into the required format.
     This version directly uses the "input" and "output" keys from the dataset.
     """
-    validation_file_path = "./t5-training-datasets/t5-extraction-validation.json"
+    validation_file_path = "./t5-training-datasets/" + filename
 
     with open(validation_file_path, "r", encoding="utf-8") as file:
         validation_data = json.load(file)
@@ -286,11 +286,11 @@ def load_testing_extraction_dataset():
 # ---------------------
 # t5 Test Logic
 # ---------------------
-def load_testing_classification_dataset():
+def load_testing_classification_dataset(filename):
     """
     Load the T5 classification testing dataset, converting it into the required format.
     """
-    validation_file_path = "./t5-training-datasets/t5-classification-validation.json"
+    validation_file_path = "./t5-training-datasets/" + filename
 
     with open(validation_file_path, "r", encoding="utf-8") as file:
         validation_data = json.load(file)
@@ -595,8 +595,8 @@ def train_gpt():
 # Main Entry
 # ---------------------
 if __name__ == "__main__":
-    train_t5()
-    train_gpt()
+    # train_t5()
+    # train_gpt()
 
     # gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
     # gpt_model = GPT2LMHeadModel.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
@@ -605,8 +605,11 @@ if __name__ == "__main__":
     # evaluate_gpt(gpt_model, gpt_tokenizer, testing_dataset, "evaluations/gpt2/gpt2-medium-test-results.json")
 
     # T5
-    # t5_tokenizer = T5Tokenizer.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
-    # t5_model = T5ForConditionalGeneration.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
-    # testing_classification_dataset = load_testing_classification_dataset() 
+    t5_tokenizer = T5Tokenizer.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
+    t5_model = T5ForConditionalGeneration.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model")).to(device)
+    testing_classification_dataset = load_testing_classification_dataset("t5-classification-testing.json") 
+    load_extraction_dataset = load_testing_extraction_dataset("t5-extraction-testing.json") 
 
-    # evaluate_t5(t5_model, t5_tokenizer, testing_classification_dataset, "evaluations/t5/t5-base-validation-results.json")
+    evaluate_t5(t5_model, t5_tokenizer, testing_classification_dataset, "evaluations/t5/t5-base-classification-test-results.json")
+    evaluate_t5(t5_model, t5_tokenizer, load_extraction_dataset, "evaluations/t5/t5-base-extraction-test-results.json")
+

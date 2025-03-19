@@ -1,0 +1,595 @@
+{
+    "average_similarity": 0.9941782355308533,
+    "average_f1": 0.9821428571428571,
+    "passing_percentage": 98.80952380952381,
+    "detailed_results": [
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I've never been married.",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 47 years old.",
+            "generated_answer": "\"Age\": 47",
+            "expected_answer": "\"Age\": 47",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me Benjamin.",
+            "generated_answer": "\"FirstName\": \"Benjamin\"",
+            "expected_answer": "\"FirstName\": \"Benjamin\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: My twin brother.",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"M\"",
+            "similarity_score": 0.6799620389938354,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I identify as Queer.",
+            "generated_answer": "\"SexualOrientation\": \"Queer\"",
+            "expected_answer": "\"SexualOrientation\": \"Queer\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Chinese.",
+            "generated_answer": "\"Ethnicity\": \"Chinese\"",
+            "expected_answer": "\"Ethnicity\": \"Chinese\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: I have Mobility Impairment.",
+            "generated_answer": "\"Disability\": \"Mobility Impairment\"",
+            "expected_answer": "\"Disability\": \"Mobility Impairment\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I'm a widow.",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 0.9330320954322815,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the disability from this text: I have Hearing Impairment.",
+            "generated_answer": "\"Disability\": \"Hearing Impairment\"",
+            "expected_answer": "\"Disability\": \"Hearing Impairment\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I identify as Pansexual.",
+            "generated_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Pansexual\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me Lucas.",
+            "generated_answer": "\"FirstName\": \"Lucas\"",
+            "expected_answer": "\"FirstName\": \"Lucas\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me James.",
+            "generated_answer": "\"FirstName\": \"James\"",
+            "expected_answer": "\"FirstName\": \"James\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Major Emma Garcia",
+            "generated_answer": "\"Title\": \"Major\"",
+            "expected_answer": "\"Title\": \"Major\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Mixed White and Black Caribbean.",
+            "generated_answer": "\"Ethnicity\": \"Mixed White and Black Caribbean\"",
+            "expected_answer": "\"Ethnicity\": \"Mixed White and Black Caribbean\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I identify as Asexual.",
+            "generated_answer": "\"SexualOrientation\": \"Asexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Asexual\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Sir Emma Garcia",
+            "generated_answer": "\"Title\": \"Sir\"",
+            "expected_answer": "\"Title\": \"Sir\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I identify as Bisexual.",
+            "generated_answer": "\"SexualOrientation\": \"Bisexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Bisexual\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I follow Agnostic beliefs.",
+            "generated_answer": "\"Religion/Belief\": \"Agnostic\"",
+            "expected_answer": "\"Religion/Belief\": \"Agnostic\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Sir Olivia Davis",
+            "generated_answer": "\"Title\": \"Sir\"",
+            "expected_answer": "\"Title\": \"Sir\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I'm divorced.",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"No\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Baroness Noah Davis",
+            "generated_answer": "\"Title\": \"Baroness\"",
+            "expected_answer": "\"Title\": \"Baroness\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I've never changed my gender.",
+            "generated_answer": "\"GenderReassignment\": \"No\"",
+            "expected_answer": "\"GenderReassignment\": \"No\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I follow Judaism beliefs.",
+            "generated_answer": "\"Religion/Belief\": \"Judaism\"",
+            "expected_answer": "\"Religion/Belief\": \"Judaism\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I follow Sikhism beliefs.",
+            "generated_answer": "\"Religion/Belief\": \"Sikhism\"",
+            "expected_answer": "\"Religion/Belief\": \"Sikhism\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Scottish.",
+            "generated_answer": "\"Ethnicity\": \"Scottish\"",
+            "expected_answer": "\"Ethnicity\": \"Scottish\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I follow Christianity beliefs.",
+            "generated_answer": "\"Religion/Belief\": \"Christianity\"",
+            "expected_answer": "\"Religion/Belief\": \"Christianity\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Indian.",
+            "generated_answer": "\"Ethnicity\": \"Indian\"",
+            "expected_answer": "\"Ethnicity\": \"Indian\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I transitioned three years ago.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm adopting a child.",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.8979778289794922,
+            "f1_score": 0.5
+        },
+        {
+            "input": "Extract the disability from this text: I have Dyslexia.",
+            "generated_answer": "\"Disability\": \"Dyslexia\"",
+            "expected_answer": "\"Disability\": \"Dyslexia\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Hon Liam Davis",
+            "generated_answer": "\"Title\": \"Hon\"",
+            "expected_answer": "\"Title\": \"Hon\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 72 years old.",
+            "generated_answer": "\"Age\": 72",
+            "expected_answer": "\"Age\": 72",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 21 years old.",
+            "generated_answer": "\"Age\": 21",
+            "expected_answer": "\"Age\": 21",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sex from this text: My twin sister.",
+            "generated_answer": "\"Sex\": \"F\"",
+            "expected_answer": "\"Sex\": \"F\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me Olivia.",
+            "generated_answer": "\"FirstName\": \"Olivia\"",
+            "expected_answer": "\"FirstName\": \"Olivia\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 75 years old.",
+            "generated_answer": "\"Age\": 75",
+            "expected_answer": "\"Age\": 75",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I identify as Homosexual.",
+            "generated_answer": "\"SexualOrientation\": \"Homosexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Homosexual\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My surname is Patel.",
+            "generated_answer": "\"LastName\": \"Patel\"",
+            "expected_answer": "\"LastName\": \"Patel\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I got married last year.",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the gender reassignment from this text: I'm in the middle of my transition.",
+            "generated_answer": "\"GenderReassignment\": \"Yes\"",
+            "expected_answer": "\"GenderReassignment\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me Emma.",
+            "generated_answer": "\"FirstName\": \"Emma\"",
+            "expected_answer": "\"FirstName\": \"Emma\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 36 years old.",
+            "generated_answer": "\"Age\": 36",
+            "expected_answer": "\"Age\": 36",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me Liam.",
+            "generated_answer": "\"FirstName\": \"Liam\"",
+            "expected_answer": "\"FirstName\": \"Liam\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Baroness Isabella Rodriguez",
+            "generated_answer": "\"Title\": \"Baroness\"",
+            "expected_answer": "\"Title\": \"Baroness\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Rev Isabella Brown",
+            "generated_answer": "\"Title\": \"Rev\"",
+            "expected_answer": "\"Title\": \"Rev\"",
+            "similarity_score": 0.9999998211860657,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I identify as Demisexual.",
+            "generated_answer": "\"SexualOrientation\": \"Demisexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Demisexual\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Pakistani.",
+            "generated_answer": "\"Ethnicity\": \"Pakistani\"",
+            "expected_answer": "\"Ethnicity\": \"Pakistani\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 29 years old.",
+            "generated_answer": "\"Age\": 29",
+            "expected_answer": "\"Age\": 29",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I follow Buddhism beliefs.",
+            "generated_answer": "\"Religion/Belief\": \"Buddhism\"",
+            "expected_answer": "\"Religion/Belief\": \"Buddhism\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Baroness Isabella Wilson",
+            "generated_answer": "\"Title\": \"Baroness\"",
+            "expected_answer": "\"Title\": \"Baroness\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: I have Chronic Pain.",
+            "generated_answer": "\"Disability\": \"Chronic Pain\"",
+            "expected_answer": "\"Disability\": \"Chronic Pain\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Capt Lucas Brown",
+            "generated_answer": "\"Title\": \"Capt\"",
+            "expected_answer": "\"Title\": \"Capt\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Miss Emma Davis",
+            "generated_answer": "\"Title\": \"Miss\"",
+            "expected_answer": "\"Title\": \"Miss\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me Mia.",
+            "generated_answer": "\"FirstName\": \"Mia\"",
+            "expected_answer": "\"FirstName\": \"Mia\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Rev Olivia Martinez",
+            "generated_answer": "\"Title\": \"Rev\"",
+            "expected_answer": "\"Title\": \"Rev\"",
+            "similarity_score": 0.9999998211860657,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the marriage/civil partnership status from this text: I'm in a civil partnership.",
+            "generated_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "expected_answer": "\"Marriage/CivilPartnership\": \"Yes\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My surname is Brown.",
+            "generated_answer": "\"LastName\": \"Brown\"",
+            "expected_answer": "\"LastName\": \"Brown\"",
+            "similarity_score": 0.9999998211860657,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 44 years old.",
+            "generated_answer": "\"Age\": 44",
+            "expected_answer": "\"Age\": 44",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 66 years old.",
+            "generated_answer": "\"Age\": 66",
+            "expected_answer": "\"Age\": 66",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the sexual orientation from this text: I identify as Heterosexual.",
+            "generated_answer": "\"SexualOrientation\": \"Heterosexual\"",
+            "expected_answer": "\"SexualOrientation\": \"Heterosexual\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 33 years old.",
+            "generated_answer": "\"Age\": 33",
+            "expected_answer": "\"Age\": 33",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I gave birth a month ago.",
+            "generated_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"Yes\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Afro-Caribbean.",
+            "generated_answer": "\"Ethnicity\": \"Afro-Caribbean\"",
+            "expected_answer": "\"Ethnicity\": \"Afro-Caribbean\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the firstname from this text: People call me Sophia.",
+            "generated_answer": "\"FirstName\": \"Sophia\"",
+            "expected_answer": "\"FirstName\": \"Sophia\"",
+            "similarity_score": 0.9999997615814209,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 79 years old.",
+            "generated_answer": "\"Age\": 79",
+            "expected_answer": "\"Age\": 79",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the ethnicity from this text: I'm Irish.",
+            "generated_answer": "\"Ethnicity\": \"Irish\"",
+            "expected_answer": "\"Ethnicity\": \"Irish\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I follow Hinduism beliefs.",
+            "generated_answer": "\"Religion/Belief\": \"Hinduism\"",
+            "expected_answer": "\"Religion/Belief\": \"Hinduism\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Lord Benjamin Davis",
+            "generated_answer": "\"Title\": \"Lord\"",
+            "expected_answer": "\"Title\": \"Lord\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Mrs Mia Martinez",
+            "generated_answer": "\"Title\": \"Mrs\"",
+            "expected_answer": "\"Title\": \"Mrs\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Capt Sophia Garcia",
+            "generated_answer": "\"Title\": \"Capt\"",
+            "expected_answer": "\"Title\": \"Capt\"",
+            "similarity_score": 1.000000238418579,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Mr Benjamin Smith",
+            "generated_answer": "\"Title\": \"Mr\"",
+            "expected_answer": "\"Title\": \"Mr\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Col Lucas Martinez",
+            "generated_answer": "\"Title\": \"Col\"",
+            "expected_answer": "\"Title\": \"Col\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the pregnancy/maternity from this text: I'm not pregnant.",
+            "generated_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "expected_answer": "\"Pregnancy/Maternity\": \"No\"",
+            "similarity_score": 0.9999999403953552,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Col Sophia Johnson",
+            "generated_answer": "\"Title\": \"Col\"",
+            "expected_answer": "\"Title\": \"Col\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the religion/belief from this text: I follow Atheist beliefs.",
+            "generated_answer": "\"Religion/Belief\": \"Atheist\"",
+            "expected_answer": "\"Religion/Belief\": \"Atheist\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My surname is Davis.",
+            "generated_answer": "\"LastName\": \"Davis\"",
+            "expected_answer": "\"LastName\": \"Davis\"",
+            "similarity_score": 0.9999998807907104,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the lastname from this text: My surname is Smith.",
+            "generated_answer": "\"LastName\": \"Smith\"",
+            "expected_answer": "\"LastName\": \"Smith\"",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Dame Liam Rodriguez",
+            "generated_answer": "\"Title\": \"Dame\"",
+            "expected_answer": "\"Title\": \"Dame\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the disability from this text: I have Autism Spectrum Disorder.",
+            "generated_answer": "\"Disability\": \"Autism Spectrum Disorder\"",
+            "expected_answer": "\"Disability\": \"Autism Spectrum Disorder\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the age from this text: I am 54 years old.",
+            "generated_answer": "\"Age\": 54",
+            "expected_answer": "\"Age\": 54",
+            "similarity_score": 1.0000001192092896,
+            "f1_score": 1.0
+        },
+        {
+            "input": "Extract the title from this text: Lord Isabella Wilson",
+            "generated_answer": "\"Title\": \"Lord\"",
+            "expected_answer": "\"Title\": \"Lord\"",
+            "similarity_score": 1.0,
+            "f1_score": 1.0
+        }
+    ]
+}
