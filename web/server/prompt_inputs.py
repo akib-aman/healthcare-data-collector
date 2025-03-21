@@ -169,8 +169,15 @@ def generate_with_gpt(question, field):
     Generates a detailed response using GPT-2 
     with a Question: / Answer: style prompt.
     """
-    print(question + " Regarding " + field)
-    prompt_text = f"<|startoftext|>Question: {question + ' Regarding ' + field}\nAnswer:"
+
+    missing_keys = [key for key in field_commands if key not in question]
+    if not missing_keys:
+        print(f"Missing keys: {', '.join(missing_keys)} in the text.")
+        print(question + " Regarding " + field)
+        prompt_text = f"<|startoftext|>Question: {question + ' Regarding ' + field}\nAnswer:"
+    else:
+        print(question)
+        prompt_text = f"<|startoftext|>Question: {question}\nAnswer:"
     
     try:
         inputs = gpt_tokenizer(prompt_text, return_tensors="pt")

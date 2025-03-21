@@ -1038,5 +1038,26 @@
   {
     "input": "Extract the gender reassignment from this text: I’m a cisgender person, never had any medical procedures.",
     "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I have been a female my whole life",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: I have been a male my whole life",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: female my whole life",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: male my whole life",
+    "output": "{\"GenderReassignment\": \"No\"}"
+  },
+  {
+    "input": "Extract the gender reassignment from this text: been like this my whole life",
+    "output": "{\"GenderReassignment\": \"No\"}"
   }
+  
 ]

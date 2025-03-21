@@ -192,6 +192,22 @@
       "output": "Detailed Response"
     },
     {
+      "input": "I am pregnant",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "yes I am pregnant",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "I am not pregnant",
+      "output": "Data Extraction"
+    },
+    {
+      "input": "No I am not pregnant",
+      "output": "Data Extraction"
+    },
+    {
       "input": "What do you use my data for?",
       "output": "Detailed Response"
     },
