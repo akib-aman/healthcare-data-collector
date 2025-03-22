@@ -384,6 +384,11 @@ function Home() {
             placeholder="Type your input here..."
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && e.ctrlKey) {
+                handleSubmit(e);
+              }
+            }}
           ></textarea>
 
           <button

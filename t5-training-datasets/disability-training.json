@@ -52,6 +52,110 @@
         "output": "{\"Disability\": \"Epilepsy\"}"
     },
     {
+        "input": "Extract the disability from this text: sickle cell disease and arthritis",
+        "output": "{\"Disability\": \"Sickle Cell Disease & Arthritis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: arthritis and lupus",
+        "output": "{\"Disability\": \"Arthritis & Lupus\"}"
+    },
+    {
+        "input": "Extract the disability from this text: multiple sclerosis and ADHD",
+        "output": "{\"Disability\": \"Multiple Sclerosis & ADHD\"}"
+    },
+    {
+        "input": "Extract the disability from this text: autism and down syndrome",
+        "output": "{\"Disability\": \"Autism & Down Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: cerebral palsy and blindness",
+        "output": "{\"Disability\": \"Cerebral Palsy & Blindness\"}"
+    },
+    {
+        "input": "Extract the disability from this text: ADHD and dyslexia",
+        "output": "{\"Disability\": \"ADHD & Dyslexia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: visual impairment and hearing loss",
+        "output": "{\"Disability\": \"Visual Impairment & Hearing Loss\"}"
+    },
+    {
+        "input": "Extract the disability from this text: fibromyalgia and chronic fatigue syndrome",
+        "output": "{\"Disability\": \"Fibromyalgia & Chronic Fatigue Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: epilepsy and tourette syndrome",
+        "output": "{\"Disability\": \"Epilepsy & Tourette Syndrome\"}"
+    },
+    {
+        "input": "Extract the disability from this text: PTSD and anxiety disorder",
+        "output": "{\"Disability\": \"PTSD & Anxiety Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: OCD and bipolar disorder",
+        "output": "{\"Disability\": \"OCD & Bipolar Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: spina bifida and hydrocephalus",
+        "output": "{\"Disability\": \"Spina Bifida & Hydrocephalus\"}"
+    },
+    {
+        "input": "Extract the disability from this text: muscular dystrophy and ALS",
+        "output": "{\"Disability\": \"Muscular Dystrophy & ALS\"}"
+    },
+    {
+        "input": "Extract the disability from this text: autism, ADHD, and dyslexia",
+        "output": "{\"Disability\": \"Autism, ADHD & Dyslexia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: lupus, arthritis, and fibromyalgia",
+        "output": "{\"Disability\": \"Lupus, Arthritis & Fibromyalgia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: sickle cell disease, asthma, and diabetes",
+        "output": "{\"Disability\": \"Sickle Cell Disease, Asthma & Diabetes\"}"
+    },
+    {
+        "input": "Extract the disability from this text: down syndrome, cerebral palsy, and epilepsy",
+        "output": "{\"Disability\": \"Down Syndrome, Cerebral Palsy & Epilepsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: visual impairment, hearing loss, and speech disorder",
+        "output": "{\"Disability\": \"Visual Impairment, Hearing Loss & Speech Disorder\"}"
+    },
+    {
+        "input": "Extract the disability from this text: ADHD, dyslexia, and dyscalculia",
+        "output": "{\"Disability\": \"ADHD, Dyslexia & Dyscalculia\"}"
+    },
+    {
+        "input": "Extract the disability from this text: PTSD, anxiety disorder, and depression",
+        "output": "{\"Disability\": \"PTSD, Anxiety Disorder & Depression\"}"
+    },
+    {
+        "input": "Extract the disability from this text: multiple sclerosis, lupus, and rheumatoid arthritis",
+        "output": "{\"Disability\": \"Multiple Sclerosis, Lupus & Rheumatoid Arthritis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: autism spectrum disorder, sensory processing disorder, and ADHD",
+        "output": "{\"Disability\": \"Autism Spectrum Disorder, Sensory Processing Disorder & ADHD\"}"
+    },
+    {
+        "input": "Extract the disability from this text: chronic pain, fibromyalgia, and arthritis",
+        "output": "{\"Disability\": \"Chronic Pain, Fibromyalgia & Arthritis\"}"
+    },
+    {
+        "input": "Extract the disability from this text: blindness, deafness, and mobility impairment",
+        "output": "{\"Disability\": \"Blindness, Deafness & Mobility Impairment\"}"
+    },
+    {
+        "input": "Extract the disability from this text: down syndrome, autism, and cerebral palsy",
+        "output": "{\"Disability\": \"Down Syndrome, Autism & Cerebral Palsy\"}"
+    },
+    {
+        "input": "Extract the disability from this text: epilepsy, tourette syndrome, and OCD",
+        "output": "{\"Disability\": \"Epilepsy, Tourette Syndrome & OCD\"}"
+    },
+    {
         "input": "Extract the disability from this text: I have multiple sclerosis.",
         "output": "{\"Disability\": \"Multiple Sclerosis\"}"
     },

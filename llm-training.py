@@ -2,6 +2,8 @@ import os
 import json
 import torch
 import re
+import tqdm
+import time
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -425,7 +427,8 @@ def evaluate_gpt(model, tokenizer, dataset_to_use, output_file):
     passing_threshold = 0.7  # Consider answers "acceptable" if similarity is above 0.7
     passing_count = 0
 
-    for example in dataset_to_use:
+    for example in tqdm.tqdm(dataset_to_use):
+        time.sleep(0.1)
         # Extract question text safely
         question_text = example['text'].split('Question: ')[1].split('\n')[0]
         input_text = f"<|startoftext|>Question: {question_text}\nAnswer:"
@@ -456,7 +459,7 @@ def evaluate_gpt(model, tokenizer, dataset_to_use, output_file):
         # Now compute lowercase version for keyword matching
         lower_text = generated_answer.lower()
 
-        keywords = ["what happens if i ", "learn more about", "however,", "for example,", "for more information,"]
+        keywords = ["what happens if i ", "learn more about", "however,", "for example,", "for more information,", "\nQuestion"]
         # Create regex pattern to match any of the keywords (case-insensitive)
         pattern = r'(?i)(' + '|'.join(re.escape(kw) for kw in keywords) + r').*'
         match = re.search(pattern, lower_text)
@@ -598,18 +601,18 @@ if __name__ == "__main__":
     # train_t5()
     # train_gpt()
 
-    # gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
-    # gpt_model = GPT2LMHeadModel.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
-    # testing_dataset = load_testing_dataset() 
+    gpt_tokenizer = GPT2Tokenizer.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+    gpt_model = GPT2LMHeadModel.from_pretrained(os.path.join(BASE_DIR, "gpt-trained-model"))
+    testing_dataset = load_testing_dataset() 
 
-    # evaluate_gpt(gpt_model, gpt_tokenizer, testing_dataset, "evaluations/gpt2/gpt2-medium-test-results.json")
+    evaluate_gpt(gpt_model.cuda(), gpt_tokenizer, testing_dataset, "evaluations/gpt2/gpt2-large-test-results-iter-2.json")
 
     # T5
-    t5_tokenizer = T5Tokenizer.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
-    t5_model = T5ForConditionalGeneration.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model")).to(device)
-    testing_classification_dataset = load_testing_classification_dataset("t5-classification-testing.json") 
-    load_extraction_dataset = load_testing_extraction_dataset("t5-extraction-testing.json") 
+    # t5_tokenizer = T5Tokenizer.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model"))
+    # t5_model = T5ForConditionalGeneration.from_pretrained(os.path.join(BASE_DIR, "t5-trained-model")).to(device)
+    # testing_classification_dataset = load_testing_classification_dataset("t5-classification-testing.json") 
+    # load_extraction_dataset = load_testing_extraction_dataset("t5-extraction-testing.json") 
 
-    evaluate_t5(t5_model, t5_tokenizer, testing_classification_dataset, "evaluations/t5/t5-base-classification-test-results.json")
-    evaluate_t5(t5_model, t5_tokenizer, load_extraction_dataset, "evaluations/t5/t5-base-extraction-test-results.json")
+    # evaluate_t5(t5_model, t5_tokenizer, testing_classification_dataset, "evaluations/t5/t5-base-classification-test-results.json")
+    # evaluate_t5(t5_model, t5_tokenizer, load_extraction_dataset, "evaluations/t5/t5-base-extraction-test-results.json")
 

@@ -1,0 +1,714 @@
+{
+    "average_similarity": 0.5949817895889282,
+    "average_f1": 0.22296649589495188,
+    "passing_percentage": 31.683168316831683,
+    "detailed_results": [
+        {
+            "question": "How is my age data used to optimize healthcare service delivery?",
+            "generated_answer": "Your age helps us tailor your care, as certain treatments and conditions are more common at different stages of life. This ensures you receive the most appropriate medical advice and treatment. Your data is always kept secure and never shared with third parties!",
+            "expected_answer": "We analyze age data to understand demographic trends, adjust appointment scheduling, and tailor non-clinical support services to better match patient needs.",
+            "similarity_score": 0.565750241279602,
+            "f1_score": 0.125
+        },
+        {
+            "question": "What safeguards are in place to protect my disability information?",
+            "generated_answer": "Your disability data is protected against unauthorized access by strict confidentiality policies and advanced security measures. It is accessed only by authorized healthcare professionals involved in your care. Your data remains confidential at all times.",
+            "expected_answer": "Your disability data is encrypted and stored in secure systems; access is strictly limited to authorized personnel to ensure that any adjustments or accommodations are managed safely.",
+            "similarity_score": 0.8552566766738892,
+            "f1_score": 0.25806451612903225
+        },
+        {
+            "question": "Can I opt out of sharing information related to my gender reassignment for data analysis purposes?",
+            "generated_answer": "Yes, you can opt-out of this data collection, but it may impact your healthcare services in the long term. We encourage you to provide your consent at any time for any medical or legal reasons. Your decision will remain respected.",
+            "expected_answer": "Yes, you may choose not to share details about gender reassignment. Your decision will not affect the quality of care, and your data will be excluded from research studies if you opt out.",
+            "similarity_score": 0.5487246513366699,
+            "f1_score": 0.3013698630136986
+        },
+        {
+            "question": "How is information about my marital or civil partnership status used in healthcare research?",
+            "generated_answer": "This information is anonymized and used only to improve care, not for research purposes. It is stored securely and handled according to strict data protection laws.",
+            "expected_answer": "Data on marital status is aggregated to study social support networks and their impact on patient satisfaction and service utilization, always in a de-identified format.",
+            "similarity_score": 0.2980988621711731,
+            "f1_score": 0.11764705882352941
+        },
+        {
+            "question": "Are there benefits to providing pregnancy or maternity data for healthcare planning?",
+            "generated_answer": "Providing this information helps healthcare providers offer appropriate care during pregnancy and after childbirth. It is completely confidential, and your privacy is always safeguarded. Your data is stored securely and used only for improving healthcare services.",
+            "expected_answer": "Yes, sharing this information can help improve resource allocation for prenatal and postnatal support services, though it remains completely voluntary.",
+            "similarity_score": 0.5557376146316528,
+            "f1_score": 0.17857142857142858
+        },
+        {
+            "question": "How does collecting my ethnicity data contribute to addressing healthcare inequalities?",
+            "generated_answer": "By analyzing patterns in health across different ethnic groups, we can identify and address disparities in care, ensuring fair and equitable access for everyone. This information is used to improve services and ensure fair treatment for all. Your privacy is always protected.",
+            "expected_answer": "Ethnicity data is analyzed to detect disparities in service access and outcomes, allowing healthcare providers to design more inclusive and equitable policies.",
+            "similarity_score": 0.731499195098877,
+            "f1_score": 0.21874999999999997
+        },
+        {
+            "question": "What measures ensure the privacy of my religious or belief affiliation in our data systems?",
+            "generated_answer": "We follow strict data protection regulations, use secure storage systems, and limit access to authorized personnel only. Your information is accessed only by authorized professionals who are involved in your care. Any unauthorized access is promptly reported to law enforcement.",
+            "expected_answer": "Your religious affiliation is stored securely with robust encryption and is only used in aggregate studies to improve culturally sensitive service design.",
+            "similarity_score": 0.3965674042701721,
+            "f1_score": 0.19354838709677416
+        },
+        {
+            "question": "Is information about my sexual orientation incorporated into public health research?",
+            "generated_answer": "No, this is not shared with third parties without your explicit consent. It is used only to improve healthcare services and ensure that they are inclusive of diverse needs. Your privacy is always respected.",
+            "expected_answer": "Yes, anonymized data regarding sexual orientation is used to identify trends and disparities; however, participation is voluntary and your privacy is maintained.",
+            "similarity_score": 0.5139853954315186,
+            "f1_score": 0.21428571428571427
+        },
+        {
+            "question": "How does my biological sex data help in healthcare service planning?",
+            "generated_answer": "By understanding your biological characteristics, we can tailor medical treatments and screenings to your needs. This allows us to provide better, more personalized care. Your privacy is always protected.",
+            "expected_answer": "Data on biological sex is used to forecast service needs and to design public health campaigns; it is always processed in aggregate to protect your identity.",
+            "similarity_score": 0.45520350337028503,
+            "f1_score": 0.21818181818181817
+        },
+        {
+            "question": "Can I choose not to have my protected characteristic data used for research purposes?",
+            "generated_answer": "Yes, you can opt-out of your data being used in medical research.",
+            "expected_answer": "Absolutely. You can opt out of research usage of your protected characteristic data without affecting your individual care or access to services.",
+            "similarity_score": 0.6993311643600464,
+            "f1_score": 0.23529411764705885
+        },
+        {
+            "question": "How are differences in age groups reflected in healthcare data reporting?",
+            "generated_answer": "Age-specific data is used to provide preventive care and screening, as certain conditions and treatments vary by age. This ensures you receive the most appropriate medical advice and care. Your privacy is always protected.",
+            "expected_answer": "We segment age data to identify patterns and trends, which then inform the development of targeted, non-clinical support programs and improved service access.",
+            "similarity_score": 0.5816391110420227,
+            "f1_score": 0.14035087719298242
+        },
+        {
+            "question": "What steps are taken to anonymize disability data before it is used in analysis?",
+            "generated_answer": "Data is anonymized by removing personally identifying information (PII) and protecting it from unauthorized access. This ensures that medical records cannot be traced back to specific individuals.",
+            "expected_answer": "Before analysis, any disability data is stripped of personal identifiers and combined with similar records so that individual information cannot be traced back to you.",
+            "similarity_score": 0.6018309593200684,
+            "f1_score": 0.3846153846153846
+        },
+        {
+            "question": "How do healthcare providers use gender reassignment data in service improvement projects?",
+            "generated_answer": "Gender reassignments may be used to identify and address specific health needs, ensuring that services are inclusive and tailored to the individual. Providers adhere to strict confidentiality policies, protecting patient privacy.",
+            "expected_answer": "Data related to gender reassignment is aggregated to identify potential gaps in support services, ensuring that policy updates make the environment more inclusive.",
+            "similarity_score": 0.7085905075073242,
+            "f1_score": 0.18518518518518517
+        },
+        {
+            "question": "In what ways does marital status data inform healthcare administrative decisions?",
+            "generated_answer": "Marital status can help identify health trends, resource needs, and support networks that may influence the care you receive. This information is used to improve service delivery and resource allocation, ensuring your wellbeing remains at the forefront of decision-making.",
+            "expected_answer": "Marital status data helps us understand the broader social context of our patients, which can guide decisions regarding appointment planning and patient support services.",
+            "similarity_score": 0.8286076188087463,
+            "f1_score": 0.22222222222222224
+        },
+        {
+            "question": "How is data on pregnancy or maternity status incorporated into healthcare resource allocation?",
+            "generated_answer": "This information helps healthcare providers offer appropriate care, such as screening for conditions like diabetes or heart disease. It also helps in planning treatments and ensuring continuity of care during pregnancy. Your privacy is always respected.",
+            "expected_answer": "By analyzing pregnancy and maternity data, we can optimize scheduling for prenatal programs, allocate resources for postnatal care, and ensure that waiting times are minimized.",
+            "similarity_score": 0.4903285503387451,
+            "f1_score": 0.09836065573770492
+        },
+        {
+            "question": "What is the purpose of collecting ethnicity data from a data analytics standpoint?",
+            "generated_answer": "Ethnicity data helps identify and address health disparities in healthcare by understanding diverse cultural backgrounds. It can also be used to improve care delivery by identifying ethnic groups at higher risk for certain conditions (e.g., African or Caribbean Americans).",
+            "expected_answer": "Ethnicity data helps identify population-level trends, enabling us to tailor community outreach and prevention programs to address potential health risks.",
+            "similarity_score": 0.7904953360557556,
+            "f1_score": 0.27118644067796605
+        },
+        {
+            "question": "How do secure systems protect religious affiliation data in our records?",
+            "generated_answer": "Secure systems use encryption, authentication, and regular audits to ensure your data is protected from unauthorized access. Your privacy is always a priority.",
+            "expected_answer": "Our systems encrypt religious affiliation data and restrict access strictly to authorized personnel; this data is only used in aggregate for service planning.",
+            "similarity_score": 0.5176224708557129,
+            "f1_score": 0.21739130434782608
+        },
+        {
+            "question": "Is there any risk to my privacy if I share my sexual orientation data?",
+            "generated_answer": "No, your personal information is protected by law. We follow strict data protection regulations to keep your information safe.",
+            "expected_answer": "No. Any sexual orientation data you provide is anonymized and used only in statistical analyses to improve service inclusivity, with strict protocols to ensure confidentiality.",
+            "similarity_score": 0.5810196995735168,
+            "f1_score": 0.1818181818181818
+        },
+        {
+            "question": "What role does biological sex information play in non-clinical healthcare studies?",
+            "generated_answer": "Biological sex details help identify medical conditions and treatments more effectively, ensuring accurate and effective care for everyone. This ensures accurate diagnosis and treatment while respecting individual health needs. Your privacy is always respected during your research.",
+            "expected_answer": "Biological sex data is used to analyze trends in healthcare utilization and patient engagement, which helps inform public health initiatives and service adjustments.",
+            "similarity_score": 0.761958658695221,
+            "f1_score": 0.16666666666666666
+        },
+        {
+            "question": "How can I be sure that my decision to withhold protected characteristic data won\u00e2\u20ac\u2122t affect my care?",
+            "generated_answer": "We follow strict data protection rules, use secure storage systems, and limit access to authorized personnel only. Your data is encrypted and protected against unauthorized access.",
+            "expected_answer": "Your choice not to disclose any protected characteristic information will not affect your access to care or the quality of services provided; it is used solely for research and planning purposes.",
+            "similarity_score": 0.40812259912490845,
+            "f1_score": 0.21052631578947367
+        },
+        {
+            "question": "How is my age data segregated to support healthcare infrastructure planning?",
+            "generated_answer": "Your age helps plan medical care, vaccinations, and screenings specific to your stage of life. This ensures you receive the most appropriate treatments and advice. Your data is stored securely and only accessed by authorized personnel.",
+            "expected_answer": "Age data is categorized into groups, which assists in forecasting service demand, such as the need for senior care or pediatric services, without linking back to individual identities.",
+            "similarity_score": 0.5977908968925476,
+            "f1_score": 0.125
+        },
+        {
+            "question": "What encryption methods protect my disability data in the healthcare system?",
+            "generated_answer": "We use advanced security measures, such as encryption and secure storage systems, to ensure your data is protected from unauthorized access. Your privacy remains a top priority.",
+            "expected_answer": "We use industry-standard encryption protocols and multi-factor authentication to protect all sensitive data, including information related to disabilities.",
+            "similarity_score": 0.5933331251144409,
+            "f1_score": 0.22222222222222224
+        },
+        {
+            "question": "How does gender reassignment data contribute to diversity training for staff?",
+            "generated_answer": "By collecting and analyzing this data, we can provide more tailored and effective support for transgender individuals.",
+            "expected_answer": "Aggregated gender reassignment data is used to develop training modules for staff, ensuring they are aware of and sensitive to the unique needs of transgender and non-binary patients.",
+            "similarity_score": 0.7206742763519287,
+            "f1_score": 0.13333333333333333
+        },
+        {
+            "question": "Can you explain how marital status data is used to enhance patient communication strategies?",
+            "generated_answer": "Marital status helps us understand social support networks and offer relevant resources if needed, ensuring better care for everyone. This data also helps improve services by identifying health trends and resource needs. Your privacy is a top priority.",
+            "expected_answer": "Marital status information helps us tailor communication and support strategies, ensuring that patients with strong support networks receive additional information on community resources.",
+            "similarity_score": 0.8162407875061035,
+            "f1_score": 0.26229508196721313
+        },
+        {
+            "question": "How is pregnancy or maternity data used to design educational materials for new parents?",
+            "generated_answer": "This information helps us tailor medical advice and care to ensure you receive safe, suitable care during your pregnancy. Your privacy is always respected, and all data is kept secure.",
+            "expected_answer": "This data guides the creation of targeted resources and educational campaigns that address common challenges faced by expectant or new parents, ensuring the information is timely and relevant.",
+            "similarity_score": 0.3447251617908478,
+            "f1_score": 0.17241379310344826
+        },
+        {
+            "question": "In what ways does ethnicity data inform culturally appropriate service modifications?",
+            "generated_answer": "Ethnicity data helps us identify and address specific cultural or linguistic needs during healthcare. This can include dietary accommodations, language support, or respectful care tailored to your background. Your privacy is always protected.",
+            "expected_answer": "Ethnicity data allows us to identify cultural preferences and barriers, so we can adjust service delivery\u00e2\u20ac\u201dsuch as language support or dietary options\u00e2\u20ac\u201dto better meet the needs of diverse groups.",
+            "similarity_score": 0.8023765087127686,
+            "f1_score": 0.3870967741935484
+        },
+        {
+            "question": "How do we ensure that your religious affiliation data is never used to discriminate?",
+            "generated_answer": "We follow strict data protection regulations, use secure storage systems, and limit access to authorized personnel only. Your data remains private and is not shared without your consent.",
+            "expected_answer": "We adhere to strict data protection and anti-discrimination policies; religious affiliation data is only used in aggregate to support inclusive practices and is never linked to individual care decisions.",
+            "similarity_score": 0.3811790645122528,
+            "f1_score": 0.24561403508771928
+        },
+        {
+            "question": "Is my sexual orientation data ever shared outside the healthcare system?",
+            "generated_answer": "No, your sexual orientations are confidential and never shared with third parties. Only authorized professionals involved in your care can access this information.\nQ: How does my disability status affect my treatment options? (e.g.",
+            "expected_answer": "No. Your sexual orientation data is confined within secure systems and used only for internal analysis or aggregated reporting; it is never disclosed to external entities without your explicit consent.",
+            "similarity_score": 0.7412772178649902,
+            "f1_score": 0.125
+        },
+        {
+            "question": "How does the collection of biological sex information support patient safety in administrative processes?",
+            "generated_answer": "By collecting biological gender, we ensure that medical records are accurate and comply with legal requirements for medical care. This data is securely stored and used only to support your healthcare.",
+            "expected_answer": "Collecting biological sex information helps in correctly matching patient records and ensuring that alerts or flags in the system\u00e2\u20ac\u201dsuch as those related to gender-specific warnings\u00e2\u20ac\u201dare accurately assigned.",
+            "similarity_score": 0.810015082359314,
+            "f1_score": 0.17241379310344826
+        },
+        {
+            "question": "How does our system integrate data from various protected groups for service performance analysis?",
+            "generated_answer": "Data is integrated with healthcare services to identify and improve disparities in care, ensuring fair and equitable access. This ensures better compliance with national health policies and regulations. Your personal data remains secure and confidential.",
+            "expected_answer": "Our system merges anonymized data across all protected characteristics to evaluate service performance and identify areas for improvement without compromising individual identities.",
+            "similarity_score": 0.5005303621292114,
+            "f1_score": 0.14035087719298245
+        },
+        {
+            "question": "What measures are in place to ensure that sensitive protected characteristic data is kept strictly confidential?",
+            "generated_answer": "We follow strict data protection regulations, use secure storage systems, and limit access to authorized personnel only. Your data remains private and secure.",
+            "expected_answer": "We use state-of-the-art encryption, role-based access controls, and regular audits to ensure that all sensitive data is only accessed by authorized personnel and used only in aggregate form.",
+            "similarity_score": 0.6575511693954468,
+            "f1_score": 0.3137254901960784
+        },
+        {
+            "question": "How is data on age and disability combined to forecast future healthcare service needs?",
+            "generated_answer": "Age-specific data helps us tailor medical care for individuals of different stages of life, such as adults over 65 years old or people with disabilities. This ensures that services are accessible and tailored to meet the specific needs of each individual.",
+            "expected_answer": "We analyze aggregated data on age and disability to predict trends in service demand, helping us plan resources and tailor non-clinical support without identifying individuals.",
+            "similarity_score": 0.5133461952209473,
+            "f1_score": 0.15151515151515152
+        },
+        {
+            "question": "In what ways is marital status information utilized to improve healthcare administrative processes?",
+            "generated_answer": "Marital status helps healthcare providers assess and address social aspects of care, ensuring equitable access and quality. This data is used for planning and improving services, helping to reduce unnecessary hospitalization.",
+            "expected_answer": "Marital status data is used to assess support network trends and to optimize communication channels, which helps us design more effective appointment scheduling and patient engagement strategies.",
+            "similarity_score": 0.8577558994293213,
+            "f1_score": 0.3103448275862069
+        },
+        {
+            "question": "How does the system anonymize and aggregate pregnancy and maternity data for research purposes?",
+            "generated_answer": "Pregnancy and Maternity Data are anonymized and aggregated to provide relevant insights into health trends, risk factors, and resource needs during pregnancy. This information is used in medical research to improve care and public health outcomes. Your privacy is always protected.",
+            "expected_answer": "Pregnancy and maternity data is stripped of all identifiers and grouped into age- and region-specific clusters to study patterns without revealing personal details.",
+            "similarity_score": 0.7577529549598694,
+            "f1_score": 0.15625
+        },
+        {
+            "question": "What new techniques are used to analyze ethnicity data for enhancing public health initiatives?",
+            "generated_answer": "We use advanced statistical models to identify and reduce disparities in health across diverse populations, ensuring that healthcare is accessible and equitable. This data is stored securely and only accessed by authorized personnel. Your privacy is a top priority.",
+            "expected_answer": "We apply advanced statistical methods and machine learning models on aggregated ethnicity data to uncover health disparities and inform culturally tailored public health programs.",
+            "similarity_score": 0.5913650393486023,
+            "f1_score": 0.2857142857142857
+        },
+        {
+            "question": "How do we ensure that religious or belief data is used solely for improving culturally sensitive service design?",
+            "generated_answer": "We follow strict data protection regulations, use secure storage systems, and limit access to authorized personnel only. Any unauthorized access is promptly reported to authorities.",
+            "expected_answer": "Data regarding religion or belief is de-identified and only used in aggregate reports to shape educational and support programs, ensuring that individual beliefs remain private.",
+            "similarity_score": 0.2645411789417267,
+            "f1_score": 0.12
+        },
+        {
+            "question": "How is sexual orientation data processed to support inclusive healthcare research?",
+            "generated_answer": "Sexual orientation information is anonymized and stored securely, ensuring it remains confidential during your care. It is accessed only by authorized personnel involved in your health care, and used for the development of public health policies that benefit all individuals.",
+            "expected_answer": "Sexual orientation data is collected anonymously and incorporated into broader demographic studies to understand disparities and enhance inclusivity in service design.",
+            "similarity_score": 0.6390793323516846,
+            "f1_score": 0.16393442622950818
+        },
+        {
+            "question": "What role does biological sex data play in optimizing non-clinical healthcare operations?",
+            "generated_answer": "Biological sex information helps ensure appropriate medical treatments, screenings, and exams.",
+            "expected_answer": "Biological sex information is aggregated to analyze trends in patient engagement and utilization, which helps us improve appointment scheduling and patient communication strategies.",
+            "similarity_score": 0.7711565494537354,
+            "f1_score": 0.29411764705882354
+        },
+        {
+            "question": "How can patients opt out of having their protected characteristic data used in broader research?",
+            "generated_answer": "Patients have the right to refuse to share protected characteristics, and informed consent is required for any medical procedures.",
+            "expected_answer": "Patients are given the option to exclude their data from research studies; this decision is recorded and honored without affecting their individual care or service access.",
+            "similarity_score": 0.5365643501281738,
+            "f1_score": 0.2222222222222222
+        },
+        {
+            "question": "How are age demographics used to support long-term healthcare infrastructure planning?",
+            "generated_answer": "Age data helps identify health trends, disparities, and resource needs across the lifespan. This allows for targeted planning and investment in specific medical conditions.",
+            "expected_answer": "Aggregated age data helps forecast future demand for services such as elder care, pediatric support, and preventive health initiatives, ensuring resource allocation matches demographic trends.",
+            "similarity_score": 0.7288464307785034,
+            "f1_score": 0.24489795918367346
+        },
+        {
+            "question": "What encryption standards are implemented to safeguard disability information?",
+            "generated_answer": "We follow strict data protection regulations, use advanced security measures, and limit access to authorized personnel only. Your data is stored in encrypted databases and protected under strict confidentiality policies. No personal identifying details are accessed without your explicit consent.",
+            "expected_answer": "We use industry-standard AES-256 encryption along with multi-factor authentication to protect all disability data stored within our secure systems.",
+            "similarity_score": 0.3970259428024292,
+            "f1_score": 0.1694915254237288
+        },
+        {
+            "question": "How does gender reassignment data contribute to updating diversity training programs for staff?",
+            "generated_answer": "Understanding gender identity helps us ensure that inclusive and respectful healthcare is available to everyone. It also supports the development of targeted support systems to improve care for trans and non binary people inclusively.",
+            "expected_answer": "Aggregated gender reassignment data is analyzed to identify gaps in staff knowledge, informing the development of targeted diversity and inclusion training modules.",
+            "similarity_score": 0.5642502307891846,
+            "f1_score": 0.2857142857142857
+        },
+        {
+            "question": "How is marital status information used to refine patient communication and follow-up protocols?",
+            "generated_answer": "This data helps us tailor care so that it\u00e2\u20ac\u2122s appropriate for your individual circumstances, such as addressing social aspects of life outside the home. It\u00e2\u2122ll also be shared with relevant healthcare providers to improve services.",
+            "expected_answer": "By understanding marital trends in our patient base, we can tailor communication strategies to ensure that information reaches patients through appropriate support channels.",
+            "similarity_score": 0.45422446727752686,
+            "f1_score": 0.13793103448275862
+        },
+        {
+            "question": "How is aggregated pregnancy or maternity data used to design educational materials for new parents?",
+            "generated_answer": "This information helps us tailor the resources we provide to meet your specific needs, such as prenatal care, language support, and specialized parenting advice. Your privacy is a top priority.",
+            "expected_answer": "This data informs the development of targeted resources and educational campaigns that address common challenges in prenatal and postnatal care.",
+            "similarity_score": 0.6700682640075684,
+            "f1_score": 0.2
+        },
+        {
+            "question": "How does ethnicity data help in adjusting public health messaging to diverse communities?",
+            "generated_answer": "By analyzing population differences, we can tailor public service announcements and messages to meet specific needs. This helps ensure that they are accessible and effective. Your privacy is always protected.",
+            "expected_answer": "Aggregated ethnicity data allows us to customize public health messages that resonate with cultural nuances and language preferences in different communities.",
+            "similarity_score": 0.4806712865829468,
+            "f1_score": 0.19607843137254902
+        },
+        {
+            "question": "What protocols are used to verify that religious affiliation data is not misused for discriminatory practices?",
+            "generated_answer": "We follow strict data protection regulations, use secure storage systems, and limit access to authorized personnel only. No personally identifiable information is stored or shared without your consent.",
+            "expected_answer": "We follow strict anti-discrimination policies, and religious affiliation data is only analyzed in aggregate to prevent any possibility of misuse in individual care decisions.",
+            "similarity_score": 0.3026047348976135,
+            "f1_score": 0.2692307692307692
+        },
+        {
+            "question": "How is sexual orientation data separated from individual identifiers in our research database?",
+            "generated_answer": "Sexual orientation information is anonymized and stored securely in a secure system that meets strict data protection requirements. Only authorized researchers have access to this information, and it is never shared without your consent.",
+            "expected_answer": "Sexual orientation data is de-linked from personal identifiers and stored in an anonymized format to ensure that individual identities are never disclosed in research reports.",
+            "similarity_score": 0.8368741273880005,
+            "f1_score": 0.3728813559322034
+        },
+        {
+            "question": "How is biological sex data categorized to support tailored public health campaigns?",
+            "generated_answer": "Biological sex information is used to ensure that medical treatments and screenings are appropriate for your body.",
+            "expected_answer": "Biological sex data is grouped by demographic segments to help design campaigns that address specific needs, such as targeted screenings or health awareness programs.",
+            "similarity_score": 0.758704423904419,
+            "f1_score": 0.2926829268292683
+        },
+        {
+            "question": "How can patients confirm that opting out of protected characteristic data usage will not affect their care quality?",
+            "generated_answer": "Patients are able to confirm this information through regular check-ups and/or self-assessment tools. This ensures that any potential negative impacts on healthcare are understood and addressed appropriately.",
+            "expected_answer": "Our policies ensure that opting out of data sharing does not influence the treatment or support you receive, and patients can review our privacy statements for detailed assurances.",
+            "similarity_score": 0.4663712680339813,
+            "f1_score": 0.07272727272727272
+        },
+        {
+            "question": "How is age data segmented to support regional healthcare service planning?",
+            "generated_answer": "Age data is segmentated based on age groups (e.g., 18-34, 35-44, 45-64, 65+), enabling us to provide age-specific care tailored to your needs.",
+            "expected_answer": "Age data is broken down into regional cohorts, allowing us to assess local needs and adjust service provision based on community-specific demographic trends.",
+            "similarity_score": 0.6767107844352722,
+            "f1_score": 0.30434782608695654
+        },
+        {
+            "question": "What data anonymization techniques are used to protect disability records before analysis?",
+            "generated_answer": "Data anonymized using this technique is protected from unauthorized access by removing identifying information about individuals, ensuring confidentiality. This ensures the privacy of all individuals involved in healthcare. It also helps in providing quality care.",
+            "expected_answer": "We use techniques such as data masking, pseudonymization, and aggregation to ensure that disability records cannot be traced back to any individual.",
+            "similarity_score": 0.5933246612548828,
+            "f1_score": 0.0
+        },
+        {
+            "question": "How do we use gender reassignment information to evaluate patient satisfaction trends?",
+            "generated_answer": "Gender reassignments help us understand patient preferences for medical care, such as hormone therapy management or surgery. This data is used to improve service levels and meet specific health needs.",
+            "expected_answer": "Aggregated data on gender reassignment is correlated with patient feedback to identify areas where service improvements are needed, ensuring a more inclusive experience.",
+            "similarity_score": 0.7614127397537231,
+            "f1_score": 0.18867924528301885
+        },
+        {
+            "question": "How does marital status data help in modeling patient support network effectiveness?",
+            "generated_answer": "Marital status can be used to identify resources that may be relevant for improving social aspects of care, such as communication styles or religious practices. This information is accessible and tailored to meet the needs of each individual.",
+            "expected_answer": "Marital status is one indicator of social support; by analyzing this data alongside patient outcomes, we can model and improve support network interventions.",
+            "similarity_score": 0.7393319606781006,
+            "f1_score": 0.22950819672131145
+        },
+        {
+            "question": "In what ways does pregnancy or maternity data influence scheduling of community health workshops?",
+            "generated_answer": "This information helps us ensure that any accommodations provided during your care are safe for you and your baby. It is kept private and secure. Your privacy is always protected.",
+            "expected_answer": "Aggregated data on pregnancy and maternity trends helps us schedule workshops and support groups at times that align with peak needs in the community.",
+            "similarity_score": 0.30692631006240845,
+            "f1_score": 0.14814814814814814
+        },
+        {
+            "question": "How is ethnicity data utilized to customize non-clinical service offerings?",
+            "generated_answer": "This information helps us identify and address health disparities within healthcare settings, ensuring fair and personalized care for everyone. It also supports targeted public health initiatives aimed at improving healthcare for diverse populations. Your privacy is a top priority.",
+            "expected_answer": "Ethnicity data helps us identify cultural preferences and language needs, allowing us to offer tailored educational materials and support services.",
+            "similarity_score": 0.37374794483184814,
+            "f1_score": 0.13559322033898302
+        },
+        {
+            "question": "What process is in place to review the usage of religious affiliation data in public health reports?",
+            "generated_answer": "We follow strict data protection regulations, and all data are anonymized before being used for public Health Scotland. Any identifiable information is deleted after use. Your privacy is a priority.",
+            "expected_answer": "An internal review board periodically audits how religious affiliation data is aggregated and reported, ensuring it is only used to enhance service inclusivity.",
+            "similarity_score": 0.22759151458740234,
+            "f1_score": 0.15094339622641512
+        },
+        {
+            "question": "How do we ensure that sexual orientation data remains anonymous when used in trend analyses?",
+            "generated_answer": "Sexual orientation information is anonymized using secure systems, and only authorized healthcare professionals involved in your care will have access to it. It is never shared without your consent.",
+            "expected_answer": "Sexual orientation data is stored separately from identifiable information and is only accessed in aggregated form, ensuring anonymity in trend analyses.",
+            "similarity_score": 0.6835853457450867,
+            "f1_score": 0.28
+        },
+        {
+            "question": "What administrative benefits arise from collecting biological sex data in healthcare systems?",
+            "generated_answer": "Collecting biological gender information enables providers to offer appropriate medical treatments and screenings, ensuring equitable care for everyone. Providing this data is entirely optional, and your privacy will always be respected. Your data will never be shared without your consent.",
+            "expected_answer": "Biological sex data supports accurate record matching and helps tailor non-clinical communications, such as preventive health alerts, to the appropriate demographic.",
+            "similarity_score": 0.7511047124862671,
+            "f1_score": 0.1311475409836066
+        },
+        {
+            "question": "How does our data governance framework support patients\u00e2\u20ac\u2122 rights to opt out of using their protected characteristic data?",
+            "generated_answer": "We follow strict data protection regulations, ensuring your privacy is always respected. Your decision whether or not to share your data is entirely up to you and remains confidential. This ensures your healthcare choices are aligned with your personal values and outcomes.",
+            "expected_answer": "Our governance framework includes clear opt-out mechanisms, regular audits, and transparent reporting to ensure that patient choices regarding data sharing are respected.",
+            "similarity_score": 0.6211049556732178,
+            "f1_score": 0.18749999999999997
+        },
+        {
+            "question": "How is aggregated age data used to forecast future funding needs for community health programs?",
+            "generated_answer": "Aggregated data helps us identify and address health disparities within communities, enabling better service delivery and the development of targeted public health policies that benefit everyone. This ensures more effective use of resources and protects the integrity of data sets.",
+            "expected_answer": "Age data is analyzed alongside service usage patterns to forecast demand and inform funding allocations, ensuring that programs remain responsive to demographic shifts.",
+            "similarity_score": 0.3263300061225891,
+            "f1_score": 0.126984126984127
+        },
+        {
+            "question": "What steps are taken to de-identify disability data during cross-sectional studies?",
+            "generated_answer": "Disability data is deidentified at the time of analysis, ensuring it cannot be traced back to specific individuals. This ensures privacy and confidentiality for all patients. We follow strict data protection laws to ensure your data remains secure.",
+            "expected_answer": "We remove direct identifiers and apply statistical noise to disability data, ensuring that individual records cannot be re-identified during cross-sectional studies.",
+            "similarity_score": 0.6540617346763611,
+            "f1_score": 0.2033898305084746
+        },
+        {
+            "question": "How does gender reassignment information inform policy reviews on healthcare inclusivity?",
+            "generated_answer": "Gender reassignments help us ensure that inclusive and respectful care is provided to all individuals.",
+            "expected_answer": "Policy teams use aggregated gender reassignment data to identify service gaps and update protocols, ensuring that our practices remain inclusive and responsive to all patient needs.",
+            "similarity_score": 0.674185037612915,
+            "f1_score": 0.2439024390243902
+        },
+        {
+            "question": "How is marital status data factored into the development of emergency communication protocols?",
+            "generated_answer": "Marital status can be used to identify groups at higher risk for certain health conditions, such as older adults or people with disabilities. This information helps us tailor emergency response plans to protect your safety and the well-being of your family.",
+            "expected_answer": "Marital status information helps us understand family structures and design emergency communication strategies that ensure important information reaches the patient\u00e2\u20ac\u2122s support network.",
+            "similarity_score": 0.805065393447876,
+            "f1_score": 0.25396825396825395
+        },
+        {
+            "question": "What innovative methods are used to analyze pregnancy and maternity trends without compromising individual identities?",
+            "generated_answer": "We use anonymized data from healthcare providers, insurance companies, and public health databases to identify patterns in care that may influence health disparities. This allows us to develop targeted resources and improve services for all. Your privacy is a priority.",
+            "expected_answer": "We employ data aggregation, clustering algorithms, and differential privacy techniques to analyze pregnancy and maternity trends while safeguarding individual privacy.",
+            "similarity_score": 0.6027088165283203,
+            "f1_score": 0.16666666666666666
+        },
+        {
+            "question": "How does ethnicity data contribute to developing targeted health promotion campaigns?",
+            "generated_answer": "By analyzing disparities in health across different ethnic groups, we can develop culturally sensitive and effective public health messages. This allows us to address specific health concerns within diverse communities.",
+            "expected_answer": "By identifying prevalent health issues in specific ethnic groups, we can design targeted promotion campaigns that address cultural nuances and increase community engagement.",
+            "similarity_score": 0.7611556649208069,
+            "f1_score": 0.3773584905660377
+        },
+        {
+            "question": "What auditing processes are in place to ensure religious affiliation data is used ethically?",
+            "generated_answer": "Religious affiliation information is securely stored and protected under strict confidentiality policies. Only authorized healthcare professionals involved in your care can access it, ensuring your privacy is always respected. No personally identifiable information ever leaves your system!",
+            "expected_answer": "Our auditing processes involve regular reviews by data protection officers and external audits to ensure that religious data is only used in accordance with ethical and legal standards.",
+            "similarity_score": 0.4749593436717987,
+            "f1_score": 0.0923076923076923
+        },
+        {
+            "question": "How do we combine data on sexual orientation with other demographics to improve service equity?",
+            "generated_answer": "By combining data from multiple sources, we can identify and address disparities in health care. This helps us ensure that everyone receives equitable care, including LGBTQ+ individuals who may face unique health challenges due to their identity. Your privacy is always protected.",
+            "expected_answer": "We cross-reference sexual orientation data with other demographic variables using secure, anonymized methods to identify potential disparities and inform equity-focused improvements.",
+            "similarity_score": 0.6907280683517456,
+            "f1_score": 0.15873015873015875
+        },
+        {
+            "question": "What role does biological sex information play in the allocation of non-clinical support resources?",
+            "generated_answer": "Biological sex data helps ensure healthcare services are providing appropriate care for your body. It ensures gender reassignment information is kept private and secure. This data is securely stored and used only to improve healthcare outcomes. Your privacy is a top priority.",
+            "expected_answer": "Biological sex data helps us predict which groups may need additional non-clinical support, such as targeted health education or community outreach initiatives.",
+            "similarity_score": 0.6898810267448425,
+            "f1_score": 0.125
+        },
+        {
+            "question": "How does our opt-out mechanism for protected characteristic data ensure patient autonomy?",
+            "generated_answer": "We follow strict data protection rules to remove sensitive information only where necessary for healthcare management. This ensures patients' privacy is maintained and their care is tailored to their needs. Your data is securely stored and never shared without your consent.",
+            "expected_answer": "Our opt-out mechanism is clearly communicated and easily accessible, allowing patients to control how their information is used in research and service planning without impacting their care.",
+            "similarity_score": 0.5165935754776001,
+            "f1_score": 0.1764705882352941
+        },
+        {
+            "question": "Why do you ask for my age when I register at the clinic?",
+            "generated_answer": "Your age helps us provide age-appropriate medical care, screenings, and treatments. Certain conditions or treatments are specific to different ages. Your data is kept secure and confidential.",
+            "expected_answer": "We use your age to help us understand community demographics and to organize appointments and non-clinical support that best fit the needs of different age groups.",
+            "similarity_score": 0.7488720417022705,
+            "f1_score": 0.18867924528301885
+        },
+        {
+            "question": "How will my age information be kept private?",
+            "generated_answer": "Your personal information is only accessible to authorized healthcare professionals who are involved in your care. It is stored securely and accessed only by authorized personnel. No personally identifiable information ever leaves the hospital or clinic. Your privacy is a priority.",
+            "expected_answer": "Your age is stored with robust encryption and used only in aggregate reports, ensuring that no one can trace it back to you personally.",
+            "similarity_score": 0.44857802987098694,
+            "f1_score": 0.21538461538461542
+        },
+        {
+            "question": "Why do you need to know if I have a disability?",
+            "generated_answer": "We ask about disabilities to make sure that our services are accessible and tailored to your needs. This helps us provide the best possible care and support. Your information is kept confidential and secure.",
+            "expected_answer": "We ask about disabilities so we can make sure our facilities and services are accessible to everyone. This information helps us plan for accommodations if needed.",
+            "similarity_score": 0.8674949407577515,
+            "f1_score": 0.5333333333333333
+        },
+        {
+            "question": "Can I refuse to provide details about my disability?",
+            "generated_answer": "Yes, providing disability information is entirely voluntary. If you choose not to share this information, it will still help us ensure your healthcare experience is inclusive and tailored to your needs. Your decision will always be respected.",
+            "expected_answer": "Yes, providing disability information is completely voluntary. Not sharing it will not affect your care, though it might limit how well we can adapt our services.",
+            "similarity_score": 0.9069228172302246,
+            "f1_score": 0.31746031746031744
+        },
+        {
+            "question": "How is my disability information protected on your system?",
+            "generated_answer": "Your disability data is stored securely and only accessed by authorized healthcare professionals. It is never shared without your consent, and all unauthorized access is detected and rectified immediately. Your privacy is always respected.",
+            "expected_answer": "Disability data is encrypted and only accessible to staff directly involved in service planning. We follow strict data security protocols to ensure your privacy.",
+            "similarity_score": 0.7911143898963928,
+            "f1_score": 0.1724137931034483
+        },
+        {
+            "question": "Why do you ask if I have undergone gender reassignment?",
+            "generated_answer": "We ask about gender identity to ensure that our services are inclusive and tailored to your needs. This information is optional, and it is kept confidential in line with strict data protection laws. Your privacy is always protected.",
+            "expected_answer": "This information helps us ensure that our service environment is inclusive and to tailor any administrative support you might need. Sharing it is optional and kept confidential.",
+            "similarity_score": 0.583609402179718,
+            "f1_score": 0.3384615384615384
+        },
+        {
+            "question": "Can I opt out of disclosing details about my gender reassignment?",
+            "generated_answer": "Yes, you can opt-out of this information being shared, but this may limit opportunities to access support and services. Your decision will always be respected.",
+            "expected_answer": "Yes, you can choose not to disclose any information about gender reassignment without affecting the quality of your care.",
+            "similarity_score": 0.5067415237426758,
+            "f1_score": 0.2727272727272727
+        },
+        {
+            "question": "Why is my marital or civil partnership status important on the form?",
+            "generated_answer": "This information helps us understand your support system and offer appropriate resources if necessary. Your privacy is always protected.",
+            "expected_answer": "We collect marital status data to better understand your social support network, which can help us design patient outreach and communication strategies.",
+            "similarity_score": 0.3954100012779236,
+            "f1_score": 0.24390243902439024
+        },
+        {
+            "question": "Will my marital status affect how I am treated?",
+            "generated_answer": "No, your marital or civil partnership status does not impact the quality of care you receive. It is collected to ensure that resources are used efficiently and that any differences in treatment are addressed appropriately. Your privacy is always protected.",
+            "expected_answer": "No, your marital status is used only to improve administrative processes and patient support; it does not affect the quality of your clinical care.",
+            "similarity_score": 0.7867834568023682,
+            "f1_score": 0.40624999999999994
+        },
+        {
+            "question": "How is my pregnancy or maternity information used beyond clinical care?",
+            "generated_answer": "This information helps us provide safe, supportive care tailored to your needs. It also supports public health initiatives designed to improve prenatal and postnatal care for all women. Your privacy is always protected.",
+            "expected_answer": "This data helps us plan community support programs, such as parenting workshops and resource distribution, all in a way that protects your privacy.",
+            "similarity_score": 0.6278611421585083,
+            "f1_score": 0.21428571428571427
+        },
+        {
+            "question": "Can I choose not to provide pregnancy or maternity details?",
+            "generated_answer": "Yes, providing this information is entirely optional.",
+            "expected_answer": "Absolutely. Providing pregnancy or maternity information is optional and will not affect the standard of care you receive.",
+            "similarity_score": 0.4815342128276825,
+            "f1_score": 0.16
+        },
+        {
+            "question": "Why do you collect my ethnicity on the registration form?",
+            "generated_answer": "We collect ethnicity data to ensure that healthcare is inclusive and accessible to everyone. Certain health conditions or risks can be more prevalent in specific ethnic groups, so this information helps us provide better care. Your data is kept confidential and secure.",
+            "expected_answer": "We gather ethnicity data to identify public health trends and to help ensure that all community groups receive culturally sensitive services.",
+            "similarity_score": 0.7385586500167847,
+            "f1_score": 0.25396825396825395
+        },
+        {
+            "question": "What happens if I decide not to share my ethnicity?",
+            "generated_answer": "You are not obligated to provide this information, and it will not affect the care you receive.",
+            "expected_answer": "Opting not to share your ethnicity will not impact your personal care, though it may limit our ability to tailor community health programs.",
+            "similarity_score": 0.41034507751464844,
+            "f1_score": 0.19999999999999998
+        },
+        {
+            "question": "How is my ethnicity information kept secure?",
+            "generated_answer": "Your data is stored in encrypted databases that comply with UK data protection laws. Only authorized healthcare professionals have access to your data, and it is never shared without your consent.",
+            "expected_answer": "Your ethnicity details are encrypted and only used in combined, de-identified reports to help us improve service accessibility.",
+            "similarity_score": 0.4317731261253357,
+            "f1_score": 0.20408163265306123
+        },
+        {
+            "question": "Why do you ask about my religion or beliefs?",
+            "generated_answer": "Knowing your religion helps us respect your spiritual and cultural needs during your care. This can include dietary preferences, religious practices, or accommodations during treatment. Your data is kept secure and confidential.",
+            "expected_answer": "We ask about religious affiliation to help ensure that any non-clinical services\u00e2\u20ac\u201dlike dietary support or scheduling\u00e2\u20ac\u201dcan be tailored to respect your spiritual or cultural needs.",
+            "similarity_score": 0.6648247838020325,
+            "f1_score": 0.2456140350877193
+        },
+        {
+            "question": "Is it necessary for me to share my religious beliefs?",
+            "generated_answer": "Yes, sharing your religion or belief helps us provide culturally sensitive care that respects your spiritual and cultural needs. This information is optional, and your privacy is always protected. Your data is kept confidential and used solely for improving healthcare inclusivity.",
+            "expected_answer": "No, sharing your religious or belief information is optional. It is used only to design more culturally appropriate support services.",
+            "similarity_score": 0.8153934478759766,
+            "f1_score": 0.26229508196721313
+        },
+        {
+            "question": "How do you protect the data I provide about my religion?",
+            "generated_answer": "We follow strict data protection laws, use secure storage systems, and limit access to authorized personnel only. Your information is encrypted and protected against unauthorized access.",
+            "expected_answer": "Religious or belief data is stored in encrypted form and used solely in aggregate studies to enhance service design without identifying you individually.",
+            "similarity_score": 0.4533122181892395,
+            "f1_score": 0.20408163265306123
+        },
+        {
+            "question": "Why do you require my sex on the form?",
+            "generated_answer": "We ask for your sex to ensure that medical treatments, screenings, and advice are appropriate for you. Certain conditions or medications affect people differently based on their sex. Your data is handled securely and only used to improve healthcare for everyone.",
+            "expected_answer": "Your sex information is used to help us match you with the appropriate non-clinical communications and to ensure that administrative processes are accurately managed.",
+            "similarity_score": 0.7643740773200989,
+            "f1_score": 0.30769230769230765
+        },
+        {
+            "question": "What if I prefer not to disclose my biological sex?",
+            "generated_answer": "You are not required to share your biological gender.",
+            "expected_answer": "While we request this data to support administrative accuracy, you are free to withhold it. Not sharing this information will not affect your access to care.",
+            "similarity_score": 0.30369359254837036,
+            "f1_score": 0.2285714285714286
+        },
+        {
+            "question": "How is my sex data secured?",
+            "generated_answer": "Your medical records are stored in secure, encrypted databases that comply with UK data protection laws. Only authorized healthcare professionals have access to your data and strict confidentiality policies ensure it remains confidential. All personal details are protected by law.",
+            "expected_answer": "Sex data is handled with strict encryption and access controls so that it is only used for essential administrative functions and aggregated analyses.",
+            "similarity_score": 0.46635106205940247,
+            "f1_score": 0.2222222222222222
+        },
+        {
+            "question": "Why do you ask about my sexual orientation on the forms?",
+            "generated_answer": "We ask this to ensure that our services are inclusive and tailored to your needs. Providing this information is optional, and it is kept confidential in line with strict data protection laws. Your privacy is always protected.",
+            "expected_answer": "We ask about sexual orientation to ensure that our services are inclusive and to help us identify if specific communities need tailored support.",
+            "similarity_score": 0.4735099673271179,
+            "f1_score": 0.3666666666666667
+        },
+        {
+            "question": "Is sharing my sexual orientation mandatory?",
+            "generated_answer": "No, it is not required.",
+            "expected_answer": "No, you are not required to share your sexual orientation. The information is used only to improve overall service inclusivity.",
+            "similarity_score": 0.42673179507255554,
+            "f1_score": 0.24
+        },
+        {
+            "question": "How do you keep my sexual orientation information anonymous?",
+            "generated_answer": "Your sexual orientations are kept private and secure. We follow strict data protection regulations to ensure your privacy is protected. Your identity remains confidential at all times.",
+            "expected_answer": "Any data about your sexual orientation is de-identified and used only in aggregate to monitor trends and to improve healthcare outreach without revealing your identity.",
+            "similarity_score": 0.7041022777557373,
+            "f1_score": 0.23076923076923075
+        },
+        {
+            "question": "Do I have a choice regarding the use of my protected characteristic data in research?",
+            "generated_answer": "Yes, you have the right to refuse to provide this information.",
+            "expected_answer": "Yes, you can choose to opt out of any research that uses your protected characteristic data, and this choice will not impact your direct care.",
+            "similarity_score": 0.37246227264404297,
+            "f1_score": 0.2222222222222222
+        },
+        {
+            "question": "Can I review the policy on how my data about protected characteristics is used?",
+            "generated_answer": "Yes, under the UK Data Protection Act, you have the right to access your healthcare records by submitting a request to your health provider. You can request a copy of your records from any NHS facility or department.",
+            "expected_answer": "Absolutely. Our privacy policy details how we collect, store, and use your protected characteristic data, and you can request a copy of this policy at any time.",
+            "similarity_score": 0.5031597018241882,
+            "f1_score": 0.24615384615384617
+        },
+        {
+            "question": "If I change my mind about sharing my protected data, can I update my preferences later?",
+            "generated_answer": "Yes, you have the right to update your preferences at any time. Please contact us to make the necessary changes. Your updates will be stored securely and used only for improving healthcare services.",
+            "expected_answer": "Yes, you can update your preferences at any time by contacting our data protection officer, ensuring you have control over your personal information.",
+            "similarity_score": 0.8076035976409912,
+            "f1_score": 0.28571428571428575
+        },
+        {
+            "question": "Why is it important for healthcare systems to know about these personal characteristics?",
+            "generated_answer": "Knowing your personal factors helps healthcare providers offer appropriate support and screenings, such as weight management or mental health support. This information is optional and kept confidential in line with strict data protection laws.",
+            "expected_answer": "Collecting this information helps us improve service planning and ensure that the healthcare environment is inclusive and responsive to all community needs.",
+            "similarity_score": 0.49534276127815247,
+            "f1_score": 0.17857142857142858
+        },
+        {
+            "question": "How will my answers about protected characteristics impact public health services?",
+            "generated_answer": "By providing this information, you can help ensure that healthcare services are sensitive to your specific needs and cultural diversity. This helps in improving care for everyone, including individuals with diverse backgrounds.",
+            "expected_answer": "Your de-identified responses help shape community health programs, identify service gaps, and guide policy improvements to better serve diverse populations.",
+            "similarity_score": 0.6225385665893555,
+            "f1_score": 0.15384615384615385
+        },
+        {
+            "question": "Why do you ask for my protected characteristic details on an online form?",
+            "generated_answer": "We use your information to ensure that healthcare services are inclusive and accessible to everyone. It helps us identify and address disparities in care, ensuring better outcomes for everyone involved.",
+            "expected_answer": "Collecting these details online allows us to streamline the registration process and use aggregated data for service improvements while maintaining your privacy.",
+            "similarity_score": 0.44199347496032715,
+            "f1_score": 0.23076923076923075
+        },
+        {
+            "question": "What assurance do I have that my protected characteristic data won't be misused?",
+            "generated_answer": "Your protected characteristics data is only used for healthcare purposes in an anonymous and secure manner. It is never shared without your consent, and strict data protection laws are in place to ensure your privacy is maintained.",
+            "expected_answer": "Our data governance framework strictly limits access, uses encryption, and adheres to legal requirements so that your data is only used for improving services and research.",
+            "similarity_score": 0.4683672785758972,
+            "f1_score": 0.25396825396825395
+        },
+        {
+            "question": "Will my decision to opt out of sharing certain data affect the support I receive?",
+            "generated_answer": "No, your opting-out will not impact the quality or scope of care you receive. It is used only to ensure that our records are accurate and secure. Your privacy is always protected.",
+            "expected_answer": "No, your decision will not affect the quality or level of care you receive. It only influences how your data contributes to broader research and service planning.",
+            "similarity_score": 0.5988046526908875,
+            "f1_score": 0.5084745762711864
+        },
+        {
+            "question": "How do you ensure that my personal data related to protected characteristics is only used for its intended purposes?",
+            "generated_answer": "We follow strict data protection regulations, use secure storage systems, and limit access to authorized personnel only. Your information is encrypted and protected against unauthorized access.",
+            "expected_answer": "We implement strict access controls, regular audits, and comprehensive data use policies to ensure that your information is used solely for improving healthcare services and research.",
+            "similarity_score": 0.6072193384170532,
+            "f1_score": 0.34615384615384615
+        }
+    ]
+}

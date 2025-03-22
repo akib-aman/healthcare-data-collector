@@ -138,10 +138,11 @@ def output_cleanse(text):
     Cleanses the output text by:
     - Trimming the last sentence if incomplete.
     - Removing unnecessary or misleading keywords and filler phrases.
+    - cleaned_text is the focused variable for text
     """
     keywords = [
         "What happens if I ", "Learn more about", "However,", 
-        "For example,", "For more information,"
+        "For example,", "For more information,", "\nQuestion", "Type 'Yes'"
     ]
     
     # Convert text and keywords to lowercase for case-insensitive matching
@@ -159,6 +160,9 @@ def output_cleanse(text):
     if match:
         cleaned_text = cleaned_text[:match.start()].strip()
 
+    # replace broken '
+    cleaned_text = cleaned_text.replace("â€™", "'")
+
     return cleaned_text
 
 # ---------------------
@@ -170,14 +174,15 @@ def generate_with_gpt(question, field):
     with a Question: / Answer: style prompt.
     """
 
-    missing_keys = [key for key in field_commands if key not in question]
-    if not missing_keys:
-        print(f"Missing keys: {', '.join(missing_keys)} in the text.")
-        print(question + " Regarding " + field)
-        prompt_text = f"<|startoftext|>Question: {question + ' Regarding ' + field}\nAnswer:"
-    else:
+    matched_key = next((key for key in field_commands if key.lower() in question.lower()), None)
+    if matched_key:
         print(question)
         prompt_text = f"<|startoftext|>Question: {question}\nAnswer:"
+    else:
+        print(f"Missing key from field_commands in the question: '{question}'")
+        print("Regarding " + field + " " +question)
+        prompt_text = f"<|startoftext|>Question: {'Regarding ' + field + " " + question}\nAnswer:"
+    
     
     try:
         inputs = gpt_tokenizer(prompt_text, return_tensors="pt")
@@ -263,7 +268,7 @@ def handle_prompt(prompt, session_form, field):
             # If everything is valid, update the form
             update_form(session_form, extracted_fields)
             print("FIELDS:", extracted_fields)
-            return "Thank you, answer has been extracted for: " + field, session_form
+            return "Answer has been extracted for: " + field, session_form
 
         except json.JSONDecodeError:
             return f"Error: Invalid JSON output. T5 said:\n{t5_output}", session_form
